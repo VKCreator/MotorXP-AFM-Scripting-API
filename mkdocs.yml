@@ -1,0 +1,62 @@
+site_name: Documentation
+site_url: https://motorxp.com/
+site_description: Documentation.
+site_author: MotorXP Team
+
+theme:
+  name: material
+  logo: assets/logo.png
+  palette:
+    - media: "(prefers-color-scheme: light)" 
+      scheme: default
+      primary: light blue
+      accent: light blue
+
+  locale: en
+  features:
+    - navigation.expand
+    - navigation.tabs
+    - content.code.copy
+    
+plugins:
+  - offline
+  
+use_directory_urls: false
+
+markdown_extensions:
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences
+  
+nav:
+  - Introduction: index.md
+  - MotorXP-PM:
+      - Overview: motorxp-pm.md
+      - Objects:
+          - <i>motor</i>:
+              - Properties:
+                  - machineType: objects/motor/props/machineType.md
+                  - height: objects/motor/props/height.md
+                  - periodicity: objects/motor/props/periodicity.md
+  - MotorXP-AFM:
+      - About: motorxp-afm.md
+      - Objects:
+         - <i>motor</i>:
+            - Overview: objects/motor/overview.md
+            - Properties:
+                - machineType: objects/motor/props/machineType.md
+                - height: objects/motor/props/height.md
+                - periodicity: objects/motor/props/periodicity.md
+         - <i>console</i>:
+            - Overview: objects/console/overview.md
+            - Methods:
+              - log: objects/console/methods/log.md
+              - info: objects/console/methods/info.md
+              - warn: objects/console/methods/warn.md
+              - error: objects/console/methods/error.md
+              - clear: objects/console/methods/clear.md
+              - dir: objects/console/methods/dir.md

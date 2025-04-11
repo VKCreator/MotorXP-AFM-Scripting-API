@@ -1,47 +1,231 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
     <url>
-         <loc>https://motorxp.com/index.html</loc>
-         <lastmod>2025-04-11</lastmod>
+        <loc>https://motorxp.com/index.html</loc>
+        <lastmod>2025-04-11</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://motorxp.com/index.html"/>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://motorxp.com/ru/index.html"/>
     </url>
     <url>
-         <loc>https://motorxp.com/func.html</loc>
-         <lastmod>2025-04-11</lastmod>
+        <loc>https://motorxp.com/func.html</loc>
+        <lastmod>2025-04-11</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://motorxp.com/func.html"/>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://motorxp.com/ru/func.html"/>
     </url>
     <url>
-         <loc>https://motorxp.com/motorxp-afm.html</loc>
-         <lastmod>2025-04-11</lastmod>
+        <loc>https://motorxp.com/motorxp-afm.html</loc>
+        <lastmod>2025-04-11</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://motorxp.com/motorxp-afm.html"/>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://motorxp.com/ru/motorxp-afm.html"/>
     </url>
     <url>
-         <loc>https://motorxp.com/motorxp-pm.html</loc>
-         <lastmod>2025-04-11</lastmod>
+        <loc>https://motorxp.com/motorxp-pm.html</loc>
+        <lastmod>2025-04-11</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://motorxp.com/motorxp-pm.html"/>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://motorxp.com/ru/motorxp-pm.html"/>
     </url>
     <url>
-         <loc>https://motorxp.com/~motorxp-pm.html</loc>
-         <lastmod>2025-04-11</lastmod>
+        <loc>https://motorxp.com/~motorxp-pm.html</loc>
+        <lastmod>2025-04-11</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://motorxp.com/~motorxp-pm.html"/>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://motorxp.com/ru/~motorxp-pm.html"/>
     </url>
     <url>
-         <loc>https://motorxp.com/objects/console/overview.html</loc>
-         <lastmod>2025-04-11</lastmod>
+        <loc>https://motorxp.com/func/index.html</loc>
+        <lastmod>2025-04-11</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://motorxp.com/func/index.html"/>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://motorxp.com/ru/func/index.html"/>
     </url>
     <url>
-         <loc>https://motorxp.com/objects/console/methods/log.html</loc>
-         <lastmod>2025-04-11</lastmod>
+        <loc>https://motorxp.com/func/files/index.html</loc>
+        <lastmod>2025-04-11</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://motorxp.com/func/files/index.html"/>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://motorxp.com/ru/func/files/index.html"/>
     </url>
     <url>
-         <loc>https://motorxp.com/objects/motor/properties.html</loc>
-         <lastmod>2025-04-11</lastmod>
+        <loc>https://motorxp.com/func/global/index.html</loc>
+        <lastmod>2025-04-11</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://motorxp.com/func/global/index.html"/>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://motorxp.com/ru/func/global/index.html"/>
     </url>
     <url>
-         <loc>https://motorxp.com/objects/motor/props/height.html</loc>
-         <lastmod>2025-04-11</lastmod>
+        <loc>https://motorxp.com/func/math/index.html</loc>
+        <lastmod>2025-04-11</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://motorxp.com/func/math/index.html"/>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://motorxp.com/ru/func/math/index.html"/>
     </url>
     <url>
-         <loc>https://motorxp.com/objects/motor/props/machineType.html</loc>
-         <lastmod>2025-04-11</lastmod>
+        <loc>https://motorxp.com/ru/index.html</loc>
+        <lastmod>2025-04-11</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://motorxp.com/ru/index.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://motorxp.com/index.html"/>
     </url>
     <url>
-         <loc>https://motorxp.com/objects/motor/props/periodicity.html</loc>
-         <lastmod>2025-04-11</lastmod>
+        <loc>https://motorxp.com/ru/func.html</loc>
+        <lastmod>2025-04-11</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://motorxp.com/ru/func.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://motorxp.com/func.html"/>
+    </url>
+    <url>
+        <loc>https://motorxp.com/ru/motorxp-afm.html</loc>
+        <lastmod>2025-04-11</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://motorxp.com/ru/motorxp-afm.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://motorxp.com/motorxp-afm.html"/>
+    </url>
+    <url>
+        <loc>https://motorxp.com/ru/motorxp-pm.html</loc>
+        <lastmod>2025-04-11</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://motorxp.com/ru/motorxp-pm.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://motorxp.com/motorxp-pm.html"/>
+    </url>
+    <url>
+        <loc>https://motorxp.com/ru/~motorxp-pm.html</loc>
+        <lastmod>2025-04-11</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://motorxp.com/ru/~motorxp-pm.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://motorxp.com/~motorxp-pm.html"/>
+    </url>
+    <url>
+        <loc>https://motorxp.com/ru/func/index.html</loc>
+        <lastmod>2025-04-11</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://motorxp.com/ru/func/index.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://motorxp.com/func/index.html"/>
+    </url>
+    <url>
+        <loc>https://motorxp.com/ru/func/files/index.html</loc>
+        <lastmod>2025-04-11</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://motorxp.com/ru/func/files/index.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://motorxp.com/func/files/index.html"/>
+    </url>
+    <url>
+        <loc>https://motorxp.com/ru/func/global/index.html</loc>
+        <lastmod>2025-04-11</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://motorxp.com/ru/func/global/index.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://motorxp.com/func/global/index.html"/>
+    </url>
+    <url>
+        <loc>https://motorxp.com/ru/func/math/index.html</loc>
+        <lastmod>2025-04-11</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://motorxp.com/ru/func/math/index.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://motorxp.com/func/math/index.html"/>
+    </url>
+    <url>
+        <loc>https://motorxp.com/ru/objects/console/index.html</loc>
+        <lastmod>2025-04-11</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://motorxp.com/ru/objects/console/index.html"/>
+    </url>
+    <url>
+        <loc>https://motorxp.com/ru/objects/console/methods/index.html</loc>
+        <lastmod>2025-04-11</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://motorxp.com/ru/objects/console/methods/index.html"/>
+    </url>
+    <url>
+        <loc>https://motorxp.com/ru/objects/console/methods/clear.html</loc>
+        <lastmod>2025-04-11</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://motorxp.com/ru/objects/console/methods/clear.html"/>
+    </url>
+    <url>
+        <loc>https://motorxp.com/ru/objects/console/methods/dir.html</loc>
+        <lastmod>2025-04-11</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://motorxp.com/ru/objects/console/methods/dir.html"/>
+    </url>
+    <url>
+        <loc>https://motorxp.com/ru/objects/console/methods/error.html</loc>
+        <lastmod>2025-04-11</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://motorxp.com/ru/objects/console/methods/error.html"/>
+    </url>
+    <url>
+        <loc>https://motorxp.com/ru/objects/console/methods/info.html</loc>
+        <lastmod>2025-04-11</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://motorxp.com/ru/objects/console/methods/info.html"/>
+    </url>
+    <url>
+        <loc>https://motorxp.com/ru/objects/console/methods/log.html</loc>
+        <lastmod>2025-04-11</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://motorxp.com/ru/objects/console/methods/log.html"/>
+    </url>
+    <url>
+        <loc>https://motorxp.com/ru/objects/console/methods/warn.html</loc>
+        <lastmod>2025-04-11</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://motorxp.com/ru/objects/console/methods/warn.html"/>
+    </url>
+    <url>
+        <loc>https://motorxp.com/ru/objects/motor/index.html</loc>
+        <lastmod>2025-04-11</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://motorxp.com/ru/objects/motor/index.html"/>
+    </url>
+    <url>
+        <loc>https://motorxp.com/ru/objects/motor/props/index.html</loc>
+        <lastmod>2025-04-11</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://motorxp.com/ru/objects/motor/props/index.html"/>
+    </url>
+    <url>
+        <loc>https://motorxp.com/ru/objects/motor/props/height.html</loc>
+        <lastmod>2025-04-11</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://motorxp.com/ru/objects/motor/props/height.html"/>
+    </url>
+    <url>
+        <loc>https://motorxp.com/ru/objects/motor/props/machineType.html</loc>
+        <lastmod>2025-04-11</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://motorxp.com/ru/objects/motor/props/machineType.html"/>
+    </url>
+    <url>
+        <loc>https://motorxp.com/ru/objects/motor/props/periodicity.html</loc>
+        <lastmod>2025-04-11</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://motorxp.com/ru/objects/motor/props/periodicity.html"/>
+    </url>
+    <url>
+        <loc>https://motorxp.com/ru/objects/rotor/index.html</loc>
+        <lastmod>2025-04-11</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://motorxp.com/ru/objects/rotor/index.html"/>
+    </url>
+    <url>
+        <loc>https://motorxp.com/ru/objects/rotorItem/index.html</loc>
+        <lastmod>2025-04-11</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://motorxp.com/ru/objects/rotorItem/index.html"/>
+    </url>
+    <url>
+        <loc>https://motorxp.com/ru/objects/stator/index.html</loc>
+        <lastmod>2025-04-11</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://motorxp.com/ru/objects/stator/index.html"/>
+    </url>
+    <url>
+        <loc>https://motorxp.com/ru/objects/statorItem/index.html</loc>
+        <lastmod>2025-04-11</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://motorxp.com/ru/objects/statorItem/index.html"/>
     </url>
 </urlset>

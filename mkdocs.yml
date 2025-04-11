@@ -5,21 +5,43 @@ site_author: MotorXP Team
 
 theme:
   name: material
-  logo: assets/logo.png
+  logo: logo.png
+  copyright: "© 2025 MotorXP"
   palette:
     - media: "(prefers-color-scheme: light)" 
       scheme: default
       primary: light blue
       accent: light blue
-
-  locale: en
+  language: en
   features:
-    - navigation.expand
+   # - navigation.expand
     - navigation.tabs
     - content.code.copy
+    - content.tabs.link
+    - navigation.sections
+    - navigation.top
+    - navigation.tracking
+    - navigation.indexes
+    - toc.follow
     
 plugins:
-  - offline
+ # - search
+  - offline:
+      enabled: !ENV [OFFLINE, false]
+  - i18n:
+      default_language: en
+      docs_structure: folder
+      languages:
+        - locale: en
+          default: true
+          name: English
+          build: true
+        - locale: ru
+          name: Русский
+          build: true
+
+extra_css:
+  - css/custom.css
   
 use_directory_urls: false
 
@@ -31,32 +53,169 @@ markdown_extensions:
   - pymdownx.inlinehilite
   - pymdownx.snippets
   - pymdownx.superfences
+  - admonition
+  - pymdownx.details
   
 nav:
   - Introduction: index.md
-  - MotorXP-PM:
-      - Overview: motorxp-pm.md
-      - Objects:
+  - MotorXP-AFM Scripting API:
+      - About: motorxp-afm.md
+      - Script static objects:
+          - func/global/index.md
+          - <i>console</i>:  
+            - objects/console/index.md
+            - methods:
+              - objects/console/methods/index.md
+              - objects/console/methods/log.md
+              - objects/console/methods/info.md
+              - objects/console/methods/warn.md
+              - objects/console/methods/error.md
+              - objects/console/methods/clear.md
+              - objects/console/methods/dir.md
+              
           - <i>motor</i>:
-              - Properties:
+              - objects/motor/index.md
+              - constants: objects/motor/constants/index.md  
+              - properties:
+                  - objects/motor/props/index.md
                   - machineType: objects/motor/props/machineType.md
+                  - objectName: objects/motor/props/objectName.md
                   - height: objects/motor/props/height.md
                   - periodicity: objects/motor/props/periodicity.md
-  - MotorXP-AFM:
-      - About: motorxp-afm.md
-      - Objects:
-         - <i>motor</i>:
-            - Overview: objects/motor/overview.md
-            - Properties:
-                - machineType: objects/motor/props/machineType.md
-                - height: objects/motor/props/height.md
-                - periodicity: objects/motor/props/periodicity.md
-         - <i>console</i>:
-            - Overview: objects/console/overview.md
-            - Methods:
-              - log: objects/console/methods/log.md
-              - info: objects/console/methods/info.md
-              - warn: objects/console/methods/warn.md
-              - error: objects/console/methods/error.md
-              - clear: objects/console/methods/clear.md
-              - dir: objects/console/methods/dir.md
+                  - periodicityAngleSpan: objects/motor/props/periodicityAngleSpan.md
+                  - boundaryConditionMode: objects/motor/props/boundaryConditionMode.md
+                  - boundaryCondition: objects/motor/props/boundaryCondition.md
+                  - simDomain: objects/motor/props/simDomain.md
+                  - simRadialOuterDomain: objects/motor/props/simRadialOuterDomain.md
+                  - stator: objects/motor/props/stator.md
+                  - rotor: objects/motor/props/rotor.md
+                  - winding: objects/motor/props/winding.md
+                  - mesh: objects/motor/props/mesh.md
+
+          - <i>stator</i>:
+              - objects/stator/index.md
+              - constants: objects/stator/constants/index.md
+              - properties:
+                  - objects/stator/props/index.md
+                  - objectName: objects/stator/props/objectName.md
+                  - outerDiameter: objects/stator/props/outerDiameter.md
+                  - outerRadius: objects/stator/props/outerRadius.md
+                  - innerDiameter: objects/stator/props/innerDiameter.md
+                  - innerRadius: objects/stator/props/innerRadius.md
+                  - numberSlots: objects/stator/props/numberSlots.md
+                  - slotAngleSpan: objects/stator/props/slotAngleSpan.md
+                  - typeMiddleItem: objects/stator/props/typeMiddleItem.md
+                  - ironMaterial: objects/stator/props/ironMaterial.md
+                  - ironStacking: objects/stator/props/ironStacking.md
+                  - windingMaterial: objects/stator/props/windingMaterial.md
+                  - windingTemperature: objects/stator/props/windingTemperature.md
+                  - script: objects/stator/props/script.md
+                  - nameScript: objects/stator/props/nameScript.md
+                  - countItem: objects/stator/props/countItem.md
+                  - items: objects/stator/props/items.md
+                  - simDomain: objects/stator/props/simDomain.md
+                  - simRadialOuterDomain: objects/stator/props/simRadialOuterDomain.md
+              - methods:
+                  - objects/stator/methods/index.md
+                  - item: objects/stator/methods/item.md
+                  - isLower: objects/stator/methods/isLower.md
+                  - isMiddle: objects/stator/methods/isMiddle.md
+                  - isUpper: objects/stator/methods/isUpper.md
+                  - itemAngularDisplacement: objects/stator/methods/itemAngularDisplacement.md
+                  - setItemAngularDisplacement: objects/stator/methods/setItemAngularDisplacement.md
+                  
+          - <i>statorItem</i>:
+              - objects/statorItem/index.md
+              - constants: objects/statorItem/constants/index.md
+              - properties:
+                  - objects/statorItem/props/index.md
+                  - objectName: objects/statorItem/props/objectName.md
+                  - id: objects/statorItem/props/id.md
+                  - height: objects/statorItem/props/height.md
+              - methods:
+                  - objects/stator/statorItem/index.md
+                  - isUpper: objects/statorItem/methods/isUpper.md
+                  - isMiddle: objects/statorItem/methods/isMiddle.md
+                  - isLower: objects/statorItem/methods/isLower.md
+                  - angularDisplacement: objects/statorItem/methods/angularDisplacement.md
+                  - setAngularDisplacement: objects/statorItem/methods/setAngularDisplacement.md
+
+          - <i>rotor</i>:
+              - objects/rotor/index.md
+              - constants: objects/rotor/constants/index.md
+              - properties:
+                  - objects/rotor/props/index.md
+                  - outerDiameter: objects/rotor/props/outerDiameter.md
+                  - outerRadius: objects/rotor/props/outerRadius.md
+                  - innerDiameter: objects/rotor/props/innerDiameter.md
+                  - innerRadius: objects/rotor/props/innerRadius.md
+                  - numberPolePairs: objects/rotor/props/numberPolePairs.md
+                  - poleAngleSpan: objects/rotor/props/poleAngleSpan.md
+                  - poleArrangement: objects/rotor/props/poleArrangement.md
+                  - typeMiddleItem: objects/rotor/props/typeMiddleItem.md
+                  - ironStacking: objects/rotor/props/ironStacking.md
+                  - ironMaterial: objects/rotor/props/ironMaterial.md
+                  - magnetTemperature: objects/rotor/props/magnetTemperature.md
+                  - magnetMaterial: objects/rotor/props/magnetMaterial.md
+                  - conductorTemperature: objects/rotor/props/conductorTemperature.md
+                  - conductorMaterial: objects/rotor/props/conductorMaterial.md
+                  - script: objects/rotor/props/script.md
+                  - nameScript: objects/rotor/props/nameScript.md
+                  - countItem: objects/rotor/props/countItem.md
+                  - items: objects/rotor/props/items.md
+                  - simDomain: objects/rotor/props/simDomain.md
+                  - simRadialOuterDomain: objects/rotor/props/simRadialOuterDomain.md
+              - methods:
+                  - objects/rotor/methods/index.md
+                  - item: objects/rotor/methods/item.md
+                  - isLower: objects/rotor/methods/isLower.md
+                  - isMiddle: objects/rotor/methods/isMiddle.md
+                  - isUpper: objects/rotor/methods/isUpper.md
+                  - itemAngularDisplacement: objects/rotor/methods/itemAngularDisplacement.md
+                  - setItemAngularDisplacement: objects/rotor/methods/setItemAngularDisplacement.md
+              
+          - <i>rotorItem</i>:
+              - objects/rotorItem/index.md
+          - <i>coil</i>:
+              - objects/coil/index.md
+          - <i>winding</i>:
+              - objects/winding/index.md
+          - <i>mesh</i>:
+              - objects/mesh/index.md
+          - <i>simDomain</i>:
+              - objects/simDomain/index.md 
+          - <i>geom</i>:
+              - objects/geom/index.md 
+          - <i>Extra 'Math'</i>:
+              - func/math/index.md
+      - Global functions: 
+           - func/global/index.md
+           - <i>include</i>:
+              - func/global/index.md
+           - <i>require</i>:
+              - func/files/index.md
+           - <i>writeFile</i>:
+              - func/files/index.md
+           - <i>readFile</i>:
+              - func/files/index.md
+      - UI Widgets: 
+           - func/global/index.md
+
+           - <i>QGridLayout</i>:
+              - func/global/index.md
+           - <i>NumberEdit</i>:
+              - func/files/index.md
+           - <i>NumberSlotSpinBox</i>:
+              - func/math/index.md
+           - <i>StatorTypeComboBox</i>:
+              - func/math/index.md
+           - <i>WindingLayersComboBox</i>:
+              - func/math/index.md
+           - <i>WindingLayersOrientationComboBox</i>:
+              - func/math/index.md
+           - <i>WindingTypeComboBox</i>:
+              - func/math/index.md
+           - <i>PoleArrangementComboBox</i>:
+              - func/math/index.md
+           - <i>StatorConnectionComboBox</i>:
+              - func/math/index.md

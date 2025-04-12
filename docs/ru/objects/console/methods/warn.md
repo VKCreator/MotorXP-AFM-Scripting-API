@@ -5,8 +5,10 @@ The `console.warn()` method outputs a warning message to the console. It is used
 
 ## Синтаксис
 ``` javascript
-console.warn(message1, message2, ..., messageN);
+console.warn(message1 : any, message2 : any, ..., messageN : any);
 ```
+## Возвращаемое значение
+`None`
 
 ## Пример
 ``` javascript linenums="1"

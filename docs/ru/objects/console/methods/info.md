@@ -5,11 +5,11 @@ The `console.info()` method outputs an informational message to the console. It 
 
 ## Синтаксис
 ``` javascript
-console.info(message1, message2, ..., messageN);
+console.info(message1 : any, message2 : any, ..., messageN : any);
 ```
 
-## Return
-`undefined`
+## Возвращаемое значение
+`None`
 
 ## Пример
 ``` javascript linenums="1"

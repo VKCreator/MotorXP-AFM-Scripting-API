@@ -16,13 +16,13 @@ theme:
       primary: light blue
       accent: light blue
       toggle:
-        icon: material/toggle-switch-off-outline
+        icon: octicons/sun-24
         name: Switch to dark mode
     - scheme: slate
       primary: light blue
       accent: light blue
       toggle:
-        icon: material/toggle-switch
+        icon: material/weather-night
         name: Switch to light mode
   language: ru
   features:
@@ -38,10 +38,10 @@ theme:
 
 plugins:
   # - search
+  - mike
   - offline:
       enabled: !ENV [OFFLINE, false]
   - i18n:
-      default_language: en
       docs_structure: folder
       reconfigure_material: true
       languages:
@@ -63,6 +63,10 @@ plugins:
 
 extra_css:
   - css/custom.css
+
+extra:
+  version:
+    provider: mike
 
 use_directory_urls: false
 
@@ -90,7 +94,7 @@ nav:
       - constants/index.md
 
   - Script static objects:
-      - func/global/index.md
+      - objects/index.md
       - console:
           - objects/console/index.md
           - methods:
@@ -221,24 +225,14 @@ nav:
       - materials/index.md
 
   - UI Widgets:
-      - func/global/index.md
-      - QGridLayout:
-          - func/global/index.md
-      - NumberEdit:
-          - func/files/index.md
-      - NumberSlotSpinBox:
-          - func/math/index.md
-      - StatorTypeComboBox:
-          - func/math/index.md
-      - WindingLayersComboBox:
-          - func/math/index.md
-      - WindingLayersOrientationComboBox:
-          - func/math/index.md
-      - WindingTypeComboBox:
-          - func/math/index.md
-      - PoleArrangementComboBox:
-          - func/math/index.md
-      - StatorConnectionComboBox:
-          - func/math/index.md
-      - RotorConnectionComboBox:
-          - func/math/index.md
+      - widgets/index.md
+      - QGridLayout: widgets/index1.md
+      - NumberEdit: widgets/index2.md
+      - NumberSlotSpinBox: widgets/index3.md
+      - StatorTypeComboBox: widgets/index4.md
+      - WindingLayersComboBox: widgets/index6.md
+      - WindingLayersOrientationComboBox: widgets/index7.md
+      - WindingTypeComboBox: widgets/index8.md
+      - PoleArrangementComboBox: widgets/index9.md
+      - StatorConnectionComboBox: widgets/index10.md
+      - RotorConnectionComboBox: widgets/index11.md

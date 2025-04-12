@@ -12,7 +12,3 @@
 .md-footer__link:hover {
     color: #4fc3f7; /* Цвет текста при наведении */
 }
-
-.md-nav__item--section > .md-nav > .md-nav__list {
-    margin-left: 0.7rem;
-}

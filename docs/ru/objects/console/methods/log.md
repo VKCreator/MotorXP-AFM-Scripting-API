@@ -1,29 +1,29 @@
 # console.log()
 
-## Description
-The `console.log()` method outputs a message to the console. It can accept multiple arguments and display them in a single line.
+## Описание
+Метод `console.log()` выводит сообщение серым цветом в консоль. Он может принимать несколько аргументов и отображать их в одной строке.
 
-## Syntax
+## Синтаксис
 ``` javascript
 console.log(message1, message2, ..., messageN);
 ``` 
-## Return
+## Возвращаемое значение
 `None`
 
-## Example
+## Пример
 ``` javascript linenums="1"
-// Single argument
+// Один аргумент
 console.log('log text');
 
-// Multiple arguments
+// Несколько аргументов
 console.log('text1', 'text2');
 console.log('text1', 'text2', .. , 'text10');
 
-// Mixed types
+// Различные типы аргументов
 console.log('text1', 123, true, { key: 'value' });
 ``` 
 
-!!! info "See also"
+!!! info "См. также"
 
     [console.info()](info.md)
 	

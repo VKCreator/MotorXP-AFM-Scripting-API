@@ -1,14 +1,14 @@
 # console.error()
 
-## Description
+## Описание
 The `console.error()` method outputs an error message to the console. It is used to indicate critical issues that need immediate attention. Error messages are often styled differently in the console (e.g., with a red background or an error icon).
 
-## Syntax
+## Синтаксис
 ```javascript
 console.error(message1, message2, ..., messageN);
 ``` 
 
-## Example
+## Пример
 ``` javascript linenums="1"
 // Single argument
 console.error('critical text');

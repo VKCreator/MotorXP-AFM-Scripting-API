@@ -1,4 +1,4 @@
-# Console Methods
+#  Методы объекта сonsole
 Below is the list of available methods provided by the `console` object. Click on a method name to see its detailed description and examples.
 
 - [`console.log()`](log.md): Outputs a message to the console. Accepts any number of arguments of any type.

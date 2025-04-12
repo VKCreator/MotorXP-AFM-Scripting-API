@@ -1,16 +1,16 @@
 # console.dir()
 
-## Description
+## Описание
 The `console.dir()` method displays an interactive list of the properties of a specified JavaScript object. It is particularly useful for inspecting the structure and contents of objects, as it formats the output in a collapsible tree-like structure that makes it easier to explore nested properties.
 
 Unlike `console.log()`, which may display objects in a simplified or stringified format, `console.dir()` provides a detailed and interactive view of the object's properties.
 
-## Syntax
+## Синтаксис
 ``` javascript
 console.dir(object);
 ``` 
 
-## Example
+## Пример
 ``` javascript linenums="1"
 // Define an object
 const obj = {

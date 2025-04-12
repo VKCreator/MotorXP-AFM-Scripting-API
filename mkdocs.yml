@@ -5,6 +5,8 @@ site_author: MotorXP Team
 
 theme:
   name: material
+  icon:
+     alternate: octicons/globe-24
   logo: logo.png
   copyright: "© 2025 MotorXP"
   palette:
@@ -31,6 +33,7 @@ plugins:
   - i18n:
       default_language: en
       docs_structure: folder
+      reconfigure_material: true
       languages:
         - locale: en
           default: true
@@ -39,6 +42,13 @@ plugins:
         - locale: ru
           name: Русский
           build: true
+          nav_translations:
+            Introduction: Введение
+            About: О приложении
+            Script static objects: Скриптовые статические объекты
+            Constants: Константы
+            Global functions: Глобальные функции
+            UI Widgets: UI-виджеты
 
 extra_css:
   - css/custom.css
@@ -58,12 +68,11 @@ markdown_extensions:
   
 nav:
   - Introduction: index.md
-  - About: motorxp-afm.md
   - MotorXP-AFM Scripting API:
+      - About: motorxp-afm.md
       - Script static objects:
           - func/global/index.md
-          
-          - <i>console</i>:  
+          - console:  
             - objects/console/index.md
             - methods:
               - objects/console/methods/index.md
@@ -73,10 +82,9 @@ nav:
               - objects/console/methods/error.md
               - objects/console/methods/clear.md
               - objects/console/methods/dir.md
-
-          - <i>motor</i>:
+              
+          - motor:
               - objects/motor/index.md
-              - constants: objects/motor/constants/index.md  
               - properties:
                   - objects/motor/props/index.md
                   - machineType: objects/motor/props/machineType.md
@@ -92,11 +100,9 @@ nav:
                   - rotor: objects/motor/props/rotor.md
                   - winding: objects/motor/props/winding.md
                   - mesh: objects/motor/props/mesh.md
-              - methods:
 
-          - <i>stator</i>:
+          - stator:
               - objects/stator/index.md
-              - constants: objects/stator/constants/index.md
               - properties:
                   - objects/stator/props/index.md
                   - objectName: objects/stator/props/objectName.md
@@ -126,9 +132,8 @@ nav:
                   - itemAngularDisplacement: objects/stator/methods/itemAngularDisplacement.md
                   - setItemAngularDisplacement: objects/stator/methods/setItemAngularDisplacement.md
                   
-          - <i>statorItem</i>:
+          - statorItem:
               - objects/statorItem/index.md
-              - constants: objects/statorItem/constants/index.md
               - properties:
                   - objects/statorItem/props/index.md
                   - objectName: objects/statorItem/props/objectName.md
@@ -142,9 +147,8 @@ nav:
                   - angularDisplacement: objects/statorItem/methods/angularDisplacement.md
                   - setAngularDisplacement: objects/statorItem/methods/setAngularDisplacement.md
 
-          - <i>rotor</i>:
+          - rotor:
               - objects/rotor/index.md
-              - constants: objects/rotor/constants/index.md
               - properties:
                   - objects/rotor/props/index.md
                   - outerDiameter: objects/rotor/props/outerDiameter.md
@@ -176,48 +180,50 @@ nav:
                   - itemAngularDisplacement: objects/rotor/methods/itemAngularDisplacement.md
                   - setItemAngularDisplacement: objects/rotor/methods/setItemAngularDisplacement.md
               
-          - <i>rotorItem</i>:
+          - rotorItem:
               - objects/rotorItem/index.md
-          - <i>coil</i>:
+          - coil:
               - objects/coil/index.md
-          - <i>winding</i>:
+          - winding:
               - objects/winding/index.md
-          - <i>mesh</i>:
+          - mesh:
               - objects/mesh/index.md
-          - <i>simDomain</i>:
+          - simDomain:
               - objects/simDomain/index.md 
-          - <i>geom</i>:
+          - geom:
               - objects/geom/index.md 
-          - <i>Extra 'Math'</i>:
+          - Extra 'Math':
               - func/math/index.md
+      - Constants:    
+           - constants/index.md
       - Global functions: 
-           - func/index.md
-           - <i>include</i>:
+           - func/global/index.md
+           - include:
               - func/global/index.md
-           - <i>require</i>:
+           - require:
               - func/files/index.md
-           - <i>writeFile</i>:
+           - writeFile:
               - func/files/index.md
-           - <i>readFile</i>:
+           - readFile:
               - func/files/index.md
       - UI Widgets: 
            - func/global/index.md
 
-           - <i>QGridLayout</i>:
+           - QGridLayout:
               - func/global/index.md
-           - <i>NumberEdit</i>:
+           - NumberEdit:
               - func/files/index.md
-           - <i>NumberSlotSpinBox</i>:
+           - NumberSlotSpinBox:
               - func/math/index.md
-           - <i>StatorTypeComboBox</i>:
+           - StatorTypeComboBox:
               - func/math/index.md
-           - <i>WindingLayersComboBox</i>:
+           - WindingLayersComboBox:
               - func/math/index.md
-           - <i>WindingLayersOrientationComboBox</i>:
+           - WindingLayersOrientationComboBox:
               - func/math/index.md
-           - <i>WindingTypeComboBox</i>:
+           - WindingTypeComboBox:
               - func/math/index.md
-           - <i>PoleArrangementComboBox</i>:
+           - PoleArrangementComboBox:
               - func/math/index.md
-           - <i>StatorConnectionComboBox</i>:
+           - StatorConnectionComboBox:
               - func/math/index.md

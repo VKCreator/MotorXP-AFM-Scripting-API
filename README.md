@@ -22,16 +22,16 @@ pip install mkdocs-static-i18n
 ```
 
 ## Структура папок для многоязычной документации 
-docs/
-├── en/
-│   ├── index.md
-│   └── about.md
-├── ru/
-│   ├── index.md
-│   └── about.md
-└── fr/
-    ├── index.md
-    └── about.md
+    docs/
+    ├── en/
+    │   ├── index.md
+    │   └── about.md
+    ├── ru/
+    │   ├── index.md
+    │   └── about.md
+    └── fr/
+        ├── index.md
+        └── about.md
 
 ## Запуск локального сервера 
 Чтобы запустить локальный сервер для предварительного просмотра документации, выполните команду:

@@ -5,8 +5,10 @@ The `console.error()` method outputs an error message to the console. It is used
 
 ## Синтаксис
 ```javascript
-console.error(message1, message2, ..., messageN);
+console.error(message1 : any, message2 : any, ..., messageN : any);
 ``` 
+## Возвращаемое значение
+`None`
 
 ## Пример
 ``` javascript linenums="1"

@@ -7,8 +7,11 @@ Unlike `console.log()`, which may display objects in a simplified or stringified
 
 ## Синтаксис
 ``` javascript
-console.dir(object);
+console.dir(object : any);
 ``` 
+
+## Возвращаемое значение
+`None`
 
 ## Пример
 ``` javascript linenums="1"

@@ -60,6 +60,8 @@ plugins:
             Object Types: Типы объектов
             Materials: Материалы
             UI Widgets: UI-виджеты
+  - git-revision-date-localized:
+        type: datetime
 
 extra_css:
   - css/custom.css
@@ -67,6 +69,8 @@ extra_css:
 extra:
   version:
     provider: mike
+  footer_content: >
+    © My Documentation. Последнее обновление: {{ git_revision_date_localized }}
 
 use_directory_urls: false
 

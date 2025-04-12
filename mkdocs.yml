@@ -5,6 +5,7 @@ site_author: MotorXP Team
 
 theme:
   name: material
+  custom_dir: docs/overrides
   icon:
     alternate: octicons/globe-24
   logo: logo.png
@@ -62,6 +63,9 @@ plugins:
             UI Widgets: UI-виджеты
   - git-revision-date-localized:
         type: datetime
+  # - with-pdf
+  - print-site:
+        path_to_pdf: "document.pdf"
 
 extra_css:
   - css/custom.css

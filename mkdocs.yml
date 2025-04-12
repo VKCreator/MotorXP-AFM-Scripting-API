@@ -6,17 +6,27 @@ site_author: MotorXP Team
 theme:
   name: material
   icon:
-     alternate: octicons/globe-24
+    alternate: octicons/globe-24
   logo: logo.png
-  copyright: "© 2025 MotorXP"
+  color_mode: auto
+  highlightjs: true
+  copyright: "© 2025 MotorXP" 
   palette:
-    - media: "(prefers-color-scheme: light)" 
-      scheme: default
+    - scheme: default
       primary: light blue
       accent: light blue
-  language: en
+      toggle:
+        icon: material/toggle-switch-off-outline
+        name: Switch to dark mode
+    - scheme: slate
+      primary: light blue
+      accent: light blue
+      toggle:
+        icon: material/toggle-switch
+        name: Switch to light mode
+  language: ru
   features:
-   # - navigation.expand
+    #- navigation.expand
     #- navigation.tabs
     - content.code.copy
     - content.tabs.link
@@ -25,12 +35,9 @@ theme:
     - navigation.tracking
     - navigation.indexes
     - toc.follow
-    #- toc.integrate 
-  #use_site_name_in_title: false
-  #use_site_url_in_title: false
-    
+
 plugins:
- # - search
+  # - search
   - offline:
       enabled: !ENV [OFFLINE, false]
   - i18n:
@@ -39,23 +46,24 @@ plugins:
       reconfigure_material: true
       languages:
         - locale: en
-          default: true
           name: English
           build: true
         - locale: ru
+          default: true
           name: Русский
           build: true
+          site_name: Руководство MotorXP-AFM Scripting API
           nav_translations:
-            Introduction: Введение
-            #About: О приложении
-            Script static objects: Скриптовые статические объекты
-            Constants: Константы
             Global functions: Глобальные функции
+            Constants: Константы
+            Script static objects: Встроенные объекты
+            Object Types: Типы объектов
+            Materials: Материалы
             UI Widgets: UI-виджеты
 
 extra_css:
   - css/custom.css
-  
+
 use_directory_urls: false
 
 markdown_extensions:
@@ -69,14 +77,21 @@ markdown_extensions:
   - admonition
   - pymdownx.details
 
-#- MotorXP-AFM Scripting API:
-#- About: motorxp-afm.md
-
 nav:
   - index.md
+  - Global functions:
+      - globalFunc/index.md
+      - include: globalFunc/include.md
+      - require: globalFunc/require.md
+      - writeFile: globalFunc/writeFile.md
+      - readFile: globalFunc/readFile.md
+
+  - Constants:
+      - constants/index.md
+
   - Script static objects:
       - func/global/index.md
-      - console:  
+      - console:
           - objects/console/index.md
           - methods:
               - objects/console/methods/index.md
@@ -86,7 +101,7 @@ nav:
               - objects/console/methods/error.md
               - objects/console/methods/clear.md
               - objects/console/methods/dir.md
-        
+
       - motor:
           - objects/motor/index.md
           - properties:
@@ -135,7 +150,7 @@ nav:
               - isUpper: objects/stator/methods/isUpper.md
               - itemAngularDisplacement: objects/stator/methods/itemAngularDisplacement.md
               - setItemAngularDisplacement: objects/stator/methods/setItemAngularDisplacement.md
-          
+
       - statorItem:
           - objects/statorItem/index.md
           - properties:
@@ -150,6 +165,7 @@ nav:
               - isLower: objects/statorItem/methods/isLower.md
               - angularDisplacement: objects/statorItem/methods/angularDisplacement.md
               - setAngularDisplacement: objects/statorItem/methods/setAngularDisplacement.md
+
       - rotor:
           - objects/rotor/index.md
           - properties:
@@ -182,7 +198,7 @@ nav:
               - isUpper: objects/rotor/methods/isUpper.md
               - itemAngularDisplacement: objects/rotor/methods/itemAngularDisplacement.md
               - setItemAngularDisplacement: objects/rotor/methods/setItemAngularDisplacement.md
-      
+
       - rotorItem:
           - objects/rotorItem/index.md
       - coil:
@@ -192,42 +208,37 @@ nav:
       - mesh:
           - objects/mesh/index.md
       - simDomain:
-          - objects/simDomain/index.md 
-      - geom:
-          - objects/geom/index.md 
+          - objects/simDomain/index.md
+      - Geom:
+          - objects/geom/index.md
       - Extra 'Math':
           - func/math/index.md
-  - Constants:    
-      - constants/index.md
-  - Global functions: 
-     - func/index.md
-     - include:
+
+  - Object Types:
+      - types/index.md
+
+  - Materials:
+      - materials/index.md
+
+  - UI Widgets:
+      - func/global/index.md
+      - QGridLayout:
           - func/global/index.md
-     - require:
+      - NumberEdit:
           - func/files/index.md
-     - writeFile:
-          - func/files/index.md
-     - readFile:
-          - func/files/index.md
-  - UI Widgets: 
-     - func/global/index.md
-     - QGridLayout:
-          - func/global/index.md
-     - NumberEdit:
-          - func/files/index.md
-     - NumberSlotSpinBox:
+      - NumberSlotSpinBox:
           - func/math/index.md
-     - StatorTypeComboBox:
+      - StatorTypeComboBox:
           - func/math/index.md
-     - WindingLayersComboBox:
+      - WindingLayersComboBox:
           - func/math/index.md
-     - WindingLayersOrientationComboBox:
+      - WindingLayersOrientationComboBox:
           - func/math/index.md
-     - WindingTypeComboBox:
+      - WindingTypeComboBox:
           - func/math/index.md
-     - PoleArrangementComboBox:
+      - PoleArrangementComboBox:
           - func/math/index.md
-     - StatorConnectionComboBox:
+      - StatorConnectionComboBox:
           - func/math/index.md
-     - RotorConnectionComboBox:
+      - RotorConnectionComboBox:
           - func/math/index.md

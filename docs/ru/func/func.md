@@ -1,4 +1,4 @@
-# Global functions
+# Глобальные функции
 
 ## include(path)
 

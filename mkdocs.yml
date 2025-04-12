@@ -58,10 +58,11 @@ markdown_extensions:
   
 nav:
   - Introduction: index.md
+  - About: motorxp-afm.md
   - MotorXP-AFM Scripting API:
-      - About: motorxp-afm.md
       - Script static objects:
           - func/global/index.md
+          
           - <i>console</i>:  
             - objects/console/index.md
             - methods:
@@ -72,7 +73,7 @@ nav:
               - objects/console/methods/error.md
               - objects/console/methods/clear.md
               - objects/console/methods/dir.md
-              
+
           - <i>motor</i>:
               - objects/motor/index.md
               - constants: objects/motor/constants/index.md  
@@ -91,6 +92,7 @@ nav:
                   - rotor: objects/motor/props/rotor.md
                   - winding: objects/motor/props/winding.md
                   - mesh: objects/motor/props/mesh.md
+              - methods:
 
           - <i>stator</i>:
               - objects/stator/index.md
@@ -189,7 +191,7 @@ nav:
           - <i>Extra 'Math'</i>:
               - func/math/index.md
       - Global functions: 
-           - func/global/index.md
+           - func/index.md
            - <i>include</i>:
               - func/global/index.md
            - <i>require</i>:

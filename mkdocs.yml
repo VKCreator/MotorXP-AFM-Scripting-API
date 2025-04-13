@@ -93,13 +93,23 @@ nav:
   - index.md
   - Global functions:
       - globalFunc/index.md
-      - include: globalFunc/include.md
-      - require: globalFunc/require.md
-      - writeFile: globalFunc/writeFile.md
-      - readFile: globalFunc/readFile.md
+      - include(): globalFunc/include.md
+      - require(): globalFunc/require.md
+      - writeFile(): globalFunc/writeFile.md
+      - readFile(): globalFunc/readFile.md
 
   - Constants:
       - constants/index.md
+      - Motor : constants/Motor.md
+      - Stator : constants/Stator.md
+      - StatorItem : constants/StatorItem.md
+      - Rotor : constants/Rotor.md
+      - RotorItem : constants/RotorItem.md
+      - Winding : constants/Winding.md
+      - Coil : constants/Coil.md
+      - Magnetization : constants/Magnetization.md
+      - PoleArrangement : constants/PoleArrangement.md
+      - Qt : constants/Qt.md
 
   - Script static objects:
       - objects/index.md

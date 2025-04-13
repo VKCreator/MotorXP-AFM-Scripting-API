@@ -2,6 +2,7 @@ site_name: MotorXP-AFM Scripting API manual
 site_url: https://motorxp.com/
 site_description: Documentation.
 site_author: MotorXP Team
+copyright: "Copyright &copy; 2025 MotorXP" 
 
 theme:
   name: material
@@ -11,7 +12,6 @@ theme:
   logo: logo.png
   color_mode: auto
   highlightjs: true
-  copyright: "© 2025 MotorXP" 
   palette:
     - scheme: default
       primary: light blue
@@ -30,18 +30,21 @@ theme:
     #- navigation.expand
     #- navigation.tabs
     - content.code.copy
+    - content.code.select
     - content.tabs.link
     - navigation.sections
     - navigation.top
     - navigation.tracking
     - navigation.indexes
     - toc.follow
+    #- navigation.footer
 
 plugins:
-  # - search
+  #- search
   - mike
   - offline:
       enabled: !ENV [OFFLINE, false]
+  - privacy
   - i18n:
       docs_structure: folder
       reconfigure_material: true
@@ -61,20 +64,25 @@ plugins:
             Object Types: Типы объектов
             Materials: Материалы
             UI Widgets: UI-виджеты
+
   - git-revision-date-localized:
         type: datetime
   # - with-pdf
   - print-site:
         path_to_pdf: "document.pdf"
-
+        # add_to_navigation: true     
 extra_css:
   - css/custom.css
 
 extra:
   version:
     provider: mike
-  footer_content: >
-    © My Documentation. Последнее обновление: {{ git_revision_date_localized }}
+  generator: true
+  social:
+    - icon: fontawesome/brands/linkedin 
+      link: https://www.linkedin.com/company/motorxp
+    - icon: fontawesome/brands/github 
+      link: https://github.com/MotorXP
 
 use_directory_urls: false
 
@@ -88,6 +96,8 @@ markdown_extensions:
   - pymdownx.superfences
   - admonition
   - pymdownx.details
+  - toc:
+      permalink: true
 
 nav:
   - index.md

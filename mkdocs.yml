@@ -2,6 +2,8 @@ site_name: MotorXP-AFM Scripting API manual
 site_url: https://motorxp.com/
 site_description: Documentation.
 site_author: MotorXP Team
+site_dir: ScriptingAPIManual
+copyright: "Copyright &copy; 2025 MotorXP" 
 
 theme:
   name: material
@@ -11,7 +13,6 @@ theme:
   logo: logo.png
   color_mode: auto
   highlightjs: true
-  copyright: "© 2025 MotorXP" 
   palette:
     - scheme: default
       primary: light blue
@@ -30,18 +31,21 @@ theme:
     #- navigation.expand
     #- navigation.tabs
     - content.code.copy
+    - content.code.select
     - content.tabs.link
     - navigation.sections
     - navigation.top
     - navigation.tracking
     - navigation.indexes
     - toc.follow
+    #- navigation.footer
 
 plugins:
-  # - search
+  #- search
   - mike
   - offline:
       enabled: !ENV [OFFLINE, false]
+  - privacy
   - i18n:
       docs_structure: folder
       reconfigure_material: true
@@ -55,26 +59,32 @@ plugins:
           build: true
           site_name: Руководство MotorXP-AFM Scripting API
           nav_translations:
-            Global functions: Глобальные функции
+            Global methods: Глобальные функции
             Constants: Константы
             Script static objects: Встроенные объекты
             Object Types: Типы объектов
+            Affine transformations: Аффинные преобразования
             Materials: Материалы
             UI Widgets: UI-виджеты
+
   - git-revision-date-localized:
         type: datetime
   # - with-pdf
   - print-site:
         path_to_pdf: "document.pdf"
-
+        # add_to_navigation: true     
 extra_css:
   - css/custom.css
 
 extra:
   version:
     provider: mike
-  footer_content: >
-    © My Documentation. Последнее обновление: {{ git_revision_date_localized }}
+  generator: true
+  social:
+    - icon: fontawesome/brands/linkedin 
+      link: https://www.linkedin.com/company/motorxp
+    - icon: fontawesome/brands/github 
+      link: https://github.com/MotorXP
 
 use_directory_urls: false
 
@@ -88,10 +98,12 @@ markdown_extensions:
   - pymdownx.superfences
   - admonition
   - pymdownx.details
+  - toc:
+      permalink: true
 
 nav:
   - index.md
-  - Global functions:
+  - Global methods:
       - globalFunc/index.md
       - include(): globalFunc/include.md
       - require(): globalFunc/require.md
@@ -223,34 +235,158 @@ nav:
 
       - rotorItem:
           - objects/rotorItem/index.md
+          - properties: 
+              - objects/rotorItem/props/index.md
+              - objectName: objects/rotorItem/props/objectName.md
+              - id: objects/rotorItem/props/id.md
+              - height: objects/rotorItem/props/height.md
+              - angularDisplacement: objects/rotorItem/props/angularDisplacement.md
+          - methods:
+            - objects/rotorItem/methods/index.md
+            - isUpper: objects/rotorItem/methods/isUpper.md
+            - isMiddle: objects/rotorItem/methods/isMiddle.md
+            - isLower: objects/rotorItem/methods/isLower.md
+            - angularDisplacement: objects/rotorItem/methods/angularDisplacement.md
+            - setAngularDisplacement: objects/rotorItem/methods/setAngularDisplacement.md
+
       - coil:
           - objects/coil/index.md
+
       - winding:
           - objects/winding/index.md
+          - properties: 
+            - objects/winding/props/index.md
+            - objectName: objects/winding/props/objectName.md
+            - circuit: objects/winding/props/circuit.md
+            - statorConnection: objects/winding/props/statorConnection.md
+            - parallelPaths: objects/winding/props/parallelPaths.md
+            - numberTurns: objects/winding/props/numberTurns.md
+            - strandsConductor: objects/winding/props/strandsConductor.md
+            - numberOuterSegments: objects/winding/props/numberOuterSegments.md
+            - type: objects/winding/props/type.md
+            - numberLayers: objects/winding/props/numberLayers.md
+            - layersOrientation: objects/winding/props/layersOrientation.md
+            - autoCalcOverhandEndturns: objects/winding/props/autoCalcOverhandEndturns.md
+            - radialOverhandOuterEndturn: objects/winding/props/radialOverhandOuterEndturn.md
+            - radialOverhandInnerEndturn: objects/winding/props/radialOverhandInnerEndturn.md
+            - heightOuterEndturn: objects/winding/props/heightOuterEndturn.md
+            - heightInnerEndturn: objects/winding/props/heightInnerEndturn.md
+          - methods:
+            - objects/winding/methods/index.md
+            - isPlanar: objects/winding/methods/isPlanar.md
+            - isToroidal: objects/winding/methods/isToroidal.md
+            - isSingleLayer: objects/winding/methods/isSingleLayer.md
+            - isDoubleLayer: objects/winding/methods/isDoubleLayer.md
+            - isOrientationUpperLower: objects/winding/methods/isOrientationUpperLower.md
+            - isOrientationLeftRight: objects/winding/methods/isOrientationLeftRight.md
+            - checkOverlapEndturns: objects/winding/methods/checkOverlapEndturns.md
+            - volumeOverlapEndturns: objects/winding/methods/volumeOverlapEndturns.md
+            - distanceBetweenEndturns: objects/winding/methods/distanceBetweenEndturns.md
+
       - mesh:
           - objects/mesh/index.md
+          - properties: 
+            - objects/mesh/props/index.md
+            - objectName: objects/mesh/props/objectName.md
+            - autoSizeBound: objects/mesh/props/autoSizeBound.md
+            - sizeBound: objects/mesh/props/sizeBound.md
+            - numberSlices: objects/mesh/props/numberSlices.md
+            - airgapQuality: objects/mesh/props/airgapQuality.md
+            - horizontalSymmetry: objects/mesh/props/horizontalSymmetry.md
+
       - simDomain:
           - objects/simDomain/index.md
+          - properties: 
+            - objects/simDomain/props/index.md
+            - inner: objects/simDomain/props/inner.md
+            - outer: objects/simDomain/props/outer.md
+          - methods:
+            - objects/simDomain/methods/index.md
+            - range: objects/simDomain/methods/range.md
+
       - Geom:
           - objects/geom/index.md
+          - methods:
+            - objects/geom/methods/index.md
+            - fromPolar: objects/geom/methods/fromPolar.md
+            - angle: objects/geom/methods/angle.md
+            - angleX: objects/geom/methods/angleX.md
+            - angleY: objects/geom/methods/angleY.md
+            - angleZ: objects/geom/methods/angleZ.md
+            - vector3: objects/geom/methods/vector3.md
+            - point3: objects/geom/methods/point3.md
+            - segment: objects/geom/methods/segment.md
+            - polysegment: objects/geom/methods/polysegment.md
+            - bspline: objects/geom/methods/bspline.md
+            - arc: objects/geom/methods/arc.md
+            - circle: objects/geom/methods/circle.md
+            - ellipse: objects/geom/methods/ellipse.md
+            - ring: objects/geom/methods/ring.md
+            - ngon: objects/geom/methods/ngon.md
+            - square: objects/geom/methods/square.md
+            - rectangle: objects/geom/methods/rectangle.md
+            - polygon: objects/geom/methods/polygon.md
+            - infplane: objects/geom/methods/infplane.md
+            - box: objects/geom/methods/box.md
+            - cylinder: objects/geom/methods/cylinder.md
+            - collar: objects/geom/methods/collar.md
+            - cone: objects/geom/methods/cone.md
+            - sphere: objects/geom/methods/sphere.md
+            - torus: objects/geom/methods/torus.md
+            - unite: objects/geom/methods/unite.md
+            - difference: objects/geom/methods/difference.md
+            - intersect: objects/geom/methods/intersect.md
+            - fillet: objects/geom/methods/fillet.md
+            - chamfer: objects/geom/methods/chamfer.md
+            - unify: objects/geom/methods/unify.md
+            - length: objects/geom/methods/length.md
+            - area: objects/geom/methods/area.md
+            - volume: objects/geom/methods/volume.md
+            - center: objects/geom/methods/center.md
+            - boundingBox: objects/geom/methods/boundingBox.md
+            - piece: objects/geom/methods/piece.md
+
       - Extra 'Math':
-          - func/math/index.md
+          - objects/math/index.md
+          - methods:
+            - fuzzyIsNull: objects/math/methods/fuzzyIsNull.md
+            - fuzzyIsEqual: objects/math/methods/fuzzyIsEqual.md
+            - rad: objects/math/methods/rad.md
+            - deg: objects/math/methods/deg.md
+            - fromPolar: objects/math/methods/fromPolar.md
+            - normAngle: objects/math/methods/normAngle.md
+            - middleAngle: objects/math/methods/middleAngle.md
 
   - Object Types:
       - types/index.md
+      - Point: types/Point.md
+      - Point3: types/Point3.md
+      - Vector3: types/Vector3.md
+
+  - Affine transformations:  
+      - objects/affine/index.md
+      - methods:
+        - translate: objects/affine/translate.md
 
   - Materials:
       - materials/index.md
+      - Material: materials/Material.md
+      - GeneralMaterial: materials/GeneralMaterial.md
+      - IronMaterial: materials/IronMaterial.md
+      - WindingMaterial: materials/WindingMaterial.md
+      - EndturnMaterial: materials/EndturnMaterial.md
+      - MagnetRadialMaterial: materials/MagnetRadialMaterial.md
+      - MagnetParallelMaterial: materials/MagnetParallelMaterial.md
 
   - UI Widgets:
       - widgets/index.md
-      - QGridLayout: widgets/index1.md
-      - NumberEdit: widgets/index2.md
-      - NumberSlotSpinBox: widgets/index3.md
-      - StatorTypeComboBox: widgets/index4.md
-      - WindingLayersComboBox: widgets/index6.md
-      - WindingLayersOrientationComboBox: widgets/index7.md
-      - WindingTypeComboBox: widgets/index8.md
-      - PoleArrangementComboBox: widgets/index9.md
-      - StatorConnectionComboBox: widgets/index10.md
-      - RotorConnectionComboBox: widgets/index11.md
+      - QGridLayout: widgets/QGridLayout.md
+      - NumberEdit: widgets/NumberEdit.md
+      - NumberSlotSpinBox: widgets/NumberSlotSpinBox.md
+      - StatorTypeComboBox: widgets/StatorTypeComboBox.md
+      - WindingLayersComboBox: widgets/WindingLayersComboBox.md
+      - WindingLayersOrientationComboBox: widgets/WindingLayersOrientationComboBox.md
+      - WindingTypeComboBox: widgets/WindingTypeComboBox.md
+      - PoleArrangementComboBox: widgets/PoleArrangementComboBox.md
+      - StatorConnectionComboBox: widgets/StatorConnectionComboBox.md
+      - RotorConnectionComboBox: widgets/RotorConnectionComboBox.md

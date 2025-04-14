@@ -16,3 +16,5 @@
 .md-nav__item--section > .md-nav > .md-nav__list {
     margin-left: 0.7rem;
 }
+
+.git-revision-date-localized-plugin-datetime { color: red; }

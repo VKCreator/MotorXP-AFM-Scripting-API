@@ -2,7 +2,7 @@ site_name: MotorXP-AFM Scripting API manual
 site_url: https://motorxp.com/
 site_description: Documentation.
 site_author: MotorXP Team
-site_dir: ScriptingAPIManual
+site_dir: ScriptingAPI_manual
 copyright: "Copyright &copy; 2025 MotorXP" 
 
 theme:
@@ -104,11 +104,11 @@ markdown_extensions:
 nav:
   - index.md
   - Global methods:
-      - globalFunc/index.md
-      - include(): globalFunc/include.md
-      - require(): globalFunc/require.md
-      - writeFile(): globalFunc/writeFile.md
-      - readFile(): globalFunc/readFile.md
+      - globalFuncs/index.md
+      - include(): globalFuncs/include.md
+      - require(): globalFuncs/require.md
+      - writeFile(): globalFuncs/writeFile.md
+      - readFile(): globalFuncs/readFile.md
 
   - Constants:
       - constants/index.md

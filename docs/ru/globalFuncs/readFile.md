@@ -1,23 +1,23 @@
 # readFile()
 
 ## Описание
-Чтение из файла
-
-## Возвращаемое значение
-string - содержимое файла
+Чтение из файла.
 
 ## Синтаксис
 ```javascript
-readile(path : string ) : string;
+readFile(path : string) : string
 ``` 
 
-## Параметры
-- `path` (строка, обязательно): Путь к файлу, может быть абсолютным или относительным, который указывает положение относительно <path_MotorXP-AFM>/bin/assets/scripts>.
+## Аргументы
+- `path` (строка, обязательно): Путь к файлу, может быть абсолютным или относительным, который указывает положение относительно `<path_MotorXP-AFM>/bin/assets/scripts`.
+
+## Возвращаемое значение
+`string`: Cодержимое файла.
 
 ## Пример
 ``` javascript linenums="1"
-let result = readFile("c:/temp/sample.txt")
-console.info(result);
+let content = readFile("c:/temp/sample.txt")
+console.info(content)
 ``` 
 
 !!! info "См. также"

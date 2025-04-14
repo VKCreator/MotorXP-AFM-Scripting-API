@@ -68,7 +68,8 @@ plugins:
             UI Widgets: UI-виджеты
 
   - git-revision-date-localized:
-        type: datetime
+        type: custom
+        custom_format: "%-d %B %Y %-H:%M"
   # - with-pdf
   - print-site:
         path_to_pdf: "document.pdf"

@@ -45,11 +45,6 @@
     {% if config.extra.alternate %}
       {% include "partials/alternate.html" %}
     {% endif %}
-	{% if page.url_to_pdf %}
-		<a href="{{ page.url_to_pdf }}" title="Download PDF" class="md-content__button md-icon" target="_blank">
-			{% include ".icons/material/file-pdf-box.svg" %}
-		</a>
-	{% endif %}
     {% if "material/search" in config.plugins %}
       {% set search = config.plugins["material/search"] | attr("config") %}
       {% if search.enabled %}
@@ -60,6 +55,11 @@
         {% include "partials/search.html" %}
       {% endif %}
     {% endif %}
+	{% if page.url_to_pdf %}
+		<a href="{{ page.url_to_pdf }}" title="Download PDF" class="md-header__button md-icon" target="_blank">
+			{% include ".icons/material/file-pdf-box.svg" %}
+		</a>
+	{% endif %}
     {% if config.repo_url %}
       <div class="md-header__source">
         {% include "partials/source.html" %}

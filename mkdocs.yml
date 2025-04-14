@@ -41,7 +41,7 @@ theme:
     #- navigation.footer
 
 plugins:
-  #- search
+  - search
   - mike
   - offline:
       enabled: !ENV [OFFLINE, false]
@@ -101,7 +101,10 @@ markdown_extensions:
   - pymdownx.details
   - toc:
       permalink: true
-
+  - pymdownx.emoji:
+      options:
+        custom_icons:
+          - overrides/.icons
 nav:
   - index.md
   - Global methods:

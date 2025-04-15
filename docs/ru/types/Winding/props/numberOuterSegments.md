@@ -1,23 +1,26 @@
-# numberOuterSegments()
+# numberOuterSegments
 
 ## Описание
-Описание метода.
+The `numberOuterSegments` property...
+
+## Принимаемые значения:
+...
+
+## Тип значения свойства
+`Number`
+
+## Доступ
+`Чтение\Запись`
 
 ## Синтаксис
 ```javascript
-numberOuterSegments(argument: type) : returnType
+numberOuterSegments = value
 ```
-
-## Аргументы
-- `argument` (type, обязательно): описание аргумента.
-
-## Возвращаемое значение
-`returnType`: описание возвращаемого значения.
 
 ## Пример
 ```javascript linenums="1"
-let result = numberOuterSegments(value);
-console.info(result);
+let result = motor.numberOuterSegments
+console.info(result)
 ```
 
 !!! info "См. также"

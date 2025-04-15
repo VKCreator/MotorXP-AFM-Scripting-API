@@ -1,23 +1,26 @@
-# autoCalcOverhandEndturns()
+# autoCalcOverhandEndturns
 
 ## Описание
-Описание метода.
+The `autoCalcOverhandEndturns` property...
+
+## Принимаемые значения:
+...
+
+## Тип значения свойства
+`Number`
+
+## Доступ
+`Чтение\Запись`
 
 ## Синтаксис
 ```javascript
-autoCalcOverhandEndturns(argument: type) : returnType
+autoCalcOverhandEndturns = value
 ```
-
-## Аргументы
-- `argument` (type, обязательно): описание аргумента.
-
-## Возвращаемое значение
-`returnType`: описание возвращаемого значения.
 
 ## Пример
 ```javascript linenums="1"
-let result = autoCalcOverhandEndturns(value);
-console.info(result);
+let result = motor.autoCalcOverhandEndturns
+console.info(result)
 ```
 
 !!! info "См. также"

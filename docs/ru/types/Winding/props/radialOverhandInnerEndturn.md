@@ -1,23 +1,26 @@
-# radialOverhandInnerEndturn()
+# radialOverhandInnerEndturn
 
 ## Описание
-Описание метода.
+The `radialOverhandInnerEndturn` property...
+
+## Принимаемые значения:
+...
+
+## Тип значения свойства
+`Number`
+
+## Доступ
+`Чтение\Запись`
 
 ## Синтаксис
 ```javascript
-radialOverhandInnerEndturn(argument: type) : returnType
+radialOverhandInnerEndturn = value
 ```
-
-## Аргументы
-- `argument` (type, обязательно): описание аргумента.
-
-## Возвращаемое значение
-`returnType`: описание возвращаемого значения.
 
 ## Пример
 ```javascript linenums="1"
-let result = radialOverhandInnerEndturn(value);
-console.info(result);
+let result = motor.radialOverhandInnerEndturn
+console.info(result)
 ```
 
 !!! info "См. также"

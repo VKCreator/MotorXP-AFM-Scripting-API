@@ -1,23 +1,26 @@
-# ironStacking()
+# ironStacking
 
 ## Описание
-Описание метода.
+The `ironStacking` property...
+
+## Принимаемые значения:
+...
+
+## Тип значения свойства
+`Number`
+
+## Доступ
+`Чтение\Запись`
 
 ## Синтаксис
 ```javascript
-ironStacking(argument: type) : returnType
+ironStacking = value
 ```
-
-## Аргументы
-- `argument` (type, обязательно): описание аргумента.
-
-## Возвращаемое значение
-`returnType`: описание возвращаемого значения.
 
 ## Пример
 ```javascript linenums="1"
-let result = ironStacking(value);
-console.info(result);
+let result = motor.ironStacking
+console.info(result)
 ```
 
 !!! info "См. также"

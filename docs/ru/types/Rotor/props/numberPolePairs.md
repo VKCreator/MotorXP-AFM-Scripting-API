@@ -1,23 +1,26 @@
-# numberPolePairs()
+# numberPolePairs
 
 ## Описание
-Описание метода.
+The `numberPolePairs` property...
+
+## Принимаемые значения:
+...
+
+## Тип значения свойства
+`Number`
+
+## Доступ
+`Чтение\Запись`
 
 ## Синтаксис
 ```javascript
-numberPolePairs(argument: type) : returnType
+numberPolePairs = value
 ```
-
-## Аргументы
-- `argument` (type, обязательно): описание аргумента.
-
-## Возвращаемое значение
-`returnType`: описание возвращаемого значения.
 
 ## Пример
 ```javascript linenums="1"
-let result = numberPolePairs(value);
-console.info(result);
+let result = motor.numberPolePairs
+console.info(result)
 ```
 
 !!! info "См. также"

@@ -1,23 +1,26 @@
-# items()
+# items
 
 ## Описание
-Описание метода.
+The `items` property...
+
+## Принимаемые значения:
+...
+
+## Тип значения свойства
+`Number`
+
+## Доступ
+`Чтение\Запись`
 
 ## Синтаксис
 ```javascript
-items(argument: type) : returnType
+items = value
 ```
-
-## Аргументы
-- `argument` (type, обязательно): описание аргумента.
-
-## Возвращаемое значение
-`returnType`: описание возвращаемого значения.
 
 ## Пример
 ```javascript linenums="1"
-let result = items(value);
-console.info(result);
+let result = motor.items
+console.info(result)
 ```
 
 !!! info "См. также"

@@ -1,23 +1,26 @@
-# heightInnerEndturn()
+# heightInnerEndturn
 
 ## Описание
-Описание метода.
+The `heightInnerEndturn` property...
+
+## Принимаемые значения:
+...
+
+## Тип значения свойства
+`Number`
+
+## Доступ
+`Чтение\Запись`
 
 ## Синтаксис
 ```javascript
-heightInnerEndturn(argument: type) : returnType
+heightInnerEndturn = value
 ```
-
-## Аргументы
-- `argument` (type, обязательно): описание аргумента.
-
-## Возвращаемое значение
-`returnType`: описание возвращаемого значения.
 
 ## Пример
 ```javascript linenums="1"
-let result = heightInnerEndturn(value);
-console.info(result);
+let result = motor.heightInnerEndturn
+console.info(result)
 ```
 
 !!! info "См. также"

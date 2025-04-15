@@ -1,23 +1,26 @@
-# script()
+# script
 
 ## Описание
-Описание метода.
+The `script` property...
+
+## Принимаемые значения:
+...
+
+## Тип значения свойства
+`Number`
+
+## Доступ
+`Чтение\Запись`
 
 ## Синтаксис
 ```javascript
-script(argument: type) : returnType
+script = value
 ```
-
-## Аргументы
-- `argument` (type, обязательно): описание аргумента.
-
-## Возвращаемое значение
-`returnType`: описание возвращаемого значения.
 
 ## Пример
 ```javascript linenums="1"
-let result = script(value);
-console.info(result);
+let result = motor.script
+console.info(result)
 ```
 
 !!! info "См. также"

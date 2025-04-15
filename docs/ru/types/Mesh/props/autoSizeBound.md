@@ -1,23 +1,26 @@
-# autoSizeBound()
+# autoSizeBound
 
 ## Описание
-Описание метода.
+The `autoSizeBound` property...
+
+## Принимаемые значения:
+...
+
+## Тип значения свойства
+`Number`
+
+## Доступ
+`Чтение\Запись`
 
 ## Синтаксис
 ```javascript
-autoSizeBound(argument: type) : returnType
+autoSizeBound = value
 ```
-
-## Аргументы
-- `argument` (type, обязательно): описание аргумента.
-
-## Возвращаемое значение
-`returnType`: описание возвращаемого значения.
 
 ## Пример
 ```javascript linenums="1"
-let result = autoSizeBound(value);
-console.info(result);
+let result = motor.autoSizeBound
+console.info(result)
 ```
 
 !!! info "См. также"

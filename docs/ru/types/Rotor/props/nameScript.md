@@ -1,23 +1,26 @@
-# nameScript()
+# nameScript
 
 ## Описание
-Описание метода.
+The `nameScript` property...
+
+## Принимаемые значения:
+...
+
+## Тип значения свойства
+`Number`
+
+## Доступ
+`Чтение\Запись`
 
 ## Синтаксис
 ```javascript
-nameScript(argument: type) : returnType
+nameScript = value
 ```
-
-## Аргументы
-- `argument` (type, обязательно): описание аргумента.
-
-## Возвращаемое значение
-`returnType`: описание возвращаемого значения.
 
 ## Пример
 ```javascript linenums="1"
-let result = nameScript(value);
-console.info(result);
+let result = motor.nameScript
+console.info(result)
 ```
 
 !!! info "См. также"

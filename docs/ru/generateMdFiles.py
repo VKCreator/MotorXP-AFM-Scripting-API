@@ -2,7 +2,47 @@ import os
 
 # Список путей к файлам
 file_paths = [
-    
+    # Methods
+    "embeddedObjects/Geom/methods/index.md",
+    "embeddedObjects/Geom/methods/angle.md",
+    "embeddedObjects/Geom/methods/angleX.md",
+    "embeddedObjects/Geom/methods/angleY.md",
+    "embeddedObjects/Geom/methods/angleZ.md",
+    "embeddedObjects/Geom/methods/angleBetweenVectors.md",
+    "embeddedObjects/Geom/methods/radius.md",
+    "embeddedObjects/Geom/methods/radiusX.md",
+    "embeddedObjects/Geom/methods/radiusY.md",
+    "embeddedObjects/Geom/methods/radiusZ.md",
+    "embeddedObjects/Geom/methods/vector3.md",
+    "embeddedObjects/Geom/methods/point3.md",
+    "embeddedObjects/Geom/methods/segment.md",
+    "embeddedObjects/Geom/methods/polysegment.md",
+    "embeddedObjects/Geom/methods/bspline.md",
+    "embeddedObjects/Geom/methods/arc.md",
+    "embeddedObjects/Geom/methods/circle.md",
+    "embeddedObjects/Geom/methods/ellipse.md",
+    "embeddedObjects/Geom/methods/ring.md",
+    "embeddedObjects/Geom/methods/ngon.md",
+    "embeddedObjects/Geom/methods/square.md",
+    "embeddedObjects/Geom/methods/box.md",
+    "embeddedObjects/Geom/methods/cylinder.md",
+    "embeddedObjects/Geom/methods/collar.md",
+    "embeddedObjects/Geom/methods/cone.md",
+    "embeddedObjects/Geom/methods/sphere.md",
+    "embeddedObjects/Geom/methods/torus.md",
+    "embeddedObjects/Geom/methods/unite.md",
+    "embeddedObjects/Geom/methods/difference.md",
+    "embeddedObjects/Geom/methods/intersect.md",
+    "embeddedObjects/Geom/methods/section.md",
+    "embeddedObjects/Geom/methods/fillet.md",
+    "embeddedObjects/Geom/methods/chamfer.md",
+    "embeddedObjects/Geom/methods/unify.md",
+    "embeddedObjects/Geom/methods/boundingBox.md",
+    "embeddedObjects/Geom/methods/shape.md",
+    "embeddedObjects/Geom/methods/piece.md",
+    "embeddedObjects/Geom/methods/distance.md",
+    "embeddedObjects/Geom/methods/pointAtSegment.md",
+
     # Stator
     "types/Stator/index.md",
     "types/Stator/props/index.md",
@@ -145,29 +185,61 @@ def create_files(file_paths):
         if directory and not os.path.exists(directory):
             os.makedirs(directory)
         
-        # Получение имени метода из пути файла
-        method_name = os.path.basename(file_path).replace('.md', '')
+        # Получение имени файла без расширения
+        file_name = os.path.basename(file_path).replace('.md', '')
         
-        # Создание файла с кодировкой UTF-8
-        with open(file_path, 'w', encoding='utf-8') as file:
-            file.write(f"# {method_name}()\n\n")
-            file.write("## Описание\n")
-            file.write("Описание метода.\n\n")
-            file.write("## Синтаксис\n")
-            file.write(f"```javascript\n{method_name}(argument: type) : returnType\n```\n\n")
-            file.write("## Аргументы\n")
-            file.write("- `argument` (type, обязательно): описание аргумента.\n\n")
-            file.write("## Возвращаемое значение\n")
-            file.write("`returnType`: описание возвращаемого значения.\n\n")
-            file.write("## Пример\n")
-            file.write("```javascript linenums=\"1\"\n")
-            file.write(f"let result = {method_name}(value);\n")
-            file.write("console.info(result);\n")
-            file.write("```\n\n")
-            file.write("!!! info \"См. также\"\n\n")
-            file.write("    []()\n\n")
+        # Проверка, является ли файл index.md
+        if file_name == "index":
+            with open(file_path, 'w', encoding='utf-8') as file:
+                file.write("")  # Оставляем файл пустым
+            print(f"Файл создан (пустой): {file_path}")
+            continue
         
-        print(f"Файл создан: {file_path}")
+        # Проверка, находится ли файл в папке props
+        if "/props/" in file_path:
+            # Шаблон для свойств (props)
+            with open(file_path, 'w', encoding='utf-8') as file:
+                file.write(f"# {file_name}\n\n")
+                file.write("## Описание\n")
+                file.write(f"The `{file_name}` property...\n\n")
+                file.write("## Принимаемые значения:\n")
+                file.write("...\n\n")
+                file.write("## Тип значения свойства\n")
+                file.write("`Number`\n\n")
+                file.write("## Доступ\n")
+                file.write("`Чтение\\Запись`\n\n")
+                file.write("## Синтаксис\n")
+                file.write("```javascript\n")
+                file.write(f"{file_name} = value\n")
+                file.write("```\n\n")
+                file.write("## Пример\n")
+                file.write("```javascript linenums=\"1\"\n")
+                file.write(f"let result = motor.{file_name}\n")
+                file.write(f"console.info(result)\n")
+                file.write("```\n\n")
+                file.write("!!! info \"См. также\"\n\n")
+                file.write("    []()\n\n")
+            print(f"Файл создан (props): {file_path}")
+        else:
+            # Шаблон для методов (methods)
+            with open(file_path, 'w', encoding='utf-8') as file:
+                file.write(f"# {file_name}()\n\n")
+                file.write("## Описание\n")
+                file.write("Описание метода.\n\n")
+                file.write("## Синтаксис\n")
+                file.write(f"```javascript\n{file_name}(argument: type) : returnType\n```\n\n")
+                file.write("## Аргументы\n")
+                file.write("- `argument` (type, обязательно): описание аргумента.\n\n")
+                file.write("## Возвращаемое значение\n")
+                file.write("`returnType`: описание возвращаемого значения.\n\n")
+                file.write("## Пример\n")
+                file.write("```javascript linenums=\"1\"\n")
+                file.write(f"let result = {file_name}(value)\n")
+                file.write("console.info(result)\n")
+                file.write("```\n\n")
+                file.write("!!! info \"См. также\"\n\n")
+                file.write("    []()\n\n")
+            print(f"Файл создан (methods): {file_path}")
 
 # Вызов функции
 create_files(file_paths)

@@ -1,23 +1,26 @@
-# parallelPaths()
+# parallelPaths
 
 ## Описание
-Описание метода.
+The `parallelPaths` property...
+
+## Принимаемые значения:
+...
+
+## Тип значения свойства
+`Number`
+
+## Доступ
+`Чтение\Запись`
 
 ## Синтаксис
 ```javascript
-parallelPaths(argument: type) : returnType
+parallelPaths = value
 ```
-
-## Аргументы
-- `argument` (type, обязательно): описание аргумента.
-
-## Возвращаемое значение
-`returnType`: описание возвращаемого значения.
 
 ## Пример
 ```javascript linenums="1"
-let result = parallelPaths(value);
-console.info(result);
+let result = motor.parallelPaths
+console.info(result)
 ```
 
 !!! info "См. также"

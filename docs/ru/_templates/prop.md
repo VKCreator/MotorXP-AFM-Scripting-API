@@ -1,11 +1,11 @@
-# <propertyName>
+# propertyName
 
 ## Описание
 
-The <b>`propertyName`</b> property defines the configuration type of the motor.
+The `propertyName` property...
 
 ## Принимаемые значения:
-- `Motor.SR` (0): stator - rotor
+...
 
 ## Тип значения свойства:
 `Number`

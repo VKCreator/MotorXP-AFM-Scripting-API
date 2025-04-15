@@ -16,8 +16,8 @@ isPlanar(argument: type) : returnType
 
 ## Пример
 ```javascript linenums="1"
-let result = isPlanar(value);
-console.info(result);
+let result = isPlanar(value)
+console.info(result)
 ```
 
 !!! info "См. также"

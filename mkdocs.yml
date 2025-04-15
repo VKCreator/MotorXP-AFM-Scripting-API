@@ -287,7 +287,10 @@ nav:
       - types/index.md
       - Stator:
          - types/Stator/index.md
-         - constants: types/Stator/constants.md
+         - constants: 
+           - types/Stator/constants/index.md
+           - types/Stator/constants/Yokeless.md
+           - types/Stator/constants/Yoke.md
          - properties:
            - types/Stator/props/index.md
            - outerDiameter: types/Stator/props/outerDiameter.md
@@ -318,7 +321,11 @@ nav:
 
       - StatorItem:
          - types/StatorItem/index.md
-         - constants: types/StatorItem/constants.md
+         - constants: 
+           - types/StatorItem/constants/index.md
+           - types/StatorItem/constants/ID1.md
+           - types/StatorItem/constants/ID2.md
+           - types/StatorItem/constants/ID3.md
          - properties:
            - types/StatorItem/props/index.md
            - id: types/StatorItem/props/id.md
@@ -333,7 +340,10 @@ nav:
 
       - Rotor:
          - types/Rotor/index.md
-         - constants: types/Rotor/constants.md
+         - constants: 
+           - types/Rotor/constants/index.md
+           - types/Rotor/constants/Yokeless.md
+           - types/Rotor/constants/Yoke.md
          - properties:
            - types/Rotor/props/index.md
            - outerDiameter: types/Rotor/props/outerDiameter.md
@@ -367,7 +377,11 @@ nav:
 
       - RotorItem:
           - types/RotorItem/index.md
-          - constants: types/RotorItem/constants.md
+          - constants: 
+              - types/RotorItem/constants/index.md
+              - types/RotorItem/constants/ID1.md
+              - types/RotorItem/constants/ID2.md
+              - types/RotorItem/constants/ID3.md
           - properties: 
               - types/RotorItem/props/index.md
               - id: types/RotorItem/props/id.md
@@ -383,7 +397,18 @@ nav:
 
       - Winding:
           - types/Winding/index.md
-          - constants: types/Windingconstants.md
+          - constants:
+            - types/Winding/constants/index.md
+            - types/Winding/constants/Planar.md
+            - types/Winding/constants/Toroidal.md
+            - types/Winding/constants/SingleLayer.md
+            - types/Winding/constants/DoubleLayer.md
+            - types/Winding/constants/UpperLower.md
+            - types/Winding/constants/LeftRight.md
+            - types/Winding/constants/Star.md
+            - types/Winding/constants/Delta.md
+            - types/Winding/constants/Lumped.md
+            - types/Winding/constants/Full.md
           - properties: 
             - types/Winding/props/index.md
             - circuit: types/Winding/props/circuit.md

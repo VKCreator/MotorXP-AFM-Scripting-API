@@ -1,23 +1,26 @@
-# objectName()
+# objectName
 
 ## Описание
-Описание метода.
+The `objectName` property...
+
+## Принимаемые значения:
+...
+
+## Тип значения свойства
+`Number`
+
+## Доступ
+`Чтение\Запись`
 
 ## Синтаксис
 ```javascript
-objectName(argument: type) : returnType
+objectName = value
 ```
-
-## Аргументы
-- `argument` (type, обязательно): описание аргумента.
-
-## Возвращаемое значение
-`returnType`: описание возвращаемого значения.
 
 ## Пример
 ```javascript linenums="1"
-let result = objectName(value);
-console.info(result);
+let result = motor.objectName
+console.info(result)
 ```
 
 !!! info "См. также"

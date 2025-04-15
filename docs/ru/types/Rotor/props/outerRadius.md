@@ -1,23 +1,26 @@
-# outerRadius()
+# outerRadius
 
 ## Описание
-Описание метода.
+The `outerRadius` property...
+
+## Принимаемые значения:
+...
+
+## Тип значения свойства
+`Number`
+
+## Доступ
+`Чтение\Запись`
 
 ## Синтаксис
 ```javascript
-outerRadius(argument: type) : returnType
+outerRadius = value
 ```
-
-## Аргументы
-- `argument` (type, обязательно): описание аргумента.
-
-## Возвращаемое значение
-`returnType`: описание возвращаемого значения.
 
 ## Пример
 ```javascript linenums="1"
-let result = outerRadius(value);
-console.info(result);
+let result = motor.outerRadius
+console.info(result)
 ```
 
 !!! info "См. также"

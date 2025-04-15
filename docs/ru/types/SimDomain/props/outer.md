@@ -1,23 +1,26 @@
-# outer()
+# outer
 
 ## Описание
-Описание метода.
+The `outer` property...
+
+## Принимаемые значения:
+...
+
+## Тип значения свойства
+`Number`
+
+## Доступ
+`Чтение\Запись`
 
 ## Синтаксис
 ```javascript
-outer(argument: type) : returnType
+outer = value
 ```
-
-## Аргументы
-- `argument` (type, обязательно): описание аргумента.
-
-## Возвращаемое значение
-`returnType`: описание возвращаемого значения.
 
 ## Пример
 ```javascript linenums="1"
-let result = outer(value);
-console.info(result);
+let result = motor.outer
+console.info(result)
 ```
 
 !!! info "См. также"

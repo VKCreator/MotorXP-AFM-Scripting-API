@@ -16,8 +16,8 @@ isMiddle(argument: type) : returnType
 
 ## Пример
 ```javascript linenums="1"
-let result = isMiddle(value);
-console.info(result);
+let result = isMiddle(value)
+console.info(result)
 ```
 
 !!! info "См. также"

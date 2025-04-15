@@ -1,23 +1,26 @@
-# poleAngleSpan()
+# poleAngleSpan
 
 ## Описание
-Описание метода.
+The `poleAngleSpan` property...
+
+## Принимаемые значения:
+...
+
+## Тип значения свойства
+`Number`
+
+## Доступ
+`Чтение\Запись`
 
 ## Синтаксис
 ```javascript
-poleAngleSpan(argument: type) : returnType
+poleAngleSpan = value
 ```
-
-## Аргументы
-- `argument` (type, обязательно): описание аргумента.
-
-## Возвращаемое значение
-`returnType`: описание возвращаемого значения.
 
 ## Пример
 ```javascript linenums="1"
-let result = poleAngleSpan(value);
-console.info(result);
+let result = motor.poleAngleSpan
+console.info(result)
 ```
 
 !!! info "См. также"

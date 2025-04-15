@@ -1,23 +1,26 @@
-# simRadialOuterDomain()
+# simRadialOuterDomain
 
 ## Описание
-Описание метода.
+The `simRadialOuterDomain` property...
+
+## Принимаемые значения:
+...
+
+## Тип значения свойства
+`Number`
+
+## Доступ
+`Чтение\Запись`
 
 ## Синтаксис
 ```javascript
-simRadialOuterDomain(argument: type) : returnType
+simRadialOuterDomain = value
 ```
-
-## Аргументы
-- `argument` (type, обязательно): описание аргумента.
-
-## Возвращаемое значение
-`returnType`: описание возвращаемого значения.
 
 ## Пример
 ```javascript linenums="1"
-let result = simRadialOuterDomain(value);
-console.info(result);
+let result = motor.simRadialOuterDomain
+console.info(result)
 ```
 
 !!! info "См. также"

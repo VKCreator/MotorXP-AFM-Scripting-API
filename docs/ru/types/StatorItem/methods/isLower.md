@@ -16,8 +16,8 @@ isLower(argument: type) : returnType
 
 ## Пример
 ```javascript linenums="1"
-let result = isLower(value);
-console.info(result);
+let result = isLower(value)
+console.info(result)
 ```
 
 !!! info "См. также"

@@ -1,23 +1,26 @@
-# windingTemperature()
+# windingTemperature
 
 ## Описание
-Описание метода.
+The `windingTemperature` property...
+
+## Принимаемые значения:
+...
+
+## Тип значения свойства
+`Number`
+
+## Доступ
+`Чтение\Запись`
 
 ## Синтаксис
 ```javascript
-windingTemperature(argument: type) : returnType
+windingTemperature = value
 ```
-
-## Аргументы
-- `argument` (type, обязательно): описание аргумента.
-
-## Возвращаемое значение
-`returnType`: описание возвращаемого значения.
 
 ## Пример
 ```javascript linenums="1"
-let result = windingTemperature(value);
-console.info(result);
+let result = motor.windingTemperature
+console.info(result)
 ```
 
 !!! info "См. также"

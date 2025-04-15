@@ -1,23 +1,26 @@
-# poleArrangement()
+# poleArrangement
 
 ## Описание
-Описание метода.
+The `poleArrangement` property...
+
+## Принимаемые значения:
+...
+
+## Тип значения свойства
+`Number`
+
+## Доступ
+`Чтение\Запись`
 
 ## Синтаксис
 ```javascript
-poleArrangement(argument: type) : returnType
+poleArrangement = value
 ```
-
-## Аргументы
-- `argument` (type, обязательно): описание аргумента.
-
-## Возвращаемое значение
-`returnType`: описание возвращаемого значения.
 
 ## Пример
 ```javascript linenums="1"
-let result = poleArrangement(value);
-console.info(result);
+let result = motor.poleArrangement
+console.info(result)
 ```
 
 !!! info "См. также"

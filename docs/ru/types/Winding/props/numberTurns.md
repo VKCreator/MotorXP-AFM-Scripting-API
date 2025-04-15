@@ -1,23 +1,26 @@
-# numberTurns()
+# numberTurns
 
 ## Описание
-Описание метода.
+The `numberTurns` property...
+
+## Принимаемые значения:
+...
+
+## Тип значения свойства
+`Number`
+
+## Доступ
+`Чтение\Запись`
 
 ## Синтаксис
 ```javascript
-numberTurns(argument: type) : returnType
+numberTurns = value
 ```
-
-## Аргументы
-- `argument` (type, обязательно): описание аргумента.
-
-## Возвращаемое значение
-`returnType`: описание возвращаемого значения.
 
 ## Пример
 ```javascript linenums="1"
-let result = numberTurns(value);
-console.info(result);
+let result = motor.numberTurns
+console.info(result)
 ```
 
 !!! info "См. также"

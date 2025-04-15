@@ -16,14 +16,11 @@ shape(argument: type) : returnType
 
 ## Пример
 ```javascript linenums="1"
-let result = shape(value);
-console.info(result);
+let result = shape(value)
+console.info(result)
 ```
 
 !!! info "См. также"
 
-    [Math.rad()](rad.md)
+    []()
 
-    [Math.normAngle()](normAngle.md)
-
-    [Math.middleAngle()](middleAngle.md)

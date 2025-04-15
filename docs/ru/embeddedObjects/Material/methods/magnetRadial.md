@@ -1,24 +1,21 @@
-# magnetRadial(args)
+# magnetRadial()
 
 ## Описание
+Материал для магнита с радиальным намагничиванием.
 
 ## Синтаксис
 ```javascript
-methodName(arg: any): string
+magnetRadial() : MaterialMagnetRadial
 ``` 
 
-## Аргументы
-- `path` (строка, обязательно): Путь к файлу скрипта.
-
 ## Возвращаемое значение
-- `pathNew` (строка): Новый путь
+[`MaterialMagnetRadial`]()
 
 ## Пример
 ``` javascript linenums="1"
+let m = Material.magnetRadial();
 ``` 
 
 !!! info "См. также"
 
-    [](*.md)
-	
-	[](*.md)
+    [Material.magnetParallel()](magnetParallel.md)

@@ -1,20 +1,19 @@
 # endturn()
 
 ## Описание
+Материал для лобовых частей обмоток (Endturns).
 
 ## Синтаксис
 ```javascript
-methodName(arg: any): string
+endturn() : MaterialEndturn
 ``` 
 
-## Аргументы
-- `path` (строка, обязательно): Путь к файлу скрипта.
-
 ## Возвращаемое значение
-- `pathNew` (строка): Новый путь
+[`MaterialEndturn`]()
 
 ## Пример
 ``` javascript linenums="1"
+let m = Material.endturn()
 ``` 
 
 !!! info "См. также"

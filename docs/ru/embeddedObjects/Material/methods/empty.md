@@ -1,16 +1,15 @@
 # empty()
 
 ## Описание
+Пустой материал.
 
 ## Синтаксис
 ```javascript
 empty(): MaterialEmpty
 ``` 
 
-## Аргументы
-
 ## Возвращаемое значение
-- `MaterialEmpty`: объект типа MaterialEmpty
+[`MaterialEmpty`]()
 
 ## Пример
 ``` javascript linenums="1"

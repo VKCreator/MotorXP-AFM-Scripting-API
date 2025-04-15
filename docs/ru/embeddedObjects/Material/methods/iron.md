@@ -1,20 +1,19 @@
 # iron()
 
 ## Описание
+Материал для железа 
 
 ## Синтаксис
 ```javascript
-methodName(arg: any): string
+iron() : MaterialIron
 ``` 
 
-## Аргументы
-- `path` (строка, обязательно): Путь к файлу скрипта.
-
 ## Возвращаемое значение
-- `pathNew` (строка): Новый путь
+[`MaterialIron`]()
 
 ## Пример
 ``` javascript linenums="1"
+let m = Material.iron()
 ``` 
 
 !!! info "См. также"

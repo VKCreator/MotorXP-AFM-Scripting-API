@@ -1,4 +1,4 @@
-# stator
+# boundaryCondition
 
 ## Описание
 The <b>`propertyName`</b> property defines the configuration type of the motor.

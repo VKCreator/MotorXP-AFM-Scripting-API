@@ -1,20 +1,19 @@
 # general()
 
 ## Описание
+Материал для воздушной среды
 
 ## Синтаксис
 ```javascript
-methodName(arg: any): string
+general() : MaterialGeneral
 ``` 
 
-## Аргументы
-- `path` (строка, обязательно): Путь к файлу скрипта.
-
 ## Возвращаемое значение
-- `pathNew` (строка): Новый путь
+[`MaterialGeneral`]()
 
 ## Пример
 ``` javascript linenums="1"
+let m = Material.general()
 ``` 
 
 !!! info "См. также"

@@ -1,7 +1,12 @@
-# stator
+# periodicity
 
 ## Описание
-The <b>`propertyName`</b> property defines the configuration type of the motor.
+Свойство `periodicity` определяет периодичность машины.
+
+### Пример:
+``` javascript
+motor.periodicity = 100;
+```
 
 ## Принимаемые значения
 - `Motor.SR` (0): stator - rotor
@@ -10,7 +15,7 @@ The <b>`propertyName`</b> property defines the configuration type of the motor.
 `Number`
 
 ## Доступ
-`Чтение\Запись`
+`Только Чтение`
 
 ## Синтаксис
 ``` javascript

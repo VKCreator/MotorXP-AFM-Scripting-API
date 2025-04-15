@@ -1,20 +1,19 @@
-# <methodName(args)>
+# conductor()
 
 ## Описание
+Материал для проводника.
 
 ## Синтаксис
 ```javascript
-methodName(arg: any): string
+conductor() : MaterialConductor
 ``` 
 
-## Аргументы
-- `path` (строка, обязательно): Путь к файлу скрипта.
-
 ## Возвращаемое значение
-- `pathNew` (строка): Новый путь
+[`MaterialConductor`]()
 
 ## Пример
 ``` javascript linenums="1"
+let m = Material.conductor()
 ``` 
 
 !!! info "См. также"

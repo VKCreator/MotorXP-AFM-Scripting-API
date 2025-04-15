@@ -1,20 +1,23 @@
-# <methodName(args)>
+# custom()
 
 ## Описание
+Пользовательский материал с заданным цветом.
 
 ## Синтаксис
 ```javascript
-methodName(arg: any): string
+custom(color : Qt.color = Qt.red) : MaterialCustom
 ``` 
 
 ## Аргументы
-- `path` (строка, обязательно): Путь к файлу скрипта.
+- `color` ([Qt.color](), опционально): цвет материала.
 
 ## Возвращаемое значение
-- `pathNew` (строка): Новый путь
+[`MaterialCustom`]()
 
 ## Пример
 ``` javascript linenums="1"
+let m1 = Material.custom()
+let m2 = Material.custom(Qt.green)
 ``` 
 
 !!! info "См. также"

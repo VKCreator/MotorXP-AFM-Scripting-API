@@ -140,40 +140,12 @@ nav:
 
   - Built-in objects:
       - embeddedObjects/index.md
-      - console:
-          - embeddedObjects/console/index.md
-          - methods:
-              - embeddedObjects/console/methods/index.md
-              - embeddedObjects/console/methods/log.md
-              - embeddedObjects/console/methods/info.md
-              - embeddedObjects/console/methods/warn.md
-              - embeddedObjects/console/methods/error.md
-              - embeddedObjects/console/methods/clear.md
-              - embeddedObjects/console/methods/dir.md
-
-      - motor:
-          - embeddedObjects/motor/index.md
-          - constants: embeddedObjects/motor/сonstants.md
-          - properties:
-              - embeddedObjects/motor/props/index.md
-              - machineType: embeddedObjects/motor/props/machineType.md
-              - height: embeddedObjects/motor/props/height.md
-              - periodicity: embeddedObjects/motor/props/periodicity.md
-              - periodicityAngleSpan: embeddedObjects/motor/props/periodicityAngleSpan.md
-              - boundaryConditionMode: embeddedObjects/motor/props/boundaryConditionMode.md
-              - boundaryCondition: embeddedObjects/motor/props/boundaryCondition.md
-              - simDomain: embeddedObjects/motor/props/simDomain.md
-              - simRadialOuterDomain: embeddedObjects/motor/props/simRadialOuterDomain.md
-              - stator: embeddedObjects/motor/props/stator.md
-              - rotor: embeddedObjects/motor/props/rotor.md
-              - airgap: embeddedObjects/motor/props/airgap.md
-              - winding: embeddedObjects/motor/props/winding.md
-              - mesh: embeddedObjects/motor/props/mesh.md
-              #- analysis: embeddedObjects/motor/props/analysis.md
 
       - Math:
           - embeddedObjects/Math/index.md
-          - constants: embeddedObjects/Math/constants.md
+          - constants:
+            - embeddedObjects/Math/constants/index.md
+            - embeddedObjects/Math/constants/Epsilon.md
           - methods:
             - embeddedObjects/Math/methods/index.md
             - embeddedObjects/Math/methods/isEpsilon.md
@@ -259,21 +231,57 @@ nav:
           - embeddedObjects/Material/index.md
           - methods:
             - embeddedObjects/Material/methods/index.md
-            - empty: embeddedObjects/Materialmethods//empty.md
-            - general: embeddedObjects/Materialmethods//general.md
-            - iron: embeddedObjects/Materialmethods//iron.md
-            - conductor: embeddedObjects/Materialmethods//conductor.md
-            - winding: embeddedObjects/Materialmethods//winding.md
-            - endturn: embeddedObjects/Materialmethods//endturn.md
-            - magnetParallel: embeddedObjects/Materialmethods//magnetParallel.md
-            - magnetRadial: embeddedObjects/Materialmethods//magnetRadial.md
-            - custom: embeddedObjects/Materialmethods//custom.md
+            - empty: embeddedObjects/Material/methods/empty.md
+            - general: embeddedObjects/Material/methods/general.md
+            - iron: embeddedObjects/Material/methods/iron.md
+            - conductor: embeddedObjects/Material/methods/conductor.md
+            - winding: embeddedObjects/Material/methods/winding.md
+            - endturn: embeddedObjects/Material/methods/endturn.md
+            - magnetParallel: embeddedObjects/Material/methods/magnetParallel.md
+            - magnetRadial: embeddedObjects/Material/methods/magnetRadial.md
+            - custom: embeddedObjects/Material/methods/custom.md
 
       - QtWidgets:
           - embeddedObjects/QtWidgets/index.md
           - methods:
               - embeddedObjects/QtWidgets/methods/index.md
 
+      - console:
+          - embeddedObjects/console/index.md
+          - methods:
+              - embeddedObjects/console/methods/index.md
+              - embeddedObjects/console/methods/log.md
+              - embeddedObjects/console/methods/info.md
+              - embeddedObjects/console/methods/warn.md
+              - embeddedObjects/console/methods/error.md
+              - embeddedObjects/console/methods/clear.md
+              - embeddedObjects/console/methods/dir.md
+
+      - motor:
+          - embeddedObjects/motor/index.md
+          - constants: 
+            - embeddedObjects/motor/constants/index.md
+            - SR: embeddedObjects/motor/constants/SR.md
+            - SRS: embeddedObjects/motor/constants/SRS.md
+            - SRSRS: embeddedObjects/motor/constants/SRSRS.md
+            - RSR: embeddedObjects/motor/constants/RSR.md
+            - RSRSR: embeddedObjects/motor/constants/RSRSR.md
+          - properties:
+              - embeddedObjects/motor/props/index.md
+              - machineType: embeddedObjects/motor/props/machineType.md
+              #- height: embeddedObjects/motor/props/height.md
+              #- periodicity: embeddedObjects/motor/props/periodicity.md
+              #- periodicityAngleSpan: embeddedObjects/motor/props/periodicityAngleSpan.md
+              #- boundaryConditionMode: embeddedObjects/motor/props/boundaryConditionMode.md
+              #- boundaryCondition: embeddedObjects/motor/props/boundaryCondition.md
+              #- simDomain: embeddedObjects/motor/props/simDomain.md
+              #- simRadialOuterDomain: embeddedObjects/motor/props/simRadialOuterDomain.md
+              - stator: embeddedObjects/motor/props/stator.md
+              - rotor: embeddedObjects/motor/props/rotor.md
+              - airgap: embeddedObjects/motor/props/airgap.md
+              - winding: embeddedObjects/motor/props/winding.md
+              - mesh: embeddedObjects/motor/props/mesh.md
+              #- analysis: embeddedObjects/motor/props/analysis.md
 
   - Object Types:
       - types/index.md
@@ -424,15 +432,14 @@ nav:
             - types/SimDomain/methods/index.md
             - range: types/SimDomain/methods/range.md
 
-      - Material:
-          - types/Material/index.md
-          - Material: types/Material/Material.md
-          - GeneralMaterial: types/Material/GeneralMaterial.md
-          - IronMaterial: types/Material/IronMaterial.md
-          - WindingMaterial: types/Material/WindingMaterial.md
-          - EndturnMaterial: types/Material/EndturnMaterial.md
-          - MagnetRadialMaterial: types/Material/MagnetRadialMaterial.md
-          - MagnetParallelMaterial: types/Material/MagnetParallelMaterial.md
+      - Materials:
+          - types/Materials/index.md
+          - GeneralMaterial: types/Materials/GeneralMaterial.md
+          - IronMaterial: types/Materials/IronMaterial.md
+          - WindingMaterial: types/Materials/WindingMaterial.md
+          - EndturnMaterial: types/Materials/EndturnMaterial.md
+          - MagnetRadialMaterial: types/Materials/MagnetRadialMaterial.md
+          - MagnetParallelMaterial: types/Materials/MagnetParallelMaterial.md
 
 # Geometry types:
       - Point: types/Point.md

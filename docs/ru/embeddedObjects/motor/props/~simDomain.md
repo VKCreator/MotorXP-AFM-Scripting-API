@@ -1,4 +1,4 @@
-# stator
+# simDomain
 
 ## Описание
 The <b>`propertyName`</b> property defines the configuration type of the motor.
@@ -10,7 +10,7 @@ The <b>`propertyName`</b> property defines the configuration type of the motor.
 `Number`
 
 ## Доступ
-`Чтение\Запись`
+`Только Чтение`
 
 ## Синтаксис
 ``` javascript

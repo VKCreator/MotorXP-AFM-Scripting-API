@@ -1,24 +1,21 @@
 # magnetParallel()
 
 ## Описание
+Материал для магнита с параллельным намагничиванием.
 
 ## Синтаксис
 ```javascript
-methodName(arg: any): string
+magnetParallel() : MaterialMagnetParallel
 ``` 
 
-## Аргументы
-- `path` (строка, обязательно): Путь к файлу скрипта.
-
 ## Возвращаемое значение
-- `pathNew` (строка): Новый путь
+[`MaterialMagnetParallel`]()
 
 ## Пример
 ``` javascript linenums="1"
+let m = Material.magnetParallel()
 ``` 
 
 !!! info "См. также"
 
-    [](*.md)
-	
-	[](*.md)
+    [Material.magnetRadial()](magnetRadial.md)

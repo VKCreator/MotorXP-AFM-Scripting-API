@@ -43,7 +43,7 @@ pip install mkdocs-with-pdf
 
 ## Сборка документации
 Для сборки статических файлов документации выполните команду: 
-``` mkdocs build ```
+``` mkdocs build --site-dir ScriptAPI_manual```
 
-Собранные файлы будут сохранены в директории `site/`.
+Собранные файлы будут сохранены в директории `ScriptAPI_manual/`.
      

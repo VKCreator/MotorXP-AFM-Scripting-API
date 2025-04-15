@@ -61,15 +61,18 @@ plugins:
           nav_translations:
             Global methods: Глобальные функции
             Constants: Константы
-            Script static objects: Встроенные объекты
+            Embedded objects: Встроенные объекты
             Object Types: Типы объектов
             Affine transformations: Аффинные преобразования
             Materials: Материалы
             UI Widgets: UI-виджеты
+            methods: методы
+            properties: свойства
 
   - git-revision-date-localized:
         type: custom
-        custom_format: "%-d %B %Y %-H:%M"
+        custom_format: "%-d %B %Y, %-H:%M"
+        timezone: Asia/Yekaterinburg
   # - with-pdf
   - print-site:
         path_to_pdf: "document.pdf"
@@ -107,6 +110,7 @@ markdown_extensions:
           - overrides/.icons
 nav:
   - index.md
+
   - Global methods:
       - globalFuncs/index.md
       - include(): globalFuncs/include.md
@@ -122,265 +126,297 @@ nav:
       - Rotor : constants/Rotor.md
       - RotorItem : constants/RotorItem.md
       - Winding : constants/Winding.md
+      - Direction : constants/Direction.md
       - Coil : constants/Coil.md
       - Magnetization : constants/Magnetization.md
       - PoleArrangement : constants/PoleArrangement.md
       - Qt : constants/Qt.md
 
-  - Script static objects:
-      - objects/index.md
+  - Embedded objects:
+      - embeddedObjects/index.md
       - console:
-          - objects/console/index.md
+          - embeddedObjects/console/index.md
           - methods:
-              - objects/console/methods/index.md
-              - objects/console/methods/log.md
-              - objects/console/methods/info.md
-              - objects/console/methods/warn.md
-              - objects/console/methods/error.md
-              - objects/console/methods/clear.md
-              - objects/console/methods/dir.md
+              - embeddedObjects/console/methods/index.md
+              - embeddedObjects/console/methods/log.md
+              - embeddedObjects/console/methods/info.md
+              - embeddedObjects/console/methods/warn.md
+              - embeddedObjects/console/methods/error.md
+              - embeddedObjects/console/methods/clear.md
+              - embeddedObjects/console/methods/dir.md
 
       - motor:
-          - objects/motor/index.md
+          - embeddedObjects/motor/index.md
           - properties:
-              - objects/motor/props/index.md
-              - machineType: objects/motor/props/machineType.md
-              - objectName: objects/motor/props/objectName.md
-              - height: objects/motor/props/height.md
-              - periodicity: objects/motor/props/periodicity.md
-              - periodicityAngleSpan: objects/motor/props/periodicityAngleSpan.md
-              - boundaryConditionMode: objects/motor/props/boundaryConditionMode.md
-              - boundaryCondition: objects/motor/props/boundaryCondition.md
-              - simDomain: objects/motor/props/simDomain.md
-              - simRadialOuterDomain: objects/motor/props/simRadialOuterDomain.md
-              - stator: objects/motor/props/stator.md
-              - rotor: objects/motor/props/rotor.md
-              - winding: objects/motor/props/winding.md
-              - mesh: objects/motor/props/mesh.md
+              - embeddedObjects/motor/props/index.md
+              - machineType: embeddedObjects/motor/props/machineType.md
+              - height: embeddedObjects/motor/props/height.md
+              - periodicity: embeddedObjects/motor/props/periodicity.md
+              - periodicityAngleSpan: embeddedObjects/motor/props/periodicityAngleSpan.md
+              - boundaryConditionMode: embeddedObjects/motor/props/boundaryConditionMode.md
+              - boundaryCondition: embeddedObjects/motor/props/boundaryCondition.md
+              - simDomain: embeddedObjects/motor/props/simDomain.md
+              - simRadialOuterDomain: embeddedObjects/motor/props/simRadialOuterDomain.md
+              - stator: embeddedObjects/motor/props/stator.md
+              - rotor: embeddedObjects/motor/props/rotor.md
+              - airgap: embeddedObjects/motor/props/airgap.md
+              - winding: embeddedObjects/motor/props/winding.md
+              - mesh: embeddedObjects/motor/props/mesh.md
+              #- analysis: embeddedObjects/motor/props/analysis.md
 
-      - stator:
-          - objects/stator/index.md
-          - properties:
-              - objects/stator/props/index.md
-              - objectName: objects/stator/props/objectName.md
-              - outerDiameter: objects/stator/props/outerDiameter.md
-              - outerRadius: objects/stator/props/outerRadius.md
-              - innerDiameter: objects/stator/props/innerDiameter.md
-              - innerRadius: objects/stator/props/innerRadius.md
-              - numberSlots: objects/stator/props/numberSlots.md
-              - slotAngleSpan: objects/stator/props/slotAngleSpan.md
-              - typeMiddleItem: objects/stator/props/typeMiddleItem.md
-              - ironMaterial: objects/stator/props/ironMaterial.md
-              - ironStacking: objects/stator/props/ironStacking.md
-              - windingMaterial: objects/stator/props/windingMaterial.md
-              - windingTemperature: objects/stator/props/windingTemperature.md
-              - script: objects/stator/props/script.md
-              - nameScript: objects/stator/props/nameScript.md
-              - countItem: objects/stator/props/countItem.md
-              - items: objects/stator/props/items.md
-              - simDomain: objects/stator/props/simDomain.md
-              - simRadialOuterDomain: objects/stator/props/simRadialOuterDomain.md
+      - Math:
+          - embeddedObjects/Math/index.md
           - methods:
-              - objects/stator/methods/index.md
-              - item: objects/stator/methods/item.md
-              - isLower: objects/stator/methods/isLower.md
-              - isMiddle: objects/stator/methods/isMiddle.md
-              - isUpper: objects/stator/methods/isUpper.md
-              - itemAngularDisplacement: objects/stator/methods/itemAngularDisplacement.md
-              - setItemAngularDisplacement: objects/stator/methods/setItemAngularDisplacement.md
-
-      - statorItem:
-          - objects/statorItem/index.md
-          - properties:
-              - objects/statorItem/props/index.md
-              - objectName: objects/statorItem/props/objectName.md
-              - id: objects/statorItem/props/id.md
-              - height: objects/statorItem/props/height.md
-          - methods:
-              - objects/stator/statorItem/index.md
-              - isUpper: objects/statorItem/methods/isUpper.md
-              - isMiddle: objects/statorItem/methods/isMiddle.md
-              - isLower: objects/statorItem/methods/isLower.md
-              - angularDisplacement: objects/statorItem/methods/angularDisplacement.md
-              - setAngularDisplacement: objects/statorItem/methods/setAngularDisplacement.md
-
-      - rotor:
-          - objects/rotor/index.md
-          - properties:
-              - objects/rotor/props/index.md
-              - outerDiameter: objects/rotor/props/outerDiameter.md
-              - outerRadius: objects/rotor/props/outerRadius.md
-              - innerDiameter: objects/rotor/props/innerDiameter.md
-              - innerRadius: objects/rotor/props/innerRadius.md
-              - numberPolePairs: objects/rotor/props/numberPolePairs.md
-              - poleAngleSpan: objects/rotor/props/poleAngleSpan.md
-              - poleArrangement: objects/rotor/props/poleArrangement.md
-              - typeMiddleItem: objects/rotor/props/typeMiddleItem.md
-              - ironStacking: objects/rotor/props/ironStacking.md
-              - ironMaterial: objects/rotor/props/ironMaterial.md
-              - magnetTemperature: objects/rotor/props/magnetTemperature.md
-              - magnetMaterial: objects/rotor/props/magnetMaterial.md
-              - conductorTemperature: objects/rotor/props/conductorTemperature.md
-              - conductorMaterial: objects/rotor/props/conductorMaterial.md
-              - script: objects/rotor/props/script.md
-              - nameScript: objects/rotor/props/nameScript.md
-              - countItem: objects/rotor/props/countItem.md
-              - items: objects/rotor/props/items.md
-              - simDomain: objects/rotor/props/simDomain.md
-              - simRadialOuterDomain: objects/rotor/props/simRadialOuterDomain.md
-          - methods:
-              - objects/rotor/methods/index.md
-              - item: objects/rotor/methods/item.md
-              - isLower: objects/rotor/methods/isLower.md
-              - isMiddle: objects/rotor/methods/isMiddle.md
-              - isUpper: objects/rotor/methods/isUpper.md
-              - itemAngularDisplacement: objects/rotor/methods/itemAngularDisplacement.md
-              - setItemAngularDisplacement: objects/rotor/methods/setItemAngularDisplacement.md
-
-      - rotorItem:
-          - objects/rotorItem/index.md
-          - properties: 
-              - objects/rotorItem/props/index.md
-              - objectName: objects/rotorItem/props/objectName.md
-              - id: objects/rotorItem/props/id.md
-              - height: objects/rotorItem/props/height.md
-              - angularDisplacement: objects/rotorItem/props/angularDisplacement.md
-          - methods:
-            - objects/rotorItem/methods/index.md
-            - isUpper: objects/rotorItem/methods/isUpper.md
-            - isMiddle: objects/rotorItem/methods/isMiddle.md
-            - isLower: objects/rotorItem/methods/isLower.md
-            - angularDisplacement: objects/rotorItem/methods/angularDisplacement.md
-            - setAngularDisplacement: objects/rotorItem/methods/setAngularDisplacement.md
-
-      - coil:
-          - objects/coil/index.md
-
-      - winding:
-          - objects/winding/index.md
-          - properties: 
-            - objects/winding/props/index.md
-            - objectName: objects/winding/props/objectName.md
-            - circuit: objects/winding/props/circuit.md
-            - statorConnection: objects/winding/props/statorConnection.md
-            - parallelPaths: objects/winding/props/parallelPaths.md
-            - numberTurns: objects/winding/props/numberTurns.md
-            - strandsConductor: objects/winding/props/strandsConductor.md
-            - numberOuterSegments: objects/winding/props/numberOuterSegments.md
-            - type: objects/winding/props/type.md
-            - numberLayers: objects/winding/props/numberLayers.md
-            - layersOrientation: objects/winding/props/layersOrientation.md
-            - autoCalcOverhandEndturns: objects/winding/props/autoCalcOverhandEndturns.md
-            - radialOverhandOuterEndturn: objects/winding/props/radialOverhandOuterEndturn.md
-            - radialOverhandInnerEndturn: objects/winding/props/radialOverhandInnerEndturn.md
-            - heightOuterEndturn: objects/winding/props/heightOuterEndturn.md
-            - heightInnerEndturn: objects/winding/props/heightInnerEndturn.md
-          - methods:
-            - objects/winding/methods/index.md
-            - isPlanar: objects/winding/methods/isPlanar.md
-            - isToroidal: objects/winding/methods/isToroidal.md
-            - isSingleLayer: objects/winding/methods/isSingleLayer.md
-            - isDoubleLayer: objects/winding/methods/isDoubleLayer.md
-            - isOrientationUpperLower: objects/winding/methods/isOrientationUpperLower.md
-            - isOrientationLeftRight: objects/winding/methods/isOrientationLeftRight.md
-            - checkOverlapEndturns: objects/winding/methods/checkOverlapEndturns.md
-            - volumeOverlapEndturns: objects/winding/methods/volumeOverlapEndturns.md
-            - distanceBetweenEndturns: objects/winding/methods/distanceBetweenEndturns.md
-
-      - mesh:
-          - objects/mesh/index.md
-          - properties: 
-            - objects/mesh/props/index.md
-            - objectName: objects/mesh/props/objectName.md
-            - autoSizeBound: objects/mesh/props/autoSizeBound.md
-            - sizeBound: objects/mesh/props/sizeBound.md
-            - numberSlices: objects/mesh/props/numberSlices.md
-            - airgapQuality: objects/mesh/props/airgapQuality.md
-            - horizontalSymmetry: objects/mesh/props/horizontalSymmetry.md
-
-      - simDomain:
-          - objects/simDomain/index.md
-          - properties: 
-            - objects/simDomain/props/index.md
-            - inner: objects/simDomain/props/inner.md
-            - outer: objects/simDomain/props/outer.md
-          - methods:
-            - objects/simDomain/methods/index.md
-            - range: objects/simDomain/methods/range.md
+            - embeddedObjects/Math/methods/index.md
+            - embeddedObjects/Math/methods/isEpsilon.md
+            - fuzzyIsNull(устаревшее): embeddedObjects/Math/methods/fuzzyIsNull.md
+            - embeddedObjects/Math/methods/isEqual.md
+            - fuzzyIsEqual(устаревшее): embeddedObjects/Math/methods/fuzzyIsEqual.md
+            #- isLess: embeddedObjects/Math/methods/isLess.md
+            - embeddedObjects/Math/methods/isLessEqual.md
+            #- isGreat: embeddedObjects/Math/methods/isGreat.md
+            - embeddedObjects/Math/methods/isGreatEqual.md
+            - embeddedObjects/Math/methods/rad.md
+            - embeddedObjects/Math/methods/deg.md
+            - embeddedObjects/Math/methods/fromPolar.md
+            - embeddedObjects/Math/methods/normAngle.md
+            - embeddedObjects/Math/methods/middleAngle.md
 
       - Geom:
-          - objects/geom/index.md
+          - embeddedObjects/Geom/index.md
           - methods:
-            - objects/geom/methods/index.md
-            - fromPolar: objects/geom/methods/fromPolar.md
-            - angle: objects/geom/methods/angle.md
-            - angleX: objects/geom/methods/angleX.md
-            - angleY: objects/geom/methods/angleY.md
-            - angleZ: objects/geom/methods/angleZ.md
-            - vector3: objects/geom/methods/vector3.md
-            - point3: objects/geom/methods/point3.md
-            - segment: objects/geom/methods/segment.md
-            - polysegment: objects/geom/methods/polysegment.md
-            - bspline: objects/geom/methods/bspline.md
-            - arc: objects/geom/methods/arc.md
-            - circle: objects/geom/methods/circle.md
-            - ellipse: objects/geom/methods/ellipse.md
-            - ring: objects/geom/methods/ring.md
-            - ngon: objects/geom/methods/ngon.md
-            - square: objects/geom/methods/square.md
-            - rectangle: objects/geom/methods/rectangle.md
-            - polygon: objects/geom/methods/polygon.md
-            - infplane: objects/geom/methods/infplane.md
-            - box: objects/geom/methods/box.md
-            - cylinder: objects/geom/methods/cylinder.md
-            - collar: objects/geom/methods/collar.md
-            - cone: objects/geom/methods/cone.md
-            - sphere: objects/geom/methods/sphere.md
-            - torus: objects/geom/methods/torus.md
-            - unite: objects/geom/methods/unite.md
-            - difference: objects/geom/methods/difference.md
-            - intersect: objects/geom/methods/intersect.md
-            - fillet: objects/geom/methods/fillet.md
-            - chamfer: objects/geom/methods/chamfer.md
-            - unify: objects/geom/methods/unify.md
-            - length: objects/geom/methods/length.md
-            - area: objects/geom/methods/area.md
-            - volume: objects/geom/methods/volume.md
-            - center: objects/geom/methods/center.md
-            - boundingBox: objects/geom/methods/boundingBox.md
-            - piece: objects/geom/methods/piece.md
+            - embeddedObjects/Geom/methods/index.md
+            - angle: embeddedObjects/Geom/methods/angle.md
+            - angleX: embeddedObjects/Geom/methods/angleX.md
+            - angleY: embeddedObjects/Geom/methods/angleY.md
+            - angleZ: embeddedObjects/Geom/methods/angleZ.md
+            - angleBetweenVectors: embeddedObjects/Geom/methods/angleBetweenVectors.md
+            - radius: embeddedObjects/Geom/methods/radius.md
+            - radiusX: embeddedObjects/Geom/methods/radiusX.md
+            - radiusY: embeddedObjects/Geom/methods/radiusY.md
+            - radiusZ: embeddedObjects/Geom/methods/radiusZ.md
+            - vector3: embeddedObjects/Geom/methods/vector3.md
+            - point3: embeddedObjects/Geom/methods/point3.md
+            #2D
+            - segment: embeddedObjects/Geom/methods/segment.md
+            - polysegment: embeddedObjects/Geom/methods/polysegment.md
+            - bspline: embeddedObjects/Geom/methods/bspline.md
+            - arc: embeddedObjects/Geom/methods/arc.md
+            - circle: embeddedObjects/Geom/methods/circle.md
+            - ellipse: embeddedObjects/Geom/methods/ellipse.md
+            - ring: embeddedObjects/Geom/methods/ring.md
+            - ngon: embeddedObjects/Geom/methods/ngon.md
+            - square: embeddedObjects/Geom/methods/square.md
+            - rectangle: embeddedObjects/Geom/methods/rectangle.md
+            - polygon: embeddedObjects/Geom/methods/polygon.md
+            - infplane: embeddedObjects/Geom/methods/infplane.md
+#           - wire: embeddedObjects/Geom/methods/wire.md
+#	          - fill: embeddedObjects/Geom/methods/fill.md
+#	          - unify: embeddedObjects/Geom/methods/unify.md
 
-      - Extra 'Math':
-          - objects/math/index.md
-          - methods:
-            - fuzzyIsNull: objects/math/methods/fuzzyIsNull.md
-            - fuzzyIsEqual: objects/math/methods/fuzzyIsEqual.md
-            - rad: objects/math/methods/rad.md
-            - deg: objects/math/methods/deg.md
-            - fromPolar: objects/math/methods/fromPolar.md
-            - normAngle: objects/math/methods/normAngle.md
-            - middleAngle: objects/math/methods/middleAngle.md
+            #3D
+            - box: embeddedObjects/Geom/methods/box.md
+            - cylinder: embeddedObjects/Geom/methods/cylinder.md
+            - collar: embeddedObjects/Geom/methods/collar.md
+            - cone: embeddedObjects/Geom/methods/cone.md
+            - sphere: embeddedObjects/Geom/methods/sphere.md
+            - torus: embeddedObjects/Geom/methods/torus.md
+
+            #bool operations
+            - unite: embeddedObjects/Geom/methods/unite.md
+            - difference: embeddedObjects/Geom/methods/difference.md
+#            - diff: embeddedObjects/Geom/methods/diff.md
+            - intersect: embeddedObjects/Geom/methods/intersect.md
+            - section: embeddedObjects/Geom/methods/section.md
+
+            - fillet: embeddedObjects/Geom/methods/fillet.md
+#            - filletFace: embeddedObjects/Geom/methods/filletFace.md
+            - chamfer: embeddedObjects/Geom/methods/chamfer.md
+            - unify: embeddedObjects/Geom/methods/unify.md
+
+            - boundingBox: embeddedObjects/Geom/methods/boundingBox.md
+            - shape: embeddedObjects/Geom/methods/shape.md
+
+            - piece: embeddedObjects/Geom/methods/piece.md
+
+            - distance: embeddedObjects/Geom/methods/distance.md
+            - pointAtSegment: embeddedObjects/Geom/methods/pointAtSegment.md
+
+#            - length: embeddedObjects/Geom/methods/length.md
+#            - area: embeddedObjects/Geom/methods/area.md
+#            - volume: embeddedObjects/Geom/methods/volume.md
+#            - center: embeddedObjects/Geom/methods/center.md
 
   - Object Types:
       - types/index.md
+      - Stator:
+         - types/Stator/index.md
+         - properties:
+           - types/Stator/props/index.md
+           - objectName: types/Stator/props/objectName.md
+           - outerDiameter: types/Stator/props/outerDiameter.md
+           - outerRadius: types/Stator/props/outerRadius.md
+           - innerDiameter: types/Stator/props/innerDiameter.md
+           - innerRadius: types/Stator/props/innerRadius.md
+           - numberSlots: types/Stator/props/numberSlots.md
+           - slotAngleSpan: types/Stator/props/slotAngleSpan.md
+           - typeMiddleItem: types/Stator/props/typeMiddleItem.md
+           - ironMaterial: types/Stator/props/ironMaterial.md
+           - ironStacking: types/Stator/props/ironStacking.md
+           - windingMaterial: types/Stator/props/windingMaterial.md
+           - windingTemperature: types/Stator/props/windingTemperature.md
+           - script: types/Stator/props/script.md
+           - nameScript: types/Stator/props/nameScript.md
+           - countItem: types/Stator/props/countItem.md
+           - items: types/Stator/props/items.md
+           - simDomain: types/Stator/props/simDomain.md
+           - simRadialOuterDomain: types/Stator/props/simRadialOuterDomain.md
+         - methods:
+           - types/Stator/methods/index.md
+           - item: types/Stator/methods/item.md
+           - isLower: types/Stator/methods/isLower.md
+           - isMiddle: types/Stator/methods/isMiddle.md
+           - isUpper: types/Stator/methods/isUpper.md
+           - itemAngularDisplacement: types/Stator/methods/itemAngularDisplacement.md
+           - setItemAngularDisplacement: types/Stator/methods/setItemAngularDisplacement.md
+
+      - StatorItem:
+         - types/StatorItem/index.md
+         - properties:
+           - types/StatorItem/props/index.md
+           - objectName: types/StatorItem/props/objectName.md
+           - id: types/StatorItem/props/id.md
+           - height: types/StatorItem/props/height.md
+         - methods:
+           - types/Stator/statorItem/index.md
+           - isUpper: types/StatorItem/methods/isUpper.md
+           - isMiddle: types/StatorItem/methods/isMiddle.md
+           - isLower: types/StatorItem/methods/isLower.md
+           - angularDisplacement: types/StatorItem/methods/angularDisplacement.md
+           - setAngularDisplacement: types/StatorItem/methods/setAngularDisplacement.md
+
+      - Rotor:
+         - types/Rotor/index.md
+         - properties:
+           - types/Rotor/props/index.md
+           - outerDiameter: types/Rotor/props/outerDiameter.md
+           - outerRadius: types/Rotor/props/outerRadius.md
+           - innerDiameter: types/Rotor/props/innerDiameter.md
+           - innerRadius: types/Rotor/props/innerRadius.md
+           - numberPolePairs: types/Rotor/props/numberPolePairs.md
+           - poleAngleSpan: types/Rotor/props/poleAngleSpan.md
+           - poleArrangement: types/Rotor/props/poleArrangement.md
+           - typeMiddleItem: types/Rotor/props/typeMiddleItem.md
+           - ironStacking: types/Rotor/props/ironStacking.md
+           - ironMaterial: types/Rotor/props/ironMaterial.md
+           - magnetTemperature: types/Rotor/props/magnetTemperature.md
+           - magnetMaterial: types/Rotor/props/magnetMaterial.md
+           - conductorTemperature: types/Rotor/props/conductorTemperature.md
+           - conductorMaterial: types/Rotor/props/conductorMaterial.md
+           - script: types/Rotor/props/script.md
+           - nameScript: types/Rotor/props/nameScript.md
+           - countItem: types/Rotor/props/countItem.md
+           - items: types/Rotor/props/items.md
+           - simDomain: types/Rotor/props/simDomain.md
+           - simRadialOuterDomain: types/Rotor/props/simRadialOuterDomain.md
+         - methods:
+           - types/Rotor/methods/index.md
+           - item: types/Rotor/methods/item.md
+           - isLower: types/Rotor/methods/isLower.md
+           - isMiddle: types/Rotor/methods/isMiddle.md
+           - isUpper: types/Rotor/methods/isUpper.md
+           - itemAngularDisplacement: types/Rotor/methods/itemAngularDisplacement.md
+           - setItemAngularDisplacement: types/Rotor/methods/setItemAngularDisplacement.md
+
+      - RotorItem:
+          - types/RotorItem/index.md
+          - properties: 
+              - types/RotorItem/props/index.md
+              - id: types/RotorItem/props/id.md
+              - height: types/RotorItem/props/height.md
+              - angularDisplacement: types/RotorItem/props/angularDisplacement.md
+          - methods:
+            - types/RotorItem/methods/index.md
+            - isUpper: types/RotorItem/methods/isUpper.md
+            - isMiddle: types/RotorItem/methods/isMiddle.md
+            - isLower: types/RotorItem/methods/isLower.md
+            - angularDisplacement: types/RotorItem/methods/angularDisplacement.md
+            - setAngularDisplacement: types/RotorItem/methods/setAngularDisplacement.md
+
+#      - coil:
+#          - objects/coil/index.md
+
+      - Winding:
+          - types/Winding/index.md
+          - properties: 
+            - types/Winding/props/index.md
+            - objectName: types/Winding/props/objectName.md
+            - circuit: types/Winding/props/circuit.md
+            - statorConnection: types/Winding/props/statorConnection.md
+            - parallelPaths: types/Winding/props/parallelPaths.md
+            - numberTurns: types/Winding/props/numberTurns.md
+            - strandsConductor: types/Winding/props/strandsConductor.md
+            - numberOuterSegments: types/Winding/props/numberOuterSegments.md
+            - type: types/Winding/props/type.md
+            - numberLayers: types/Winding/props/numberLayers.md
+            - layersOrientation: types/Winding/props/layersOrientation.md
+            - autoCalcOverhandEndturns: types/Winding/props/autoCalcOverhandEndturns.md
+            - radialOverhandOuterEndturn: types/Winding/props/radialOverhandOuterEndturn.md
+            - radialOverhandInnerEndturn: types/Winding/props/radialOverhandInnerEndturn.md
+            - heightOuterEndturn: types/Winding/props/heightOuterEndturn.md
+            - heightInnerEndturn: types/Winding/props/heightInnerEndturn.md
+          - methods:
+            - types/Winding/methods/index.md
+            - isPlanar: types/Winding/methods/isPlanar.md
+            - isToroidal: types/Winding/methods/isToroidal.md
+            - isSingleLayer: types/Winding/methods/isSingleLayer.md
+            - isDoubleLayer: types/Winding/methods/isDoubleLayer.md
+            - isOrientationUpperLower: types/Winding/methods/isOrientationUpperLower.md
+            - isOrientationLeftRight: types/Winding/methods/isOrientationLeftRight.md
+            - checkOverlapEndturns: types/Winding/methods/checkOverlapEndturns.md
+            - volumeOverlapEndturns: types/Winding/methods/volumeOverlapEndturns.md
+            - distanceBetweenEndturns: types/Winding/methods/distanceBetweenEndturns.md
+
+      - Mesh:
+          - types/Mesh/index.md
+          - properties: 
+            - types/Mesh/props/index.md
+            - objectName: types/Mesh/props/objectName.md
+            - autoSizeBound: types/Mesh/props/autoSizeBound.md
+            - sizeBound: types/Mesh/props/sizeBound.md
+            - numberSlices: types/Mesh/props/numberSlices.md
+            - airgapQuality: types/Mesh/props/airgapQuality.md
+            - horizontalSymmetry: types/Mesh/props/horizontalSymmetry.md
+
+      - SimDomain:
+          - types/SimDomain/index.md
+          - properties: 
+            - types/SimDomain/props/index.md
+            - inner: types/SimDomain/props/inner.md
+            - outer: types/SimDomain/props/outer.md
+          - methods:
+            - types/SimDomain/methods/index.md
+            - range: types/SimDomain/methods/range.md
+
+      - Material:
+          - types/Material/index.md
+          - Material: types/Material/Material.md
+          - GeneralMaterial: types/Material/GeneralMaterial.md
+          - IronMaterial: types/Material/IronMaterial.md
+          - WindingMaterial: types/Material/WindingMaterial.md
+          - EndturnMaterial: types/Material/EndturnMaterial.md
+          - MagnetRadialMaterial: types/Material/MagnetRadialMaterial.md
+          - MagnetParallelMaterial: types/Material/MagnetParallelMaterial.md
+
+# Geometry types:
       - Point: types/Point.md
       - Point3: types/Point3.md
       - Vector3: types/Vector3.md
 
-  - Affine transformations:  
-      - objects/affine/index.md
-      - methods:
-        - translate: objects/affine/translate.md
+      - Shape: types/Shape.md
+      - BoundingBox: types/BoundingBox.md
 
-  - Materials:
-      - materials/index.md
-      - Material: materials/Material.md
-      - GeneralMaterial: materials/GeneralMaterial.md
-      - IronMaterial: materials/IronMaterial.md
-      - WindingMaterial: materials/WindingMaterial.md
-      - EndturnMaterial: materials/EndturnMaterial.md
-      - MagnetRadialMaterial: materials/MagnetRadialMaterial.md
-      - MagnetParallelMaterial: materials/MagnetParallelMaterial.md
+      - Piece: types/Piece.md
 
   - UI Widgets:
       - widgets/index.md

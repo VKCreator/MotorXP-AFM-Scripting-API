@@ -17,6 +17,10 @@
     margin-left: 0.7rem;
 }
 
+.md-typeset h1 {
+    font-weight: 400;
+    /* color: brown; */
+}
 /*.required-tag {
 	background-color: blue;
 }*/

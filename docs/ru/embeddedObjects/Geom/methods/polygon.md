@@ -5,14 +5,14 @@
 
 ## Синтаксис
 ```javascript
-polygon(arguments) : returnType
+polygon(argument: type) : returnType
 ```
 
 ## Аргументы
 - `argument` (type, обязательно): описание аргумента.
 
 ## Возвращаемое значение
-- `returnType`: описание возвращаемого значения.
+`returnType`: описание возвращаемого значения.
 
 ## Пример
 ```javascript linenums="1"

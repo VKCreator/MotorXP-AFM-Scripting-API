@@ -1,11 +1,11 @@
-# fromPolar
+# fromPolar()
 
 ## Описание
-Перевод координат точки из полярных координат (radius, angle) в декартовые координаты (x, y).
+Перевод координат точки из полярных координат `(radius, angle)` в декартовые координаты `(x, y)`.
 
 ## Синтаксис
 ```javascript
-fromPolar(radius : number, angle : number): Point
+fromPolar(radius : number, angle : number) : Point
 ``` 
 
 ## Аргументы
@@ -13,13 +13,10 @@ fromPolar(radius : number, angle : number): Point
 - `angle` (number, обязательно): угол в градусах.
 
 ## Возвращаемое значение
-- `Point`: точка в декартовых координатах
+- `Point`: точка в декартовых координатах.
 
 ## Пример
 ``` javascript linenums="1"
 let p = Math.fromPolar(100, 90)
-concole.info(p)
-``` 
-
-!!! info "См. также"
-[](*.md)
+console.info(p)
+```

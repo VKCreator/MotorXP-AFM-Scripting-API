@@ -1,19 +1,19 @@
-# isEpsilon
+# isEpsilon()
 
 ## Описание
-Возвращает `true`, если абсолютное значение arg меньше или равно eps.
+Возвращает `true`, если абсолютное значение `arg` меньше или равно `eps`.
 
 ## Синтаксис
 ```javascript
-isEpsilon(arg: number, eps: number = Math.Epsilon): bool
+isEpsilon(arg : number, eps : number = Math.Epsilon) : bool
 ``` 
 
 ## Аргументы
-- `arg` (number, обязательно): Значение.
-- `eps` (number, опционально): Значение точности, по умолчанию равно `Math.Epsilon`.
+- `arg` (number, обязательно): значение.
+- `eps` (number, опционально): значение точности, по умолчанию равно `Math.Epsilon`.
 
 ## Возвращаемое значение
-- `bool`: Результат
+- `bool`: результат.
 
 ## Пример
 ``` javascript linenums="1"
@@ -22,9 +22,9 @@ let b = Math.isEpsilon(0.0001)
 
 !!! info "См. также"
 
-    [Math.isEqual](isEqual.md)
+    [Math.isEqual()](isEqual.md)
 
-    [Math.isLessEqual](isLessEqual.md)
+    [Math.isLessEqual()](isLessEqual.md)
 
-    [Math.isGreatEqual](isGreatEqual.md)
+    [Math.isGreatEqual()](isGreatEqual.md)
     

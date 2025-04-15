@@ -66,8 +66,8 @@ plugins:
             Affine transformations: Аффинные преобразования
             Materials: Материалы
             UI Widgets: UI-виджеты
-            methods: методы
-            properties: свойства
+            methods: Методы
+            properties: Свойства
 
   - git-revision-date-localized:
         type: custom
@@ -100,6 +100,11 @@ markdown_extensions:
   - pymdownx.inlinehilite
   - pymdownx.snippets
   - pymdownx.superfences
+  - pymdownx.critic
+  - pymdownx.caret
+  - pymdownx.keys
+  - pymdownx.mark
+  - pymdownx.tilde
   - admonition
   - pymdownx.details
   - toc:
@@ -169,9 +174,9 @@ nav:
           - methods:
             - embeddedObjects/Math/methods/index.md
             - embeddedObjects/Math/methods/isEpsilon.md
-            - fuzzyIsNull(устаревшее): embeddedObjects/Math/methods/fuzzyIsNull.md
+            #- fuzzyIsNull(устаревшее): embeddedObjects/Math/methods/fuzzyIsNull.md
             - embeddedObjects/Math/methods/isEqual.md
-            - fuzzyIsEqual(устаревшее): embeddedObjects/Math/methods/fuzzyIsEqual.md
+            #- fuzzyIsEqual(устаревшее): embeddedObjects/Math/methods/fuzzyIsEqual.md
             #- isLess: embeddedObjects/Math/methods/isLess.md
             - embeddedObjects/Math/methods/isLessEqual.md
             #- isGreat: embeddedObjects/Math/methods/isGreat.md

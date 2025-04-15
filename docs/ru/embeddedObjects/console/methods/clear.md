@@ -13,5 +13,5 @@ console.clear()
 
 ## Пример
 ``` javascript linenums="1"
-// Single argument
 console.clear()
+```

@@ -1,29 +1,29 @@
-# normAngle
+# normAngle()
 
 ## Описание
-Нормализирует значение угла, возвращает значение в интервале [0, 360] градусов.
+Нормализирует значение угла, возвращает значение в интервале (0°, 360°) градусов.
 
 ## Синтаксис
 ```javascript
-normAngle(a: number): number
+normAngle(a : number) : number
 ``` 
 
 ## Аргументы
-- `a` (number, обязательно): Значение угла в градусах.
+- `a` (number, обязательно): значение угла в градусах.
 
 ## Возвращаемое значение
-- `number`: Значение угла в интервале [0, 360] градусов
+- `number`: значение угла в интервале (0°, 360°).
 
 ## Пример
 ``` javascript linenums="1"
-let na = Math.normAngle(3600)
-console.info(na)
+let nAngle = Math.normAngle(3600)
+console.info(nAngle)
 ``` 
 
 !!! info "См. также"
 
-    [rad](rad.md)
+    [Math.rad()](rad.md)
 
-    [deg](deg.md)
+    [Math.deg()](deg.md)
 
-    [middleAngle](middleAngle.md)
+    [Math.middleAngle()](middleAngle.md)

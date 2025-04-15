@@ -1,30 +1,30 @@
-# rad
+# rad()
 
 ## Описание
-Перевод градусов в радианы
+Перевод градусов в радианы.
 
 ## Синтаксис
 ```javascript
-rad(degrees: number): number
+rad(degrees : number): number
 ``` 
 
 ## Аргументы
-- `degrees` (number, обязательно): Значение угла в градусах.
+- `degrees` (number, обязательно): значение угла в градусах.
 
 ## Возвращаемое значение
-- `number`: Значение угла в радианах
+- `number`: значение угла в радианах.
 
 ## Пример
 ``` javascript linenums="1"
 let radians = Math.rad(180)
-console.info("180°=", radians);
+console.info("180°=", radians)
 ``` 
 
 !!! info "См. также"
 
-    [Math.deg](deg.md)
+    [Math.deg()](deg.md)
 
-    [normAngle](normAngle.md)
+    [normAngle()](normAngle.md)
     
-    [middleAngle](middleAngle.md)
+    [middleAngle()](middleAngle.md)
 

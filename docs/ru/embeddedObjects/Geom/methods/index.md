@@ -1,12 +1,29 @@
-# Методы объекта Geom
-Ниже приведен список доступных методов, предоставляемых объектом `Geom`. Щелкните имя метода, чтобы увидеть его подробное описание и примеры.
+# index()
 
-- [`Math.deg()`](deg.md): Перевод радиан в градусы.
-- [`Math.rad()`](rad.md): Перевод градусов в радианы.
-- [`Math.fromPolar()`](fromPolar.md): Перевод координат точки из полярных координат (radius, angle) в декартовые координаты (x, y).
-- [`Math.normAngle()`](normAngle.md): Нормализирует значение угла, возвращает значение угла в интервале [0, 360] градусов.
-- [`Math.middleAngle()`](middleAngle.md): Расчет среднего угла между углами a1 и a2 с учетом направления.
-- [`Math.isEpsilon()`](isEpsilon.md): Возвращает true если абсолютное значение arg меньше или равно eps.
-- [`Math.isEqual()`](isEqual.md): Возвращает true если разница абсолютных значений arg1 и arg2 меньше или равно eps.
-- [`Math.isLessEqual()`](isLessEqual.md): Возвращает true если значение arg1 меньше или равно значению arg2 с учетом точности eps.
-- [`Math.isGreatEqual()`](isGreatEqual.md): Возвращает true если значение arg1 больше или равно значению arg2 с учетом точности eps.
+## Описание
+Описание метода.
+
+## Синтаксис
+```javascript
+index(argument: type) : returnType
+```
+
+## Аргументы
+- `argument` (type, обязательно): описание аргумента.
+
+## Возвращаемое значение
+`returnType`: описание возвращаемого значения.
+
+## Пример
+```javascript linenums="1"
+let result = index(value);
+console.info(result);
+```
+
+!!! info "См. также"
+
+    [Math.rad()](rad.md)
+
+    [Math.normAngle()](normAngle.md)
+
+    [Math.middleAngle()](middleAngle.md)

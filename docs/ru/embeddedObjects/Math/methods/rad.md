@@ -9,10 +9,10 @@ rad(degrees : number): number
 ``` 
 
 ## Аргументы
-- `degrees` (number, обязательно): значение угла в градусах.
+`degrees` (number, обязательно): значение угла в градусах.
 
 ## Возвращаемое значение
-- `number`: значение угла в радианах.
+`number`: значение угла в радианах.
 
 ## Пример
 ``` javascript linenums="1"
@@ -24,7 +24,7 @@ console.info("180°=", radians)
 
     [Math.deg()](deg.md)
 
-    [normAngle()](normAngle.md)
+    [Math.normAngle()](normAngle.md)
     
-    [middleAngle()](middleAngle.md)
+    [Math.middleAngle()](middleAngle.md)
 

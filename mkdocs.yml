@@ -147,6 +147,7 @@ nav:
 
       - motor:
           - embeddedObjects/motor/index.md
+          - constants: embeddedObjects/motor/Constants.md
           - properties:
               - embeddedObjects/motor/props/index.md
               - machineType: embeddedObjects/motor/props/machineType.md
@@ -166,6 +167,7 @@ nav:
 
       - Math:
           - embeddedObjects/Math/index.md
+          - constants: embeddedObjects/Math/constants.md
           - methods:
             - embeddedObjects/Math/methods/index.md
             - embeddedObjects/Math/methods/isEpsilon.md
@@ -210,9 +212,9 @@ nav:
             - rectangle: embeddedObjects/Geom/methods/rectangle.md
             - polygon: embeddedObjects/Geom/methods/polygon.md
             - infplane: embeddedObjects/Geom/methods/infplane.md
-#           - wire: embeddedObjects/Geom/methods/wire.md
-#	          - fill: embeddedObjects/Geom/methods/fill.md
-#	          - unify: embeddedObjects/Geom/methods/unify.md
+            #wire: embeddedObjects/Geom/methods/wire.md
+            #fill: embeddedObjects/Geom/methods/fill.md
+            #unify: embeddedObjects/Geom/methods/unify.md
 
             #3D
             - box: embeddedObjects/Geom/methods/box.md
@@ -225,12 +227,12 @@ nav:
             #bool operations
             - unite: embeddedObjects/Geom/methods/unite.md
             - difference: embeddedObjects/Geom/methods/difference.md
-#            - diff: embeddedObjects/Geom/methods/diff.md
+            - diff: embeddedObjects/Geom/methods/diff.md
             - intersect: embeddedObjects/Geom/methods/intersect.md
             - section: embeddedObjects/Geom/methods/section.md
 
             - fillet: embeddedObjects/Geom/methods/fillet.md
-#            - filletFace: embeddedObjects/Geom/methods/filletFace.md
+            - filletFace: embeddedObjects/Geom/methods/filletFace.md
             - chamfer: embeddedObjects/Geom/methods/chamfer.md
             - unify: embeddedObjects/Geom/methods/unify.md
 
@@ -242,18 +244,36 @@ nav:
             - distance: embeddedObjects/Geom/methods/distance.md
             - pointAtSegment: embeddedObjects/Geom/methods/pointAtSegment.md
 
-#            - length: embeddedObjects/Geom/methods/length.md
-#            - area: embeddedObjects/Geom/methods/area.md
-#            - volume: embeddedObjects/Geom/methods/volume.md
-#            - center: embeddedObjects/Geom/methods/center.md
+            #length: embeddedObjects/Geom/methods/length.md
+            #area: embeddedObjects/Geom/methods/area.md
+            #volume: embeddedObjects/Geom/methods/volume.md
+            #center: embeddedObjects/Geom/methods/center.md
+
+      - Material:
+          - embeddedObjects/Material/index.md
+          - methods:
+            - embeddedObjects/Material/methods/index.md
+            - empty: embeddedObjects/Materialmethods//empty.md
+            - general: embeddedObjects/Materialmethods//general.md
+            - iron: embeddedObjects/Materialmethods//iron.md
+            - conductor: embeddedObjects/Materialmethods//conductor.md
+            - winding: embeddedObjects/Materialmethods//winding.md
+            - endturn: embeddedObjects/Materialmethods//endturn.md
+            - magnetParallel: embeddedObjects/Materialmethods//magnetParallel.md
+            - magnetRadial: embeddedObjects/Materialmethods//magnetRadial.md
+            - custom: embeddedObjects/Materialmethods//custom.md
+
+      - QtWidgets:
+          - embeddedObjects/QtWidgets/index.md
+          - methods:
 
   - Object Types:
       - types/index.md
       - Stator:
          - types/Stator/index.md
+         - constants: types/Stator/constants.md
          - properties:
            - types/Stator/props/index.md
-           - objectName: types/Stator/props/objectName.md
            - outerDiameter: types/Stator/props/outerDiameter.md
            - outerRadius: types/Stator/props/outerRadius.md
            - innerDiameter: types/Stator/props/innerDiameter.md
@@ -282,9 +302,9 @@ nav:
 
       - StatorItem:
          - types/StatorItem/index.md
+         - constants: types/StatorItem/constants.md
          - properties:
            - types/StatorItem/props/index.md
-           - objectName: types/StatorItem/props/objectName.md
            - id: types/StatorItem/props/id.md
            - height: types/StatorItem/props/height.md
          - methods:
@@ -297,6 +317,7 @@ nav:
 
       - Rotor:
          - types/Rotor/index.md
+         - constants: types/Rotor/constants.md
          - properties:
            - types/Rotor/props/index.md
            - outerDiameter: types/Rotor/props/outerDiameter.md
@@ -330,6 +351,7 @@ nav:
 
       - RotorItem:
           - types/RotorItem/index.md
+          - constants: types/RotorItem/constants.md
           - properties: 
               - types/RotorItem/props/index.md
               - id: types/RotorItem/props/id.md
@@ -348,9 +370,9 @@ nav:
 
       - Winding:
           - types/Winding/index.md
+          - constants: types/Windingconstants.md
           - properties: 
             - types/Winding/props/index.md
-            - objectName: types/Winding/props/objectName.md
             - circuit: types/Winding/props/circuit.md
             - statorConnection: types/Winding/props/statorConnection.md
             - parallelPaths: types/Winding/props/parallelPaths.md
@@ -381,7 +403,6 @@ nav:
           - types/Mesh/index.md
           - properties: 
             - types/Mesh/props/index.md
-            - objectName: types/Mesh/props/objectName.md
             - autoSizeBound: types/Mesh/props/autoSizeBound.md
             - sizeBound: types/Mesh/props/sizeBound.md
             - numberSlices: types/Mesh/props/numberSlices.md
@@ -418,15 +439,15 @@ nav:
 
       - Piece: types/Piece.md
 
-  - UI Widgets:
-      - widgets/index.md
-      - QGridLayout: widgets/QGridLayout.md
-      - NumberEdit: widgets/NumberEdit.md
-      - NumberSlotSpinBox: widgets/NumberSlotSpinBox.md
-      - StatorTypeComboBox: widgets/StatorTypeComboBox.md
-      - WindingLayersComboBox: widgets/WindingLayersComboBox.md
-      - WindingLayersOrientationComboBox: widgets/WindingLayersOrientationComboBox.md
-      - WindingTypeComboBox: widgets/WindingTypeComboBox.md
-      - PoleArrangementComboBox: widgets/PoleArrangementComboBox.md
-      - StatorConnectionComboBox: widgets/StatorConnectionComboBox.md
-      - RotorConnectionComboBox: widgets/RotorConnectionComboBox.md
+      - UI Widgets:
+        - widgets/index.md
+        - QGridLayout: widgets/QGridLayout.md
+        - NumberEdit: widgets/NumberEdit.md
+        - NumberSlotSpinBox: widgets/NumberSlotSpinBox.md
+        - StatorTypeComboBox: widgets/StatorTypeComboBox.md
+        - WindingLayersComboBox: widgets/WindingLayersComboBox.md
+        - WindingLayersOrientationComboBox: widgets/WindingLayersOrientationComboBox.md
+        - WindingTypeComboBox: widgets/WindingTypeComboBox.md
+        - PoleArrangementComboBox: widgets/PoleArrangementComboBox.md
+        - StatorConnectionComboBox: widgets/StatorConnectionComboBox.md
+        - RotorConnectionComboBox: widgets/RotorConnectionComboBox.md

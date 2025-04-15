@@ -61,11 +61,12 @@ plugins:
           nav_translations:
             Global methods: Глобальные функции
             Constants: Константы
-            Embedded objects: Встроенные объекты
+            Built-in objects: Встроенные объекты
             Object Types: Типы объектов
             Affine transformations: Аффинные преобразования
             Materials: Материалы
             UI Widgets: UI-виджеты
+            constants: константы
             methods: методы
             properties: свойства
 
@@ -132,7 +133,7 @@ nav:
       - PoleArrangement : constants/PoleArrangement.md
       - Qt : constants/Qt.md
 
-  - Embedded objects:
+  - Built-in objects:
       - embeddedObjects/index.md
       - console:
           - embeddedObjects/console/index.md
@@ -147,7 +148,7 @@ nav:
 
       - motor:
           - embeddedObjects/motor/index.md
-          - constants: embeddedObjects/motor/Constants.md
+          - constants: embeddedObjects/motor/сonstants.md
           - properties:
               - embeddedObjects/motor/props/index.md
               - machineType: embeddedObjects/motor/props/machineType.md
@@ -266,6 +267,8 @@ nav:
       - QtWidgets:
           - embeddedObjects/QtWidgets/index.md
           - methods:
+              - embeddedObjects/QtWidgets/methods/index.md
+
 
   - Object Types:
       - types/index.md
@@ -364,9 +367,6 @@ nav:
             - isLower: types/RotorItem/methods/isLower.md
             - angularDisplacement: types/RotorItem/methods/angularDisplacement.md
             - setAngularDisplacement: types/RotorItem/methods/setAngularDisplacement.md
-
-#      - coil:
-#          - objects/coil/index.md
 
       - Winding:
           - types/Winding/index.md

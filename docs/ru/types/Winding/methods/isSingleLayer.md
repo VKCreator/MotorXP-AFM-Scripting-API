@@ -16,8 +16,8 @@ isSingleLayer(argument: type) : returnType
 
 ## Пример
 ```javascript linenums="1"
-let result = isSingleLayer(value);
-console.info(result);
+let result = isSingleLayer(value)
+console.info(result)
 ```
 
 !!! info "См. также"

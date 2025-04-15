@@ -16,8 +16,8 @@ isOrientationLeftRight(argument: type) : returnType
 
 ## Пример
 ```javascript linenums="1"
-let result = isOrientationLeftRight(value);
-console.info(result);
+let result = isOrientationLeftRight(value)
+console.info(result)
 ```
 
 !!! info "См. также"

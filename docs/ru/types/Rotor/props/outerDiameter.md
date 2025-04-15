@@ -1,23 +1,26 @@
-# outerDiameter()
+# outerDiameter
 
 ## Описание
-Описание метода.
+The `outerDiameter` property...
+
+## Принимаемые значения:
+...
+
+## Тип значения свойства
+`Number`
+
+## Доступ
+`Чтение\Запись`
 
 ## Синтаксис
 ```javascript
-outerDiameter(argument: type) : returnType
+outerDiameter = value
 ```
-
-## Аргументы
-- `argument` (type, обязательно): описание аргумента.
-
-## Возвращаемое значение
-`returnType`: описание возвращаемого значения.
 
 ## Пример
 ```javascript linenums="1"
-let result = outerDiameter(value);
-console.info(result);
+let result = motor.outerDiameter
+console.info(result)
 ```
 
 !!! info "См. также"

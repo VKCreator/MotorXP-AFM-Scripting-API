@@ -16,8 +16,8 @@ itemAngularDisplacement(argument: type) : returnType
 
 ## Пример
 ```javascript linenums="1"
-let result = itemAngularDisplacement(value);
-console.info(result);
+let result = itemAngularDisplacement(value)
+console.info(result)
 ```
 
 !!! info "См. также"

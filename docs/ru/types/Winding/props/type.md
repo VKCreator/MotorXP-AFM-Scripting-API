@@ -1,23 +1,26 @@
-# type()
+# type
 
 ## Описание
-Описание метода.
+The `type` property...
+
+## Принимаемые значения:
+...
+
+## Тип значения свойства
+`Number`
+
+## Доступ
+`Чтение\Запись`
 
 ## Синтаксис
 ```javascript
-type(argument: type) : returnType
+type = value
 ```
-
-## Аргументы
-- `argument` (type, обязательно): описание аргумента.
-
-## Возвращаемое значение
-`returnType`: описание возвращаемого значения.
 
 ## Пример
 ```javascript linenums="1"
-let result = type(value);
-console.info(result);
+let result = motor.type
+console.info(result)
 ```
 
 !!! info "См. также"

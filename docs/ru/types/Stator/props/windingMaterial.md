@@ -1,23 +1,26 @@
-# windingMaterial()
+# windingMaterial
 
 ## Описание
-Описание метода.
+The `windingMaterial` property...
+
+## Принимаемые значения:
+...
+
+## Тип значения свойства
+`Number`
+
+## Доступ
+`Чтение\Запись`
 
 ## Синтаксис
 ```javascript
-windingMaterial(argument: type) : returnType
+windingMaterial = value
 ```
-
-## Аргументы
-- `argument` (type, обязательно): описание аргумента.
-
-## Возвращаемое значение
-`returnType`: описание возвращаемого значения.
 
 ## Пример
 ```javascript linenums="1"
-let result = windingMaterial(value);
-console.info(result);
+let result = motor.windingMaterial
+console.info(result)
 ```
 
 !!! info "См. также"

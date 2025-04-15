@@ -1,23 +1,26 @@
-# magnetTemperature()
+# magnetTemperature
 
 ## Описание
-Описание метода.
+The `magnetTemperature` property...
+
+## Принимаемые значения:
+...
+
+## Тип значения свойства
+`Number`
+
+## Доступ
+`Чтение\Запись`
 
 ## Синтаксис
 ```javascript
-magnetTemperature(argument: type) : returnType
+magnetTemperature = value
 ```
-
-## Аргументы
-- `argument` (type, обязательно): описание аргумента.
-
-## Возвращаемое значение
-`returnType`: описание возвращаемого значения.
 
 ## Пример
 ```javascript linenums="1"
-let result = magnetTemperature(value);
-console.info(result);
+let result = motor.magnetTemperature
+console.info(result)
 ```
 
 !!! info "См. также"

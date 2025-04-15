@@ -1,23 +1,26 @@
-# height()
+# height
 
 ## Описание
-Описание метода.
+The `height` property...
+
+## Принимаемые значения:
+...
+
+## Тип значения свойства
+`Number`
+
+## Доступ
+`Чтение\Запись`
 
 ## Синтаксис
 ```javascript
-height(argument: type) : returnType
+height = value
 ```
-
-## Аргументы
-- `argument` (type, обязательно): описание аргумента.
-
-## Возвращаемое значение
-`returnType`: описание возвращаемого значения.
 
 ## Пример
 ```javascript linenums="1"
-let result = height(value);
-console.info(result);
+let result = motor.height
+console.info(result)
 ```
 
 !!! info "См. также"

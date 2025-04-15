@@ -1,23 +1,26 @@
-# inner()
+# inner
 
 ## Описание
-Описание метода.
+The `inner` property...
+
+## Принимаемые значения:
+...
+
+## Тип значения свойства
+`Number`
+
+## Доступ
+`Чтение\Запись`
 
 ## Синтаксис
 ```javascript
-inner(argument: type) : returnType
+inner = value
 ```
-
-## Аргументы
-- `argument` (type, обязательно): описание аргумента.
-
-## Возвращаемое значение
-`returnType`: описание возвращаемого значения.
 
 ## Пример
 ```javascript linenums="1"
-let result = inner(value);
-console.info(result);
+let result = motor.inner
+console.info(result)
 ```
 
 !!! info "См. также"

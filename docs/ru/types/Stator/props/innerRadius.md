@@ -1,23 +1,26 @@
-# innerRadius()
+# innerRadius
 
 ## Описание
-Описание метода.
+The `innerRadius` property...
+
+## Принимаемые значения:
+...
+
+## Тип значения свойства
+`Number`
+
+## Доступ
+`Чтение\Запись`
 
 ## Синтаксис
 ```javascript
-innerRadius(argument: type) : returnType
+innerRadius = value
 ```
-
-## Аргументы
-- `argument` (type, обязательно): описание аргумента.
-
-## Возвращаемое значение
-`returnType`: описание возвращаемого значения.
 
 ## Пример
 ```javascript linenums="1"
-let result = innerRadius(value);
-console.info(result);
+let result = motor.innerRadius
+console.info(result)
 ```
 
 !!! info "См. также"

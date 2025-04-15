@@ -16,14 +16,11 @@ angleZ(argument: type) : returnType
 
 ## Пример
 ```javascript linenums="1"
-let result = angleZ(value);
-console.info(result);
+let result = angleZ(value)
+console.info(result)
 ```
 
 !!! info "См. также"
 
-    [Math.rad()](rad.md)
+    []()
 
-    [Math.normAngle()](normAngle.md)
-
-    [Math.middleAngle()](middleAngle.md)

@@ -16,8 +16,8 @@ range(argument: type) : returnType
 
 ## Пример
 ```javascript linenums="1"
-let result = range(value);
-console.info(result);
+let result = range(value)
+console.info(result)
 ```
 
 !!! info "См. также"

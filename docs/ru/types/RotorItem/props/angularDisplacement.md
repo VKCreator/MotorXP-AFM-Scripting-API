@@ -1,23 +1,26 @@
-# angularDisplacement()
+# angularDisplacement
 
 ## Описание
-Описание метода.
+The `angularDisplacement` property...
+
+## Принимаемые значения:
+...
+
+## Тип значения свойства
+`Number`
+
+## Доступ
+`Чтение\Запись`
 
 ## Синтаксис
 ```javascript
-angularDisplacement(argument: type) : returnType
+angularDisplacement = value
 ```
-
-## Аргументы
-- `argument` (type, обязательно): описание аргумента.
-
-## Возвращаемое значение
-`returnType`: описание возвращаемого значения.
 
 ## Пример
 ```javascript linenums="1"
-let result = angularDisplacement(value);
-console.info(result);
+let result = motor.angularDisplacement
+console.info(result)
 ```
 
 !!! info "См. также"

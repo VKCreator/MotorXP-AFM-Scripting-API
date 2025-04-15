@@ -1,23 +1,26 @@
-# circuit()
+# circuit
 
 ## Описание
-Описание метода.
+The `circuit` property...
+
+## Принимаемые значения:
+...
+
+## Тип значения свойства
+`Number`
+
+## Доступ
+`Чтение\Запись`
 
 ## Синтаксис
 ```javascript
-circuit(argument: type) : returnType
+circuit = value
 ```
-
-## Аргументы
-- `argument` (type, обязательно): описание аргумента.
-
-## Возвращаемое значение
-`returnType`: описание возвращаемого значения.
 
 ## Пример
 ```javascript linenums="1"
-let result = circuit(value);
-console.info(result);
+let result = motor.circuit
+console.info(result)
 ```
 
 !!! info "См. также"

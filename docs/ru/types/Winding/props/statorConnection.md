@@ -1,23 +1,26 @@
-# statorConnection()
+# statorConnection
 
 ## Описание
-Описание метода.
+The `statorConnection` property...
+
+## Принимаемые значения:
+...
+
+## Тип значения свойства
+`Number`
+
+## Доступ
+`Чтение\Запись`
 
 ## Синтаксис
 ```javascript
-statorConnection(argument: type) : returnType
+statorConnection = value
 ```
-
-## Аргументы
-- `argument` (type, обязательно): описание аргумента.
-
-## Возвращаемое значение
-`returnType`: описание возвращаемого значения.
 
 ## Пример
 ```javascript linenums="1"
-let result = statorConnection(value);
-console.info(result);
+let result = motor.statorConnection
+console.info(result)
 ```
 
 !!! info "См. также"

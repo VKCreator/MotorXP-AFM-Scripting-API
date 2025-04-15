@@ -1,23 +1,26 @@
-# horizontalSymmetry()
+# horizontalSymmetry
 
 ## Описание
-Описание метода.
+The `horizontalSymmetry` property...
+
+## Принимаемые значения:
+...
+
+## Тип значения свойства
+`Number`
+
+## Доступ
+`Чтение\Запись`
 
 ## Синтаксис
 ```javascript
-horizontalSymmetry(argument: type) : returnType
+horizontalSymmetry = value
 ```
-
-## Аргументы
-- `argument` (type, обязательно): описание аргумента.
-
-## Возвращаемое значение
-`returnType`: описание возвращаемого значения.
 
 ## Пример
 ```javascript linenums="1"
-let result = horizontalSymmetry(value);
-console.info(result);
+let result = motor.horizontalSymmetry
+console.info(result)
 ```
 
 !!! info "См. также"

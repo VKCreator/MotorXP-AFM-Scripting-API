@@ -16,8 +16,8 @@ item(argument: type) : returnType
 
 ## Пример
 ```javascript linenums="1"
-let result = item(value);
-console.info(result);
+let result = item(value)
+console.info(result)
 ```
 
 !!! info "См. также"

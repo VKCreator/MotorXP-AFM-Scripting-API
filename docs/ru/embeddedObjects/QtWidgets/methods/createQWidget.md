@@ -21,4 +21,4 @@ let w = QtWidgets.createQWidget(parent)
 
 !!! info "См. также"
 
-    [](*.md)
+    []()

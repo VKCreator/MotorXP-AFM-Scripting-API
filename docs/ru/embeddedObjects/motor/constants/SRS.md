@@ -11,3 +11,7 @@
 let t = Motor.SRS
 console.info(t)
 ```
+
+!!! info "Связанные свойства"
+
+    [motor.machineType](../props/machineType.md)

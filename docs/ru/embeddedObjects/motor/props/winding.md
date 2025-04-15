@@ -31,6 +31,6 @@ console.log(motor.machineType); // Output: 1
 ```
 !!! info "См. также"
 
-    [](*.md)
+    []()
 	
-	[](*.md)
+	[]()

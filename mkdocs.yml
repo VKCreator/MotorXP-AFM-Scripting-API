@@ -126,12 +126,6 @@ nav:
 
   - Constants:
       - constants/index.md
-      - Motor : constants/Motor.md
-      - Stator : constants/Stator.md
-      - StatorItem : constants/StatorItem.md
-      - Rotor : constants/Rotor.md
-      - RotorItem : constants/RotorItem.md
-      - Winding : constants/Winding.md
       - Direction : constants/Direction.md
       - Coil : constants/Coil.md
       - Magnetization : constants/Magnetization.md
@@ -250,12 +244,12 @@ nav:
           - embeddedObjects/console/index.md
           - methods:
               - embeddedObjects/console/methods/index.md
-              - embeddedObjects/console/methods/log.md
-              - embeddedObjects/console/methods/info.md
-              - embeddedObjects/console/methods/warn.md
-              - embeddedObjects/console/methods/error.md
-              - embeddedObjects/console/methods/clear.md
-              - embeddedObjects/console/methods/dir.md
+              - log: embeddedObjects/console/methods/log.md
+              - info: embeddedObjects/console/methods/info.md
+              - warn: embeddedObjects/console/methods/warn.md
+              - error: embeddedObjects/console/methods/error.md
+              - clear: embeddedObjects/console/methods/clear.md
+              - dir: embeddedObjects/console/methods/dir.md
 
       - motor:
           - embeddedObjects/motor/index.md
@@ -289,8 +283,8 @@ nav:
          - types/Stator/index.md
          - constants: 
            - types/Stator/constants/index.md
-           - types/Stator/constants/Yokeless.md
-           - types/Stator/constants/Yoke.md
+           - Yokeless: types/Stator/constants/Yokeless.md
+           - Yoke: types/Stator/constants/Yoke.md
          - properties:
            - types/Stator/props/index.md
            - outerDiameter: types/Stator/props/outerDiameter.md
@@ -323,9 +317,9 @@ nav:
          - types/StatorItem/index.md
          - constants: 
            - types/StatorItem/constants/index.md
-           - types/StatorItem/constants/ID1.md
-           - types/StatorItem/constants/ID2.md
-           - types/StatorItem/constants/ID3.md
+           - ID1: types/StatorItem/constants/ID1.md
+           - ID2: types/StatorItem/constants/ID2.md
+           - ID3: types/StatorItem/constants/ID3.md
          - properties:
            - types/StatorItem/props/index.md
            - id: types/StatorItem/props/id.md
@@ -342,8 +336,8 @@ nav:
          - types/Rotor/index.md
          - constants: 
            - types/Rotor/constants/index.md
-           - types/Rotor/constants/Yokeless.md
-           - types/Rotor/constants/Yoke.md
+           - Yokeless: types/Rotor/constants/Yokeless.md
+           - Yoke: types/Rotor/constants/Yoke.md
          - properties:
            - types/Rotor/props/index.md
            - outerDiameter: types/Rotor/props/outerDiameter.md
@@ -379,9 +373,9 @@ nav:
           - types/RotorItem/index.md
           - constants: 
               - types/RotorItem/constants/index.md
-              - types/RotorItem/constants/ID1.md
-              - types/RotorItem/constants/ID2.md
-              - types/RotorItem/constants/ID3.md
+              - ID1: types/RotorItem/constants/ID1.md
+              - ID2: types/RotorItem/constants/ID2.md
+              - ID3: types/RotorItem/constants/ID3.md
           - properties: 
               - types/RotorItem/props/index.md
               - id: types/RotorItem/props/id.md
@@ -399,16 +393,16 @@ nav:
           - types/Winding/index.md
           - constants:
             - types/Winding/constants/index.md
-            - types/Winding/constants/Planar.md
-            - types/Winding/constants/Toroidal.md
-            - types/Winding/constants/SingleLayer.md
-            - types/Winding/constants/DoubleLayer.md
-            - types/Winding/constants/UpperLower.md
-            - types/Winding/constants/LeftRight.md
-            - types/Winding/constants/Star.md
-            - types/Winding/constants/Delta.md
-            - types/Winding/constants/Lumped.md
-            - types/Winding/constants/Full.md
+            - Planar: types/Winding/constants/Planar.md
+            - Toroidal: types/Winding/constants/Toroidal.md
+            - SingleLayer: types/Winding/constants/SingleLayer.md
+            - DoubleLayer: types/Winding/constants/DoubleLayer.md
+            - UpperLower: types/Winding/constants/UpperLower.md
+            - LeftRight: types/Winding/constants/LeftRight.md
+            - Star: types/Winding/constants/Star.md
+            - Delta: types/Winding/constants/Delta.md
+            - Lumped: types/Winding/constants/Lumped.md
+            - Full: types/Winding/constants/Full.md
           - properties: 
             - types/Winding/props/index.md
             - circuit: types/Winding/props/circuit.md
@@ -457,25 +451,80 @@ nav:
             - types/SimDomain/methods/index.md
             - range: types/SimDomain/methods/range.md
 
-      - Materials:
-          - types/Materials/index.md
-          - GeneralMaterial: types/Materials/GeneralMaterial.md
-          - IronMaterial: types/Materials/IronMaterial.md
-          - WindingMaterial: types/Materials/WindingMaterial.md
-          - EndturnMaterial: types/Materials/EndturnMaterial.md
-          - MagnetRadialMaterial: types/Materials/MagnetRadialMaterial.md
-          - MagnetParallelMaterial: types/Materials/MagnetParallelMaterial.md
+      - GeneralMaterial:
+          - types/GeneralMaterial/index.md
+          - properties: 
+            - types/GeneralMaterial/props/index.md
+          - methods:
+            - types/GeneralMaterial/methods/index.md
+      - IronMaterial:
+          - types/IronMaterial/index.md
+          - properties: 
+            - types/IronMaterial/props/index.md
+          - methods:
+            - types/IronMaterial/methods/index.md
+      - WindingMaterial:
+          - types/WindingMaterial/index.md
+          - properties: 
+            - types/WindingMaterial/props/index.md
+          - methods:
+            - types/WindingMaterial/methods/index.md
+      - EndturnMaterial:
+          - types/EndturnMaterial/index.md
+          - properties: 
+            - types/EndturnMaterial/props/index.md
+          - methods:
+            - types/EndturnMaterial/methods/index.md
+      - MagnetRadialMaterial:
+          - types/MagnetRadialMaterial/index.md
+          - properties: 
+            - types/MagnetRadialMaterial/props/index.md
+          - methods:
+            - types/MagnetRadialMaterial/methods/index.md
+      - MagnetParallelMaterial:
+          - types/MagnetParallelMaterial/index.md
+          - properties: 
+            - types/MagnetParallelMaterial/props/index.md
+          - methods:
+            - types/MagnetParallelMaterial/methods/index.md
 
 # Geometry types:
-      - Point: types/Point.md
-      - Point3: types/Point3.md
-      - Vector3: types/Vector3.md
+      - Point3:
+          - types/Point3/index.md
+          - properties: 
+            - types/Point3/props/index.md
+          - methods:
+            - types/Point3/methods/index.md
 
-      - Shape: types/Shape.md
-      - BoundingBox: types/BoundingBox.md
+      - Vector3:
+          - types/Vector3/index.md
+          - properties: 
+            - types/Vector3/props/index.md
+          - methods:
+            - types/Vector3/methods/index.md
 
-      - Piece: types/Piece.md
+      - Shape:
+          - types/Shape/index.md
+          - properties: 
+            - types/Shape/props/index.md
+          - methods:
+            - types/Shape/methods/index.md
 
+      - BoundingBox:
+          - types/BoundingBox/index.md
+          - properties: 
+            - types/BoundingBox/props/index.md
+          - methods:
+            - types/BoundingBox/methods/index.md
+
+      - Piece:
+          - types/Piece/index.md
+          - properties: 
+            - types/Piece/props/index.md
+          - methods:
+            - types/Piece/methods/index.md
+
+# GUI Widgets
       - UI Widgets:
         - widgets/index.md
         - QGridLayout: widgets/QGridLayout.md

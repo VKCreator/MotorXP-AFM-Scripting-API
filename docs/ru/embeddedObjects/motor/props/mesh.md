@@ -21,6 +21,6 @@ The <b>`propertyName`</b> property defines the configuration type of the motor.
 ```
 !!! info "См. также"
 
-    [](*.md)
+    []()
 	
-	[](*.md)
+	[]()

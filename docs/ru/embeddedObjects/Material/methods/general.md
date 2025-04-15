@@ -18,6 +18,4 @@ let m = Material.general()
 
 !!! info "См. также"
 
-    [](*.md)
-	
-	[](*.md)
+    []()

@@ -19,6 +19,4 @@ methodName(arg: any): string
 
 !!! info "См. также"
 
-    [](*.md)
-	
-	[](*.md)
+    []()

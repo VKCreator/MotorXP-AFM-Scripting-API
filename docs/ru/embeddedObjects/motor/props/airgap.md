@@ -21,6 +21,6 @@ let airgap = motor.airgap
 
 !!! info "См. также"
 
-    [](*.md)
+    []()
 	
-	[](*.md)
+	[]()

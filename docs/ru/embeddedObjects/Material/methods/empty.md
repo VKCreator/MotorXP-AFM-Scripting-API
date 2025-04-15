@@ -18,6 +18,4 @@ var m = Material.empty();
 
 !!! info "См. также"
 
-    [](*.md)
-	
-	[](*.md)
+    []()

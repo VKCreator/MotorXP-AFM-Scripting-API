@@ -18,6 +18,4 @@ let m = Material.endturn()
 
 !!! info "См. также"
 
-    [](*.md)
-	
-	[](*.md)
+    []()

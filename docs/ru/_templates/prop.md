@@ -22,6 +22,4 @@ The `propertyName` property...
 ```
 !!! info "См. также"
 
-    [](*.md)
-	
-	[](*.md)
+    []()

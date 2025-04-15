@@ -25,6 +25,4 @@ let m2 = Material.winding(Winding.LayerSingle, 1, 1)
 
 !!! info "См. также"
 
-    [](*.md)
-	
-	[](*.md)
+    []()

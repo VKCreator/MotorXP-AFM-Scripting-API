@@ -18,6 +18,4 @@ let m = Material.conductor()
 
 !!! info "См. также"
 
-    [](*.md)
-	
-	[](*.md)
+    []()

@@ -22,6 +22,4 @@ let m2 = Material.custom(Qt.green)
 
 !!! info "См. также"
 
-    [](*.md)
-	
-	[](*.md)
+    []()

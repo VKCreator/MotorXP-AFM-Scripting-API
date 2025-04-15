@@ -1,11 +1,11 @@
-# index()
+# vector3()
 
 ## Описание
 Описание метода.
 
 ## Синтаксис
 ```javascript
-index(arguments) : returnType
+vector3(arguments) : returnType
 ```
 
 ## Аргументы
@@ -16,7 +16,7 @@ index(arguments) : returnType
 
 ## Пример
 ```javascript linenums="1"
-let result = index(value);
+let result = vector3(value);
 console.info(result);
 ```
 

@@ -1,11 +1,11 @@
-# index()
+# polysegment()
 
 ## Описание
 Описание метода.
 
 ## Синтаксис
 ```javascript
-index(arguments) : returnType
+polysegment(arguments) : returnType
 ```
 
 ## Аргументы
@@ -16,7 +16,7 @@ index(arguments) : returnType
 
 ## Пример
 ```javascript linenums="1"
-let result = index(value);
+let result = polysegment(value);
 console.info(result);
 ```
 

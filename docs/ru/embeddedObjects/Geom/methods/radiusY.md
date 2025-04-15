@@ -1,11 +1,11 @@
-# index()
+# radiusY()
 
 ## Описание
 Описание метода.
 
 ## Синтаксис
 ```javascript
-index(arguments) : returnType
+radiusY(arguments) : returnType
 ```
 
 ## Аргументы
@@ -16,7 +16,7 @@ index(arguments) : returnType
 
 ## Пример
 ```javascript linenums="1"
-let result = index(value);
+let result = radiusY(value);
 console.info(result);
 ```
 

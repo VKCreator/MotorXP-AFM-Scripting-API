@@ -1,11 +1,11 @@
-# index()
+# angleBetweenVectors()
 
 ## Описание
 Описание метода.
 
 ## Синтаксис
 ```javascript
-index(arguments) : returnType
+angleBetweenVectors(arguments) : returnType
 ```
 
 ## Аргументы
@@ -16,7 +16,7 @@ index(arguments) : returnType
 
 ## Пример
 ```javascript linenums="1"
-let result = index(value);
+let result = angleBetweenVectors(value);
 console.info(result);
 ```
 

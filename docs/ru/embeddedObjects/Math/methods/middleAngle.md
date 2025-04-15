@@ -11,7 +11,7 @@ middleAngle(a1 : number, a2 : number, dir = [Direction.CW | Direction.CCW]) : nu
 ## Аргументы
 - `a1` (number, обязательно): первый угол.
 - `a2` (number, обязательно): второй угол.
-- `dir` (number, обязательно): направление обхода, одно из констант [Direction.CW | Direction.CCW].
+- `dir` (number, обязательно): направление обхода, одно из констант `Direction.CW` | `Direction.CCW`.
 
 ## Возвращаемое значение
 - `number`: средний угол.
@@ -28,4 +28,4 @@ console.info(mAngle)
 
     [Math.deg()](deg.md)
 
-    [normAngle()](normAngle.md)
+    [Math.normAngle()](normAngle.md)

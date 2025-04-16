@@ -74,9 +74,10 @@ plugins:
         type: custom
         custom_format: "%-d %B %Y, %-H:%M"
         timezone: Asia/Yekaterinburg
-  # - with-pdf
+  - with-pdf
   - print-site:
-        path_to_pdf: "document.pdf"
+        enabled: !ENV [ENABLED_PRINT_SITE, True]
+        path_to_pdf: pdf/document.pdf
         # add_to_navigation: true 
   - exclude:
       glob:

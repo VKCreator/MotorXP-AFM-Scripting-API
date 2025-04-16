@@ -22,6 +22,8 @@ pip install mkdocs-static-i18n
 pip install mike
 pip install mkdocs-print-site-plugin
 pip install mkdocs-with-pdf
+pip install mkdocs-with-pdf
+pip install mkdocs-exclude
 ```
 
 ## Структура папок для многоязычной документации 

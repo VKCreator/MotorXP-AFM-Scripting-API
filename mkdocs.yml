@@ -239,6 +239,32 @@ nav:
           - globalObjects/QtWidgets/index.md
           - methods:
               - globalObjects/QtWidgets/methods/index.md
+              #Layouts
+              - createQGridLayout: globalObjects/QtWidgets/methods/createQGridLayout.md
+              - createQFormLayout: globalObjects/QtWidgets/methods/createQFormLayout.md
+              # Qt widgets
+              - createQWidget: globalObjects/QtWidgets/methods/createQWidget.md
+              - createQLabel: globalObjects/QtWidgets/methods/createQLabel.md
+              - createQLineEdit: globalObjects/QtWidgets/methods/createQLineEdit.md
+              - createQPushButton: globalObjects/QtWidgets/methods/createQPushButton.md
+              - createQSpinBox: globalObjects/QtWidgets/methods/createQSpinBox.md
+              - createQDoubleSpinBox: globalObjects/QtWidgets/methods/createQDoubleSpinBox.md
+              - createQComboBox: globalObjects/QtWidgets/methods/createQComboBox.md
+              - createQGroupBox: globalObjects/QtWidgets/methods/createQGroupBox.md
+              - createQCheckBox: globalObjects/QtWidgets/methods/createQCheckBox.md
+              # Custom widgets
+              - createWarningIcon: globalObjects/QtWidgets/methods/createWarningIcon.md
+              - createExclamationIcon: globalObjects/QtWidgets/methods/createExclamationIcon.md
+              - createNumberEdit: globalObjects/QtWidgets/methods/createNumberEdit.md
+              - createWindingLayersComboBox: globalObjects/QtWidgets/methods/createWindingLayersComboBox.md
+              - createWindingLayersOrientationComboBox: globalObjects/QtWidgets/methods/createWindingLayersOrientationComboBox.md
+              - createWindingTypeComboBox: globalObjects/QtWidgets/methods/createWindingTypeComboBox.md
+              - createStatorTypeComboBox: globalObjects/QtWidgets/methods/createStatorTypeComboBox.md
+              - createRotorTypeComboBox: globalObjects/QtWidgets/methods/createRotorTypeComboBox.md
+              - createPoleArrangementComboBox: globalObjects/QtWidgets/methods/createPoleArrangementComboBox.md
+              - createNumberSlotSpinBox: globalObjects/QtWidgets/methods/createNumberSlotSpinBox.md
+              - createNumberPoleSpinBox: globalObjects/QtWidgets/methods/createNumberPoleSpinBox.md
+              - createWindingConnectionComboBox: globalObjects/QtWidgets/methods/createWindingConnectionComboBox.md
 
       - console:
           - globalObjects/console/index.md

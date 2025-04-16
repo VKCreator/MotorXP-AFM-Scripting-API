@@ -1,24 +1,26 @@
 # createQWidget()
 
 ## Описание
-Создать виджет QWidget
+Описание метода.
 
 ## Синтаксис
 ```javascript
-createQWidget(parent: QWidget) : QWidget
-``` 
+createQWidget(argument: type) : returnType
+```
 
 ## Аргументы
-- `parent` (QWidget, обязательно): Родительский виджет.
+- `argument` (type, обязательно): описание аргумента.
 
 ## Возвращаемое значение
-- [`QWidget`]()
+`returnType`: описание возвращаемого значения.
 
 ## Пример
-``` javascript linenums="1"
-let w = QtWidgets.createQWidget(parent)
-``` 
+```javascript linenums="1"
+let result = createQWidget(value)
+console.info(result)
+```
 
 !!! info "См. также"
 
     []()
+

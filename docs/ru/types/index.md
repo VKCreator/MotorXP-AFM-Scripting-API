@@ -1,5 +1,6 @@
 # Типы объекты
 
+## Части мотора
 - [^^Stator^^](Stator/index.md):
 - [^^StatorItem^^](StatorItem/index.md):
 - [^^Rotor^^](Rotor/index.md):
@@ -8,7 +9,7 @@
 - [^^Winding^^](Winding/index.md):
 - [^^Mesh^^](Mesh/index.md):
 
-# Materials
+## Материалы
 - [^^EmptyMaterial^^](materials/EmptyMaterial/index.md):
 - [^^GeneralMaterial^^](materials/GeneralMaterial/index.md):
 - [^^IronMaterial^^](materials/IronMaterial/index.md):
@@ -19,15 +20,15 @@
 - [^^MagnetParallelMaterial^^](materials/MagnetParallelMaterial/index.md):
 - [^^CustomMaterial^^](materials/CustomMaterial/index.md):
 
-# Geometry types
+## Геометрия
 - [^^Point3^^](Point3/index.md):
 - [^^Vector3^^](Vector3/index.md):
 - [^^Shape^^](Shape/index.md):
 - [^^BoundingBox^^](BoundingBox/index.md):
 - [^^Piece^^](Piece/index.md):
 
-# UI Widgets
-## Qt widgets
+## UI Widgets
+### Qt widgets
 - [^^QWidget^^](widgets/QWidget.md):
 - [^^QLabel^^](widgets/QLabel.md):
 - [^^QLineEdit^^](widgets/QLineEdit.md):
@@ -39,7 +40,7 @@
 - [^^QCheckBox^^](widgets/QCheckBox.md):
 - [^^QGridLayout^^](widgets/QGridLayout.md):
 - [^^QFormLayout^^](widgets/QFormLayout.md):
-## Custom widgets
+### Custom widgets
 - [^^WarningIcon^^](widgets/WarningIcon.md):
 - [^^ExclamationIcon^^](widgets/ExclamationIcon.md):
 - [^^NumberEdit^^](widgets/NumberEdit.md):

@@ -45,7 +45,8 @@ plugins:
   - mike
   - offline:
       enabled: !ENV [OFFLINE, false]
-  #- privacy
+  # Раскоментировать пред релиз-сборкой
+  - privacy
   - i18n:
       docs_structure: folder
       reconfigure_material: true
@@ -74,7 +75,6 @@ plugins:
         type: custom
         custom_format: "%-d %B %Y, %-H:%M"
         timezone: Asia/Yekaterinburg
-  - with-pdf
   - exclude:
       glob:
         - _templates/*
@@ -83,7 +83,7 @@ plugins:
         - "*/~*.*"
       #regex:
       #  - '.*\.(tmp|bin|tar)$'
-  # - with-pdf
+  #- with-pdf
   - print-site:
         enabled: !ENV [ENABLED_PRINT_SITE, True]
         path_to_pdf: pdf/document.pdf

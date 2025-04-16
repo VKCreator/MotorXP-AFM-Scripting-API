@@ -133,149 +133,149 @@ nav:
       - Qt : constants/Qt.md
 
   - Built-in objects:
-      - embeddedObjects/index.md
+      - globalObjects/index.md
 
       - Math:
-          - embeddedObjects/Math/index.md
+          - globalObjects/Math/index.md
           - constants:
-            - embeddedObjects/Math/constants/index.md
-            - embeddedObjects/Math/constants/Epsilon.md
+            - globalObjects/Math/constants/index.md
+            - globalObjects/Math/constants/Epsilon.md
           - methods:
-            - embeddedObjects/Math/methods/index.md
-            - embeddedObjects/Math/methods/isEpsilon.md
-            #- fuzzyIsNull(устаревшее): embeddedObjects/Math/methods/fuzzyIsNull.md
-            - embeddedObjects/Math/methods/isEqual.md
-            #- fuzzyIsEqual(устаревшее): embeddedObjects/Math/methods/fuzzyIsEqual.md
-            #- isLess: embeddedObjects/Math/methods/isLess.md
-            - embeddedObjects/Math/methods/isLessEqual.md
-            #- isGreat: embeddedObjects/Math/methods/isGreat.md
-            - embeddedObjects/Math/methods/isGreatEqual.md
-            - embeddedObjects/Math/methods/rad.md
-            - embeddedObjects/Math/methods/deg.md
-            - embeddedObjects/Math/methods/fromPolar.md
-            - embeddedObjects/Math/methods/normAngle.md
-            - embeddedObjects/Math/methods/middleAngle.md
+            - globalObjects/Math/methods/index.md
+            - globalObjects/Math/methods/isEpsilon.md
+            #- fuzzyIsNull(устаревшее): globalObjects/Math/methods/fuzzyIsNull.md
+            - globalObjects/Math/methods/isEqual.md
+            #- fuzzyIsEqual(устаревшее): globalObjects/Math/methods/fuzzyIsEqual.md
+            #- isLess: globalObjects/Math/methods/isLess.md
+            - globalObjects/Math/methods/isLessEqual.md
+            #- isGreat: globalObjects/Math/methods/isGreat.md
+            - globalObjects/Math/methods/isGreatEqual.md
+            - globalObjects/Math/methods/rad.md
+            - globalObjects/Math/methods/deg.md
+            - globalObjects/Math/methods/fromPolar.md
+            - globalObjects/Math/methods/normAngle.md
+            - globalObjects/Math/methods/middleAngle.md
 
       - Geom:
-          - embeddedObjects/Geom/index.md
+          - globalObjects/Geom/index.md
           - methods:
-            - embeddedObjects/Geom/methods/index.md
-            - angle: embeddedObjects/Geom/methods/angle.md
-            - angleX: embeddedObjects/Geom/methods/angleX.md
-            - angleY: embeddedObjects/Geom/methods/angleY.md
-            - angleZ: embeddedObjects/Geom/methods/angleZ.md
-            - angleBetweenVectors: embeddedObjects/Geom/methods/angleBetweenVectors.md
-            - radius: embeddedObjects/Geom/methods/radius.md
-            - radiusX: embeddedObjects/Geom/methods/radiusX.md
-            - radiusY: embeddedObjects/Geom/methods/radiusY.md
-            - radiusZ: embeddedObjects/Geom/methods/radiusZ.md
-            - vector3: embeddedObjects/Geom/methods/vector3.md
-            - point3: embeddedObjects/Geom/methods/point3.md
+            - globalObjects/Geom/methods/index.md
+            - angle: globalObjects/Geom/methods/angle.md
+            - angleX: globalObjects/Geom/methods/angleX.md
+            - angleY: globalObjects/Geom/methods/angleY.md
+            - angleZ: globalObjects/Geom/methods/angleZ.md
+            - angleBetweenVectors: globalObjects/Geom/methods/angleBetweenVectors.md
+            - radius: globalObjects/Geom/methods/radius.md
+            - radiusX: globalObjects/Geom/methods/radiusX.md
+            - radiusY: globalObjects/Geom/methods/radiusY.md
+            - radiusZ: globalObjects/Geom/methods/radiusZ.md
+            - vector3: globalObjects/Geom/methods/vector3.md
+            - point3: globalObjects/Geom/methods/point3.md
             #2D
-            - segment: embeddedObjects/Geom/methods/segment.md
-            - polysegment: embeddedObjects/Geom/methods/polysegment.md
-            - bspline: embeddedObjects/Geom/methods/bspline.md
-            - arc: embeddedObjects/Geom/methods/arc.md
-            - circle: embeddedObjects/Geom/methods/circle.md
-            - ellipse: embeddedObjects/Geom/methods/ellipse.md
-            - ring: embeddedObjects/Geom/methods/ring.md
-            - ngon: embeddedObjects/Geom/methods/ngon.md
-            - square: embeddedObjects/Geom/methods/square.md
-            - rectangle: embeddedObjects/Geom/methods/rectangle.md
-            - polygon: embeddedObjects/Geom/methods/polygon.md
-            - infplane: embeddedObjects/Geom/methods/infplane.md
-            #wire: embeddedObjects/Geom/methods/wire.md
-            #fill: embeddedObjects/Geom/methods/fill.md
-            #unify: embeddedObjects/Geom/methods/unify.md
+            - segment: globalObjects/Geom/methods/segment.md
+            - polysegment: globalObjects/Geom/methods/polysegment.md
+            - bspline: globalObjects/Geom/methods/bspline.md
+            - arc: globalObjects/Geom/methods/arc.md
+            - circle: globalObjects/Geom/methods/circle.md
+            - ellipse: globalObjects/Geom/methods/ellipse.md
+            - ring: globalObjects/Geom/methods/ring.md
+            - ngon: globalObjects/Geom/methods/ngon.md
+            - square: globalObjects/Geom/methods/square.md
+            - rectangle: globalObjects/Geom/methods/rectangle.md
+            - polygon: globalObjects/Geom/methods/polygon.md
+            - infplane: globalObjects/Geom/methods/infplane.md
+            #wire: globalObjects/Geom/methods/wire.md
+            #fill: globalObjects/Geom/methods/fill.md
+            #unify: globalObjects/Geom/methods/unify.md
 
             #3D
-            - box: embeddedObjects/Geom/methods/box.md
-            - cylinder: embeddedObjects/Geom/methods/cylinder.md
-            - collar: embeddedObjects/Geom/methods/collar.md
-            - cone: embeddedObjects/Geom/methods/cone.md
-            - sphere: embeddedObjects/Geom/methods/sphere.md
-            - torus: embeddedObjects/Geom/methods/torus.md
+            - box: globalObjects/Geom/methods/box.md
+            - cylinder: globalObjects/Geom/methods/cylinder.md
+            - collar: globalObjects/Geom/methods/collar.md
+            - cone: globalObjects/Geom/methods/cone.md
+            - sphere: globalObjects/Geom/methods/sphere.md
+            - torus: globalObjects/Geom/methods/torus.md
 
             #bool operations
-            - unite: embeddedObjects/Geom/methods/unite.md
-            - difference: embeddedObjects/Geom/methods/difference.md
-            - diff: embeddedObjects/Geom/methods/diff.md
-            - intersect: embeddedObjects/Geom/methods/intersect.md
-            - section: embeddedObjects/Geom/methods/section.md
+            - unite: globalObjects/Geom/methods/unite.md
+            - difference: globalObjects/Geom/methods/difference.md
+            - diff: globalObjects/Geom/methods/diff.md
+            - intersect: globalObjects/Geom/methods/intersect.md
+            - section: globalObjects/Geom/methods/section.md
 
-            - fillet: embeddedObjects/Geom/methods/fillet.md
-            - filletFace: embeddedObjects/Geom/methods/filletFace.md
-            - chamfer: embeddedObjects/Geom/methods/chamfer.md
-            - unify: embeddedObjects/Geom/methods/unify.md
+            - fillet: globalObjects/Geom/methods/fillet.md
+            - filletFace: globalObjects/Geom/methods/filletFace.md
+            - chamfer: globalObjects/Geom/methods/chamfer.md
+            - unify: globalObjects/Geom/methods/unify.md
 
-            - boundingBox: embeddedObjects/Geom/methods/boundingBox.md
-            - shape: embeddedObjects/Geom/methods/shape.md
+            - boundingBox: globalObjects/Geom/methods/boundingBox.md
+            - shape: globalObjects/Geom/methods/shape.md
 
-            - piece: embeddedObjects/Geom/methods/piece.md
+            - piece: globalObjects/Geom/methods/piece.md
 
-            - distance: embeddedObjects/Geom/methods/distance.md
-            - pointAtSegment: embeddedObjects/Geom/methods/pointAtSegment.md
+            - distance: globalObjects/Geom/methods/distance.md
+            - pointAtSegment: globalObjects/Geom/methods/pointAtSegment.md
 
-            #length: embeddedObjects/Geom/methods/length.md
-            #area: embeddedObjects/Geom/methods/area.md
-            #volume: embeddedObjects/Geom/methods/volume.md
-            #center: embeddedObjects/Geom/methods/center.md
+            #length: globalObjects/Geom/methods/length.md
+            #area: globalObjects/Geom/methods/area.md
+            #volume: globalObjects/Geom/methods/volume.md
+            #center: globalObjects/Geom/methods/center.md
 
       - Material:
-          - embeddedObjects/Material/index.md
+          - globalObjects/Material/index.md
           - methods:
-            - embeddedObjects/Material/methods/index.md
-            - empty: embeddedObjects/Material/methods/empty.md
-            - general: embeddedObjects/Material/methods/general.md
-            - iron: embeddedObjects/Material/methods/iron.md
-            - conductor: embeddedObjects/Material/methods/conductor.md
-            - winding: embeddedObjects/Material/methods/winding.md
-            - endturn: embeddedObjects/Material/methods/endturn.md
-            - magnetParallel: embeddedObjects/Material/methods/magnetParallel.md
-            - magnetRadial: embeddedObjects/Material/methods/magnetRadial.md
-            - custom: embeddedObjects/Material/methods/custom.md
+            - globalObjects/Material/methods/index.md
+            - empty: globalObjects/Material/methods/empty.md
+            - general: globalObjects/Material/methods/general.md
+            - iron: globalObjects/Material/methods/iron.md
+            - conductor: globalObjects/Material/methods/conductor.md
+            - winding: globalObjects/Material/methods/winding.md
+            - endturn: globalObjects/Material/methods/endturn.md
+            - magnetParallel: globalObjects/Material/methods/magnetParallel.md
+            - magnetRadial: globalObjects/Material/methods/magnetRadial.md
+            - custom: globalObjects/Material/methods/custom.md
 
       - QtWidgets:
-          - embeddedObjects/QtWidgets/index.md
+          - globalObjects/QtWidgets/index.md
           - methods:
-              - embeddedObjects/QtWidgets/methods/index.md
+              - globalObjects/QtWidgets/methods/index.md
 
       - console:
-          - embeddedObjects/console/index.md
+          - globalObjects/console/index.md
           - methods:
-              - embeddedObjects/console/methods/index.md
-              - log: embeddedObjects/console/methods/log.md
-              - info: embeddedObjects/console/methods/info.md
-              - warn: embeddedObjects/console/methods/warn.md
-              - error: embeddedObjects/console/methods/error.md
-              - clear: embeddedObjects/console/methods/clear.md
-              - dir: embeddedObjects/console/methods/dir.md
+              - globalObjects/console/methods/index.md
+              - log: globalObjects/console/methods/log.md
+              - info: globalObjects/console/methods/info.md
+              - warn: globalObjects/console/methods/warn.md
+              - error: globalObjects/console/methods/error.md
+              - clear: globalObjects/console/methods/clear.md
+              - dir: globalObjects/console/methods/dir.md
 
       - motor:
-          - embeddedObjects/motor/index.md
+          - globalObjects/motor/index.md
           - constants: 
-            - embeddedObjects/motor/constants/index.md
-            - SR: embeddedObjects/motor/constants/SR.md
-            - SRS: embeddedObjects/motor/constants/SRS.md
-            - SRSRS: embeddedObjects/motor/constants/SRSRS.md
-            - RSR: embeddedObjects/motor/constants/RSR.md
-            - RSRSR: embeddedObjects/motor/constants/RSRSR.md
+            - globalObjects/motor/constants/index.md
+            - SR: globalObjects/motor/constants/SR.md
+            - SRS: globalObjects/motor/constants/SRS.md
+            - SRSRS: globalObjects/motor/constants/SRSRS.md
+            - RSR: globalObjects/motor/constants/RSR.md
+            - RSRSR: globalObjects/motor/constants/RSRSR.md
           - properties:
-              - embeddedObjects/motor/props/index.md
-              - machineType: embeddedObjects/motor/props/machineType.md
-              #- height: embeddedObjects/motor/props/height.md
-              #- periodicity: embeddedObjects/motor/props/periodicity.md
-              #- periodicityAngleSpan: embeddedObjects/motor/props/periodicityAngleSpan.md
-              #- boundaryConditionMode: embeddedObjects/motor/props/boundaryConditionMode.md
-              #- boundaryCondition: embeddedObjects/motor/props/boundaryCondition.md
-              #- simDomain: embeddedObjects/motor/props/simDomain.md
-              #- simRadialOuterDomain: embeddedObjects/motor/props/simRadialOuterDomain.md
-              - stator: embeddedObjects/motor/props/stator.md
-              - rotor: embeddedObjects/motor/props/rotor.md
-              - airgap: embeddedObjects/motor/props/airgap.md
-              - winding: embeddedObjects/motor/props/winding.md
-              - mesh: embeddedObjects/motor/props/mesh.md
-              #- analysis: embeddedObjects/motor/props/analysis.md
+              - globalObjects/motor/props/index.md
+              - machineType: globalObjects/motor/props/machineType.md
+              #- height: globalObjects/motor/props/height.md
+              #- periodicity: globalObjects/motor/props/periodicity.md
+              #- periodicityAngleSpan: globalObjects/motor/props/periodicityAngleSpan.md
+              #- boundaryConditionMode: globalObjects/motor/props/boundaryConditionMode.md
+              #- boundaryCondition: globalObjects/motor/props/boundaryCondition.md
+              #- simDomain: globalObjects/motor/props/simDomain.md
+              #- simRadialOuterDomain: globalObjects/motor/props/simRadialOuterDomain.md
+              - stator: globalObjects/motor/props/stator.md
+              - rotor: globalObjects/motor/props/rotor.md
+              - airgap: globalObjects/motor/props/airgap.md
+              - winding: globalObjects/motor/props/winding.md
+              - mesh: globalObjects/motor/props/mesh.md
+              #- analysis: globalObjects/motor/props/analysis.md
 
   - Object Types:
       - types/index.md
@@ -441,67 +441,103 @@ nav:
             - airgapQuality: types/Mesh/props/airgapQuality.md
             - horizontalSymmetry: types/Mesh/props/horizontalSymmetry.md
 
-      - SimDomain:
-          - types/SimDomain/index.md
-          - properties: 
-            - types/SimDomain/props/index.md
-            - inner: types/SimDomain/props/inner.md
-            - outer: types/SimDomain/props/outer.md
-          - methods:
-            - types/SimDomain/methods/index.md
-            - range: types/SimDomain/methods/range.md
-
+      - EmptyMaterial:
+         - types/materials/EmptyMaterial/index.md
       - GeneralMaterial:
-          - types/GeneralMaterial/index.md
-          - properties: 
-            - types/GeneralMaterial/props/index.md
-          - methods:
-            - types/GeneralMaterial/methods/index.md
+          - types/materials/GeneralMaterial/index.md
       - IronMaterial:
-          - types/IronMaterial/index.md
-          - properties: 
-            - types/IronMaterial/props/index.md
-          - methods:
-            - types/IronMaterial/methods/index.md
+          - types/materials/IronMaterial/index.md
+      - ConductorMaterial:
+          - types/materials/ConductorMaterial/index.md
       - WindingMaterial:
-          - types/WindingMaterial/index.md
+          - types/materials/WindingMaterial/index.md
           - properties: 
-            - types/WindingMaterial/props/index.md
+            - types/materials/WindingMaterial/props/index.md
+            - layer: types/materials/WindingMaterial/props/layer.md
+            - turn: types/materials/WindingMaterial/props/turn.md
+            - strand: types/materials/WindingMaterial/props/strand.md
+            - windingModel: types/materials/WindingMaterial/props/windingModel.md
           - methods:
-            - types/WindingMaterial/methods/index.md
+            - types/materials/WindingMaterial/methods/index.md
+            - isWindingModelLumped: types/materials/WindingMaterial/methods/isWindingModelLumped.md
+            - isWindingModelFull: types/materials/WindingMaterial/methods/isWindingModelFull.md
       - EndturnMaterial:
-          - types/EndturnMaterial/index.md
-          - properties: 
-            - types/EndturnMaterial/props/index.md
-          - methods:
-            - types/EndturnMaterial/methods/index.md
+          - types/materials/EndturnMaterial/index.md
       - MagnetRadialMaterial:
-          - types/MagnetRadialMaterial/index.md
+          - types/materials/MagnetRadialMaterial/index.md
           - properties: 
-            - types/MagnetRadialMaterial/props/index.md
-          - methods:
-            - types/MagnetRadialMaterial/methods/index.md
+            - types/materials/MagnetRadialMaterial/props/index.md
+            - direction: types/materials/MagnetRadialMaterial/props/direction.md
+            - center: types/materials/MagnetRadialMaterial/props/center.md
       - MagnetParallelMaterial:
-          - types/MagnetParallelMaterial/index.md
+          - types/materials/MagnetParallelMaterial/index.md
           - properties: 
-            - types/MagnetParallelMaterial/props/index.md
-          - methods:
-            - types/MagnetParallelMaterial/methods/index.md
+            - types/materials/MagnetParallelMaterial/props/index.md
+            - angle: types/materials/MagnetParallelMaterial/props/angle.md
+            - segmentRadiuses: types/materials/MagnetParallelMaterial/props/segmentRadiuses.md
+            - savePoleBorder: types/materials/MagnetParallelMaterial/props/savePoleBorder.md
+      - CustomMaterial:
+          - types/materials/ConductorMaterial/CustomMaterial.md
+          - properties: 
+            - types/materials/ConductorMaterial/props/index.md
+            - color: types/materials/ConductorMaterial/props/color.md
 
 # Geometry types:
       - Point3:
           - types/Point3/index.md
           - properties: 
             - types/Point3/props/index.md
+            - x: types/Point3/props/x.md
+            - y: types/Point3/props/y.md
+            - z: types/Point3/props/z.md
           - methods:
             - types/Point3/methods/index.md
+            - distance: types/Point3/methods/distance.md
+            #Translate
+            - translate: types/Point3/methods/translate.md
+            - translateX: types/Point3/methods/translateX.md
+            - translateY: types/Point3/methods/translateY.md
+            - translateZ: types/Point3/methods/translateY.md
+            - move: types/Point3/methods/move.md
+            - moveX: types/Point3/methods/moveX.md
+            - moveY: types/Point3/methods/moveY.md
+            - moveZ: types/Point3/methods/moveZ.md
+            #Rotation
+            - rotate: types/Point3/methods/rotate.md
+            - rotateX: types/Point3/methods/rotateX.md
+            - rotateY: types/Point3/methods/rotateY.md
+            - rotateZ: types/Point3/methods/rotateZ.md
+            #Mirror
+            - mirrorO: types/Point3/methods/mirrorO.md
+            - mirrorX: types/Point3/methods/mirrorX.md
+            - mirrorY: types/Point3/methods/mirrorY.md
+            - mirrorZ: types/Point3/methods/mirrorZ.md
+            - mirrorXY: types/Point3/methods/mirrorXY.md
+            - mirrorYZ: types/Point3/methods/mirrorYZ.md
+            - mirrorXZ: types/Point3/methods/mirrorXZ.md
+            #Scale:
+            - scale: types/Point3/methods/scale.md
+            - scaleX: types/Point3/methods/scaleX.md
+            - scaleY: types/Point3/methods/scaleY.md
+            - scaleZ: types/Point3/methods/scaleZ.md
+            - scaleXY: types/Point3/methods/scaleXY.md
+            - scaleYZ: types/Point3/methods/scaleYZ.md
+            - scaleXZ: types/Point3/methods/scaleXZ.md
+            - scaleXYZ: types/Point3/methods/scaleXYZ.md
 
       - Vector3:
           - types/Vector3/index.md
           - properties: 
             - types/Vector3/props/index.md
+            - x: types/Vector3/props/x.md
+            - y: types/Vector3/props/y.md
+            - z: types/Vector3/props/z.md
           - methods:
             - types/Vector3/methods/index.md
+            - lenght: types/Vector3/methods/lenght.md
+            - length2: types/Vector3/methods/lenght2.md
+            - angle: types/Vector3/methods/angle.md
+            - isZero: types/Vector3/methods/isZero.md
 
       - Shape:
           - types/Shape/index.md
@@ -509,11 +545,67 @@ nav:
             - types/Shape/props/index.md
           - methods:
             - types/Shape/methods/index.md
+            - isEmpty: types/Shape/methods/isEmpty.md
+            - toFileSTEP: types/Shape/methods/toFileSTEP.md
+            - unite: types/Shape/methods/unite.md
+            - intersect: types/Shape/methods/intersect.md
+            - difference: types/Shape/methods/difference.md
+            - diff: types/Shape/methods/diff.md
+            - extrude: types/Shape/methods/extrude.md
+            - extrudeX: types/Shape/methods/extrudeX.md
+            - extrudeY: types/Shape/methods/extrudeY.md
+            - extrudeZ: types/Shape/methods/extrudeZ.md
+            - unify: types/Shape/methods/unify.md
+            - center: types/Shape/methods/center.md
+            - boundBox: types/Shape/methods/boundBox.md
+            #Translate
+            - translate: types/Shape/methods/translate.md
+            - translateX: types/Shape/methods/translateX.md
+            - translateY: types/Shape/methods/translateY.md
+            - translateZ: types/Shape/methods/translateY.md
+            - move: types/Shape/methods/move.md
+            - moveX: types/Shape/methods/moveX.md
+            - moveY: types/Shape/methods/moveY.md
+            - moveZ: types/Shape/methods/moveZ.md
+            #Rotation
+            - rotate: types/Shape/methods/rotate.md
+            - rotateX: types/Shape/methods/rotateX.md
+            - rotateY: types/Shape/methods/rotateY.md
+            - rotateZ: types/Shape/methods/rotateZ.md
+            #Mirror
+            - mirrorO: types/Shape/methods/mirrorO.md
+            - mirrorX: types/Shape/methods/mirrorX.md
+            - mirrorY: types/Shape/methods/mirrorY.md
+            - mirrorZ: types/Shape/methods/mirrorZ.md
+            - mirrorXY: types/Shape/methods/mirrorXY.md
+            - mirrorYZ: types/Shape/methods/mirrorYZ.md
+            - mirrorXZ: types/Shape/methods/mirrorXZ.md
+            #Scale:
+            - scale: types/Shape/methods/scale.md
+            - scaleX: types/Shape/methods/scaleX.md
+            - scaleY: types/Shape/methods/scaleY.md
+            - scaleZ: types/Shape/methods/scaleZ.md
+            - scaleXY: types/Shape/methods/scaleXY.md
+            - scaleYZ: types/Shape/methods/scaleYZ.md
+            - scaleXZ: types/Shape/methods/scaleXZ.md
+            - scaleXYZ: types/Shape/methods/scaleXYZ.md
 
       - BoundingBox:
           - types/BoundingBox/index.md
           - properties: 
             - types/BoundingBox/props/index.md
+            - xMin: types/BoundingBox/props/xMin.md
+            - xMax: types/BoundingBox/props/xMax.md
+            - yMin: types/BoundingBox/props/yMin.md
+            - yMax: types/BoundingBox/props/yMax.md
+            - zMin: types/BoundingBox/props/zMin.md
+            - zMax: types/BoundingBox/props/zMax.md
+            - xCenter: types/BoundingBox/props/xCenter.md
+            - yCenter: types/BoundingBox/props/yCenter.md
+            - zCenter: types/BoundingBox/props/zCenter.md
+            - xSize: types/BoundingBox/props/xSize.md
+            - ySize: types/BoundingBox/props/ySize.md 
+            - zSize: types/BoundingBox/props/zSize.md 
           - methods:
             - types/BoundingBox/methods/index.md
 
@@ -526,14 +618,28 @@ nav:
 
 # GUI Widgets
       - UI Widgets:
-        - widgets/index.md
-        - QGridLayout: widgets/QGridLayout.md
-        - NumberEdit: widgets/NumberEdit.md
-        - NumberSlotSpinBox: widgets/NumberSlotSpinBox.md
-        - StatorTypeComboBox: widgets/StatorTypeComboBox.md
-        - WindingLayersComboBox: widgets/WindingLayersComboBox.md
-        - WindingLayersOrientationComboBox: widgets/WindingLayersOrientationComboBox.md
-        - WindingTypeComboBox: widgets/WindingTypeComboBox.md
-        - PoleArrangementComboBox: widgets/PoleArrangementComboBox.md
-        - StatorConnectionComboBox: widgets/StatorConnectionComboBox.md
-        - RotorConnectionComboBox: widgets/RotorConnectionComboBox.md
+        - types/widgets/index.md
+        #custon widgets
+        - WarningIcon: types/widgets/WarningIcon.md
+        - ExclamationIcon: types/widgets/ExclamationIcon.md
+        - NumberEdit: types/widgets/NumberEdit.md
+        - NumberSlotSpinBox: types/widgets/NumberSlotSpinBox.md
+        - StatorTypeComboBox: types/widgets/StatorTypeComboBox.md
+        - WindingLayersComboBox: types/widgets/WindingLayersComboBox.md
+        - WindingLayersOrientationComboBox: types/widgets/WindingLayersOrientationComboBox.md
+        - WindingTypeComboBox: types/widgets/WindingTypeComboBox.md
+        - PoleArrangementComboBox: types/widgets/PoleArrangementComboBox.md
+        - StatorConnectionComboBox: types/widgets/StatorConnectionComboBox.md
+        - RotorConnectionComboBox: types/widgets/RotorConnectionComboBox.md
+        #Qt widgets
+        - QWidget: types/widgets/QWidget.md
+        - QLabel: types/widgets/QLabel.md
+        - QLineEdit: types/widgets/QLineEdit.md
+        - QPushButton: types/widgets/QPushButton.md
+        - QSpinBox: types/widgets/QSpinBox.md
+        - QDoubleSpinBox: types/widgets/QDoubleSpinBox.md
+        - QComboBox: types/widgets/QComboBox.md
+        - QGroupBox: types/widgets/QGroupBox.md
+        - QCheckBox: types/widgets/QCheckBox.md
+        - QGridLayout: types/widgets/QGridLayout.md
+        - QFormLayout: types/widgets/QFormLayout.md

@@ -1,4 +1,4 @@
-# <methodName(args)>
+# methodName()
 
 ## Описание
 

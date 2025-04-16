@@ -1,29 +1,24 @@
-# outer
+# propertyName
 
 ## Описание
-The `outer` property...
+The `propertyName` property...
 
 ## Принимаемые значения:
 ...
 
-## Тип значения свойства
+## Тип значения свойства:
 `Number`
 
 ## Доступ
 `Чтение\Запись`
 
 ## Синтаксис
-```javascript
-outer = value
-```
+``` javascript
 
+```
 ## Пример
-```javascript linenums="1"
-let result = motor.outer
-console.info(result)
+``` javascript linenums="1"
 ```
-
 !!! info "См. также"
 
     []()
-

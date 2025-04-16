@@ -1,7 +1,6 @@
 # propertyName
 
 ## Описание
-
 The `propertyName` property...
 
 ## Принимаемые значения:

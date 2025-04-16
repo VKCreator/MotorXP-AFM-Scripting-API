@@ -75,17 +75,19 @@ plugins:
         custom_format: "%-d %B %Y, %-H:%M"
         timezone: Asia/Yekaterinburg
   - with-pdf
-  - print-site:
-        enabled: !ENV [ENABLED_PRINT_SITE, True]
-        path_to_pdf: pdf/document.pdf
-        # add_to_navigation: true 
   - exclude:
       glob:
         - _templates/*
         - "*.py"
+        - "*/~*"
         - "*/~*.*"
       #regex:
       #  - '.*\.(tmp|bin|tar)$'
+  # - with-pdf
+  - print-site:
+        enabled: !ENV [ENABLED_PRINT_SITE, True]
+        path_to_pdf: pdf/document.pdf
+        # add_to_navigation: true 
         
 extra_css:
   - css/custom.css
@@ -667,18 +669,6 @@ nav:
 # GUI Widgets
       - UI Widgets:
         - types/widgets/index.md
-        #custon widgets
-        - WarningIcon: types/widgets/WarningIcon.md
-        - ExclamationIcon: types/widgets/ExclamationIcon.md
-        - NumberEdit: types/widgets/NumberEdit.md
-        - NumberSlotSpinBox: types/widgets/NumberSlotSpinBox.md
-        - StatorTypeComboBox: types/widgets/StatorTypeComboBox.md
-        - WindingLayersComboBox: types/widgets/WindingLayersComboBox.md
-        - WindingLayersOrientationComboBox: types/widgets/WindingLayersOrientationComboBox.md
-        - WindingTypeComboBox: types/widgets/WindingTypeComboBox.md
-        - PoleArrangementComboBox: types/widgets/PoleArrangementComboBox.md
-        - StatorConnectionComboBox: types/widgets/StatorConnectionComboBox.md
-        - RotorConnectionComboBox: types/widgets/RotorConnectionComboBox.md
         #Qt widgets
         - QWidget: types/widgets/QWidget.md
         - QLabel: types/widgets/QLabel.md
@@ -691,3 +681,16 @@ nav:
         - QCheckBox: types/widgets/QCheckBox.md
         - QGridLayout: types/widgets/QGridLayout.md
         - QFormLayout: types/widgets/QFormLayout.md
+
+        #Custon widgets
+        - WarningIcon: types/widgets/WarningIcon.md
+        - ExclamationIcon: types/widgets/ExclamationIcon.md
+        - NumberEdit: types/widgets/NumberEdit.md
+        - NumberSlotSpinBox: types/widgets/NumberSlotSpinBox.md
+        - StatorTypeComboBox: types/widgets/StatorTypeComboBox.md
+        - WindingLayersComboBox: types/widgets/WindingLayersComboBox.md
+        - WindingLayersOrientationComboBox: types/widgets/WindingLayersOrientationComboBox.md
+        - WindingTypeComboBox: types/widgets/WindingTypeComboBox.md
+        - PoleArrangementComboBox: types/widgets/PoleArrangementComboBox.md
+        - StatorConnectionComboBox: types/widgets/StatorConnectionComboBox.md
+        - RotorConnectionComboBox: types/widgets/RotorConnectionComboBox.md

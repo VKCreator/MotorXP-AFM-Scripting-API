@@ -82,7 +82,7 @@ plugins:
       glob:
         - _templates/*
         - "*.py"
-        - "~*.*"
+        - "*/~*.*"
       #regex:
       #  - '.*\.(tmp|bin|tar)$'
         
@@ -359,7 +359,7 @@ nav:
            - id: types/StatorItem/props/id.md
            - height: types/StatorItem/props/height.md
          - methods:
-           - types/Stator/statorItem/index.md
+           - types/statorItem/methods/index.md
            - isUpper: types/StatorItem/methods/isUpper.md
            - isMiddle: types/StatorItem/methods/isMiddle.md
            - isLower: types/StatorItem/methods/isLower.md
@@ -490,6 +490,10 @@ nav:
           - types/materials/GeneralMaterial/index.md
       - IronMaterial:
           - types/materials/IronMaterial/index.md
+          - properties: 
+            - types/materials/IronMaterial/props/index.md
+            - fillCoefs: types/materials/IronMaterial/props/fillCoefs.md
+            - dsomaloy: types/materials/IronMaterial/props/dsomaloy.md
       - ConductorMaterial:
           - types/materials/ConductorMaterial/index.md
       - WindingMaterial:
@@ -520,10 +524,10 @@ nav:
             - segmentRadiuses: types/materials/MagnetParallelMaterial/props/segmentRadiuses.md
             - savePoleBorder: types/materials/MagnetParallelMaterial/props/savePoleBorder.md
       - CustomMaterial:
-          - types/materials/ConductorMaterial/CustomMaterial.md
+          - types/materials/CustomMaterial/index.md
           - properties: 
-            - types/materials/ConductorMaterial/props/index.md
-            - color: types/materials/ConductorMaterial/props/color.md
+            - types/materials/CustomMaterial/props/index.md
+            - color: types/materials/CustomMaterial/props/color.md
 
 # Geometry types:
       - Point3:

@@ -1,7 +1,7 @@
-# color
+# dsomaloy
 
 ## Описание
-The `color` property...
+The `dsomaloy` property...
 
 ## Принимаемые значения:
 ...
@@ -14,12 +14,14 @@ The `color` property...
 
 ## Синтаксис
 ```javascript
-color = value
+dsomaloy = value
 ```
 
 ## Пример
 ```javascript linenums="1"
-let result = motor.color
+let m = Material.iron()
+m.dsomaloy = 0.9
+let result = m.dsomaloy
 console.info(result)
 ```
 

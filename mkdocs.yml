@@ -10,7 +10,7 @@ theme:
   custom_dir: docs/overrides
   icon:
     alternate: octicons/globe-24
-  logo: logo.png
+  logo: assets/logo.png
   color_mode: auto
   highlightjs: true
   palette:
@@ -45,7 +45,7 @@ plugins:
   - mike
   - offline:
       enabled: !ENV [OFFLINE, false]
-  - privacy
+  #- privacy
   - i18n:
       docs_structure: folder
       reconfigure_material: true
@@ -359,7 +359,7 @@ nav:
            - id: types/StatorItem/props/id.md
            - height: types/StatorItem/props/height.md
          - methods:
-           - types/statorItem/methods/index.md
+           - types/StatorItem/methods/index.md
            - isUpper: types/StatorItem/methods/isUpper.md
            - isMiddle: types/StatorItem/methods/isMiddle.md
            - isLower: types/StatorItem/methods/isLower.md

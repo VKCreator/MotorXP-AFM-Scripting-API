@@ -1,7 +1,7 @@
-# objectName
+# savePoleBorder
 
 ## Описание
-The `objectName` property...
+The `savePoleBorder` property...
 
 ## Принимаемые значения:
 ...
@@ -14,12 +14,12 @@ The `objectName` property...
 
 ## Синтаксис
 ```javascript
-objectName = value
+savePoleBorder = value
 ```
 
 ## Пример
 ```javascript linenums="1"
-let result = motor.objectName
+let result = motor.savePoleBorder
 console.info(result)
 ```
 

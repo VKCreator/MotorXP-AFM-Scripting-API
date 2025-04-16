@@ -77,7 +77,15 @@ plugins:
   # - with-pdf
   - print-site:
         path_to_pdf: "document.pdf"
-        # add_to_navigation: true     
+        # add_to_navigation: true 
+  - exclude:
+      glob:
+        - _templates/*
+        - "*.py"
+        - "~*.*"
+      #regex:
+      #  - '.*\.(tmp|bin|tar)$'
+        
 extra_css:
   - css/custom.css
 
@@ -130,7 +138,7 @@ nav:
       - Coil : constants/Coil.md
       - Magnetization : constants/Magnetization.md
       - PoleArrangement : constants/PoleArrangement.md
-      - Qt : constants/Qt.md
+      - Colors : constants/Colors.md
 
   - Built-in objects:
       - globalObjects/index.md
@@ -415,6 +423,13 @@ nav:
             - angularDisplacement: types/RotorItem/methods/angularDisplacement.md
             - setAngularDisplacement: types/RotorItem/methods/setAngularDisplacement.md
 
+      - Airgap:
+          - types/Airgap/index.md
+          - properties: 
+              - types/Airgap/props/index.md
+          - methods:
+            - types/Airgap/methods/index.md
+
       - Winding:
           - types/Winding/index.md
           - constants:
@@ -466,6 +481,8 @@ nav:
             - numberSlices: types/Mesh/props/numberSlices.md
             - airgapQuality: types/Mesh/props/airgapQuality.md
             - horizontalSymmetry: types/Mesh/props/horizontalSymmetry.md
+          - methods:
+            - types/Mesh/methods/index.md
 
       - EmptyMaterial:
          - types/materials/EmptyMaterial/index.md

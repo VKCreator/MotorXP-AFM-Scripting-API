@@ -63,8 +63,3 @@ MotorXP-AFM is the ultimate tool for designing and analyzing axial flux machines
 - Industrial motor applications
 
 ---
-
-For more details, explore the **Objects** section below:
-
-- [Console](objects/console/overview.md)
-- [Motor](objects/motor/overview.md)

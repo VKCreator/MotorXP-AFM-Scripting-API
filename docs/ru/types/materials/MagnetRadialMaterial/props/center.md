@@ -1,7 +1,7 @@
-# objectName
+# center
 
 ## Описание
-The `objectName` property...
+The `center` property...
 
 ## Принимаемые значения:
 ...
@@ -14,12 +14,12 @@ The `objectName` property...
 
 ## Синтаксис
 ```javascript
-objectName = value
+center = value
 ```
 
 ## Пример
 ```javascript linenums="1"
-let result = motor.objectName
+let result = motor.center
 console.info(result)
 ```
 

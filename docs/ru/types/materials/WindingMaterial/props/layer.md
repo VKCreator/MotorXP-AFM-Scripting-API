@@ -1,7 +1,7 @@
-# objectName
+# layer
 
 ## Описание
-The `objectName` property...
+The `layer` property...
 
 ## Принимаемые значения:
 ...
@@ -14,12 +14,12 @@ The `objectName` property...
 
 ## Синтаксис
 ```javascript
-objectName = value
+layer = value
 ```
 
 ## Пример
 ```javascript linenums="1"
-let result = motor.objectName
+let result = motor.layer
 console.info(result)
 ```
 

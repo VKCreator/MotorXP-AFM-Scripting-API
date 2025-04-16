@@ -1,7 +1,7 @@
-# objectName
+# direction
 
 ## Описание
-The `objectName` property...
+The `direction` property...
 
 ## Принимаемые значения:
 ...
@@ -14,12 +14,12 @@ The `objectName` property...
 
 ## Синтаксис
 ```javascript
-objectName = value
+direction = value
 ```
 
 ## Пример
 ```javascript linenums="1"
-let result = motor.objectName
+let result = motor.direction
 console.info(result)
 ```
 

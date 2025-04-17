@@ -1,23 +1,23 @@
 # mesh
 
 ## Описание
-The <b>`propertyName`</b> property defines the configuration type of the motor.
-
-## Принимаемые значения
-- `Motor.SR` (0): stator - rotor
+Возвращает объект типа [`Mesh`](../../../types/Mesh/index.md).
 
 ## Тип значения свойства
-`Number`
+[`Mesh`](../../../types/Mesh/index.md)
 
 ## Доступ
 `Только Чтение`
 
 ## Синтаксис
 ``` javascript
-
+motor.mesh
 ```
+
 ## Пример
 ``` javascript linenums="1"
+let mesh = motor.mesh
+
 ```
 !!! info "См. также"
 

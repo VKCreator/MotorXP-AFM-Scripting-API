@@ -1,26 +1,23 @@
 # stator
 
 ## Описание
-The <b>`propertyName`</b> property defines the configuration type of the motor.
-
-## Принимаемые значения
-- `Motor.SR` (0): stator - rotor
+Возвращает объект типа [`Stator`](../../../types/Stator/index.md).
 
 ## Тип значения свойства
-`Number`
+[`Stator`](../../../types/Stator/index.md)
 
 ## Доступ
-`Чтение\Запись`
+`Только Чтение`
 
 ## Синтаксис
 ``` javascript
-
+motor.stator
 ```
 ## Пример
 ``` javascript linenums="1"
+let stator = motor.stator
 ```
-!!! info "См. также"
 
-    []()
+!!! info "См. также"
 	
 	[]()

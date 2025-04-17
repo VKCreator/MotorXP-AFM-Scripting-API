@@ -1,23 +1,23 @@
 # angle()
 
 ## Описание
-Описание метода.
+Получить угол точки.
 
 ## Синтаксис
 ```javascript
-angle(argument: type) : returnType
+angle(x: number, y: number) : number
 ```
 
 ## Аргументы
 - `argument` (type, обязательно): описание аргумента.
 
 ## Возвращаемое значение
-`returnType`: описание возвращаемого значения.
+`number`: угол точки в градусах относительно центра координат [0,0] (ноль - на три часа, увеличение по часовой).
 
 ## Пример
 ```javascript linenums="1"
-let result = angle(value)
-console.info(result)
+let result = angle(100, 100)
+console.info(result) // 
 ```
 
 !!! info "См. также"

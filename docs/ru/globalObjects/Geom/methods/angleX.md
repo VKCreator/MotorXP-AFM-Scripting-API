@@ -1,23 +1,24 @@
 # angleX()
 
 ## Описание
-Описание метода.
+Получить угол точки относительно центра координат [0,0,0] в плоскости YOZ.
 
 ## Синтаксис
 ```javascript
-angleX(argument: type) : returnType
+angleX(point: Point3) : number
 ```
 
 ## Аргументы
-- `argument` (type, обязательно): описание аргумента.
+- `argument` ([`Point3`](../../../types/Point3/index.md), обязательно)
 
 ## Возвращаемое значение
-`returnType`: описание возвращаемого значения.
+`number`: угол точки относительно центра координат [0,0,0] в плоскости YOZ(ноль - на три часа, увеличение по часовой).
 
 ## Пример
 ```javascript linenums="1"
-let result = angleX(value)
-console.info(result)
+let point = Geom.point3(100,100,100)
+let angle = angleX(point)
+console.info(angle)
 ```
 
 !!! info "См. также"

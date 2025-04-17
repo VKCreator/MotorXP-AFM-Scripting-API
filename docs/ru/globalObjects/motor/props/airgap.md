@@ -1,10 +1,10 @@
 # airgap
 
 ## Описание
-Возвращает объект типа [`Airgap`](../../../types/Airgap/index.md).
+Возвращает объект типа [`Airgap`](../../../types/Airgap/_index.md).
 
 ## Тип значения свойства
-[`Airgap`](../../../types/Airgap/index.md)
+[`Airgap`](../../../types/Airgap/_index.md)
 
 ## Доступ
 `Только Чтение`

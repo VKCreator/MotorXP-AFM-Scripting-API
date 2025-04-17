@@ -3,29 +3,29 @@ import os
 # Список путей к файлам
 file_paths = [
     # Stator
-    "types/Stator/constants/index.md",
+    "types/Stator/constants/_index.md",
     "types/Stator/constants/Yokeless.md",
     "types/Stator/constants/Yoke.md",
 
     # StatorItem
-    "types/StatorItem/constants/index.md",
+    "types/StatorItem/constants/_index.md",
     "types/StatorItem/constants/ID1.md",
     "types/StatorItem/constants/ID2.md",
     "types/StatorItem/constants/ID3.md",
 
     # Rotor
-    "types/Rotor/constants/index.md",
+    "types/Rotor/constants/_index.md",
     "types/Rotor/constants/Yokeless.md",
     "types/Rotor/constants/Yoke.md",
 
     # RotorItem
-    "types/RotorItem/constants/index.md",
+    "types/RotorItem/constants/_index.md",
     "types/RotorItem/constants/ID1.md",
     "types/RotorItem/constants/ID2.md",
     "types/RotorItem/constants/ID3.md",
 
     # Winding
-    "types/Winding/constants/index.md",
+    "types/Winding/constants/_index.md",
     "types/Winding/constants/Planar.md",
     "types/Winding/constants/Toroidal.md",
     "types/Winding/constants/SingleLayer.md",

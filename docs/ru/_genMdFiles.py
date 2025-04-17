@@ -5,7 +5,7 @@ import os
 # Список путей к файлам
 file_paths = [
 
-"types/widgets/index.md",
+"types/widgets/_index.md",
 "types/widgets/WarningIcon.md",
 "types/widgets/ExclamationIcon.md",
 "types/widgets/NumberEdit.md",

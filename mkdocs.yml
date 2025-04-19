@@ -45,7 +45,7 @@ plugins:
   - offline
   - section-index
   - mike
-  # Раскоментировать пред релиз-сборкой
+  # Раскомментировать пред релиз-сборкой
   #- privacy
   - i18n:
       docs_structure: folder
@@ -126,7 +126,7 @@ markdown_extensions:
         custom_icons:
           - overrides/.icons
 nav:
-  - _index.md
+  - index.md
 
   - Global methods:
       - globalFuncs/_index.md

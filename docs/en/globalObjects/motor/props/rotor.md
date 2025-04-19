@@ -1,0 +1,23 @@
+# rotor
+
+## Описание
+Возвращает объект типа [`Rotor`](../../../types/Rotor/_index.md).
+
+## Тип значения свойства
+[`Rotor`](../../../types/Rotor/_index.md)
+
+## Доступ
+`Только Чтение`
+
+## Синтаксис
+``` javascript
+motor.rotor
+```
+
+## Пример
+``` javascript linenums="1"
+let rotor = motor.rotor
+```
+!!! info "См. также"
+
+    []()

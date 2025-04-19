@@ -42,10 +42,9 @@ theme:
 
 plugins:
   - search
+  - offline
   - section-index
   - mike
-  - offline:
-      enabled: !ENV [OFFLINE, false]
   # Раскоментировать пред релиз-сборкой
   #- privacy
   - i18n:

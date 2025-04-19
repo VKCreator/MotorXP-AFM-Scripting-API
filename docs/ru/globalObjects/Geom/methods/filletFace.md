@@ -5,7 +5,7 @@
 
 ## Синтаксис
 ```javascript
-fillet(argument: type) : returnType
+Geom.filletFace(argument: type) : returnType
 ```
 
 ## Аргументы
@@ -16,7 +16,7 @@ fillet(argument: type) : returnType
 
 ## Пример
 ```javascript linenums="1"
-let result = fillet(value)
+let result = Geom.filletFace(value)
 console.info(result)
 ```
 

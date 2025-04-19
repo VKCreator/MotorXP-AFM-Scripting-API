@@ -5,7 +5,7 @@
 
 ## Синтаксис
 ```javascript
-ring(argument: type) : returnType
+Geom.ring(argument: type) : returnType
 ```
 
 ## Аргументы
@@ -16,7 +16,7 @@ ring(argument: type) : returnType
 
 ## Пример
 ```javascript linenums="1"
-let result = ring(value)
+let result = Geom.ring(value)
 console.info(result)
 ```
 

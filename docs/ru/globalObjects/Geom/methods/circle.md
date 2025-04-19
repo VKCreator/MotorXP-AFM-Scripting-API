@@ -5,7 +5,7 @@
 
 ## Синтаксис
 ```javascript
-circle(argument: type) : returnType
+Geom.circle(argument: type) : returnType
 ```
 
 ## Аргументы
@@ -16,7 +16,7 @@ circle(argument: type) : returnType
 
 ## Пример
 ```javascript linenums="1"
-let result = circle(value)
+let result = Geom.circle(value)
 console.info(result)
 ```
 

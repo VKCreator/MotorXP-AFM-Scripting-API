@@ -5,17 +5,20 @@
 
 ## Синтаксис
 ```javascript
-magnetRadial() : MaterialMagnetRadial
+Material.magnetRadial(direction: Magnetization.From, center: point = Qt.point(0, 0), segmentRadiuses: array of numbers = []) : MagnetRadialMaterial
 ``` 
 
 ## Возвращаемое значение
-[`MaterialMagnetRadial`]()
+[`MagnetRadialMaterial`](./../../../types/materials/MagnetRadialMaterial/_index.md)
 
 ## Пример
 ``` javascript linenums="1"
 let m = Material.magnetRadial();
+console.info(m) // output: Magnet, Radial From center (0, 0), 1 segment(s)
 ``` 
 
 !!! info "См. также"
+
+    [Magnetization](./../../../constants/Magnetization.md)
 
     [Material.magnetParallel()](magnetParallel.md)

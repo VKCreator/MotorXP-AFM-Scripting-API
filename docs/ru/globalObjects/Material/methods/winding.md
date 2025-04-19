@@ -5,7 +5,7 @@
 
 ## Синтаксис
 ```javascript
-winding(layer : number = Winding.LayerAuto, turn : number = 0, strand : number = 0) : MaterialWinding
+Material.winding(layer : number = Winding.LayerAuto, turn : number = 0, strand : number = 0) : WindingMaterial
 ``` 
 
 ## Аргументы
@@ -14,13 +14,14 @@ winding(layer : number = Winding.LayerAuto, turn : number = 0, strand : number =
 - `strand` (number, опционально): Номер провода в витке.
 
 ## Возвращаемое значение
-[`MaterialWinding`]()
+[`WindingMaterial`](./../../../types/materials/WindingMaterial/_index.md)
 
 ## Пример
 ``` javascript linenums="1"
 let m1 = Material.winding()
-let m2 = Material.winding(Winding.LayerSingle, 1, 1)
-
+console.info(m1) // output: Winding, layer None
+let m2 = Material.winding(Winding.SingleLayer, 1, 1)
+console.info(m2) // output: Winding, layer 1, turn 1, strand 1
 ``` 
 
 !!! info "См. также"

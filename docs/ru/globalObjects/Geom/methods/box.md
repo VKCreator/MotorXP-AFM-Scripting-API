@@ -5,7 +5,7 @@
 
 ## Синтаксис
 ```javascript
-box(argument: type) : returnType
+Geom.box(argument: type) : returnType
 ```
 
 ## Аргументы
@@ -16,7 +16,7 @@ box(argument: type) : returnType
 
 ## Пример
 ```javascript linenums="1"
-let result = box(value)
+let result = Geom.box(value)
 console.info(result)
 ```
 

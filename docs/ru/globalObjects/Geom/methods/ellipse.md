@@ -5,7 +5,7 @@
 
 ## Синтаксис
 ```javascript
-ellipse(argument: type) : returnType
+Geom.ellipse(argument: type) : returnType
 ```
 
 ## Аргументы
@@ -16,7 +16,7 @@ ellipse(argument: type) : returnType
 
 ## Пример
 ```javascript linenums="1"
-let result = ellipse(value)
+let result = Geom.ellipse(value)
 console.info(result)
 ```
 

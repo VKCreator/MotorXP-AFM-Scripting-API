@@ -5,15 +5,16 @@
 
 ## Синтаксис
 ```javascript
-general() : MaterialGeneral
+Material.general() : GenetalMaterial
 ``` 
 
 ## Возвращаемое значение
-[`MaterialGeneral`]()
+[`GeneralMaterial`](./../../../types/materials/GeneralMaterial/_index.md)
 
 ## Пример
 ``` javascript linenums="1"
 let m = Material.general()
+console.info(m) // output: General
 ``` 
 
 !!! info "См. также"

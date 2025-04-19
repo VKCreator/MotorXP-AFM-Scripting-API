@@ -5,7 +5,7 @@
 
 ## Синтаксис
 ```javascript
-distance(argument: type) : returnType
+Geom.distance(argument: type) : returnType
 ```
 
 ## Аргументы
@@ -16,7 +16,7 @@ distance(argument: type) : returnType
 
 ## Пример
 ```javascript linenums="1"
-let result = distance(value)
+let result = Geom.distance(value)
 console.info(result)
 ```
 

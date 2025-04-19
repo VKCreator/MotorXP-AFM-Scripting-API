@@ -5,7 +5,7 @@
 
 ## Синтаксис
 ```javascript
-sphere(argument: type) : returnType
+Geom.sphere(argument: type) : returnType
 ```
 
 ## Аргументы
@@ -16,7 +16,7 @@ sphere(argument: type) : returnType
 
 ## Пример
 ```javascript linenums="1"
-let result = sphere(value)
+let result = Geom.sphere(value)
 console.info(result)
 ```
 

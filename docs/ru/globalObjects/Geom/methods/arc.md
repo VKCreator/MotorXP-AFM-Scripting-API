@@ -5,7 +5,7 @@
 
 ## Синтаксис
 ```javascript
-arc(argument: type) : returnType
+Geom.arc(argument: type) : returnType
 ```
 
 ## Аргументы
@@ -16,7 +16,7 @@ arc(argument: type) : returnType
 
 ## Пример
 ```javascript linenums="1"
-let result = arc(value)
+let result = Geom.arc(value)
 console.info(result)
 ```
 

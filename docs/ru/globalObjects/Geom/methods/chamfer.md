@@ -5,7 +5,7 @@
 
 ## Синтаксис
 ```javascript
-chamfer(argument: type) : returnType
+Geom.chamfer(argument: type) : returnType
 ```
 
 ## Аргументы
@@ -16,7 +16,7 @@ chamfer(argument: type) : returnType
 
 ## Пример
 ```javascript linenums="1"
-let result = chamfer(value)
+let result = Geom.chamfer(value)
 console.info(result)
 ```
 

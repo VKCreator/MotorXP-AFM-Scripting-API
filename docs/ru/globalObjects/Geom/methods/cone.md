@@ -5,7 +5,7 @@
 
 ## Синтаксис
 ```javascript
-cone(argument: type) : returnType
+Geom.cone(argument: type) : returnType
 ```
 
 ## Аргументы
@@ -16,7 +16,7 @@ cone(argument: type) : returnType
 
 ## Пример
 ```javascript linenums="1"
-let result = cone(value)
+let result = Geom.cone(value)
 console.info(result)
 ```
 

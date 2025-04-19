@@ -5,7 +5,7 @@
 
 ## Синтаксис
 ```javascript
-segment(argument: type) : returnType
+Geom.segment(argument: type) : returnType
 ```
 
 ## Аргументы
@@ -16,7 +16,7 @@ segment(argument: type) : returnType
 
 ## Пример
 ```javascript linenums="1"
-let result = segment(value)
+let result = Geom.segment(value)
 console.info(result)
 ```
 

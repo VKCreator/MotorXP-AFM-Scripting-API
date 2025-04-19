@@ -5,19 +5,21 @@
 
 ## Синтаксис
 ```javascript
-custom(color : Qt.color = Qt.red) : MaterialCustom
+Material.custom(color : Qt.color = Qt.red) : CustomMaterial
 ``` 
 
 ## Аргументы
 - `color` ([Qt.color](), опционально): цвет материала.
 
 ## Возвращаемое значение
-[`MaterialCustom`]()
+[`CustomMaterial`](./../../../types/materials/CustomMaterial/_index.md)
 
 ## Пример
 ``` javascript linenums="1"
 let m1 = Material.custom()
+console.info(m1) // output: Custom, color #ff0000
 let m2 = Material.custom(Qt.green)
+console.info(m2) // output:
 ``` 
 
 !!! info "См. также"

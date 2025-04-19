@@ -5,7 +5,7 @@
 
 ## Синтаксис
 ```javascript
-infplane(argument: type) : returnType
+Geom.infplane(argument: type) : returnType
 ```
 
 ## Аргументы
@@ -16,7 +16,7 @@ infplane(argument: type) : returnType
 
 ## Пример
 ```javascript linenums="1"
-let result = infplane(value);
+let result = Geom.infplane(value);
 console.info(result);
 ```
 

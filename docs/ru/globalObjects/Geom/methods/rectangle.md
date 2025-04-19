@@ -5,7 +5,7 @@
 
 ## Синтаксис
 ```javascript
-rectangle(argument: type) : returnType
+Geom.rectangle(argument: type) : returnType
 ```
 
 ## Аргументы
@@ -16,7 +16,7 @@ rectangle(argument: type) : returnType
 
 ## Пример
 ```javascript linenums="1"
-let result = rectangle(value);
+let result = Geom.rectangle(value);
 console.info(result);
 ```
 

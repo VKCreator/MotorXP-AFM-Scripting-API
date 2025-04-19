@@ -5,7 +5,7 @@
 
 ## Синтаксис
 ```javascript
-unify(argument: type) : returnType
+Geom.unify(argument: type) : returnType
 ```
 
 ## Аргументы
@@ -16,7 +16,7 @@ unify(argument: type) : returnType
 
 ## Пример
 ```javascript linenums="1"
-let result = unify(value)
+let result = Geom.unify(value)
 console.info(result)
 ```
 

@@ -5,15 +5,16 @@
 
 ## Синтаксис
 ```javascript
-endturn() : MaterialEndturn
+Material.endturn() : EndturnMaterial
 ``` 
 
 ## Возвращаемое значение
-[`MaterialEndturn`]()
+[`EndturnMaterial`](./../../../types/materials/EndturnMaterial/_index.md)
 
 ## Пример
 ``` javascript linenums="1"
 let m = Material.endturn()
+console.info(m) // output: EndTurn
 ``` 
 
 !!! info "См. также"

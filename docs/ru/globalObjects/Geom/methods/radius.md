@@ -5,7 +5,7 @@
 
 ## Синтаксис
 ```javascript
-radius(argument: type) : returnType
+Geom.radius(argument: type) : returnType
 ```
 
 ## Аргументы
@@ -16,7 +16,7 @@ radius(argument: type) : returnType
 
 ## Пример
 ```javascript linenums="1"
-let result = radius(value)
+let result = Geom.radius(value)
 console.info(result)
 ```
 

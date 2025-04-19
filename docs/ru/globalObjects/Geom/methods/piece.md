@@ -5,7 +5,7 @@
 
 ## Синтаксис
 ```javascript
-piece(argument: type) : returnType
+Geom.piece(argument: type) : returnType
 ```
 
 ## Аргументы
@@ -16,7 +16,7 @@ piece(argument: type) : returnType
 
 ## Пример
 ```javascript linenums="1"
-let result = piece(value)
+let result = Geom.piece(value)
 console.info(result)
 ```
 

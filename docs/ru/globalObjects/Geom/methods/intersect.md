@@ -5,7 +5,7 @@
 
 ## Синтаксис
 ```javascript
-intersect(argument: type) : returnType
+Geom.intersect(argument: type) : returnType
 ```
 
 ## Аргументы
@@ -16,7 +16,7 @@ intersect(argument: type) : returnType
 
 ## Пример
 ```javascript linenums="1"
-let result = intersect(value)
+let result = Geom.intersect(value)
 console.info(result)
 ```
 

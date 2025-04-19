@@ -5,7 +5,7 @@
 
 ## Синтаксис
 ```javascript
-torus(argument: type) : returnType
+Geom.torus(argument: type) : returnType
 ```
 
 ## Аргументы
@@ -16,7 +16,7 @@ torus(argument: type) : returnType
 
 ## Пример
 ```javascript linenums="1"
-let result = torus(value)
+let result = Geom.torus(value)
 console.info(result)
 ```
 

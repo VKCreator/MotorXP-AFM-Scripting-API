@@ -5,7 +5,7 @@
 
 ## Синтаксис
 ```javascript
-angleBetweenVectors(argument: type) : returnType
+Geom.angleBetweenVectors(argument: type) : returnType
 ```
 
 ## Аргументы
@@ -16,8 +16,8 @@ angleBetweenVectors(argument: type) : returnType
 
 ## Пример
 ```javascript linenums="1"
-let result = angleBetweenVectors(value)
-console.info(result)
+let result = Geom.angleBetweenVectors(value)
+console.info(result) // output:
 ```
 
 !!! info "См. также"

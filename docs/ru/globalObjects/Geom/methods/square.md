@@ -5,7 +5,7 @@
 
 ## Синтаксис
 ```javascript
-square(argument: type) : returnType
+Geom.square(argument: type) : returnType
 ```
 
 ## Аргументы
@@ -16,7 +16,7 @@ square(argument: type) : returnType
 
 ## Пример
 ```javascript linenums="1"
-let result = square(value)
+let result = Geom.square(value)
 console.info(result)
 ```
 

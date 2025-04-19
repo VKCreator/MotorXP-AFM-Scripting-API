@@ -5,7 +5,7 @@
 
 ## Синтаксис
 ```javascript
-difference(argument: type) : returnType
+Geom.diff(argument: type) : returnType
 ```
 
 ## Аргументы
@@ -16,7 +16,7 @@ difference(argument: type) : returnType
 
 ## Пример
 ```javascript linenums="1"
-let result = difference(value)
+let result = Geom.diff(value)
 console.info(result)
 ```
 

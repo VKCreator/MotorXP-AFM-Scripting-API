@@ -5,7 +5,7 @@
 
 ## Синтаксис
 ```javascript
-bspline(argument: type) : returnType
+Geom.bspline(argument: type) : returnType
 ```
 
 ## Аргументы
@@ -16,7 +16,7 @@ bspline(argument: type) : returnType
 
 ## Пример
 ```javascript linenums="1"
-let result = bspline(value)
+let result = Geom.bspline(value)
 console.info(result)
 ```
 

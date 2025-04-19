@@ -5,7 +5,7 @@
 
 ## Синтаксис
 ```javascript
-polysegment(argument: type) : returnType
+Geom.polysegment(argument: type) : returnType
 ```
 
 ## Аргументы
@@ -16,7 +16,7 @@ polysegment(argument: type) : returnType
 
 ## Пример
 ```javascript linenums="1"
-let result = polysegment(value)
+let result = Geom.polysegment(value)
 console.info(result)
 ```
 

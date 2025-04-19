@@ -5,15 +5,16 @@
 
 ## Синтаксис
 ```javascript
-conductor() : MaterialConductor
+Material.conductor() : ConductorMaterial
 ``` 
 
 ## Возвращаемое значение
-[`MaterialConductor`]()
+[`ConductorMaterial`](./../../../types/materials/ConductorMaterial/_index.md)
 
 ## Пример
 ``` javascript linenums="1"
 let m = Material.conductor()
+console.info(m) // output: Conductor
 ``` 
 
 !!! info "См. также"

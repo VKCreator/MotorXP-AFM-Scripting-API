@@ -5,7 +5,7 @@
 
 ## Синтаксис
 ```javascript
-unite(argument: type) : returnType
+Geom.unite(argument: type) : returnType
 ```
 
 ## Аргументы
@@ -16,7 +16,7 @@ unite(argument: type) : returnType
 
 ## Пример
 ```javascript linenums="1"
-let result = unite(value)
+let result = Geom.unite(value)
 console.info(result)
 ```
 

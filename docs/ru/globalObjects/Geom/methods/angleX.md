@@ -5,7 +5,7 @@
 
 ## Синтаксис
 ```javascript
-angleX(point: Point3) : number
+Geom.angleX(point: Point3) : number
 ```
 
 ## Аргументы
@@ -17,8 +17,8 @@ angleX(point: Point3) : number
 ## Пример
 ```javascript linenums="1"
 let point = Geom.point3(100,100,100)
-let angle = angleX(point)
-console.info(angle)
+let angle = Geom.angleX(point)
+console.info(result) // output:
 ```
 
 !!! info "См. также"

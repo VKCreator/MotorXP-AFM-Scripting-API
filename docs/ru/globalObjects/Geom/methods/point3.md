@@ -5,7 +5,7 @@
 
 ## Синтаксис
 ```javascript
-point3(argument: type) : returnType
+Geom.point3(argument: type) : returnType
 ```
 
 ## Аргументы
@@ -16,7 +16,7 @@ point3(argument: type) : returnType
 
 ## Пример
 ```javascript linenums="1"
-let result = point3(value)
+let result = Geom.point3(value)
 console.info(result)
 ```
 

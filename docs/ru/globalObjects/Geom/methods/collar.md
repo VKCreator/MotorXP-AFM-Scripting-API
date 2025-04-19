@@ -5,7 +5,7 @@
 
 ## Синтаксис
 ```javascript
-collar(argument: type) : returnType
+Geom.collar(argument: type) : returnType
 ```
 
 ## Аргументы
@@ -16,7 +16,7 @@ collar(argument: type) : returnType
 
 ## Пример
 ```javascript linenums="1"
-let result = collar(value)
+let result = Geom.collar(value)
 console.info(result)
 ```
 

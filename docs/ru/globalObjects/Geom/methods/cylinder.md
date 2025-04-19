@@ -5,7 +5,7 @@
 
 ## Синтаксис
 ```javascript
-cylinder(argument: type) : returnType
+Geom.cylinder(argument: type) : returnType
 ```
 
 ## Аргументы
@@ -16,7 +16,7 @@ cylinder(argument: type) : returnType
 
 ## Пример
 ```javascript linenums="1"
-let result = cylinder(value)
+let result = Geom.cylinder(value)
 console.info(result)
 ```
 

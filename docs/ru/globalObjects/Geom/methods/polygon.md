@@ -5,7 +5,7 @@
 
 ## Синтаксис
 ```javascript
-polygon(argument: type) : returnType
+Geom.polygon(argument: type) : returnType
 ```
 
 ## Аргументы
@@ -16,7 +16,7 @@ polygon(argument: type) : returnType
 
 ## Пример
 ```javascript linenums="1"
-let result = polygon(value);
+let result = Geom.polygon(value);
 console.info(result);
 ```
 

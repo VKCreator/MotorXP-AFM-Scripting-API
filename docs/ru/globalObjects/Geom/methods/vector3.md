@@ -5,7 +5,7 @@
 
 ## Синтаксис
 ```javascript
-vector3(argument: type) : returnType
+Geom.vector3(argument: type) : returnType
 ```
 
 ## Аргументы
@@ -16,7 +16,7 @@ vector3(argument: type) : returnType
 
 ## Пример
 ```javascript linenums="1"
-let result = vector3(value)
+let result = Geom.vector3(value)
 console.info(result)
 ```
 

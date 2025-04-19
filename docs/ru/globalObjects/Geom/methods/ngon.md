@@ -5,7 +5,7 @@
 
 ## Синтаксис
 ```javascript
-ngon(argument: type) : returnType
+Geom.ngon(argument: type) : returnType
 ```
 
 ## Аргументы
@@ -16,7 +16,7 @@ ngon(argument: type) : returnType
 
 ## Пример
 ```javascript linenums="1"
-let result = ngon(value)
+let result = Geom.ngon(value)
 console.info(result)
 ```
 

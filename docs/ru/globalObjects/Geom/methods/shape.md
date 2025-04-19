@@ -5,7 +5,7 @@
 
 ## Синтаксис
 ```javascript
-shape(argument: type) : returnType
+Geom.shape(argument: type) : returnType
 ```
 
 ## Аргументы
@@ -16,7 +16,7 @@ shape(argument: type) : returnType
 
 ## Пример
 ```javascript linenums="1"
-let result = shape(value)
+let result = Geom.shape(value)
 console.info(result)
 ```
 

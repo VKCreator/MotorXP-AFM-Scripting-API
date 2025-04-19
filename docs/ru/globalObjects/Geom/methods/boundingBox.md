@@ -5,7 +5,7 @@
 
 ## Синтаксис
 ```javascript
-boundingBox(argument: type) : returnType
+Geom.boundingBox(argument: type) : returnType
 ```
 
 ## Аргументы
@@ -16,7 +16,7 @@ boundingBox(argument: type) : returnType
 
 ## Пример
 ```javascript linenums="1"
-let result = boundingBox(value)
+let result = Geom.boundingBox(value)
 console.info(result)
 ```
 

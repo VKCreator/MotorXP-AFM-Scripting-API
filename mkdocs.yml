@@ -42,11 +42,10 @@ theme:
 
 plugins:
   - search
+  - offline
   - section-index
   - mike
-  - offline:
-      enabled: !ENV [OFFLINE, false]
-  # Раскоментировать пред релиз-сборкой
+  # Раскомментировать пред релиз-сборкой
   #- privacy
   - i18n:
       docs_structure: folder
@@ -127,7 +126,7 @@ markdown_extensions:
         custom_icons:
           - overrides/.icons
 nav:
-  - _index.md
+  - index.md
 
   - Global methods:
       - globalFuncs/_index.md

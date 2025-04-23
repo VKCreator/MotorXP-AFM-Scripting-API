@@ -1,5 +1,5 @@
 #  Обзор объекта `Math`
-Встроенный объект `Math` дополняет стандартный объект <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math" target="_blank" rel="noopener noreferrer">`Math`</a> и предоставляет ряд полезных математических функций.
+Встроенный объект `Math` является расширением стандартного объекта JavaScript <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math" target="_blank" rel="noopener noreferrer">`Math`</a> и предоставляет ряд полезных математических функций.
 
 ## Основные возможности
 - Сравнение чисел с плавающей запятой с заданной точностью (`isEpsilon`, `isEqual`, `isLessEqual`, `isGreatEqual`).

@@ -1,4 +1,4 @@
-# iron()
+# Material.iron()
 
 ## Описание
 Материал для железа 
@@ -19,6 +19,18 @@ console.info(m) // output: Iron
 
 !!! info "См. также"
 
-    []()
-	
-	[]()
+    [^^Material.empty()^^](empty.md)
+
+    [^^Material.general()^^](general.md)
+
+    [^^Material.winding()^^](winding.md)
+
+    [^^Material.endturn()^^](endturn.md)
+
+    [^^Material.conductor()^^](conductor.md)
+
+    [^^Material.magnetParallel()^^](magnetParallel.md)
+
+    [^^Material.magnetRadial()^^](magnetRadial.md)
+    
+    [^^Material.custom()^^](custom.md)

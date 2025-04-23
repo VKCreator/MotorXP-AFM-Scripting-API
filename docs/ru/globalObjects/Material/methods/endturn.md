@@ -1,4 +1,4 @@
-# endturn()
+# Material.endturn()
 
 ## Описание
 Материал для лобовых частей обмоток (Endturns).
@@ -19,4 +19,18 @@ console.info(m) // output: EndTurn
 
 !!! info "См. также"
 
-    []()
+    [^^Material.empty()^^](empty.md)
+
+    [^^Material.general()^^](general.md)
+
+    [^^Material.iron()^^](iron.md)
+
+    [^^Material.winding()^^](winding.md)
+
+    [^^Material.conductor()^^](conductor.md)
+
+    [^^Material.magnetParallel()^^](magnetParallel.md)
+
+    [^^Material.magnetRadial()^^](magnetRadial.md)
+    
+    [^^Material.custom()^^](custom.md)

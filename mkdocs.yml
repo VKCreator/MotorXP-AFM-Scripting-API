@@ -130,10 +130,10 @@ nav:
 
   - Global methods:
       - globalFuncs/_index.md
-      - include(): globalFuncs/include.md
-      - require(): globalFuncs/require.md
-      - writeFile(): globalFuncs/writeFile.md
-      - readFile(): globalFuncs/readFile.md
+      - globalFuncs/include.md
+      - globalFuncs/require.md
+      - globalFuncs/writeFile.md
+      - globalFuncs/readFile.md
 
   - Constants:
       - constants/_index.md
@@ -171,61 +171,61 @@ nav:
           - globalObjects/Geom/_index.md
           - methods:
             - globalObjects/Geom/methods/_index.md
-            - angle: globalObjects/Geom/methods/angle.md
-            - angleX: globalObjects/Geom/methods/angleX.md
-            - angleY: globalObjects/Geom/methods/angleY.md
-            - angleZ: globalObjects/Geom/methods/angleZ.md
-            - angleBetweenVectors: globalObjects/Geom/methods/angleBetweenVectors.md
-            - radius: globalObjects/Geom/methods/radius.md
-            - radiusX: globalObjects/Geom/methods/radiusX.md
-            - radiusY: globalObjects/Geom/methods/radiusY.md
-            - radiusZ: globalObjects/Geom/methods/radiusZ.md
-            - vector3: globalObjects/Geom/methods/vector3.md
-            - point3: globalObjects/Geom/methods/point3.md
+            - globalObjects/Geom/methods/angle.md
+            - globalObjects/Geom/methods/angleX.md
+            - globalObjects/Geom/methods/angleY.md
+            - globalObjects/Geom/methods/angleZ.md
+            - globalObjects/Geom/methods/angleBetweenVectors.md
+            - globalObjects/Geom/methods/radius.md
+            - globalObjects/Geom/methods/radiusX.md
+            - globalObjects/Geom/methods/radiusY.md
+            - globalObjects/Geom/methods/radiusZ.md
+            - globalObjects/Geom/methods/vector3.md
+            - globalObjects/Geom/methods/point3.md
+            - globalObjects/Geom/methods/distance.md
+            - globalObjects/Geom/methods/pointAtSegment.md
+
             #2D
-            - segment: globalObjects/Geom/methods/segment.md
-            - polysegment: globalObjects/Geom/methods/polysegment.md
-            - bspline: globalObjects/Geom/methods/bspline.md
-            - arc: globalObjects/Geom/methods/arc.md
-            - circle: globalObjects/Geom/methods/circle.md
-            - ellipse: globalObjects/Geom/methods/ellipse.md
-            - ring: globalObjects/Geom/methods/ring.md
-            - ngon: globalObjects/Geom/methods/ngon.md
-            - square: globalObjects/Geom/methods/square.md
-            - rectangle: globalObjects/Geom/methods/rectangle.md
-            - polygon: globalObjects/Geom/methods/polygon.md
-            - infplane: globalObjects/Geom/methods/infplane.md
+            - globalObjects/Geom/methods/segment.md
+            - globalObjects/Geom/methods/polysegment.md
+            - globalObjects/Geom/methods/bspline.md
+            - globalObjects/Geom/methods/arc.md
+            - globalObjects/Geom/methods/circle.md
+            - globalObjects/Geom/methods/ellipse.md
+            - globalObjects/Geom/methods/ring.md
+            - globalObjects/Geom/methods/ngon.md
+            - globalObjects/Geom/methods/square.md
+            - globalObjects/Geom/methods/rectangle.md
+            - globalObjects/Geom/methods/polygon.md
+            - globalObjects/Geom/methods/infplane.md
             #wire: globalObjects/Geom/methods/wire.md
             #fill: globalObjects/Geom/methods/fill.md
             #unify: globalObjects/Geom/methods/unify.md
 
             #3D
-            - box: globalObjects/Geom/methods/box.md
-            - cylinder: globalObjects/Geom/methods/cylinder.md
-            - collar: globalObjects/Geom/methods/collar.md
-            - cone: globalObjects/Geom/methods/cone.md
-            - sphere: globalObjects/Geom/methods/sphere.md
-            - torus: globalObjects/Geom/methods/torus.md
+            - globalObjects/Geom/methods/box.md
+            - globalObjects/Geom/methods/cylinder.md
+            - globalObjects/Geom/methods/collar.md
+            - globalObjects/Geom/methods/cone.md
+            - globalObjects/Geom/methods/sphere.md
+            - globalObjects/Geom/methods/torus.md
 
-            #bool operations
-            - unite: globalObjects/Geom/methods/unite.md
-            - difference: globalObjects/Geom/methods/difference.md
-            - diff: globalObjects/Geom/methods/diff.md
-            - intersect: globalObjects/Geom/methods/intersect.md
-            - section: globalObjects/Geom/methods/section.md
+            #boolean operations
+            - globalObjects/Geom/methods/unite.md
+            - globalObjects/Geom/methods/difference.md
+            - globalObjects/Geom/methods/diff.md
+            - globalObjects/Geom/methods/intersect.md
+            - globalObjects/Geom/methods/section.md
 
-            - fillet: globalObjects/Geom/methods/fillet.md
-            - filletFace: globalObjects/Geom/methods/filletFace.md
-            - chamfer: globalObjects/Geom/methods/chamfer.md
-            - unify: globalObjects/Geom/methods/unify.md
+            - globalObjects/Geom/methods/fillet.md
+            - globalObjects/Geom/methods/filletFace.md
+            - globalObjects/Geom/methods/chamfer.md
+            - globalObjects/Geom/methods/unify.md
 
-            - boundingBox: globalObjects/Geom/methods/boundingBox.md
-            - shape: globalObjects/Geom/methods/shape.md
+            - globalObjects/Geom/methods/boundingBox.md
+            - globalObjects/Geom/methods/shape.md
 
-            - piece: globalObjects/Geom/methods/piece.md
-
-            - distance: globalObjects/Geom/methods/distance.md
-            - pointAtSegment: globalObjects/Geom/methods/pointAtSegment.md
+            - globalObjects/Geom/methods/piece.md
 
             #length: globalObjects/Geom/methods/length.md
             #area: globalObjects/Geom/methods/area.md
@@ -236,57 +236,57 @@ nav:
           - globalObjects/Material/_index.md
           - methods:
             - globalObjects/Material/methods/_index.md
-            - empty: globalObjects/Material/methods/empty.md
-            - general: globalObjects/Material/methods/general.md
-            - iron: globalObjects/Material/methods/iron.md
-            - conductor: globalObjects/Material/methods/conductor.md
-            - winding: globalObjects/Material/methods/winding.md
-            - endturn: globalObjects/Material/methods/endturn.md
-            - magnetParallel: globalObjects/Material/methods/magnetParallel.md
-            - magnetRadial: globalObjects/Material/methods/magnetRadial.md
-            - custom: globalObjects/Material/methods/custom.md
+            - globalObjects/Material/methods/empty.md
+            - globalObjects/Material/methods/general.md
+            - globalObjects/Material/methods/iron.md
+            - globalObjects/Material/methods/conductor.md
+            - globalObjects/Material/methods/winding.md
+            - globalObjects/Material/methods/endturn.md
+            - globalObjects/Material/methods/magnetParallel.md
+            - globalObjects/Material/methods/magnetRadial.md
+            - globalObjects/Material/methods/custom.md
 
       - QtWidgets:
           - globalObjects/QtWidgets/_index.md
           - methods:
               - globalObjects/QtWidgets/methods/_index.md
               #Layouts
-              - createQGridLayout: globalObjects/QtWidgets/methods/createQGridLayout.md
-              - createQFormLayout: globalObjects/QtWidgets/methods/createQFormLayout.md
+              - globalObjects/QtWidgets/methods/createQGridLayout.md
+              - globalObjects/QtWidgets/methods/createQFormLayout.md
               # Qt widgets
-              - createQWidget: globalObjects/QtWidgets/methods/createQWidget.md
-              - createQLabel: globalObjects/QtWidgets/methods/createQLabel.md
-              - createQLineEdit: globalObjects/QtWidgets/methods/createQLineEdit.md
-              - createQPushButton: globalObjects/QtWidgets/methods/createQPushButton.md
-              - createQSpinBox: globalObjects/QtWidgets/methods/createQSpinBox.md
-              - createQDoubleSpinBox: globalObjects/QtWidgets/methods/createQDoubleSpinBox.md
-              - createQComboBox: globalObjects/QtWidgets/methods/createQComboBox.md
-              - createQGroupBox: globalObjects/QtWidgets/methods/createQGroupBox.md
-              - createQCheckBox: globalObjects/QtWidgets/methods/createQCheckBox.md
+              - globalObjects/QtWidgets/methods/createQWidget.md
+              - globalObjects/QtWidgets/methods/createQLabel.md
+              - globalObjects/QtWidgets/methods/createQLineEdit.md
+              - globalObjects/QtWidgets/methods/createQPushButton.md
+              - globalObjects/QtWidgets/methods/createQSpinBox.md
+              - globalObjects/QtWidgets/methods/createQDoubleSpinBox.md
+              - globalObjects/QtWidgets/methods/createQComboBox.md
+              - globalObjects/QtWidgets/methods/createQGroupBox.md
+              - globalObjects/QtWidgets/methods/createQCheckBox.md
               # Custom widgets
-              - createWarningIcon: globalObjects/QtWidgets/methods/createWarningIcon.md
-              - createExclamationIcon: globalObjects/QtWidgets/methods/createExclamationIcon.md
-              - createNumberEdit: globalObjects/QtWidgets/methods/createNumberEdit.md
-              - createWindingLayersComboBox: globalObjects/QtWidgets/methods/createWindingLayersComboBox.md
-              - createWindingLayersOrientationComboBox: globalObjects/QtWidgets/methods/createWindingLayersOrientationComboBox.md
-              - createWindingTypeComboBox: globalObjects/QtWidgets/methods/createWindingTypeComboBox.md
-              - createStatorTypeComboBox: globalObjects/QtWidgets/methods/createStatorTypeComboBox.md
-              - createRotorTypeComboBox: globalObjects/QtWidgets/methods/createRotorTypeComboBox.md
-              - createPoleArrangementComboBox: globalObjects/QtWidgets/methods/createPoleArrangementComboBox.md
-              - createNumberSlotSpinBox: globalObjects/QtWidgets/methods/createNumberSlotSpinBox.md
-              - createNumberPoleSpinBox: globalObjects/QtWidgets/methods/createNumberPoleSpinBox.md
-              - createWindingConnectionComboBox: globalObjects/QtWidgets/methods/createWindingConnectionComboBox.md
+              - globalObjects/QtWidgets/methods/createWarningIcon.md
+              - globalObjects/QtWidgets/methods/createExclamationIcon.md
+              - globalObjects/QtWidgets/methods/createNumberEdit.md
+              - globalObjects/QtWidgets/methods/createWindingLayersComboBox.md
+              - globalObjects/QtWidgets/methods/createWindingLayersOrientationComboBox.md
+              - globalObjects/QtWidgets/methods/createWindingTypeComboBox.md
+              - globalObjects/QtWidgets/methods/createStatorTypeComboBox.md
+              - globalObjects/QtWidgets/methods/createRotorTypeComboBox.md
+              - globalObjects/QtWidgets/methods/createPoleArrangementComboBox.md
+              - globalObjects/QtWidgets/methods/createNumberSlotSpinBox.md
+              - globalObjects/QtWidgets/methods/createNumberPoleSpinBox.md
+              - globalObjects/QtWidgets/methods/createWindingConnectionComboBox.md
 
       - console:
           - globalObjects/console/_index.md
           - methods:
               - globalObjects/console/methods/_index.md
-              - log: globalObjects/console/methods/log.md
-              - info: globalObjects/console/methods/info.md
-              - warn: globalObjects/console/methods/warn.md
-              - error: globalObjects/console/methods/error.md
-              - clear: globalObjects/console/methods/clear.md
-              - dir: globalObjects/console/methods/dir.md
+              - globalObjects/console/methods/log.md
+              - globalObjects/console/methods/info.md
+              - globalObjects/console/methods/warn.md
+              - globalObjects/console/methods/error.md
+              - globalObjects/console/methods/clear.md
+              - globalObjects/console/methods/dir.md
 
       - motor:
           - globalObjects/motor/_index.md

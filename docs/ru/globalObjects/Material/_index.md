@@ -16,3 +16,7 @@
 - [^^Material.magnetParallel()^^](methods/magnetParallel.md): Создает материал для магнита с параллельным намагничиванием.
 - [^^Material.magnetRadial()^^](methods/magnetRadial.md): Создает материал для магнита с радиальным намагничиванием.
 - [^^Material.custom()^^](methods/custom.md): Создает пользовательский материал с заданным цветом.
+
+!!! info "См. также"
+
+    [^^Piece^^](./../../types/Piece/_index.md)

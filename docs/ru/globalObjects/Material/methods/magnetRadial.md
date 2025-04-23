@@ -1,4 +1,4 @@
-# magnetRadial()
+# Material.magnetRadial()
 
 ## Описание
 Материал для магнита с радиальным намагничиванием.
@@ -21,4 +21,19 @@ console.info(m) // output: Magnet, Radial From center (0, 0), 1 segment(s)
 
     [Magnetization](./../../../constants/Magnetization.md)
 
-    [Material.magnetParallel()](magnetParallel.md)
+
+    [^^Material.empty()^^](empty.md)
+
+    [^^Material.general()^^](general.md)
+
+    [^^Material.iron()^^](iron.md)
+
+    [^^Material.winding()^^](winding.md)
+
+    [^^Material.endturn()^^](endturn.md)
+
+    [^^Material.conductor()^^](conductor.md)
+
+    [^^Material.magnetParallel()^^](magnetParallel.md)
+
+    [^^Material.custom()^^](custom.md)

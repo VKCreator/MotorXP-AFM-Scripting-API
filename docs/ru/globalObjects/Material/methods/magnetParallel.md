@@ -1,4 +1,4 @@
-# magnetParallel()
+# Material.magnetParallel()
 
 ## Описание
 Материал для магнита с параллельным намагничиванием.
@@ -19,4 +19,19 @@ console.info(m) // output: Magnet, Parallel 0°, 1 segment(s)
 
 !!! info "См. также"
 
-    [Material.magnetRadial()](magnetRadial.md)
+
+    [^^Material.empty()^^](empty.md)
+
+    [^^Material.general()^^](general.md)
+
+    [^^Material.iron()^^](iron.md)
+
+    [^^Material.winding()^^](winding.md)
+
+    [^^Material.endturn()^^](endturn.md)
+
+    [^^Material.conductor()^^](conductor.md)
+
+    [^^Material.magnetRadial()^^](magnetRadial.md)
+    
+    [^^Material.custom()^^](custom.md)

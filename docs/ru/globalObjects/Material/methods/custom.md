@@ -1,4 +1,4 @@
-# custom()
+# Material.custom()
 
 ## Описание
 Пользовательский материал с заданным цветом.
@@ -24,4 +24,18 @@ console.info(m2) // output:
 
 !!! info "См. также"
 
-    []()
+    [^^Material.empty()^^](empty.md)
+
+    [^^Material.general()^^](general.md)
+
+    [^^Material.iron()^^](iron.md)
+
+    [^^Material.winding()^^](winding.md)
+
+    [^^Material.endturn()^^](endturn.md)
+
+    [^^Material.conductor()^^](conductor.md)
+
+    [^^Material.magnetParallel()^^](magnetParallel.md)
+
+    [^^Material.magnetRadial()^^](magnetRadial.md)

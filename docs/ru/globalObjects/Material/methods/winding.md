@@ -1,4 +1,4 @@
-# winding()
+# Material.winding()
 
 ## Описание
 Материал для обмотки
@@ -26,4 +26,18 @@ console.info(m2) // output: Winding, layer 1, turn 1, strand 1
 
 !!! info "См. также"
 
-    []()
+    [^^Material.empty()^^](empty.md)
+
+    [^^Material.general()^^](general.md)
+
+    [^^Material.iron()^^](iron.md)
+
+    [^^Material.endturn()^^](endturn.md)
+
+    [^^Material.conductor()^^](conductor.md)
+
+    [^^Material.magnetParallel()^^](magnetParallel.md)
+
+    [^^Material.magnetRadial()^^](magnetRadial.md)
+    
+    [^^Material.custom()^^](custom.md)

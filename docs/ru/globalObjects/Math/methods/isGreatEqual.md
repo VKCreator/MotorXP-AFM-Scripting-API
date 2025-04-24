@@ -5,13 +5,13 @@
 
 ## Синтаксис
 ```javascript
-isGreatEqual(arg1 : number, arg2 : number, eps : number = Math.Epsilon) : number
+isGreatEqual(arg1 : number, arg2 : number, eps : number = Math.EPSILON) : number
 ``` 
 
 ## Аргументы
 - `arg1` (number, обязательно): первое значение.
 - `arg2` (number, обязательно): второе значение.
-- `eps` (number, опционально): значение точности, по умолчанию равно `Math.Epsilon`.
+- `eps` (number, опционально): значение точности, по умолчанию равно `Math.EPSILON`.
 
 ## Возвращаемое значение
 - `bool`: результат сравнения.

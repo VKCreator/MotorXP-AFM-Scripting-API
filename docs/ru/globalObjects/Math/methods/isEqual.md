@@ -5,13 +5,13 @@
 
 ## Синтаксис
 ```javascript
-isEqual(arg1 : number, arg2 : number, eps : number = Math.Epsilon) : bool
+isEqual(arg1 : number, arg2 : number, eps : number = Math.EPSILON) : bool
 ``` 
 
 ## Аргументы
 - `arg1` (number, обязательно): первое значение.
 - `arg2` (number, обязательно): второе значение.
-- `eps` (number, опционально): значение точности, по умолчанию равно `Math.Epsilon`.
+- `eps` (number, опционально): значение точности, по умолчанию равно `Math.EPSILON`.
 
 ## Возвращаемое значение
 - `bool`: результат.

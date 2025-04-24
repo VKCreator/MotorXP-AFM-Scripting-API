@@ -8,6 +8,11 @@
 Material.magnetParallel(angle: number = 0, segmentRadiuses: array of number = [], savePoleBorder: bool = true) : MagnetParallelMaterial
 ``` 
 
+## Аргументы
+- **`angle`** (string, обязательно): Угол параллельного намагничивания
+- **`segmentRadiuses`** (array of number, опционально):
+- **`savePoleBorder`** (bool, опционально):
+
 ## Возвращаемое значение
 [`MagnetParallelMaterial`](./../../../types/materials/MagnetParallelMaterial/_index.md)
 

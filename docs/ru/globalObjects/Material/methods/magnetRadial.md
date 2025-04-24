@@ -8,6 +8,11 @@
 Material.magnetRadial(direction: Magnetization.From, center: point = Qt.point(0, 0), segmentRadiuses: array of numbers = []) : MagnetRadialMaterial
 ``` 
 
+## Аргументы
+- **`angle`** (string, обязательно): Угол параллельного намагничивания
+- **`segmentRadiuses`** (array of number, опционально):
+- **`savePoleBorder`** (bool, опционально):
+
 ## Возвращаемое значение
 [`MagnetRadialMaterial`](./../../../types/materials/MagnetRadialMaterial/_index.md)
 

@@ -7,6 +7,8 @@
 ``` javascript
 console.dir(object : any)
 ``` 
+## Аргументы
+- **`object`** (any, обязательно):  
 
 ## Возвращаемое значение
 `undefined`

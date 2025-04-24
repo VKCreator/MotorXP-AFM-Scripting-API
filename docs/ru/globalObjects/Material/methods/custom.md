@@ -9,7 +9,7 @@ Material.custom(color : Qt.color = Qt.red) : CustomMaterial
 ``` 
 
 ## Аргументы
-- `color` ([Qt.color](), опционально): цвет материала.
+- **`color`** ([Qt.color](), опционально): цвет материала.
 
 ## Возвращаемое значение
 [`CustomMaterial`](./../../../types/materials/CustomMaterial/_index.md)

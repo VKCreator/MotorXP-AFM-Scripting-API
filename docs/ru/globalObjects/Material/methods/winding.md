@@ -9,9 +9,9 @@ Material.winding(layer : number = Winding.LayerAuto, turn : number = 0, strand :
 ``` 
 
 ## Аргументы
-- `layer` (number, опционально): Номер слоя, одно из значений `Winding.LayerAuto` | `Winding.LayerSingle` | `Winding.LayerDouble`.
-- `turn` (number, опционально): Номер витка.
-- `strand` (number, опционально): Номер провода в витке.
+- **`layer`** (number, опционально): Номер слоя, одно из значений `Winding.LayerAuto` | `Winding.LayerSingle` | `Winding.LayerDouble`.
+- **`turn`** (number, опционально): Номер витка.
+- **`strand`** (number, опционально): Номер провода в витке.
 
 ## Возвращаемое значение
 [`WindingMaterial`](./../../../types/materials/WindingMaterial/_index.md)

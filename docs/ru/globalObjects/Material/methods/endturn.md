@@ -8,6 +8,9 @@
 Material.endturn() : EndturnMaterial
 ``` 
 
+## Аргументы
+    Отсутствуют
+    
 ## Возвращаемое значение
 [`EndturnMaterial`](./../../../types/materials/EndturnMaterial/_index.md)
 

@@ -5,9 +5,13 @@
 
 ## Синтаксис
 ```javascript
-Material.iron() : IronMaterial
+Material.iron(fillCoefs: array of number = [], dsomaloy: number = 0) : IronMaterial
 ``` 
 
+## Аргументы
+- **`fillCoefs`** (array of number, опционально): Material filling coefficient
+- **`dsomaloy`** (number, опционально): Smallest cross section of component [m] for Somaloy material
+    
 ## Возвращаемое значение
 [`IronMaterial`](./../../../types/materials/IronMaterial/_index.md)
 

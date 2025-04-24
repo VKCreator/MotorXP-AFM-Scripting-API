@@ -8,6 +8,9 @@
 console.info(message1 : any, message2 : any, ..., messageN : any)
 ```
 
+## Аргументы
+- **`messageN`** (any, обязательно):  
+
 ## Возвращаемое значение
 `undefined`
 

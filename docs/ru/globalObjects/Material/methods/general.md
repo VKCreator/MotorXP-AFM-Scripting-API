@@ -8,6 +8,9 @@
 Material.general() : GenetalMaterial
 ``` 
 
+## Аргументы
+    Отсутствуют
+    
 ## Возвращаемое значение
 [`GeneralMaterial`](./../../../types/materials/GeneralMaterial/_index.md)
 

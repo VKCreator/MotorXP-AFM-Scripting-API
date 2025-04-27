@@ -1,7 +1,7 @@
-# sizeBound
+# numberLayers
 
 ## Описание
-The `sizeBound` property...
+The `numberLayers` property...
 
 ## Принимаемые значения:
 ...
@@ -14,13 +14,13 @@ The `sizeBound` property...
 
 ## Синтаксис
 ```javascript
-sizeBound = value
+numberLayers = value
 ```
 
 ## Пример
 ```javascript linenums="1"
-let mesh = motor.mesh
-let result = mesh.sizeBound
+let airgap = motor.airgap(0)
+let result = airgap.numberLayers
 console.info(result)
 ```
 

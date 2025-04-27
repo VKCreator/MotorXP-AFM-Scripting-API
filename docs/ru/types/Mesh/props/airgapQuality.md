@@ -19,7 +19,8 @@ airgapQuality = value
 
 ## Пример
 ```javascript linenums="1"
-let result = motor.airgapQuality
+let mesh = motor.mesh
+let result = mesh.airgapQuality
 console.info(result)
 ```
 

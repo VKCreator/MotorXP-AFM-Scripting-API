@@ -1,26 +1,26 @@
-# sizeBound
+# boundCylinderAxialExtension
 
 ## Описание
-The `sizeBound` property...
+The `boundCylinderAxialExtension` property...
 
 ## Принимаемые значения:
 ...
 
 ## Тип значения свойства
-`Number`
+`number`
 
 ## Доступ
 `Чтение\Запись`
 
 ## Синтаксис
 ```javascript
-sizeBound = value
+boundCylinderAxialExtension = value
 ```
 
 ## Пример
 ```javascript linenums="1"
 let mesh = motor.mesh
-let result = mesh.sizeBound
+let result = motor.boundCylinderAxialExtension
 console.info(result)
 ```
 

@@ -9,9 +9,9 @@ Material.magnetRadial(direction: Magnetization.From, center: point = Qt.point(0,
 ``` 
 
 ## Аргументы
-- **`angle`** (string, обязательно): Угол параллельного намагничивания
-- **`segmentRadiuses`** (array of number, опционально):
-- **`savePoleBorder`** (bool, опционально):
+- **`direction`** (string, обязательно): Направление магнетизации.
+- **`center`** (QPointF, опционально): Центр магнизации.
+- **`segmentRadiuses`** (array of number, опционально): Массив радиусов сегментов магнита.
 
 ## Возвращаемое значение
 [`MagnetRadialMaterial`](./../../../types/materials/MagnetRadialMaterial/_index.md)

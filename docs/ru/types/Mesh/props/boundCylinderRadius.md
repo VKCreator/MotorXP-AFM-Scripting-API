@@ -1,26 +1,26 @@
-# sizeBound
+# boundCylinderRadius
 
 ## Описание
-The `sizeBound` property...
+The `boundCylinderRadius` property...
 
 ## Принимаемые значения:
 ...
 
 ## Тип значения свойства
-`Number`
+`number`
 
 ## Доступ
 `Чтение\Запись`
 
 ## Синтаксис
 ```javascript
-sizeBound = value
+mesh.boundCylinderRadius = value
 ```
 
 ## Пример
 ```javascript linenums="1"
 let mesh = motor.mesh
-let result = mesh.sizeBound
+let result = mesh.boundCylinderRadius
 console.info(result)
 ```
 

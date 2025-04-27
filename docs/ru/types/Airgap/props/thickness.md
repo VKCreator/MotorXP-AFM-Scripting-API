@@ -1,7 +1,7 @@
-# sizeBound
+# thickness
 
 ## Описание
-The `sizeBound` property...
+The `thickness` property...
 
 ## Принимаемые значения:
 ...
@@ -14,13 +14,13 @@ The `sizeBound` property...
 
 ## Синтаксис
 ```javascript
-sizeBound = value
+thickness = value
 ```
 
 ## Пример
 ```javascript linenums="1"
-let mesh = motor.mesh
-let result = mesh.sizeBound
+let airgap = motor.airgap(0)
+let result = airgap.thickness
 console.info(result)
 ```
 

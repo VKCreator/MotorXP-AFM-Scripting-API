@@ -7,7 +7,7 @@ The `autoSizeBound` property...
 ...
 
 ## Тип значения свойства
-`Number`
+`bool`
 
 ## Доступ
 `Чтение\Запись`
@@ -19,7 +19,8 @@ autoSizeBound = value
 
 ## Пример
 ```javascript linenums="1"
-let result = motor.autoSizeBound
+let mesh = motor.mesh
+let result = mesh.autoSizeBound
 console.info(result)
 ```
 

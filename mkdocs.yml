@@ -172,65 +172,46 @@ nav:
           - methods:
             - globalObjects/Geom/methods/_index.md
             - globalObjects/Geom/methods/angle.md
+            - globalObjects/Geom/methods/angleBetweenVectors.md
             - globalObjects/Geom/methods/angleX.md
             - globalObjects/Geom/methods/angleY.md
             - globalObjects/Geom/methods/angleZ.md
-            - globalObjects/Geom/methods/angleBetweenVectors.md
+            - globalObjects/Geom/methods/arc.md
+            - globalObjects/Geom/methods/boundingBox.md
+            - globalObjects/Geom/methods/box.md
+            - globalObjects/Geom/methods/bspline.md
+            - globalObjects/Geom/methods/chamfer.md
+            - globalObjects/Geom/methods/circle.md
+            - globalObjects/Geom/methods/collar.md
+            - globalObjects/Geom/methods/cone.md
+            - globalObjects/Geom/methods/cylinder.md
+            - globalObjects/Geom/methods/diff.md
+            - globalObjects/Geom/methods/difference.md
+            - globalObjects/Geom/methods/distance.md
+            - globalObjects/Geom/methods/ellipse.md
+            - globalObjects/Geom/methods/fillet.md
+            - globalObjects/Geom/methods/infplane.md
+            - globalObjects/Geom/methods/intersect.md
+            - globalObjects/Geom/methods/ngon.md
+            - globalObjects/Geom/methods/piece.md
+            - globalObjects/Geom/methods/point3.md
+            - globalObjects/Geom/methods/pointAtSegment.md
+            - globalObjects/Geom/methods/polygon.md
+            - globalObjects/Geom/methods/polysegment.md
             - globalObjects/Geom/methods/radius.md
             - globalObjects/Geom/methods/radiusX.md
             - globalObjects/Geom/methods/radiusY.md
             - globalObjects/Geom/methods/radiusZ.md
-            - globalObjects/Geom/methods/vector3.md
-            - globalObjects/Geom/methods/point3.md
-            - globalObjects/Geom/methods/distance.md
-            - globalObjects/Geom/methods/pointAtSegment.md
-
-            #2D
-            - globalObjects/Geom/methods/segment.md
-            - globalObjects/Geom/methods/polysegment.md
-            - globalObjects/Geom/methods/bspline.md
-            - globalObjects/Geom/methods/arc.md
-            - globalObjects/Geom/methods/circle.md
-            - globalObjects/Geom/methods/ellipse.md
-            - globalObjects/Geom/methods/ring.md
-            - globalObjects/Geom/methods/ngon.md
-            - globalObjects/Geom/methods/square.md
             - globalObjects/Geom/methods/rectangle.md
-            - globalObjects/Geom/methods/polygon.md
-            - globalObjects/Geom/methods/infplane.md
-            #wire: globalObjects/Geom/methods/wire.md
-            #fill: globalObjects/Geom/methods/fill.md
-            #unify: globalObjects/Geom/methods/unify.md
-
-            #3D
-            - globalObjects/Geom/methods/box.md
-            - globalObjects/Geom/methods/cylinder.md
-            - globalObjects/Geom/methods/collar.md
-            - globalObjects/Geom/methods/cone.md
-            - globalObjects/Geom/methods/sphere.md
-            - globalObjects/Geom/methods/torus.md
-
-            #boolean operations
-            - globalObjects/Geom/methods/unite.md
-            - globalObjects/Geom/methods/difference.md
-            - globalObjects/Geom/methods/diff.md
-            - globalObjects/Geom/methods/intersect.md
+            - globalObjects/Geom/methods/ring.md
             - globalObjects/Geom/methods/section.md
-
-            - globalObjects/Geom/methods/fillet.md
-            - globalObjects/Geom/methods/filletFace.md
-            - globalObjects/Geom/methods/chamfer.md
+            - globalObjects/Geom/methods/segment.md
+            - globalObjects/Geom/methods/sphere.md
+            - globalObjects/Geom/methods/square.md
+            - globalObjects/Geom/methods/torus.md
             - globalObjects/Geom/methods/unify.md
-
-            - globalObjects/Geom/methods/boundingBox.md
-            - globalObjects/Geom/methods/shape.md
-
-            - globalObjects/Geom/methods/piece.md
-
-            #length: globalObjects/Geom/methods/length.md
-            #area: globalObjects/Geom/methods/area.md
-            #volume: globalObjects/Geom/methods/volume.md
-            #center: globalObjects/Geom/methods/center.md
+            - globalObjects/Geom/methods/unite.md
+            - globalObjects/Geom/methods/vector3.md
 
       - Material:
           - globalObjects/Material/_index.md

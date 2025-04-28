@@ -1,23 +1,29 @@
-# cylinder()
+# Geom.cylinder()
 
 ## Описание
-Описание метода.
+3D примитив(объемный) : цилиндр, задаётся с указанием радиуса `r` и высоты `h` и строится относительно точки [0,0,0].
+Возможно построение сектора цилиндра с использованием параметра `angle`.
 
 ## Синтаксис
 ```javascript
-Geom.cylinder(argument: type) : returnType
+Geom.cylinder(r: number, h: number) : Shape
+Geom.cylinder(r: number, h: number, angle: number) : Shape
 ```
 
 ## Аргументы
-- `argument` (type, обязательно): описание аргумента.
+- `r` (number, обязательно): Радиус цилиндра.
+- `h` (number, обязательно): Высота цилиндра.
+- `angle` (number, обязательно): Угол сектора цилиндра в градусах, тело центрируется относительно оси OX.
 
 ## Возвращаемое значение
-`returnType`: описание возвращаемого значения.
+`Shape`: объект типа `Shape`, цилиндр.
 
 ## Пример
 ```javascript linenums="1"
-let result = Geom.cylinder(value)
-console.info(result)
+let s1 = Geom.cylinder(100, 200)
+console.info(s1) // output:
+let s2 = Geom.cylinder(100, 200, 30)
+console.info(s2) // output:
 ```
 
 !!! info "См. также"

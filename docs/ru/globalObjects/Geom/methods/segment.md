@@ -1,23 +1,24 @@
-# segment()
+# Geom.segment()
 
 ## Описание
-Описание метода.
+Создание 3D отрезка, задается двумя точками.
 
 ## Синтаксис
 ```javascript
-Geom.segment(argument: type) : returnType
+Geom.segment(argument: type) : Shape
 ```
 
 ## Аргументы
-- `argument` (type, обязательно): описание аргумента.
+- `p1` (Point3, обязательно): Начальная точка отрезка.
+- `p2` (Point3, обязательно): Конечная точка отрезка.
 
 ## Возвращаемое значение
-`returnType`: описание возвращаемого значения.
+`Shape`: объект типа `Shape`, отрезок.
 
 ## Пример
 ```javascript linenums="1"
-let result = Geom.segment(value)
-console.info(result)
+let s = Geom.segment(Geom.point3(10,10,10), Geom.point3(20,20,20))
+console.info(s) // output:
 ```
 
 !!! info "См. также"

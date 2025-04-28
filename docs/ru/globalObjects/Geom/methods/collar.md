@@ -1,23 +1,29 @@
-# collar()
+# Geom.collar()
 
 ## Описание
-Описание метода.
+3D примитив(объемный) : втулка (цилиндр с осевым отверстием), задаётся с указанием внешненго радиуса `r1`, внутреннего радиуса `r2` и высоты `h` и строится относительно точки [0,0,0]. Возможно построение сектора втулки с использованием параметра angle.
 
 ## Синтаксис
 ```javascript
-Geom.collar(argument: type) : returnType
+Geom.collar(r1: number, r2: number, h: number) : Shape
+Geom.collar(r1: number, r2: number, h: number, angle: number) : Shape
 ```
 
 ## Аргументы
-- `argument` (type, обязательно): описание аргумента.
+- `r1` (number, обязательно): Внешний радиус втулки.
+- `r2` (number, обязательно): Внутренний радиус втулки.
+- `h` (number, обязательно): Высота втулки.
+- `angle` (number, обязательно): Угол сектора втулки в градусах, тело центрируется относительно оси OX.
 
 ## Возвращаемое значение
-`returnType`: описание возвращаемого значения.
+`Shape`: объект типа `Shape`, Втулка.
 
 ## Пример
 ```javascript linenums="1"
-let result = Geom.collar(value)
-console.info(result)
+let s1 = Geom.collar(200, 50, 100)
+console.info(s1) // output:
+let s2 = Geom.collar(200, 50, 100, 30)
+console.info(s2) // output:
 ```
 
 !!! info "См. также"

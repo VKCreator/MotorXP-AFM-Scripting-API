@@ -1,26 +1,31 @@
-# chamfer()
+# Geom.chamfer()
 
 ## Описание
-Описание метода.
+Операция взятия фаски тела. В отличие от скругления применяется только к объёмным телам.
+Фаска задаётся расстоянием `r`, взятым от ребра до линии фаски и массивом ближайших точек `refs`.
 
 ## Синтаксис
 ```javascript
-Geom.chamfer(argument: type) : returnType
+Geom.chamfer(shp: Shape, r: number) : Shape
+Geom.chamfer(shp: Shape, r: number, refs: array of Point3) : Shape
 ```
 
 ## Аргументы
-- `argument` (type, обязательно): описание аргумента.
+- `shp` (Shape, обязательно): Тело для снятия фаски.
+- `r` (number, обязательно):  Расстояние, взятым от ребра до линии фаски.
+- `refs` (Array of Point3, обязательно): масcивом ближайших точек `refs` к ребрам, требующих снятия фаски.
 
 ## Возвращаемое значение
-`returnType`: описание возвращаемого значения.
+`Shape`: объект типа `Shape`, результат операции снятия фаски.
 
 ## Пример
 ```javascript linenums="1"
-let result = Geom.chamfer(value)
+let box = Geom.box(100, 100, 100)
+let s = Geom.chamfer(box, 1);
 console.info(result)
 ```
 
 !!! info "См. также"
 
-    []()
+    [Geom.fillet](./fillet.md)
 

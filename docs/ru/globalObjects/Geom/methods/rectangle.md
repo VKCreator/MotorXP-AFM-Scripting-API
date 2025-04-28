@@ -1,23 +1,24 @@
-# rectangle()
+# Geom.rectangle()
 
 ## Описание
-Описание метода.
+2D Прямоугольник, строится в плоскости XOY, центр фигуры в точке [0,0,0].
 
 ## Синтаксис
 ```javascript
-Geom.rectangle(argument: type) : returnType
+Geom.rectangle(a: number, b: number) : Shape
 ```
 
 ## Аргументы
-- `argument` (type, обязательно): описание аргумента.
+- `a` (number, обязательно): Сторона прямоугольника по X.
+- `b` (number, обязательно): Сторона прямоугольника по Y.
 
 ## Возвращаемое значение
-`returnType`: описание возвращаемого значения.
+`Shape`: объект типа `Shape`, Прямоугольник.
 
 ## Пример
 ```javascript linenums="1"
-let result = Geom.rectangle(value);
-console.info(result);
+let s = Geom.rectangle(300, 200);
+console.info(s) // output:
 ```
 
 !!! info "См. также"

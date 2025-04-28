@@ -1,23 +1,23 @@
-# square()
+# Geom.square()
 
 ## Описание
-Описание метода.
+2D Квадрат, строится в плоскости XOY, центр фигуры в точке [0,0,0].
 
 ## Синтаксис
 ```javascript
-Geom.square(argument: type) : returnType
+Geom.square(a: number) : Shape
 ```
 
 ## Аргументы
-- `argument` (type, обязательно): описание аргумента.
+- `a` (number, обязательно): Сторона квадрата.
 
 ## Возвращаемое значение
-`returnType`: описание возвращаемого значения.
+`Shape`: объект типа `Shape`, Квадрат.
 
 ## Пример
 ```javascript linenums="1"
-let result = Geom.square(value)
-console.info(result)
+let s = Geom.square(100)
+console.info(s) // output:
 ```
 
 !!! info "См. также"

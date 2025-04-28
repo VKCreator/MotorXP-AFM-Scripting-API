@@ -1,23 +1,24 @@
-# bspline()
+# Geom.bspline()
 
 ## Описание
-Описание метода.
+B-spline - 3D плавная линия, проходящая через все заданные точки. Задаётся массивом точек `points`.
 
 ## Синтаксис
 ```javascript
-Geom.bspline(argument: type) : returnType
+Geom.bspline(points: array of Point3, closed: bool = false) : Shape
 ```
 
 ## Аргументы
-- `argument` (type, обязательно): описание аргумента.
+- `points` (array of Point3, обязательно): Массив точек плавной кривой.
+- `closed` (bool, опционально): Установка флага `closed` создает замкнутую плавную кривую.
 
 ## Возвращаемое значение
-`returnType`: описание возвращаемого значения.
+`Shape`: объект типа `Shape`, B-spline.
 
 ## Пример
 ```javascript linenums="1"
-let result = Geom.bspline(value)
-console.info(result)
+let s = Geom.bspline([Geom.point3(10,10,10), Geom.point3(20,20,20), Geom.point3(30,30,30)])
+console.info(s) // output:
 ```
 
 !!! info "См. также"

@@ -1,23 +1,24 @@
-# ngon()
+# Geom.ngon()
 
 ## Описание
-Описание метода.
+2D Правильный N-угольник, строится в плоскости XOY, центр фигуры в точке [0,0,0].
 
 ## Синтаксис
 ```javascript
-Geom.ngon(argument: type) : returnType
+Geom.ngon(radius: number, n: number) : Shape
 ```
 
 ## Аргументы
-- `argument` (type, обязательно): описание аргумента.
+- `radius` (number, обязательно): Радиус N-угольника.
+- `n` (number, обязательно): Количество углов N-угольника (допустимое значение: 3 и более).
 
 ## Возвращаемое значение
-`returnType`: описание возвращаемого значения.
+`Shape`: объект типа `Shape`, Правильный N-угольник.
 
 ## Пример
 ```javascript linenums="1"
-let result = Geom.ngon(value)
-console.info(result)
+let s = Geom.ngon(100, 6)
+console.info(s)
 ```
 
 !!! info "См. также"

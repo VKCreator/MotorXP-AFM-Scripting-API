@@ -1,26 +1,31 @@
-# fillet()
+# Geom.fillet()
 
 ## Описание
-Описание метода.
+Операция скругления тела. Если тело объёмное - модификации подвергаются ребра. Если плоское - вершины.
+Скругления задаются радиусом `r` и масcивом ближайших точек `refs` к модифицируемым ребрам/вершинам.
 
 ## Синтаксис
 ```javascript
-Geom.fillet(argument: type) : returnType
+Geom.fillet(shp: Shape, r: number) : Shape
+Geom.fillet(shp: Shape, r: number, refs: array of Point3) : Shape
 ```
 
 ## Аргументы
-- `argument` (type, обязательно): описание аргумента.
+- `shp` (Shape, обязательно): Тело для скругления.
+- `r` (number, обязательно): Радиус скругления.
+- `refs` (Array of Point3, обязательно): масcивом ближайших точек `refs` к ребрам/вершинам, требующих скругления.
 
 ## Возвращаемое значение
-`returnType`: описание возвращаемого значения.
+`Shape`: объект типа `Shape`, результат операции скругления.
 
 ## Пример
 ```javascript linenums="1"
-let result = Geom.fillet(value)
-console.info(result)
+let box = Geom.box(100, 100, 100)
+let s = Geom.fillet(box, 1);
+console.info(s) // output:
 ```
 
 !!! info "См. также"
 
-    []()
+    [Geom.chamfer](./chamfer.md)
 

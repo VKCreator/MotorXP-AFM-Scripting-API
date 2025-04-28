@@ -1,23 +1,27 @@
-# pointAtSegment()
+# Geom.pointAtSegment()
 
 ## Описание
-Описание метода.
+Возвращает точку в параметризованной позиции сегмента, указанной t. Функция возвращает начальную точку сегмента, если t = 0, и ее конечную точку, если t = 1.
 
 ## Синтаксис
 ```javascript
-Geom.pointAtSegment(argument: type) : returnType
+Geom.pointAtSegment(p1: Point3, p2: Point3, t : number) : Point3
 ```
 
 ## Аргументы
-- `argument` (type, обязательно): описание аргумента.
+- `p1` (Point3, обязательно): Первая точка сегмента.
+- `p2` (Point3, обязательно): Вторая точка сегмента.
+- `t` (number, обязательно): Параметризованная позиция сегмента.
 
 ## Возвращаемое значение
-`returnType`: описание возвращаемого значения.
+`Point3`: Возвращает точку `Point3`
 
 ## Пример
 ```javascript linenums="1"
-let result = Geom.pointAtSegment(value)
-console.info(result)
+let p1 = Geom.point3(0, 0, 0)
+let p2 = Geom.point3(100, 100, 100)
+let p3 = Geom.pointAtSegment(p1, p2, 0.5)
+console.info(p3) // output:
 ```
 
 !!! info "См. также"

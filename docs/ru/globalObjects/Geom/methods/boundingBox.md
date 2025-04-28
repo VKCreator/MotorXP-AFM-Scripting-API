@@ -1,18 +1,18 @@
-# boundingBox()
+# Geom.boundingBox()
 
 ## Описание
-Описание метода.
+Возвращает ограничивающую коробку тела.
 
 ## Синтаксис
 ```javascript
-Geom.boundingBox(argument: type) : returnType
+Geom.boundingBox(shp: Shape) : BoundingBox
 ```
 
 ## Аргументы
-- `argument` (type, обязательно): описание аргумента.
+- `shp` (Shape, обязательно): Тело.
 
 ## Возвращаемое значение
-`returnType`: описание возвращаемого значения.
+`BoundingBox`: Объект типа `BoundingBox`, ограничивающая коробка тела.
 
 ## Пример
 ```javascript linenums="1"
@@ -22,5 +22,5 @@ console.info(result)
 
 !!! info "См. также"
 
-    []()
+    [Shape](./../../../types/Shape/_index.md)
 

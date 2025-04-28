@@ -1,23 +1,23 @@
-# polygon()
+# Geom.polygon()
 
 ## Описание
-Описание метода.
+2D Многоугольник, строится в плоскости XOY, центр фигуры в точке [0,0,0].
 
 ## Синтаксис
 ```javascript
-Geom.polygon(argument: type) : returnType
+Geom.polygon(points: array of Point3) : Shape
 ```
 
 ## Аргументы
-- `argument` (type, обязательно): описание аргумента.
+- `points` (array of Point3, обязательно): Массив вершин многоугольника.
 
 ## Возвращаемое значение
-`returnType`: описание возвращаемого значения.
+`Shape`: объект типа `Shape`, Многоугольник.
 
 ## Пример
 ```javascript linenums="1"
-let result = Geom.polygon(value);
-console.info(result);
+let s = Geom.polygon([Geom.point3(0,0,0), Geom.point3(1,0,0), Geom.point3(1,1,0), Geom.point3(0,1,0), Geom.point3(0,0,0)]);
+console.info(s);
 ```
 
 !!! info "См. также"

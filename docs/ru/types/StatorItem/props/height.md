@@ -1,7 +1,7 @@
 # height
 
 ## Описание
-The `height` property...
+Высота элемента.
 
 ## Принимаемые значения:
 ...
@@ -19,7 +19,7 @@ height = value
 
 ## Пример
 ```javascript linenums="1"
-let result = motor.height
+let result = motor.stator.item(StatorItem.ID1).height
 console.info(result)
 ```
 

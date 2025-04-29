@@ -347,7 +347,7 @@ nav:
            - types/Stator/props/typeMiddleItem.md
            - types/Stator/props/script.md
            - types/Stator/props/nameScript.md
-           - types/Stator/props/countItem.md
+           - types/Stator/props/countItems.md
            - types/Stator/props/items.md
            - types/Stator/props/ironMaterial.md
            - types/Stator/props/ironStacking.md

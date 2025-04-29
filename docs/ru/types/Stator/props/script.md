@@ -1,22 +1,22 @@
-# items
+# script
 
 ## Описание
-Массив элементов статора, количество элементов зависит от motor.machineType.
+Имя файлаа скрипта
 
 ## Тип значения свойства
-`Array of StatorItem`
+`String`
 
 ## Доступ
-`Только Чтение`
+`Тоько Чтение`
 
 ## Синтаксис
 ```javascript
-items
+script
 ```
 
 ## Пример
 ```javascript linenums="1"
-let result = motor.items
+let result = motor.script
 console.info(result)
 ```
 

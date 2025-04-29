@@ -1,16 +1,19 @@
 # id
 
 ## Описание
-The `id` property...
+Идентификатор элемента статора
 
 ## Принимаемые значения:
-...
+Одно из констант:
+ - StatorItem.ID1
+ - StatorItem.ID2
+ - StatorItem.ID3
 
 ## Тип значения свойства
 `Number`
 
 ## Доступ
-`Чтение\Запись`
+`Только Чтение`
 
 ## Синтаксис
 ```javascript
@@ -25,5 +28,5 @@ console.info(result)
 
 !!! info "См. также"
 
-    []()
+    [StatorItem.ID](./../constants/ID.md)
 

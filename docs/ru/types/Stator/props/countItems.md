@@ -1,22 +1,22 @@
-# items
+# countItems
 
 ## Описание
-Массив элементов статора, количество элементов зависит от motor.machineType.
+Количество элементов статора, зависит от motor.machineType.
 
 ## Тип значения свойства
-`Array of StatorItem`
+`number`
 
 ## Доступ
 `Только Чтение`
 
 ## Синтаксис
 ```javascript
-items
+countItems
 ```
 
 ## Пример
 ```javascript linenums="1"
-let result = motor.items
+let result = motor.countItems
 console.info(result)
 ```
 

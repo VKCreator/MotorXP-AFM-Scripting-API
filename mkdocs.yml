@@ -85,7 +85,7 @@ plugins:
 
       #regex:
       #  - '.*\.(tmp|bin|tar)$'
-  #- with-pdf
+  # - with-pdf
   - print-site:
         enabled: !ENV [ENABLED_PRINT_SITE, True]
         path_to_pdf: "$lang$/pdf/document.pdf"

@@ -21,7 +21,7 @@ typeMiddleItem = value
 
 ## Пример
 ```javascript linenums="1"
-let result = motor.typeMiddleItem
+let result = motor.stator.typeMiddleItem
 console.info(result)
 ```
 

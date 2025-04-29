@@ -1,7 +1,7 @@
 # script
 
 ## Описание
-Имя файлаа скрипта
+Имя файла скрипта
 
 ## Тип значения свойства
 `String`
@@ -16,7 +16,7 @@ script
 
 ## Пример
 ```javascript linenums="1"
-let result = motor.script
+let result = motor.stator.script
 console.info(result)
 ```
 

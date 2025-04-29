@@ -159,7 +159,7 @@ nav:
           - globalObjects/Math/_index.md
           - constants:
             - globalObjects/Math/constants/_index.md
-            - globalObjects/Math/constants/EPSILON.md
+            - globalObjects/Math/constants/Epsilon.md
           - methods:
             - globalObjects/Math/methods/_index.md
             - globalObjects/Math/methods/isEpsilon.md
@@ -440,8 +440,6 @@ nav:
             - types/RotorItem/methods/isUpper.md
             - types/RotorItem/methods/isMiddle.md
             - types/RotorItem/methods/isLower.md
-            - types/RotorItem/methods/angularDisplacement.md
-            - types/RotorItem/methods/setAngularDisplacement.md
 
       - Winding:
           - types/Winding/_index.md

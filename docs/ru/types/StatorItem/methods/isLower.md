@@ -1,22 +1,19 @@
 # isLower()
 
 ## Описание
-Описание метода.
+Истина, если в моторе элемент статора нижний.
 
 ## Синтаксис
 ```javascript
-isLower(argument: type) : returnType
+isLower() : bool
 ```
 
-## Аргументы
-- `argument` (type, обязательно): описание аргумента.
-
 ## Возвращаемое значение
-`returnType`: описание возвращаемого значения.
+`bool`: Истина, если в моторе элемент статора нижний.
 
 ## Пример
 ```javascript linenums="1"
-let result = isLower(value)
+let result = motor.stator.item(StatorItem.ID1).isLower()
 console.info(result)
 ```
 

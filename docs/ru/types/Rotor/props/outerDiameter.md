@@ -1,10 +1,10 @@
 # outerDiameter
 
 ## Описание
-The `outerDiameter` property...
+Внешний диаметр.
 
 ## Принимаемые значения:
-...
+Число больше нуля.
 
 ## Тип значения свойства
 `Number`
@@ -19,7 +19,7 @@ outerDiameter = value
 
 ## Пример
 ```javascript linenums="1"
-let result = motor.outerDiameter
+let result = motor.rotor.outerDiameter
 console.info(result)
 ```
 

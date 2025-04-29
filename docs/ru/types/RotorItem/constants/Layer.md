@@ -1,7 +1,23 @@
-# ID2
+# RotorItem.Layer
 
 ## Описание
-Константа `ID2`.
+Слой элемента ротора.
+
+## Значение
+ - `RotorItem.Lower`: 1
+ - `RotorItem.Upper`: 2
+
+## Пример
+```javascript linenums="1"
+let value = RotorItem.Lower;
+console.info(value);
+```
+
+!!! info "См. также"
+
+    []()
+
+
 
 ## Значение
 `Number`: значение константы.

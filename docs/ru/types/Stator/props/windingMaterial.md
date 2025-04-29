@@ -16,7 +16,7 @@ windingMaterial = value
 
 ## Пример
 ```javascript linenums="1"
-let result = motor.windingMaterial
+let result = motor.stator.windingMaterial
 console.info(result)
 ```
 

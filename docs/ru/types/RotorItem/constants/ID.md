@@ -1,14 +1,16 @@
-# ID1
+# ID
 
 ## Описание
-Константа `ID1`.
+Идентификатор элемента ротора.
 
 ## Значение
-`Number`: значение константы.
+ - `RotorItem.ID1`: 1
+ - `RotorItem.ID2`: 2
+ - `RotorItem.ID2`: 3
 
 ## Пример
 ```javascript linenums="1"
-let value = Constants.ID1;
+let value = RotorItem.ID1;
 console.info(value);
 ```
 

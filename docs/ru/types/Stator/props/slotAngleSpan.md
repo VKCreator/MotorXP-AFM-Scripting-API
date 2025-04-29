@@ -16,7 +16,7 @@ slotAngleSpan
 
 ## Пример
 ```javascript linenums="1"
-let result = motor.slotAngleSpan
+let result = motor.stator.slotAngleSpan
 console.info(result)
 ```
 

@@ -16,7 +16,7 @@ conductorMaterial = value
 
 ## Пример
 ```javascript linenums="1"
-let result = motor.conductorMaterial
+let result = motor.stator.conductorMaterial
 console.info(result)
 ```
 

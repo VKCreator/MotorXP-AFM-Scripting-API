@@ -1,25 +1,22 @@
-# countItem
+# countItems
 
 ## Описание
-The `countItem` property...
-
-## Принимаемые значения:
-...
+Количество элементов ротора, зависит от motor.machineType.
 
 ## Тип значения свойства
-`Number`
+`number`
 
 ## Доступ
-`Чтение\Запись`
+`Только Чтение`
 
 ## Синтаксис
 ```javascript
-countItem = value
+countItems
 ```
 
 ## Пример
 ```javascript linenums="1"
-let result = motor.countItem
+let result = motor.rotor.countItems
 console.info(result)
 ```
 

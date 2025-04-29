@@ -1,7 +1,23 @@
-# ID2
+# StatorItem.Layer
 
 ## Описание
-Константа `ID2`.
+Слой элемента статора.
+
+## Значение
+ - `StatorItem.Lower`: 1
+ - `StatorItem.Upper`: 2
+
+## Пример
+```javascript linenums="1"
+let value = StatorItem.ID1;
+console.info(value);
+```
+
+!!! info "См. также"
+
+    []()
+
+
 
 ## Значение
 `Number`: значение константы.

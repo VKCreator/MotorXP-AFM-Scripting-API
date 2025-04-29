@@ -16,7 +16,7 @@ nameScript
 
 ## Пример
 ```javascript linenums="1"
-let result = motor.nameScript
+let result = motor.stator.nameScript
 console.info(result)
 ```
 

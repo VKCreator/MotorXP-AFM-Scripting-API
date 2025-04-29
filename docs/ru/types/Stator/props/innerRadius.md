@@ -1,7 +1,7 @@
 # innerRadius
 
 ## Описание
-Внутрений радиус
+Внутрений радиус.
 
 ## Принимаемые значения:
 Число больше нуля.
@@ -19,7 +19,7 @@ innerRadius = value
 
 ## Пример
 ```javascript linenums="1"
-let result = motor.innerRadius
+let result = motor.stator.innerRadius
 console.info(result)
 ```
 

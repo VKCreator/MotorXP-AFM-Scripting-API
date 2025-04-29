@@ -16,7 +16,7 @@ countItems
 
 ## Пример
 ```javascript linenums="1"
-let result = motor.countItems
+let result = motor.stator.countItems
 console.info(result)
 ```
 

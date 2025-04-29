@@ -19,7 +19,7 @@ numberSlots = value
 
 ## Пример
 ```javascript linenums="1"
-let result = motor.numberSlots
+let result = motor.stator.numberSlots
 console.info(result)
 ```
 

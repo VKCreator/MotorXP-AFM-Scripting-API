@@ -5,9 +5,12 @@
 
 ## Принимаемые значения:
 Одно из констант:
- - StatorItem.ID1
- - StatorItem.ID2
- - StatorItem.ID3
+
+ - `StatorItem.ID1`
+
+ - `StatorItem.ID2`
+
+ - `StatorItem.ID3`
 
 ## Тип значения свойства
 `Number`
@@ -22,7 +25,7 @@ id = value
 
 ## Пример
 ```javascript linenums="1"
-let result = motor.id
+let result = motor.stator.item(StatorItem.ID1).id
 console.info(result)
 ```
 

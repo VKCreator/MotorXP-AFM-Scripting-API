@@ -19,7 +19,7 @@ ironMaterial = value
 
 ## Пример
 ```javascript linenums="1"
-let result = motor.ironMaterial
+let result = motor.stator.ironMaterial
 console.info(result)
 ```
 

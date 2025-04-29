@@ -19,7 +19,7 @@ ironStacking = value
 
 ## Пример
 ```javascript linenums="1"
-let result = motor.ironStacking
+let result = motor.stator.ironStacking
 console.info(result)
 ```
 

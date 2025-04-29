@@ -1,7 +1,7 @@
 # conductorTemperature
 
 ## Описание
-Температура порводника статора в градусах Цельсия.
+Температура проводника статора в градусах Цельсия.
 
 ## Тип значения свойства
 `Number`
@@ -16,7 +16,7 @@ conductorTemperature = value
 
 ## Пример
 ```javascript linenums="1"
-let result = motor.conductorTemperature
+let result = motor.stator.conductorTemperature
 console.info(result)
 ```
 

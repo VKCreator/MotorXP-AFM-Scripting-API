@@ -16,7 +16,7 @@ items
 
 ## Пример
 ```javascript linenums="1"
-let result = motor.items
+let result = motor.stator.items
 console.info(result)
 ```
 

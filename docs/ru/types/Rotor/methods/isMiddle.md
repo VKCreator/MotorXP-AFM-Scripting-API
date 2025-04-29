@@ -1,22 +1,23 @@
 # isMiddle()
 
 ## Описание
-Описание метода.
+Истина, если в моторе элемент ротора средний.
 
 ## Синтаксис
 ```javascript
-isMiddle(argument: type) : returnType
+isLower(itemID: RotorItem.ID) : bool
 ```
 
 ## Аргументы
-- `argument` (type, обязательно): описание аргумента.
+- `itemID` (RotorItem.ID, обязательно): Идентификатор элемента ротора.
 
 ## Возвращаемое значение
-`returnType`: описание возвращаемого значения.
+`bool`: Истина, если в моторе элемент ротора средний.
 
 ## Пример
 ```javascript linenums="1"
-let result = isMiddle(value)
+let rotor = motor.rotor
+let result = rotor.isMiddle(RotorItem.ID1)
 console.info(result)
 ```
 

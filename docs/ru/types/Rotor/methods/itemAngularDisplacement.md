@@ -1,22 +1,23 @@
 # itemAngularDisplacement()
 
 ## Описание
-Описание метода.
+Угловое смещение элемента ротора в градусах.
 
 ## Синтаксис
 ```javascript
-itemAngularDisplacement(argument: type) : returnType
+itemAngularDisplacement(itemID: RotorItem.ID) : number
 ```
 
 ## Аргументы
-- `argument` (type, обязательно): описание аргумента.
+- `itemID` (RotorItem.ID, обязательно): Идентификатор элемента ротора.
 
 ## Возвращаемое значение
-`returnType`: описание возвращаемого значения.
+`number`: Угловое смещение элемента ротора в градусах.
 
 ## Пример
 ```javascript linenums="1"
-let result = itemAngularDisplacement(value)
+let rotor = motor.rotor
+let result = rotor.itemAngularDisplacement(RotorItem.ID1)
 console.info(result)
 ```
 

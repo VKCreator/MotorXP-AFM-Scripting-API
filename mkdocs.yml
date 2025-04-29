@@ -377,77 +377,71 @@ nav:
          - types/StatorItem/_index.md
          - constants: 
            - types/StatorItem/constants/_index.md
-           - ID1: types/StatorItem/constants/ID1.md
-           - ID2: types/StatorItem/constants/ID2.md
-           - ID3: types/StatorItem/constants/ID3.md
+           - types/StatorItem/constants/ID.md
+           - types/StatorItem/constants/Layer.md
          - properties:
            - types/StatorItem/props/_index.md
-           - id: types/StatorItem/props/id.md
-           - height: types/StatorItem/props/height.md
+           - types/StatorItem/props/id.md
+           - types/StatorItem/props/height.md
+           - types/StatorItem/props/angularDisplacement.md
          - methods:
            - types/StatorItem/methods/_index.md
-           - isUpper: types/StatorItem/methods/isUpper.md
-           - isMiddle: types/StatorItem/methods/isMiddle.md
-           - isLower: types/StatorItem/methods/isLower.md
-           - angularDisplacement: types/StatorItem/methods/angularDisplacement.md
-           - setAngularDisplacement: types/StatorItem/methods/setAngularDisplacement.md
+           - types/StatorItem/methods/isUpper.md
+           - types/StatorItem/methods/isMiddle.md
+           - types/StatorItem/methods/isLower.md
 
       - Rotor:
          - types/Rotor/_index.md
          - constants: 
            - types/Rotor/constants/_index.md
-           - Yokeless: types/Rotor/constants/Yokeless.md
-           - Yoke: types/Rotor/constants/Yoke.md
+           - types/Rotor/constants/MiddleType.md
          - properties:
            - types/Rotor/props/_index.md
-           - outerDiameter: types/Rotor/props/outerDiameter.md
-           - outerRadius: types/Rotor/props/outerRadius.md
-           - innerDiameter: types/Rotor/props/innerDiameter.md
-           - innerRadius: types/Rotor/props/innerRadius.md
-           - numberPolePairs: types/Rotor/props/numberPolePairs.md
-           - poleAngleSpan: types/Rotor/props/poleAngleSpan.md
-           - poleArrangement: types/Rotor/props/poleArrangement.md
-           - typeMiddleItem: types/Rotor/props/typeMiddleItem.md
-           - ironStacking: types/Rotor/props/ironStacking.md
-           - ironMaterial: types/Rotor/props/ironMaterial.md
-           - magnetTemperature: types/Rotor/props/magnetTemperature.md
-           - magnetMaterial: types/Rotor/props/magnetMaterial.md
-           - conductorTemperature: types/Rotor/props/conductorTemperature.md
-           - conductorMaterial: types/Rotor/props/conductorMaterial.md
-           - script: types/Rotor/props/script.md
-           - nameScript: types/Rotor/props/nameScript.md
-           - countItem: types/Rotor/props/countItem.md
-           - items: types/Rotor/props/items.md
-           - simDomain: types/Rotor/props/simDomain.md
-           - simRadialOuterDomain: types/Rotor/props/simRadialOuterDomain.md
+           - types/Rotor/props/outerDiameter.md
+           - types/Rotor/props/outerRadius.md
+           - types/Rotor/props/innerDiameter.md
+           - types/Rotor/props/innerRadius.md
+           - types/Rotor/props/numberPolePairs.md
+           - types/Rotor/props/poleAngleSpan.md
+           - types/Rotor/props/poleArrangement.md
+           - types/Rotor/props/typeMiddleItem.md
+           - types/Rotor/props/script.md
+           - types/Rotor/props/nameScript.md
+           - types/Rotor/props/countItem.md
+           - types/Rotor/props/items.md
+           - types/Rotor/props/ironStacking.md
+           - types/Rotor/props/ironMaterial.md
+           - types/Rotor/props/magnetTemperature.md
+           - types/Rotor/props/magnetMaterial.md
+           - types/Rotor/props/conductorTemperature.md
+           - types/Rotor/props/conductorMaterial.md
          - methods:
            - types/Rotor/methods/_index.md
-           - item: types/Rotor/methods/item.md
-           - isLower: types/Rotor/methods/isLower.md
-           - isMiddle: types/Rotor/methods/isMiddle.md
-           - isUpper: types/Rotor/methods/isUpper.md
-           - itemAngularDisplacement: types/Rotor/methods/itemAngularDisplacement.md
-           - setItemAngularDisplacement: types/Rotor/methods/setItemAngularDisplacement.md
+           - types/Rotor/methods/item.md
+           - types/Rotor/methods/isLower.md
+           - types/Rotor/methods/isMiddle.md
+           - types/Rotor/methods/isUpper.md
+           - types/Rotor/methods/itemAngularDisplacement.md
+           - types/Rotor/methods/setItemAngularDisplacement.md
 
       - RotorItem:
           - types/RotorItem/_index.md
           - constants: 
               - types/RotorItem/constants/_index.md
-              - ID1: types/RotorItem/constants/ID1.md
-              - ID2: types/RotorItem/constants/ID2.md
-              - ID3: types/RotorItem/constants/ID3.md
+              - types/RotorItem/constants/ID.md
+              - types/RotorItem/constants/Layer.md
           - properties: 
               - types/RotorItem/props/_index.md
-              - id: types/RotorItem/props/id.md
-              - height: types/RotorItem/props/height.md
-              - angularDisplacement: types/RotorItem/props/angularDisplacement.md
+              - types/RotorItem/props/id.md
+              - types/RotorItem/props/height.md
+              - types/RotorItem/props/angularDisplacement.md
           - methods:
             - types/RotorItem/methods/_index.md
-            - isUpper: types/RotorItem/methods/isUpper.md
-            - isMiddle: types/RotorItem/methods/isMiddle.md
-            - isLower: types/RotorItem/methods/isLower.md
-            - angularDisplacement: types/RotorItem/methods/angularDisplacement.md
-            - setAngularDisplacement: types/RotorItem/methods/setAngularDisplacement.md
+            - types/RotorItem/methods/isUpper.md
+            - types/RotorItem/methods/isMiddle.md
+            - types/RotorItem/methods/isLower.md
+            - types/RotorItem/methods/angularDisplacement.md
+            - types/RotorItem/methods/setAngularDisplacement.md
 
       - Winding:
           - types/Winding/_index.md

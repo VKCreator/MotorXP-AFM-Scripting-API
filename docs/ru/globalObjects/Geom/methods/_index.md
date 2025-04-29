@@ -10,9 +10,11 @@
 ## 2D примитивы (плоские)
 - [^^arc()^^](./arc.md): Дуга.
 - [^^circle()^^](./circle.md): Круг или сектор круга
+- [^^ring()^^](./ring.md): Кольцо.
 - [^^ellipse()^^](./ellipse.md): Эллипс или сектор эллипса.
 - [^^square()^^](./square.md): Квадрат.
 - [^^rectangle()^^](./rectangle.md): Прямоугольник
+- [^^ngon()^^](./ngon.md): Правильный N-угольник.
 - [^^infplane()^^](./infplane.md): Плоскость
 
 - [^^segment()^^](./segment.md): Отрезок.
@@ -25,8 +27,6 @@
 - [^^collar()^^](./collar.md): Втулка.
 - [^^cone()^^](./cone.md): Конус
 - [^^cylinder()^^](./cylinder.md): Цилиндр.
-- [^^ngon()^^](./ngon.md): Правильный N-угольник.
-- [^^ring()^^](./ring.md): Кольцо.
 - [^^sphere()^^](./sphere.md): Сфера.
 - [^^torus()^^](./torus.md): Тор.
 

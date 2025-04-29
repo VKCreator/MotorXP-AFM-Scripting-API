@@ -1,21 +1,22 @@
-# Описание
+# Описание `BoundingBox`
 Описывает ограничивающий ящик в трехмерном пространстве. Ограничивающий ящик параллелен осям системы координат.интервалами: 
 
-## Свойства типа `BoundingBox`
+## Свойства `BoundingBox`
 Ниже приведен список доступных свойств, предоставляемых типом `BoundingBox`. Щелкните имя свойства, чтобы увидеть её подробное описание и примеры.
 
-- [^^`xMin`^^](./props/xMin.md): 
-- [^^`xMax`^^](./props/xMax.md):
-- [^^`xSize`^^](./props/xSize.md):
-- [^^`xCenter`^^](./props/xCenter.md):
-- [^^`yMin`^^](./props/yMin.md): 
-- [^^`yMax`^^](./props/yMax.md):
-- [^^`ySize`^^](./props/ySize.md):
-- [^^`yCenter`^^](./props/yCenter.md):
-- [^^`zMin`^^](./props/zMin.md): 
-- [^^`zMax`^^](./props/zMax.md):
-- [^^`zSize`^^](./props/zSize.md):
-- [^^`zCenter`^^](./props/zCenter.md):
+- [^^`xMin`^^](./props/xMin.md): Минимальное значение по оси X.
+- [^^`xMax`^^](./props/xMax.md): Максимальное значение по оси X.
+- [^^`xSize`^^](./props/xSize.md): Размер по оси X.
+- [^^`xCenter`^^](./props/xCenter.md): Середина по оси X.
+- [^^`yMin`^^](./props/yMin.md): Минимальное значение по оси Y.
+- [^^`yMax`^^](./props/yMax.md): Максимальное значение по оси Y.
+- [^^`ySize`^^](./props/ySize.md): Размер по оси Y.
+- [^^`yCenter`^^](./props/yCenter.md): Середина по оси Y.
+- [^^`zMin`^^](./props/zMin.md): Минимальное значение по оси Z.
+- [^^`zMax`^^](./props/zMax.md): Максимальное значение по оси Z.
+- [^^`zSize`^^](./props/zSize.md): Размер по оси Z.
+- [^^`zCenter`^^](./props/zCenter.md): Середина по оси Z.
 
-## Методы типа `BoundingBox`
-Ниже приведен список доступных методов, предоставляемых типом `BoundingBox`. Щелкните имя метода, чтобы увидеть его подробное описание и примеры.
+## Методы `BoundingBox`
+
+Нет методов

@@ -273,11 +273,11 @@ nav:
           - globalObjects/motor/_index.md
           - constants: 
             - globalObjects/motor/constants/_index.md
-            - SR: globalObjects/motor/constants/SR.md
-            - SRS: globalObjects/motor/constants/SRS.md
-            - SRSRS: globalObjects/motor/constants/SRSRS.md
-            - RSR: globalObjects/motor/constants/RSR.md
-            - RSRSR: globalObjects/motor/constants/RSRSR.md
+            - globalObjects/motor/constants/SR.md
+            - globalObjects/motor/constants/SRS.md
+            - globalObjects/motor/constants/SRSRS.md
+            - globalObjects/motor/constants/RSR.md
+            - globalObjects/motor/constants/RSRSR.md
           - properties:
               - globalObjects/motor/props/_index.md
               - globalObjects/motor/props/machineType.md
@@ -297,6 +297,40 @@ nav:
 
   - Object Types:
       - types/_index.md
+      - Airgap:
+        - types/Airgap/_index.md
+        - constants: 
+           - types/Airgap/constants/_index.md
+           - types/Airgap/ID.md
+        - properties: 
+           - types/Airgap/props/_index.md
+           - types/Airgap/props/id.md
+           - types/Airgap/props/thickness.md
+           - types/Airgap/props/numberLayers.md
+           - types/Airgap/props/posBottom.md
+           - types/Airgap/props/posTop.md
+           - types/Airgap/props/posMiddle.md
+        - methods:
+           - types/Airgap/methods/_index.md
+
+      - BoundingBox:
+        - types/BoundingBox/_index.md
+        - properties: 
+           - types/BoundingBox/props/_index.md
+           - types/BoundingBox/props/xMin.md
+           - types/BoundingBox/props/xMax.md
+           - types/BoundingBox/props/xSize.md
+           - types/BoundingBox/props/xCenter.md
+           - types/BoundingBox/props/yMin.md
+           - types/BoundingBox/props/yMax.md
+           - types/BoundingBox/props/ySize.md 
+           - types/BoundingBox/props/yCenter.md
+           - types/BoundingBox/props/zMin.md
+           - types/BoundingBox/props/zMax.md
+           - types/BoundingBox/props/zSize.md 
+           - types/BoundingBox/props/zCenter.md
+        - methods:
+           - types/BoundingBox/methods/_index.md
       - Stator:
          - types/Stator/_index.md
          - constants: 
@@ -406,13 +440,6 @@ nav:
             - isLower: types/RotorItem/methods/isLower.md
             - angularDisplacement: types/RotorItem/methods/angularDisplacement.md
             - setAngularDisplacement: types/RotorItem/methods/setAngularDisplacement.md
-
-      - Airgap:
-          - types/Airgap/_index.md
-          - properties: 
-            - types/Airgap/props/_index.md
-          - methods:
-            - types/Airgap/methods/_index.md
 
       - Winding:
           - types/Winding/_index.md
@@ -620,25 +647,6 @@ nav:
             - scaleYZ: types/Shape/methods/scaleYZ.md
             - scaleXZ: types/Shape/methods/scaleXZ.md
             - scaleXYZ: types/Shape/methods/scaleXYZ.md
-
-      - BoundingBox:
-          - types/BoundingBox/_index.md
-          - properties: 
-            - types/BoundingBox/props/_index.md
-            - types/BoundingBox/props/xMin.md
-            - types/BoundingBox/props/xMax.md
-            - types/BoundingBox/props/xSize.md
-            - types/BoundingBox/props/xCenter.md
-            - types/BoundingBox/props/yMin.md
-            - types/BoundingBox/props/yMax.md
-            - types/BoundingBox/props/ySize.md 
-            - types/BoundingBox/props/yCenter.md
-            - types/BoundingBox/props/zMin.md
-            - types/BoundingBox/props/zMax.md
-            - types/BoundingBox/props/zSize.md 
-            - types/BoundingBox/props/zCenter.md
-          - methods:
-            - types/BoundingBox/methods/_index.md
 
       - Piece:
           - types/Piece/_index.md

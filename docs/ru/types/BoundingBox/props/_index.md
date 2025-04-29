@@ -1,15 +1,15 @@
-./methods/# Свойства типа `BoundingBox`
+# Свойства `BoundingBox`
 Ниже приведен список доступных свойств, предоставляемых типом `BoundingBox`. Щелкните имя свойства, чтобы увидеть её подробное описание и примеры.
 
-- [^^`xMin`^^](./xMin.md): 
-- [^^`xMax`^^](./xMax.md):
-- [^^`xSize`^^](./xSize.md):
-- [^^`xCenter`^^](./xCenter.md):
-- [^^`yMin`^^](./yMin.md): 
-- [^^`yMax`^^](./yMax.md):
-- [^^`ySize`^^](./ySize.md):
-- [^^`yCenter`^^](./yCenter.md):
-- [^^`zMin`^^](./zMin.md): 
-- [^^`zMax`^^](./zMax.md):
-- [^^`zSize`^^](./zSize.md):
-- [^^`zCenter`^^](./zCenter.md):
+- [^^`xMin`^^](./xMin.md): Минимальное значение по оси X.
+- [^^`xMax`^^](./xMax.md): Максимальное значение по оси X.
+- [^^`xSize`^^](./xSize.md): Размер по оси X.
+- [^^`xCenter`^^](./xCenter.md): Середина по оси X.
+- [^^`yMin`^^](./yMin.md): Минимальное значение по оси Y.
+- [^^`yMax`^^](./yMax.md): Максимальное значение по оси Y.
+- [^^`ySize`^^](./ySize.md): Размер по оси Y.
+- [^^`yCenter`^^](./yCenter.md): Середина по оси Y.
+- [^^`zMin`^^](./zMin.md): Минимальное значение по оси Z.
+- [^^`zMax`^^](./zMax.md): Максимальное значение по оси Z.
+- [^^`zSize`^^](./zSize.md): Размер по оси Z.
+- [^^`zCenter`^^](./zCenter.md): Середина по оси Z.

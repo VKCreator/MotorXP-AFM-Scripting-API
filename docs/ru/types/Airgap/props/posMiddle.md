@@ -1,34 +1,34 @@
-# thickness
+# posMiddle
 
 ## Описание
-Толщина воздушного зазора
+Позиция центра воздушного зазора.
 
 ## Тип значения свойства
 `Number`
 
 ## Доступ
-`Чтение\Запись`
+`Только Чтение`
 
 ## Синтаксис
 ```javascript
-thickness
+posBottom
 ```
 
 ## Пример
 ```javascript linenums="1"
 let airgap = motor.airgap
-let t = airgap.thickness
-console.info(t) // output:
+let result = airgap.posMiddle
+console.info(result) // output:
 ```
 
 !!! info "См. также"
 
     [id](./id.md)
 
-    [numberLayers](numberLayers.md)
+    [thickness](./thickness.md)
+
+    [numberLayers](./numberLayers.md)
 
     [posBottom](./posBottom.md)
 
     [posTop](./posTop.md)
-
-    [posMiddle](./posMiddle.md)

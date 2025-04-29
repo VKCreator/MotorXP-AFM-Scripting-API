@@ -1,11 +1,11 @@
-# toFileStep()
+# toFileSTEP()
 
 ## Описание
 Сохранить деталь в файле
 
 ## Синтаксис
 ```javascript
-toFileStep(pathFile: string)
+toFileSTEP(pathFile: string)
 ```
 
 ## Аргументы

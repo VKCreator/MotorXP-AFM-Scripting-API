@@ -1,34 +1,39 @@
-# numberLayers
+# id
 
 ## Описание
-Количество слоев воздушного зазора для расчета сетки
+Идентификатор воздушного зазора.
 
 ## Тип значения свойства
-`Number`
+`Airgap.ID`
+
+## Возможные значения
+- Airgap.ID1
+- Airgap.ID2
+- Airgap.ID3
+- Airgap.ID4
 
 ## Доступ
-`Чтение\Запись`
+`Только Чтение`
 
 ## Синтаксис
 ```javascript
-numberLayers
+id
 ```
 
 ## Пример
 ```javascript linenums="1"
 let airgap = motor.airgap
-let result = airgap.numberLayers
-console.info(result) // output:
+let result = airgap.id
+console.info(result) // output: 1
 ```
 
 !!! info "См. также"
 
-    [id](./id.md)
-
     [thickness](./thickness.md)
 
-    [posBottom](./posBottom.md)
+    [numberLayers](./numberLayers.md)
 
     [posTop](./posTop.md)
 
     [posMiddle](./posMiddle.md)
+

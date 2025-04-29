@@ -159,7 +159,7 @@ nav:
           - globalObjects/Math/_index.md
           - constants:
             - globalObjects/Math/constants/_index.md
-            - globalObjects/Math/constants/Epsilon.md
+            - globalObjects/Math/constants/EPSILON.md
           - methods:
             - globalObjects/Math/methods/_index.md
             - globalObjects/Math/methods/isEpsilon.md
@@ -282,14 +282,14 @@ nav:
           - globalObjects/motor/_index.md
           - constants: 
             - globalObjects/motor/constants/_index.md
-            - SR: globalObjects/motor/constants/SR.md
-            - SRS: globalObjects/motor/constants/SRS.md
-            - SRSRS: globalObjects/motor/constants/SRSRS.md
-            - RSR: globalObjects/motor/constants/RSR.md
-            - RSRSR: globalObjects/motor/constants/RSRSR.md
+            - globalObjects/motor/constants/SR.md
+            - globalObjects/motor/constants/SRS.md
+            - globalObjects/motor/constants/SRSRS.md
+            - globalObjects/motor/constants/RSR.md
+            - globalObjects/motor/constants/RSRSR.md
           - properties:
               - globalObjects/motor/props/_index.md
-              - machineType: globalObjects/motor/props/machineType.md
+              - globalObjects/motor/props/machineType.md
               #- height: globalObjects/motor/props/height.md
               #- periodicity: globalObjects/motor/props/periodicity.md
               #- periodicityAngleSpan: globalObjects/motor/props/periodicityAngleSpan.md
@@ -297,15 +297,49 @@ nav:
               #- boundaryCondition: globalObjects/motor/props/boundaryCondition.md
               #- simDomain: globalObjects/motor/props/simDomain.md
               #- simRadialOuterDomain: globalObjects/motor/props/simRadialOuterDomain.md
-              - stator: globalObjects/motor/props/stator.md
-              - rotor: globalObjects/motor/props/rotor.md
-              - airgap: globalObjects/motor/props/airgap.md
-              - winding: globalObjects/motor/props/winding.md
-              - mesh: globalObjects/motor/props/mesh.md
+              - globalObjects/motor/props/stator.md
+              - globalObjects/motor/props/rotor.md
+              - globalObjects/motor/props/airgap.md
+              - globalObjects/motor/props/winding.md
+              - globalObjects/motor/props/mesh.md
               #- analysis: globalObjects/motor/props/analysis.md
 
   - Object Types:
       - types/_index.md
+      - Airgap:
+        - types/Airgap/_index.md
+        - constants: 
+           - types/Airgap/constants/_index.md
+           - types/Airgap/ID.md
+        - properties: 
+           - types/Airgap/props/_index.md
+           - types/Airgap/props/id.md
+           - types/Airgap/props/thickness.md
+           - types/Airgap/props/numberLayers.md
+           - types/Airgap/props/posBottom.md
+           - types/Airgap/props/posTop.md
+           - types/Airgap/props/posMiddle.md
+        - methods:
+           - types/Airgap/methods/_index.md
+
+      - BoundingBox:
+        - types/BoundingBox/_index.md
+        - properties: 
+           - types/BoundingBox/props/_index.md
+           - types/BoundingBox/props/xMin.md
+           - types/BoundingBox/props/xMax.md
+           - types/BoundingBox/props/xSize.md
+           - types/BoundingBox/props/xCenter.md
+           - types/BoundingBox/props/yMin.md
+           - types/BoundingBox/props/yMax.md
+           - types/BoundingBox/props/ySize.md 
+           - types/BoundingBox/props/yCenter.md
+           - types/BoundingBox/props/zMin.md
+           - types/BoundingBox/props/zMax.md
+           - types/BoundingBox/props/zSize.md 
+           - types/BoundingBox/props/zCenter.md
+        - methods:
+           - types/BoundingBox/methods/_index.md
       - Stator:
          - types/Stator/_index.md
          - constants: 
@@ -416,13 +450,6 @@ nav:
             - angularDisplacement: types/RotorItem/methods/angularDisplacement.md
             - setAngularDisplacement: types/RotorItem/methods/setAngularDisplacement.md
 
-      - Airgap:
-          - types/Airgap/_index.md
-          - properties: 
-              - types/Airgap/props/_index.md
-          - methods:
-            - types/Airgap/methods/_index.md
-
       - Winding:
           - types/Winding/_index.md
           - constants:
@@ -469,11 +496,11 @@ nav:
           - types/Mesh/_index.md
           - properties: 
             - types/Mesh/props/_index.md
-            - autoSizeBound: types/Mesh/props/autoSizeBound.md
-            - sizeBound: types/Mesh/props/sizeBound.md
-            - numberSlices: types/Mesh/props/numberSlices.md
-            - airgapQuality: types/Mesh/props/airgapQuality.md
-            - horizontalSymmetry: types/Mesh/props/horizontalSymmetry.md
+            - types/Mesh/props/autoSizeBound.md
+            - types/Mesh/props/sizeBound.md
+            - types/Mesh/props/numberSlices.md
+            - types/Mesh/props/airgapQuality.md
+            - types/Mesh/props/horizontalSymmetry.md
           - methods:
             - types/Mesh/methods/_index.md
 
@@ -527,57 +554,57 @@ nav:
           - types/Point3/_index.md
           - properties: 
             - types/Point3/props/_index.md
-            - x: types/Point3/props/x.md
-            - y: types/Point3/props/y.md
-            - z: types/Point3/props/z.md
+            - types/Point3/props/x.md
+            - types/Point3/props/y.md
+            - types/Point3/props/z.md
           - methods:
             - types/Point3/methods/_index.md
-            - distance: types/Point3/methods/distance.md
+            - types/Point3/methods/distance.md
             #Translate
-            - translate: types/Point3/methods/translate.md
-            - translateX: types/Point3/methods/translateX.md
-            - translateY: types/Point3/methods/translateY.md
-            - translateZ: types/Point3/methods/translateY.md
-            - move: types/Point3/methods/move.md
-            - moveX: types/Point3/methods/moveX.md
-            - moveY: types/Point3/methods/moveY.md
-            - moveZ: types/Point3/methods/moveZ.md
+            - types/Point3/methods/translate.md
+            - types/Point3/methods/translateX.md
+            - types/Point3/methods/translateY.md
+            - types/Point3/methods/translateZ.md
+            - types/Point3/methods/move.md
+            - types/Point3/methods/moveX.md
+            - types/Point3/methods/moveY.md
+            - types/Point3/methods/moveZ.md
             #Rotation
-            - rotate: types/Point3/methods/rotate.md
-            - rotateX: types/Point3/methods/rotateX.md
-            - rotateY: types/Point3/methods/rotateY.md
-            - rotateZ: types/Point3/methods/rotateZ.md
+            - types/Point3/methods/rotate.md
+            - types/Point3/methods/rotateX.md
+            - types/Point3/methods/rotateY.md
+            - types/Point3/methods/rotateZ.md
             #Mirror
-            - mirrorO: types/Point3/methods/mirrorO.md
-            - mirrorX: types/Point3/methods/mirrorX.md
-            - mirrorY: types/Point3/methods/mirrorY.md
-            - mirrorZ: types/Point3/methods/mirrorZ.md
-            - mirrorXY: types/Point3/methods/mirrorXY.md
-            - mirrorYZ: types/Point3/methods/mirrorYZ.md
-            - mirrorXZ: types/Point3/methods/mirrorXZ.md
+            - types/Point3/methods/mirrorO.md
+            - types/Point3/methods/mirrorX.md
+            - types/Point3/methods/mirrorY.md
+            - types/Point3/methods/mirrorZ.md
+            - types/Point3/methods/mirrorXY.md
+            - types/Point3/methods/mirrorYZ.md
+            - types/Point3/methods/mirrorXZ.md
             #Scale:
-            - scale: types/Point3/methods/scale.md
-            - scaleX: types/Point3/methods/scaleX.md
-            - scaleY: types/Point3/methods/scaleY.md
-            - scaleZ: types/Point3/methods/scaleZ.md
-            - scaleXY: types/Point3/methods/scaleXY.md
-            - scaleYZ: types/Point3/methods/scaleYZ.md
-            - scaleXZ: types/Point3/methods/scaleXZ.md
-            - scaleXYZ: types/Point3/methods/scaleXYZ.md
+            - types/Point3/methods/scale.md
+            - types/Point3/methods/scaleX.md
+            - types/Point3/methods/scaleY.md
+            - types/Point3/methods/scaleZ.md
+            - types/Point3/methods/scaleXY.md
+            - types/Point3/methods/scaleYZ.md
+            - types/Point3/methods/scaleXZ.md
+            - types/Point3/methods/scaleXYZ.md
 
       - Vector3:
           - types/Vector3/_index.md
           - properties: 
             - types/Vector3/props/_index.md
-            - x: types/Vector3/props/x.md
-            - y: types/Vector3/props/y.md
-            - z: types/Vector3/props/z.md
+            - types/Vector3/props/x.md
+            - types/Vector3/props/y.md
+            - types/Vector3/props/z.md
           - methods:
             - types/Vector3/methods/_index.md
-            - lenght: types/Vector3/methods/lenght.md
-            - length2: types/Vector3/methods/lenght2.md
-            - angle: types/Vector3/methods/angle.md
-            - isZero: types/Vector3/methods/isZero.md
+            - types/Vector3/methods/lenght.md
+            - types/Vector3/methods/lenght2.md
+            - types/Vector3/methods/angle.md
+            - types/Vector3/methods/isZero.md
 
       - Shape:
           - types/Shape/_index.md
@@ -630,31 +657,13 @@ nav:
             - scaleXZ: types/Shape/methods/scaleXZ.md
             - scaleXYZ: types/Shape/methods/scaleXYZ.md
 
-      - BoundingBox:
-          - types/BoundingBox/_index.md
-          - properties: 
-            - types/BoundingBox/props/_index.md
-            - xMin: types/BoundingBox/props/xMin.md
-            - xMax: types/BoundingBox/props/xMax.md
-            - yMin: types/BoundingBox/props/yMin.md
-            - yMax: types/BoundingBox/props/yMax.md
-            - zMin: types/BoundingBox/props/zMin.md
-            - zMax: types/BoundingBox/props/zMax.md
-            - xCenter: types/BoundingBox/props/xCenter.md
-            - yCenter: types/BoundingBox/props/yCenter.md
-            - zCenter: types/BoundingBox/props/zCenter.md
-            - xSize: types/BoundingBox/props/xSize.md
-            - ySize: types/BoundingBox/props/ySize.md 
-            - zSize: types/BoundingBox/props/zSize.md 
-          - methods:
-            - types/BoundingBox/methods/_index.md
-
       - Piece:
           - types/Piece/_index.md
           - properties: 
             - types/Piece/props/_index.md
           - methods:
             - types/Piece/methods/_index.md
+            - types/Piece/methods/toFileSTEP.md
 
 # GUI Widgets
       - UI Widgets:

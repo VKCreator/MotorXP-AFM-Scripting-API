@@ -56,7 +56,9 @@
       {% endif %}
     {% endif %}
 	{% if page.url_to_pdf %}
-		<a href="{{ page.url_to_pdf }}" title="Download PDF" class="md-header__button md-icon" target="_blank">
+		{% set current_lang = (config.extra.alternate | selectattr("lang", "equalto", lang.t('language')) | first).lang %}
+		{% set pdf_url = page.url_to_pdf | replace('$lang$', current_lang) %}
+		<a href="{{ pdf_url }}" title="Download PDF" class="md-header__button md-icon" target="_blank">
 			{% include ".icons/material/file-pdf-box.svg" %}
 		</a>
 	{% endif %}

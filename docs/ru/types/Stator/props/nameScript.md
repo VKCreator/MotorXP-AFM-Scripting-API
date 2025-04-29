@@ -1,20 +1,17 @@
 # nameScript
 
 ## Описание
-The `nameScript` property...
-
-## Принимаемые значения:
-...
+Имя скрипта
 
 ## Тип значения свойства
-`Number`
+`String`
 
 ## Доступ
-`Чтение\Запись`
+`Тоько Чтение`
 
 ## Синтаксис
 ```javascript
-nameScript = value
+nameScript
 ```
 
 ## Пример

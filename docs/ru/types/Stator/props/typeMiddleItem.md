@@ -1,13 +1,15 @@
 # typeMiddleItem
 
 ## Описание
-The `typeMiddleItem` property...
+Тип средней части статора
 
 ## Принимаемые значения:
-...
+Одно из зачений:
+ - `Stator.Yoke`
+ - `Stator.Yokeless`
 
 ## Тип значения свойства
-`Number`
+`Stator.MiddleType`
 
 ## Доступ
 `Чтение\Запись`

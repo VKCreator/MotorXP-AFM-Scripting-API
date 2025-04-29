@@ -301,7 +301,7 @@ nav:
         - types/Airgap/_index.md
         - constants: 
            - types/Airgap/constants/_index.md
-           - types/Airgap/ID.md
+           - types/Airgap/constants/ID.md
         - properties: 
            - types/Airgap/props/_index.md
            - types/Airgap/props/id.md
@@ -335,35 +335,34 @@ nav:
          - types/Stator/_index.md
          - constants: 
            - types/Stator/constants/_index.md
-           - Yokeless: types/Stator/constants/Yokeless.md
-           - Yoke: types/Stator/constants/Yoke.md
+           - types/Stator/constants/MiddleType.md
          - properties:
            - types/Stator/props/_index.md
-           - outerDiameter: types/Stator/props/outerDiameter.md
-           - outerRadius: types/Stator/props/outerRadius.md
-           - innerDiameter: types/Stator/props/innerDiameter.md
-           - innerRadius: types/Stator/props/innerRadius.md
-           - numberSlots: types/Stator/props/numberSlots.md
-           - slotAngleSpan: types/Stator/props/slotAngleSpan.md
-           - typeMiddleItem: types/Stator/props/typeMiddleItem.md
-           - ironMaterial: types/Stator/props/ironMaterial.md
-           - ironStacking: types/Stator/props/ironStacking.md
-           - windingMaterial: types/Stator/props/windingMaterial.md
-           - windingTemperature: types/Stator/props/windingTemperature.md
-           - script: types/Stator/props/script.md
-           - nameScript: types/Stator/props/nameScript.md
-           - countItem: types/Stator/props/countItem.md
-           - items: types/Stator/props/items.md
-           - simDomain: types/Stator/props/simDomain.md
-           - simRadialOuterDomain: types/Stator/props/simRadialOuterDomain.md
+           - types/Stator/props/outerDiameter.md
+           - types/Stator/props/outerRadius.md
+           - types/Stator/props/innerDiameter.md
+           - types/Stator/props/innerRadius.md
+           - types/Stator/props/numberSlots.md
+           - types/Stator/props/slotAngleSpan.md
+           - types/Stator/props/typeMiddleItem.md
+           - types/Stator/props/script.md
+           - types/Stator/props/nameScript.md
+           - types/Stator/props/countItem.md
+           - types/Stator/props/items.md
+           - types/Stator/props/ironMaterial.md
+           - types/Stator/props/ironStacking.md
+           - types/Stator/props/windingMaterial.md
+           - types/Stator/props/windingTemperature.md
+           - types/Stator/props/conductorMaterial.md
+           - types/Stator/props/conductorTemperature.md
          - methods:
            - types/Stator/methods/_index.md
-           - item: types/Stator/methods/item.md
-           - isLower: types/Stator/methods/isLower.md
-           - isMiddle: types/Stator/methods/isMiddle.md
-           - isUpper: types/Stator/methods/isUpper.md
-           - itemAngularDisplacement: types/Stator/methods/itemAngularDisplacement.md
-           - setItemAngularDisplacement: types/Stator/methods/setItemAngularDisplacement.md
+           - types/Stator/methods/isLower.md
+           - types/Stator/methods/isMiddle.md
+           - types/Stator/methods/isUpper.md
+           - types/Stator/methods/item.md
+           - types/Stator/methods/itemAngularDisplacement.md
+           - types/Stator/methods/setItemAngularDisplacement.md
 
       - StatorItem:
          - types/StatorItem/_index.md

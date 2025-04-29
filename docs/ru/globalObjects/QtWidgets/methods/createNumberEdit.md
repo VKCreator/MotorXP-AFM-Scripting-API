@@ -1,4 +1,4 @@
-# createNumberEdit()
+# QtWidgets.createNumberEdit()
 
 ## Описание
 Описание метода.
@@ -16,7 +16,7 @@ createNumberEdit(argument: type) : returnType
 
 ## Пример
 ```javascript linenums="1"
-let result = createNumberEdit(value)
+let result = QtWidgets.createNumberEdit(value)
 console.info(result)
 ```
 

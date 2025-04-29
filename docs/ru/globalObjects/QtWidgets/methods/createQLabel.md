@@ -1,4 +1,4 @@
-# createQLabel()
+# QtWidgets.createQLabel()
 
 ## Описание
 Описание метода.
@@ -16,7 +16,7 @@ createQLabel(argument: type) : returnType
 
 ## Пример
 ```javascript linenums="1"
-let result = createQLabel(value)
+let result = QtWidgets.createQLabel(value)
 console.info(result)
 ```
 

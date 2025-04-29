@@ -1,4 +1,4 @@
-# createQPushButton()
+# QtWidgets.createQPushButton()
 
 ## Описание
 Описание метода.
@@ -16,7 +16,7 @@ createQPushButton(argument: type) : returnType
 
 ## Пример
 ```javascript linenums="1"
-let result = createQPushButton(value)
+let result = QtWidgets.createQPushButton(value)
 console.info(result)
 ```
 

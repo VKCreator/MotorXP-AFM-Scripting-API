@@ -1,4 +1,4 @@
-# createStatorTypeComboBox()
+# QtWidgets.createStatorTypeComboBox()
 
 ## Описание
 Описание метода.
@@ -16,7 +16,7 @@ createStatorTypeComboBox(argument: type) : returnType
 
 ## Пример
 ```javascript linenums="1"
-let result = createStatorTypeComboBox(value)
+let result = QtWidgets.createStatorTypeComboBox(value)
 console.info(result)
 ```
 

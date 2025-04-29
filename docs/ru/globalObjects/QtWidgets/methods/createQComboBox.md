@@ -1,4 +1,4 @@
-# createQComboBox()
+# QtWidgets.createQComboBox()
 
 ## Описание
 Описание метода.
@@ -16,7 +16,7 @@ createQComboBox(argument: type) : returnType
 
 ## Пример
 ```javascript linenums="1"
-let result = createQComboBox(value)
+let result = QtWidgets.createQComboBox(value)
 console.info(result)
 ```
 

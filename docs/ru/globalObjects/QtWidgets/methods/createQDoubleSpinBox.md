@@ -1,4 +1,4 @@
-# createQDoubleSpinBox()
+# QtWidgets.createQDoubleSpinBox()
 
 ## Описание
 Описание метода.
@@ -16,7 +16,7 @@ createQDoubleSpinBox(argument: type) : returnType
 
 ## Пример
 ```javascript linenums="1"
-let result = createQDoubleSpinBox(value)
+let result = QtWidgets.createQDoubleSpinBox(value)
 console.info(result)
 ```
 

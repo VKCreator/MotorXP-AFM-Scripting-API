@@ -1,4 +1,4 @@
-# createWindingConnectionComboBox()
+# QtWidgets.createWindingConnectionComboBox()
 
 ## Описание
 Описание метода.
@@ -16,7 +16,7 @@ createWindingConnectionComboBox(argument: type) : returnType
 
 ## Пример
 ```javascript linenums="1"
-let result = createWindingConnectionComboBox(value)
+let result = QtWidgets.createWindingConnectionComboBox(value)
 console.info(result)
 ```
 

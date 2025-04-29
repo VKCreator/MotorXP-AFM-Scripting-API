@@ -1,25 +1,22 @@
-# simRadialOuterDomain
+# conductorMaterial
 
 ## Описание
-The `simRadialOuterDomain` property...
-
-## Принимаемые значения:
-...
+Материал проводника статора.
 
 ## Тип значения свойства
-`Number`
+`String`
 
 ## Доступ
 `Чтение\Запись`
 
 ## Синтаксис
 ```javascript
-simRadialOuterDomain = value
+conductorMaterial = value
 ```
 
 ## Пример
 ```javascript linenums="1"
-let result = motor.simRadialOuterDomain
+let result = motor.conductorMaterial
 console.info(result)
 ```
 

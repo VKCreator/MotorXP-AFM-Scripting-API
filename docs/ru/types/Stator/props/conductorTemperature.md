@@ -1,10 +1,7 @@
-# countItem
+# conductorTemperature
 
 ## Описание
-The `countItem` property...
-
-## Принимаемые значения:
-...
+Температура порводника статора в градусах Цельсия.
 
 ## Тип значения свойства
 `Number`
@@ -14,12 +11,12 @@ The `countItem` property...
 
 ## Синтаксис
 ```javascript
-countItem = value
+conductorTemperature = value
 ```
 
 ## Пример
 ```javascript linenums="1"
-let result = motor.countItem
+let result = motor.conductorTemperature
 console.info(result)
 ```
 

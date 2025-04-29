@@ -1,22 +1,23 @@
 # isUpper()
 
 ## Описание
-Описание метода.
+Истина, если в моторе элемент статора верхний.
 
 ## Синтаксис
 ```javascript
-isUpper(argument: type) : returnType
+isLower(itemID: StatorItem.ID) : bool
 ```
 
 ## Аргументы
-- `argument` (type, обязательно): описание аргумента.
+- `itemID` (StatorItem.ID, обязательно): Идентификатор элемента статора.
 
 ## Возвращаемое значение
-`returnType`: описание возвращаемого значения.
+`bool`: Истина, если в моторе элемент статора верхний.
 
 ## Пример
 ```javascript linenums="1"
-let result = isUpper(value)
+let stator = motor.stator
+let result = stator.isUpper(StatorItem.ID1)
 console.info(result)
 ```
 

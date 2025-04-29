@@ -1,4 +1,4 @@
-# createQGroupBox()
+# QtWidgets.createQGroupBox()
 
 ## Описание
 Описание метода.
@@ -16,7 +16,7 @@ createQGroupBox(argument: type) : returnType
 
 ## Пример
 ```javascript linenums="1"
-let result = createQGroupBox(value)
+let result = QtWidgets.createQGroupBox(value)
 console.info(result)
 ```
 

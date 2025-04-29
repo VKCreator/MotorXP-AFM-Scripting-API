@@ -26,7 +26,7 @@ theme:
       toggle:
         icon: material/weather-night
         name: Switch to light mode
-  language: ru
+  # language: ru
   features:
     #- navigation.expand
     #- navigation.tabs
@@ -81,12 +81,14 @@ plugins:
         - "*.py"
         - "*/~*"
         - "*/~*.*"
+        - "*.ps1"
+
       #regex:
       #  - '.*\.(tmp|bin|tar)$'
   #- with-pdf
   - print-site:
         enabled: !ENV [ENABLED_PRINT_SITE, True]
-        path_to_pdf: pdf/document.pdf
+        path_to_pdf: "$lang$/pdf/document.pdf"
         # add_to_navigation: true 
         
 extra_css:
@@ -101,6 +103,13 @@ extra:
       link: https://www.linkedin.com/company/motorxp
     - icon: fontawesome/brands/github 
       link: https://github.com/MotorXP
+  alternate:
+    - name: English
+      link: /en/
+      lang: en
+    - name: Русский
+      link: /ru/
+      lang: ru
 
 use_directory_urls: false
 

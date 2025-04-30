@@ -24,6 +24,7 @@ pip install mkdocs-print-site-plugin
 pip install mkdocs-with-pdf
 pip install mkdocs-section-index
 pip install mkdocs-exclude
+pip install mkdocs-git-revision-date-localized-plugin
 ```
 
 ## Структура папок для многоязычной документации 

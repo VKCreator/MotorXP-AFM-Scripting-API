@@ -1,17 +1,17 @@
-# Обзор объекта console
-Объект `console` предоставляет методы для вывода информации, предупреждений, ошибок и отладочных данных в консоль приложения `MotorXP-AFM`. Это мощный инструмент для разработчиков, позволяющий отслеживать и отлаживать их скрипты.
+# Overview of the `console` Object
+The `console` object provides methods for outputting information, warnings, errors, and debugging data in the console of the MotorXP-AFM application. This powerful tool allows developers to track and debug their scripts.
 
-## Основные возможности
-- Вывод сообщений с различными уровнями (`log`, `info`, `warn`, `error`).
-- Очистка вывода консоли (`clear`).
-- Просмотр объектов и их свойств (`dir`).
+## Main Capabilities of `console`
+- Output messages with different levels (`log`, `info`, `warn`, `error`).
+- Clear the console output (`clear`).
+- Display objects and their properties (`dir`).
 
-## Методы объекта console
-Ниже приведен список доступных методов, предоставляемых объектом `console`. Щелкните имя метода, чтобы увидеть его подробное описание и примеры.
+## Methods of the `console` Object
+Below is a list of available methods provided by the `console` object. Click on the name of each method to see its detailed description and examples.
 
-- [^^console.log()^^](methods/log.md): Выводит сообщение серым цветом в консоль.
-- [^^console.info()^^](methods/info.md): Выводит информационное сообщение зеленым цветом в консоль.
-- [^^console.warn()^^](methods/warn.md): Выводит предупреждающее сообщение желтым цветом в консоль.
-- [^^console.error()^^](methods/error.md): Выводит сообщение об ошибке красным цветом в консоль.
-- [^^console.clear()^^](methods/clear.md): Очищает вывод консоли, удаляя все ранее зарегистрированные сообщения.
-- [^^console.dir()^^](methods/dir.md): Отображает список свойств и методов указанного JavaScript-объекта.
+- [^console.log()](methods/log.md): Outputs a message in gray color to the console.
+- [^console.info()](methods/info.md): Outputs an informational message in green color to the console.
+- [^console.warn()](methods/warn.md): Outputs a warning message in yellow color to the console.
+- [^console.error()](methods/error.md): Outputs an error message in red color to the console.
+- [^console.clear()](methods/clear.md): Clears the console output, removing all previously registered messages.
+- [^console.dir()](methods/dir.md): Displays a list of properties and methods of the specified JavaScript object.

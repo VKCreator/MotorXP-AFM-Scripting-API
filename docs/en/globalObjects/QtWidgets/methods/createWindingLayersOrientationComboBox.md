@@ -1,4 +1,4 @@
-# createWindingLayersOrientationComboBox()
+# QtWidgets.createWindingLayersOrientationComboBox()
 
 ## Описание
 Описание метода.
@@ -16,7 +16,7 @@ createWindingLayersOrientationComboBox(argument: type) : returnType
 
 ## Пример
 ```javascript linenums="1"
-let result = createWindingLayersOrientationComboBox(value)
+let result = QtWidgets.createWindingLayersOrientationComboBox(value)
 console.info(result)
 ```
 

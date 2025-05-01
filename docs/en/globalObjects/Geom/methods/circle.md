@@ -1,26 +1,34 @@
-# circle()
+# Geom.circle()
 
-## Описание
-Описание метода.
+## Description
+A 2D circle or sector of the circle is constructed in the XOY plane, angles are set in degrees, and the center figure point is at [0,0,0].
 
-## Синтаксис
+## Syntax
 ```javascript
-circle(argument: type) : returnType
+Geom.circle(radius: number) : Shape
+Geom.circle(radius: number, angle: number) : Shape
+Geom.circle(radius: number, angle1: number, angle2: number) : Shape
 ```
 
-## Аргументы
-- `argument` (type, обязательно): описание аргумента.
+## Parameters
+- `radius` (number, mandatory): The radius of the circle.
+- `angle` (number, mandatory): The sector angle of the circle in degrees within the range [0...360], the body is centered relative to the OX axis.
+- `angle1` (number, mandatory): The starting angle of the sector in degrees within the range [0...360].
+- `angle2` (number, mandatory): The ending angle of the sector in degrees within the range [0...360].
 
-## Возвращаемое значение
-`returnType`: описание возвращаемого значения.
+## Returned Value
+`Shape`: an object of type `Shape`, a circle or sector of the circle.
 
-## Пример
+## Example
 ```javascript linenums="1"
-let result = circle(value)
-console.info(result)
+let s1 = Geom.circle(100)
+console.info(s1) // output:
+let s2 = Geom.circle(100, 30)
+console.info(s2) // output:
+let s3 = Geom.circle(100, 0, 90)
+console.info(s3) // output:
 ```
 
-!!! info "См. также"
+!!! info "See Also"
 
     []()
-

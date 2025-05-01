@@ -19,7 +19,8 @@ numberSlices = value
 
 ## Пример
 ```javascript linenums="1"
-let result = motor.numberSlices
+let mesh = motor.mesh
+let result = mesh.numberSlices
 console.info(result)
 ```
 

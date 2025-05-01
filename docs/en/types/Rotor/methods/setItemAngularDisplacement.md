@@ -1,23 +1,24 @@
 # setItemAngularDisplacement()
 
 ## Описание
-Описание метода.
+Задать угловое смещение элемента статора в градусах.
 
 ## Синтаксис
 ```javascript
-setItemAngularDisplacement(argument: type) : returnType
+setItemAngularDisplacement(itemID: StatorItem.ID, angle: number)
 ```
 
 ## Аргументы
-- `argument` (type, обязательно): описание аргумента.
+- `itemID` (StatorItem.ID, обязательно): Идентификатор элемента статора.
+- `angle` (number, обязательно): Угловое смещение элемента статора.
 
 ## Возвращаемое значение
-`returnType`: описание возвращаемого значения.
+`undefine`
 
 ## Пример
 ```javascript linenums="1"
-let result = setItemAngularDisplacement(value)
-console.info(result)
+let stator = motor.stator
+stator.setItemAngularDisplacement(StatorItem.ID1, 30)
 ```
 
 !!! info "См. также"

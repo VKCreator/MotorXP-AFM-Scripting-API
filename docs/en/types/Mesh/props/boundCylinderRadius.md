@@ -1,25 +1,26 @@
-# simRadialOuterDomain
+# boundCylinderRadius
 
 ## Описание
-The `simRadialOuterDomain` property...
+The `boundCylinderRadius` property...
 
 ## Принимаемые значения:
 ...
 
 ## Тип значения свойства
-`Number`
+`number`
 
 ## Доступ
 `Чтение\Запись`
 
 ## Синтаксис
 ```javascript
-simRadialOuterDomain = value
+mesh.boundCylinderRadius = value
 ```
 
 ## Пример
 ```javascript linenums="1"
-let result = motor.simRadialOuterDomain
+let mesh = motor.mesh
+let result = mesh.boundCylinderRadius
 console.info(result)
 ```
 

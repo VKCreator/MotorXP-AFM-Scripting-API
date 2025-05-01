@@ -1,26 +1,25 @@
-# boundingBox()
+# Geom.boundingBox()
 
-## Описание
-Описание метода.
+## Description
+Returns the bounding box of an object.
 
-## Синтаксис
+## Syntax
 ```javascript
-boundingBox(argument: type) : returnType
+Geom.boundingBox(shp: Shape) : BoundingBox
 ```
 
-## Аргументы
-- `argument` (type, обязательно): описание аргумента.
+## Parameters
+- `shp` (Shape, required): The body.
 
-## Возвращаемое значение
-`returnType`: описание возвращаемого значения.
+## Return Value
+`BoundingBox`: An object of type `BoundingBox`, representing the bounding box of the body.
 
-## Пример
+## Example
 ```javascript linenums="1"
-let result = boundingBox(value)
+let result = Geom.boundingBox(value)
 console.info(result)
 ```
 
-!!! info "См. также"
+!!! info "See Also"
 
-    []()
-
+    [Shape](./../../../types/Shape/_index.md)

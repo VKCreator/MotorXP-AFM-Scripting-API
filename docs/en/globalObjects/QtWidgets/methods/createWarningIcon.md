@@ -1,4 +1,4 @@
-# createWarningIcon()
+# QtWidgets.createWarningIcon()
 
 ## Описание
 Описание метода.
@@ -16,7 +16,7 @@ createWarningIcon(argument: type) : returnType
 
 ## Пример
 ```javascript linenums="1"
-let result = createWarningIcon(value)
+let result = QtWidgets.createWarningIcon(value)
 console.info(result)
 ```
 

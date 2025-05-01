@@ -1,25 +1,22 @@
-# simRadialOuterDomain
+# countItems
 
 ## Описание
-The `simRadialOuterDomain` property...
-
-## Принимаемые значения:
-...
+Количество элементов статора, зависит от motor.machineType.
 
 ## Тип значения свойства
-`Number`
+`number`
 
 ## Доступ
-`Чтение\Запись`
+`Только Чтение`
 
 ## Синтаксис
 ```javascript
-simRadialOuterDomain = value
+countItems
 ```
 
 ## Пример
 ```javascript linenums="1"
-let result = motor.simRadialOuterDomain
+let result = motor.stator.countItems
 console.info(result)
 ```
 

@@ -1,25 +1,22 @@
 # items
 
 ## Описание
-The `items` property...
-
-## Принимаемые значения:
-...
+Массив элементов ротора, количество элементов зависит от motor.machineType.
 
 ## Тип значения свойства
-`Number`
+`Array of StatorItem`
 
 ## Доступ
-`Чтение\Запись`
+`Только Чтение`
 
 ## Синтаксис
 ```javascript
-items = value
+items
 ```
 
 ## Пример
 ```javascript linenums="1"
-let result = motor.items
+let result = motor.rotor.items
 console.info(result)
 ```
 

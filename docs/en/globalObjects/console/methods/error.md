@@ -1,29 +1,33 @@
 # console.error()
 
-## Описание
-Метод `console.error()` выводит сообщение об ошибке красным цветом в консоль, каждое сообщение помечается иконкой `error`. Он используется для указания на критические проблемы, которые требуют немедленного внимания. Он может принимать несколько аргументов и отображать их в одной строке.
+## Description
+The `console.error()` method outputs an error message in red color to the console, each message is marked with an error icon. It's used for pointing out critical issues that require immediate attention. It can take several arguments and display them in one line.
 
-## Синтаксис
+## Syntax
 ```javascript
 console.error(message1 : any, message2 : any, ..., messageN : any)
-``` 
-## Возвращаемое значение
+```
+
+## Parameters
+- **`messageN`** (any, mandatory):  
+
+## Returned Value
 `undefined`
 
-## Пример
-``` javascript linenums="1"
-// Один аргумент
+## Example
+```javascript linenums="1"
+// One argument
 console.error('critical text')
 
-// Несколько аргументов
+// Multiple arguments
 console.error('text1', 'text2')
 console.error('text1', 'text2', .. , 'text10')
 
-// Различные типы аргументов
+// Different types of arguments
 console.error('text1', 123, true, { key: 'value' })
-``` 
+```
 
-!!! info "См. также"
+!!! info "See Also"
 
 	[console.log()](log.md)
 

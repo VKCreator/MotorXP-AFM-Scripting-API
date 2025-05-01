@@ -1,26 +1,28 @@
-# distance()
+# Geom.distance()
 
-## Описание
-Описание метода.
+## Description
+Calculates the distance between two points.
 
-## Синтаксис
+## Syntax
 ```javascript
-distance(argument: type) : returnType
+Geom.distance(p1: Point3, p2: Point3) : number
 ```
 
-## Аргументы
-- `argument` (type, обязательно): описание аргумента.
+## Arguments
+- `p1` (Point3, mandatory): The first point.
+- `p2` (Point3, mandatory): The second point.
 
-## Возвращаемое значение
-`returnType`: описание возвращаемого значения.
+## Return value
+`number`: the distance between two points.
 
-## Пример
+## Example
 ```javascript linenums="1"
-let result = distance(value)
-console.info(result)
+let p1 = Geom.point3(0, 0, 0)
+let p2 = Geom.point3(100, 100, 100)
+let dist = Geom.distance(p1, p2)
+console.info(dist) // output:
 ```
 
-!!! info "См. также"
+!!! info "See also"
 
     []()
-

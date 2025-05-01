@@ -1,25 +1,22 @@
-# simDomain
+# conductorMaterial
 
 ## Описание
-The `simDomain` property...
-
-## Принимаемые значения:
-...
+Материал проводника статора.
 
 ## Тип значения свойства
-`Number`
+`String`
 
 ## Доступ
 `Чтение\Запись`
 
 ## Синтаксис
 ```javascript
-simDomain = value
+conductorMaterial = value
 ```
 
 ## Пример
 ```javascript linenums="1"
-let result = motor.simDomain
+let result = motor.stator.conductorMaterial
 console.info(result)
 ```
 

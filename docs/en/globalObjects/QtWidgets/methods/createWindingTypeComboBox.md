@@ -1,4 +1,4 @@
-# createWindingTypeComboBox()
+# QtWidgets.createWindingTypeComboBox()
 
 ## Описание
 Описание метода.
@@ -16,7 +16,7 @@ createWindingTypeComboBox(argument: type) : returnType
 
 ## Пример
 ```javascript linenums="1"
-let result = createWindingTypeComboBox(value)
+let result = QtWidgets.createWindingTypeComboBox(value)
 console.info(result)
 ```
 

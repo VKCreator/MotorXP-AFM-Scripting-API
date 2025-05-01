@@ -1,10 +1,10 @@
 # innerDiameter
 
 ## Описание
-The `innerDiameter` property...
+Внутрений диаметр
 
 ## Принимаемые значения:
-...
+Число больше нуля.
 
 ## Тип значения свойства
 `Number`
@@ -19,7 +19,7 @@ innerDiameter = value
 
 ## Пример
 ```javascript linenums="1"
-let result = motor.innerDiameter
+let result = motor.stator.innerDiameter
 console.info(result)
 ```
 

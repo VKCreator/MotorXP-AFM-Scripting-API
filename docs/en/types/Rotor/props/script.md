@@ -1,25 +1,22 @@
 # script
 
 ## Описание
-The `script` property...
-
-## Принимаемые значения:
-...
+Имя файла скрипта
 
 ## Тип значения свойства
-`Number`
+`String`
 
 ## Доступ
-`Чтение\Запись`
+`Тоько Чтение`
 
 ## Синтаксис
 ```javascript
-script = value
+script
 ```
 
 ## Пример
 ```javascript linenums="1"
-let result = motor.script
+let result = motor.rotor.script
 console.info(result)
 ```
 

@@ -1,10 +1,10 @@
 # outerRadius
 
 ## Описание
-The `outerRadius` property...
+Внешний радиус.
 
 ## Принимаемые значения:
-...
+Число больше нуля.
 
 ## Тип значения свойства
 `Number`
@@ -19,7 +19,7 @@ outerRadius = value
 
 ## Пример
 ```javascript linenums="1"
-let result = motor.outerRadius
+let result = motor.rotor.outerRadius
 console.info(result)
 ```
 

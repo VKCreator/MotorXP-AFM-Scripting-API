@@ -1,4 +1,4 @@
-# createNumberSlotSpinBox()
+# QtWidgets.createNumberSlotSpinBox()
 
 ## Описание
 Описание метода.
@@ -16,7 +16,7 @@ createNumberSlotSpinBox(argument: type) : returnType
 
 ## Пример
 ```javascript linenums="1"
-let result = createNumberSlotSpinBox(value)
+let result = QtWidgets.createNumberSlotSpinBox(value)
 console.info(result)
 ```
 

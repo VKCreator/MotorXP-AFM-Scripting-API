@@ -1,99 +1,95 @@
-# Список констант
+# Constants List
 
 ## Direction
-- `Direction.CW` — Направление по часовой стрелке.  
-  Значение: `-1`
-- `Direction.CCW` — Направление часовой стрелки.  
-  Значение: `+1`
+- `Direction.CW` — Clockwise direction.  
+  Value: `-1`
+- `Direction.CCW` — Counter-clockwise direction.  
+  Value: `+1`
 
 ## Coil orientation
-- `Coil.CW` — Hамотка по часовой стрелке.  
-  Значение: `-1`
-- `Coil.CCW` — Hамотка против часовой стрелки.  
-  Значение: `+1`
+- `Coil.CW` — Coil clockwise.  
+  Value: `-1`
+- `Coil.CCW` — Coil counter-clockwise.  
+  Value: `+1`
 
 ## Coil direction
-- `Coil.Incoming` — Incoming.  
-  Значение: `+1`
-- `Coil.Outcoming` — Outcoming.  
-  Значение: `-1`
+- `Coil.Incoming` — Incoming coil.  
+  Value: `+1`
+- `Coil.Outcoming` — Outcoming coil.  
+  Value: `-1`
 
 ## PoleArrangement
-- `PoleArrangement.NN` — NN.  
-  Значение: `0`
-- `PoleArrangement.NS` — NS.  
-  Значение: `1`
-- `PoleArrangement.NSNS` — NSNS.  
-  Значение: `2`
-- `PoleArrangement.NSSN` — NSSN.  
-  Значение: `3`
-- `PoleArrangement.NNSS` — NNSS.  
-  Значение: `4`
-- `PoleArrangement.NNNN` — NNNN.  
-  Значение: `5`
+- `PoleArrangement.NN` — NN arrangement.  
+  Value: `0`
+- `PoleArrangement.NS` — NS arrangement.  
+  Value: `1`
+- `PoleArrangement.NSNS` — NSNS arrangement.  
+  Value: `2`
+- `PoleArrangement.NSSN` — NSSN arrangement.  
+  Value: `3`
+- `PoleArrangement.NNSS` — NNSS arrangement.  
+  Value: `4`
+- `PoleArrangement.NNNN` — NNNN arrangement.  
+  Value: `5`
 
 ## Magnetization
-- `Magnetization.From` — направление "от".  
-  Значение: `1`
-- `Magnetization.Toward` — направление "к".  
-  Значение: `2`
-- `Magnetization.CW` — по часовой стрелке.  
-  Значение: `3`
-- `Magnetization.CCW` — против часовой стрелки.  
-  Значение: `4`
-  
-  
-## Именованные цвета
+- `Magnetization.From` — "From" direction.  
+  Value: `1`
+- `Magnetization.Toward` — "Towards" direction.  
+  Value: `2`
+- `Magnetization.CW` — Clockwise magnetization.  
+  Value: `3`
+- `Magnetization.CCW` — Counter-clockwise magnetization.  
+  Value: `4`
 
-Список доступных цветов и их визуальное представление:
+## Named Colors
 
-- `Qt.black` — черный  
+List of available colors and their visual representation:
+
+- `Qt.black` — black  
   <span style="display:inline-block;width:16px;height:16px;background-color:#000000;border:1px solid #FFFFFF;"></span>  
 
-- `Qt.white` — белый  
+- `Qt.white` — white  
   <span style="display:inline-block;width:16px;height:16px;background-color:#FFFFFF;border:1px solid #000000;"></span>  
 
-- `Qt.darkGray` — темно-серый  
-  <span style="display:inline-block;width:16px;height:16px;background-color:#A9A9A9;"></span>  
+- `Qt.darkGray` — dark gray  
+  <span style="display:inline-block;width:16px;height:16px;background-color:#A9A9A9;border:1px solid #FFFFFF;"></span>  
 
-- `Qt.gray` — серый  
-  <span style="display:inline-block;width:16px;height:16px;background-color:#808080;"></span>  
+- `Qt.gray` — gray  
+  <span style="display:inline-block;width:16px;height:16px;background-color:#808080;border:1px solid #FFFFFF;"></span>  
 
-- `Qt.lightGray` — светло-серый  
-  <span style="display:inline-block;width:16px;height:16px;background-color:#D3D3D3;"></span>  
+- `Qt.lightGray` — light gray  
+  <span style="display:inline-block;width:16px;height:16px;background-color:#D3D3D3;border:1px solid #FFFFFF;"></span>  
 
-- `Qt.red` — красный  
-  <span style="display:inline-block;width:16px;height:16px;background-color:#FF0000;"></span>  
+- `Qt.red` — red  
+  <span style="display:inline-block;width:16px;height:16px;background-color:#FF0000;border:1px solid #FFFFFF;"></span>  
 
-- `Qt.green` — зеленый  
-  <span style="display:inline-block;width:16px;height:16px;background-color:#00FF00;"></span>  
+- `Qt.green` — green  
+  <span style="display:inline-block;width:16px;height:16px;background-color:#00FF00;border:1px solid #FFFFFF;"></span>  
 
-- `Qt.blue` — синий  
-  <span style="display:inline-block;width:16px;height:16px;background-color:#0000FF;"></span>  
+- `Qt.blue` — blue  
+  <span style="display:inline-block;width:16px;height:16px;background-color:#0000FF;border:1px solid #FFFFFF;"></span>  
 
-- `Qt.cyan` — голубой  
-  <span style="display:inline-block;width:16px;height:16px;background-color:#00FFFF;"></span>  
+- `Qt.cyan` — cyan  
+  <span style="display:inline-block;width:16px;height:16px;background-color:#00FFFF;border:1px solid #FFFFFF;"></span>  
 
-- `Qt.magenta` — пурпурный  
-  <span style="display:inline-block;width:16px;height:16px;background-color:#FF00FF;"></span>  
+- `Qt.magenta` — magenta  
+  <span style="display:inline-block;width:16px;height:16px;background-color:#FF00FF;border:1px solid #FFFFFF;"></span>  
 
-- `Qt.yellow` — желтый  
-  <span style="display:inline-block;width:16px;height:16px;background-color:#FFFF00;"></span>  
+- `Qt.yellow` — yellow  
+  <span style="display:inline-block;width:16px;height:16px;background-color:#FFFF00;border:1px solid #FFFFFF;"></span>  
 
-- `Qt.darkRed` — темно-красный  
-  <span style="display:inline-block;width:16px;height:16px;background-color:#8B0000;"></span>  
+- `Qt.darkRed` — dark red  
+  <span style="display:inline-block;width:16px;height:16px;background-color:#8B0000;border:1px solid #FFFFFF;"></span>  
 
-- `Qt.darkGreen` — темно-зеленый  
-  <span style="display:inline-block;width:16px;height:16px;background-color:#006400;"></span>  
+- `Qt.darkGreen` — dark green  
+  <span style="display:inline-block;width:16px;height:16px;background-color:#006400;border:1px solid #FFFFFF;"></span>  
 
-- `Qt.darkBlue` — темно-синий  
-  <span style="display:inline-block;width:16px;height:16px;background-color:#00008B;"></span>  
+- `Qt.darkBlue` — dark blue  
+  <span style="display:inline-block;width:16px;height:16px;background-color:#00008B;border:1px solid #FFFFFF;</span>  
 
-- `Qt.darkCyan` — темно-голубой  
-  <span style="display:inline-block;width:16px;height:16px;background-color:#008B8B;"></span>  
+- `Qt.darkCyan` — dark cyan  
+  <span style="display:inline-block;width:16px;height:16px;background-color:#008B8B;border:1px solid #FFFFFF;"></span>  
 
-- `Qt.darkMagenta` — темно-пурпурный  
-  <span style="display:inline-block;width:16px;height:16px;background-color:#8B008B;"></span>  
-
-- `Qt.darkYellow` — темно-желтый  
-  <span style="display:inline-block;width:16px;height:16px;background-color:#B8860B;"></span>  
+- `Qt.darkGray` — dark gray  
+  <span style="display:inline-block;width:16px;height:16px;background-color:#A9A9A9;border:1px solid #FFFFFF;</span>

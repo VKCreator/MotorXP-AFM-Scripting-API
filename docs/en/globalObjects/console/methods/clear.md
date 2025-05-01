@@ -1,17 +1,20 @@
 # console.clear()
 
-## Описание
-Метод `console.clear()` очищает вывод консоли, удаляя все ранее зарегистрированные сообщения. Это полезно для сброса консоли и обеспечения чистого рабочего пространства при отладке или записи новой информации.
+## Description
+The `console.clear()` method clears the output of the console, removing all previously registered messages. This is useful for resetting the console and ensuring a clean working area during debugging or recording new information.
 
-## Синтаксис
-``` javascript
+## Syntax
+```javascript
 console.clear()
 ```
 
-## Возвращаемое значение
+## Parameters
+None
+
+## Return Value
 `undefined`
 
-## Пример
-``` javascript linenums="1"
+## Example
+```javascript linenums="1"
 console.clear()
 ```

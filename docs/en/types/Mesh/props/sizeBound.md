@@ -19,7 +19,8 @@ sizeBound = value
 
 ## Пример
 ```javascript linenums="1"
-let result = motor.sizeBound
+let mesh = motor.mesh
+let result = mesh.sizeBound
 console.info(result)
 ```
 

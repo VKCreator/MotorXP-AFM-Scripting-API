@@ -1,26 +1,35 @@
-# difference()
+# Geom.diff()
 
-## Описание
-Описание метода.
+## Description
+Boolean operation: Difference of two or more solids.
 
-## Синтаксис
+## Syntax
 ```javascript
-difference(argument: type) : returnType
+Geom.diff(a: Shape, b: Shape,) : Shape
+Geom.diff(shapes: array of Shape) : Shape
 ```
 
-## Аргументы
-- `argument` (type, обязательно): описание аргумента.
+- `a` (Shape, mandatory): Solid 1.
+- `b` (Shape, mandatory): Solid 2.
+- `shapes` (Array of Shape, mandatory): Array of solids.
 
-## Возвращаемое значение
-`returnType`: описание возвращаемого значения.
+## Returned value
+`Shape`: object type `Shape`, Merging of solids.
 
-## Пример
+## Example
 ```javascript linenums="1"
-let result = difference(value)
-console.info(result)
+let box = Geom.box(100, 100, 100);
+let cyl = Geom.cylinder(50, 150);
+let s1 = Geom.diff(box, cyl) // box - cyl
+console.info(s1) // output:
+let s2 = Geom.diff(cyl, box) // cyl - box
+console.info(s2) // output:
 ```
 
-!!! info "См. также"
+!!! info "See also"
 
-    []()
+    [Geom.unite](./unite.md)
 
+    [Geom.intersect](./intersect.md)
+
+    [Geom.difference](./difference.md)

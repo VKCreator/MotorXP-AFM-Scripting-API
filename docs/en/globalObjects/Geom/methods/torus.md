@@ -1,26 +1,33 @@
 # torus()
 
-## Описание
-Описание метода.
+## Description
+3D primitive (solid): a torus, constructed relative to the point [0,0,0].
 
-## Синтаксис
+## Syntax
 ```javascript
-torus(argument: type) : returnType
+Geom.torus(r1: number) : Shape
+Geom.torus(r1: number, r2: number) : Shape
+Geom.torus(r1: number, r2: number, ua: number) : Shape
+Geom.torus(r1: number, r2: number, va1: number, va2: number) : Shape
+Geom.torus(r1: number, r2: number, va1: number, va2: number, ua: number) : Shape
 ```
 
-## Аргументы
-- `argument` (type, обязательно): описание аргумента.
+## Arguments
+- `r1` (number, required):
+- `r2` (number, required):
+- `ua` (number, required):
+- `va1` (number, required):
+- `va2` (number, required):
 
-## Возвращаемое значение
-`returnType`: описание возвращаемого значения.
+## Returned Value
+`Shape`: an object of type `Shape`, a torus.
 
-## Пример
+## Example
 ```javascript linenums="1"
-let result = torus(value)
-console.info(result)
+let s = Geom.torus(100)
+console.info(s) // output:
 ```
 
-!!! info "См. также"
+!!! info "See Also"
 
     []()
-

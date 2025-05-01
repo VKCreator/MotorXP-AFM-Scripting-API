@@ -1,4 +1,4 @@
-# createQSpinBox()
+# QtWidgets.createQSpinBox()
 
 ## Описание
 Описание метода.
@@ -16,7 +16,7 @@ createQSpinBox(argument: type) : returnType
 
 ## Пример
 ```javascript linenums="1"
-let result = createQSpinBox(value)
+let result = QtWidgets.createQSpinBox(value)
 console.info(result)
 ```
 

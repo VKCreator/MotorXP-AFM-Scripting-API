@@ -1,10 +1,10 @@
 # numberPolePairs
 
 ## Описание
-The `numberPolePairs` property...
+Количество пар полюсов.
 
 ## Принимаемые значения:
-...
+Положительное число.
 
 ## Тип значения свойства
 `Number`
@@ -14,12 +14,12 @@ The `numberPolePairs` property...
 
 ## Синтаксис
 ```javascript
-numberPolePairs = value
+numberSlots = value
 ```
 
 ## Пример
 ```javascript linenums="1"
-let result = motor.numberPolePairs
+let result = motor.rotor.numberPolePairs
 console.info(result)
 ```
 

@@ -1,4 +1,4 @@
-# createPoleArrangementComboBox()
+# QtWidgets.createPoleArrangementComboBox()
 
 ## Описание
 Описание метода.
@@ -16,7 +16,7 @@ createPoleArrangementComboBox(argument: type) : returnType
 
 ## Пример
 ```javascript linenums="1"
-let result = createPoleArrangementComboBox(value)
+let result = QtWidgets.createPoleArrangementComboBox(value)
 console.info(result)
 ```
 

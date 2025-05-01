@@ -1,26 +1,32 @@
-# unify()
+# Geom.unify()
 
-## Описание
-Описание метода.
+## Description
+Simplifies the geometric representation of an object by removing unnecessary edges and merging faces.
 
-## Синтаксис
+## Syntax
 ```javascript
-unify(argument: type) : returnType
+Geom.unify(shp: Shape) : Shape
 ```
 
-## Аргументы
-- `argument` (type, обязательно): описание аргумента.
+## Parameters
+- `shp` (Shape, required): The body on which to perform the simplification operation.
 
-## Возвращаемое значение
-`returnType`: описание возвращаемого значения.
+## Return Value
+`Shape`: a shape of type `Shape`, resulting from the simplification operation.
 
-## Пример
+## Example
 ```javascript linenums="1"
-let result = unify(value)
-console.info(result)
+let box = Geom.box(100, 100, 100)
+let s = Geom.unify(box)
+console.info(s) // output: 
 ```
 
-!!! info "См. также"
+!!! info "Also see"
 
-    []()
+    [Geom.unite](./unite.md)
 
+    [Geom.intersect](./intersect.md)
+
+    [Geom.diff](./diff.md)
+
+    [Geom.difference](./difference.md)

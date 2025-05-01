@@ -1,26 +1,31 @@
-# piece()
+# Geom.piece()
 
-## Описание
-Описание метода.
+## Description
+Creates a motor detail from a geometric shape and material.
 
-## Синтаксис
+## Syntax
 ```javascript
-piece(argument: type) : returnType
+Geom.piece(shp: Shape, material: Material) : Piece
 ```
 
-## Аргументы
-- `argument` (type, обязательно): описание аргумента.
+## Parameters
+- `shp` (Shape, mandatory): The geometric shape of the detail.
+- `material` (Material, mandatory): The material of the detail.
 
-## Возвращаемое значение
-`returnType`: описание возвращаемого значения.
+## Return value
+`Piece`: An object of type `Piece`, a motor detail.
 
-## Пример
+## Example
 ```javascript linenums="1"
-let result = piece(value)
-console.info(result)
+
+let shp = Geom.cylinder(100, 100)
+let material = Material.general();
+let piece = Geom.piece(shp, material)
+console.info(piece) // output:
 ```
 
-!!! info "См. также"
+!!! info "Also see"
 
-    []()
+    [Geom](../../Geom/_index.md)
 
+    [Material](../../Material/_index.md)

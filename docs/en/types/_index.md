@@ -1,4 +1,4 @@
-# Типы объекты
+# Встроенные типы
 
 ## Части мотора
 - [^^Stator^^](Stator/_index.md):
@@ -8,6 +8,13 @@
 - [^^Airgap^^](Airgap/_index.md):
 - [^^Winding^^](Winding/_index.md):
 - [^^Mesh^^](Mesh/_index.md):
+
+## Геометрия
+- [^^Point3^^](Point3/_index.md):
+- [^^Vector3^^](Vector3/_index.md):
+- [^^Shape^^](Shape/_index.md):
+- [^^BoundingBox^^](BoundingBox/_index.md):
+- [^^Piece^^](Piece/_index.md):
 
 ## Материалы
 - [^^EmptyMaterial^^](materials/EmptyMaterial/_index.md):
@@ -19,13 +26,6 @@
 - [^^MagnetRadialMaterial^^](materials/MagnetRadialMaterial/_index.md):
 - [^^MagnetParallelMaterial^^](materials/MagnetParallelMaterial/_index.md):
 - [^^CustomMaterial^^](materials/CustomMaterial/_index.md):
-
-## Геометрия
-- [^^Point3^^](Point3/_index.md):
-- [^^Vector3^^](Vector3/_index.md):
-- [^^Shape^^](Shape/_index.md):
-- [^^BoundingBox^^](BoundingBox/_index.md):
-- [^^Piece^^](Piece/_index.md):
 
 ## UI Widgets
 ### Qt widgets

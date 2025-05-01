@@ -1,26 +1,26 @@
-# segment()
+# Geom.segment()
 
-## Описание
-Описание метода.
+## Description
+Create a 3D line segment defined by two points.
 
-## Синтаксис
+## Syntax
 ```javascript
-segment(argument: type) : returnType
+Geom.segment(argument: type) : Shape
 ```
 
-## Аргументы
-- `argument` (type, обязательно): описание аргумента.
+## Parameters
+- `p1` (Point3, required): Starting point of the line segment.
+- `p2` (Point3, required): Ending point of the line segment.
 
-## Возвращаемое значение
-`returnType`: описание возвращаемого значения.
+## Return value
+`Shape`: object of type `Shape`, a line segment.
 
-## Пример
+## Example
 ```javascript linenums="1"
-let result = segment(value)
-console.info(result)
+let s = Geom.segment(Geom.point3(10,10,10), Geom.point3(20,20,20))
+console.info(s) // output:
 ```
 
-!!! info "См. также"
+!!! info "See also"
 
     []()
-

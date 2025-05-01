@@ -1,13 +1,19 @@
 # poleArrangement
 
 ## Описание
-The `poleArrangement` property...
+Расположение полюсов
 
 ## Принимаемые значения:
-...
+Одно из значения
+    - `PoleArrangement.NN`
+    - `PoleArrangement.NS`
+    - `PoleArrangement.NSNS`
+    - `PoleArrangement.NSSN`
+    - `PoleArrangement.NNSS`
+    - `PoleArrangement.NNNN`
 
 ## Тип значения свойства
-`Number`
+`PoleArrangement`
 
 ## Доступ
 `Чтение\Запись`
@@ -19,7 +25,7 @@ poleArrangement = value
 
 ## Пример
 ```javascript linenums="1"
-let result = motor.poleArrangement
+let result = motor.rotor.poleArrangement
 console.info(result)
 ```
 

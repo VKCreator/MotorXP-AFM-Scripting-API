@@ -1,11 +1,11 @@
-# angularDisplacement()
+# translateY()
 
 ## Описание
 Описание метода.
 
 ## Синтаксис
 ```javascript
-angularDisplacement(argument: type) : returnType
+translateY(argument: type) : returnType
 ```
 
 ## Аргументы
@@ -16,7 +16,7 @@ angularDisplacement(argument: type) : returnType
 
 ## Пример
 ```javascript linenums="1"
-let result = angularDisplacement(value)
+let result = translateY(value)
 console.info(result)
 ```
 

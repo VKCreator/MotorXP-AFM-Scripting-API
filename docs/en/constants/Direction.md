@@ -1,6 +1,5 @@
 # Direction
-- `Direction.CW` — Направление по часовой стрелке.  
-  Значение: `-1`
-- `Direction.CCW` — Направление часовой стрелки.  
-  Значение: `+1`
-
+- `Direction.CW` — Clockwise direction.
+  Value: `-1`
+- `Direction.CCW` — Anticlockwise direction.
+  Value: `+1`

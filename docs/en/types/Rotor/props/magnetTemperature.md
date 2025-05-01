@@ -1,10 +1,7 @@
 # magnetTemperature
 
 ## Описание
-The `magnetTemperature` property...
-
-## Принимаемые значения:
-...
+Температура магнита ротора в градусах Цельсия.
 
 ## Тип значения свойства
 `Number`
@@ -14,12 +11,12 @@ The `magnetTemperature` property...
 
 ## Синтаксис
 ```javascript
-magnetTemperature = value
+conductorTemperature = value
 ```
 
 ## Пример
 ```javascript linenums="1"
-let result = motor.magnetTemperature
+let result = motor.rotor.conductorTemperature
 console.info(result)
 ```
 

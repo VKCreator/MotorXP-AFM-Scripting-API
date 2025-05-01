@@ -1,4 +1,4 @@
-# createQGridLayout()
+# QtWidgets.createQGridLayout()
 
 ## Описание
 Описание метода.
@@ -16,7 +16,7 @@ createQGridLayout(argument: type) : returnType
 
 ## Пример
 ```javascript linenums="1"
-let result = createQGridLayout(value)
+let result = QtWidgets.createQGridLayout(value)
 console.info(result)
 ```
 

@@ -1,4 +1,4 @@
-# createWindingLayersComboBox()
+# QtWidgets.createWindingLayersComboBox()
 
 ## Описание
 Описание метода.
@@ -16,7 +16,7 @@ createWindingLayersComboBox(argument: type) : returnType
 
 ## Пример
 ```javascript linenums="1"
-let result = createWindingLayersComboBox(value)
+let result = QtWidgets.createWindingLayersComboBox(value)
 console.info(result)
 ```
 

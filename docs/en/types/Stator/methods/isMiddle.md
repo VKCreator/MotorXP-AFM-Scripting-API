@@ -1,22 +1,23 @@
 # isMiddle()
 
 ## Описание
-Описание метода.
+Истина, если в моторе элемент статора средний.
 
 ## Синтаксис
 ```javascript
-isMiddle(argument: type) : returnType
+isLower(itemID: StatorItem.ID) : bool
 ```
 
 ## Аргументы
-- `argument` (type, обязательно): описание аргумента.
+- `itemID` (StatorItem.ID, обязательно): Идентификатор элемента статора.
 
 ## Возвращаемое значение
-`returnType`: описание возвращаемого значения.
+`bool`: Истина, если в моторе элемент статора средний.
 
 ## Пример
 ```javascript linenums="1"
-let result = isMiddle(value)
+let stator = motor.stator
+let result = stator.isMiddle(StatorItem.ID1)
 console.info(result)
 ```
 

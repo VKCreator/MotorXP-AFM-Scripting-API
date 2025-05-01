@@ -1,18 +1,21 @@
 # console.dir()
 
-## Описание
-Метод `console.dir()` отображает список свойств и методов указанного JavaScript-объекта. Он особенно полезен для проверки структуры и содержимого объектов, так как форматирует вывод в виде списка, что облегчает исследование вложенных свойств.
+## Description
+The `console.dir()` method displays the list of properties and methods of a specified JavaScript object. It is particularly useful for inspecting the structure and content of objects, as it formats the output in a list, making it easier to explore nested properties.
 
-## Синтаксис
-``` javascript
+## Syntax
+```javascript
 console.dir(object : any)
-``` 
+```
 
-## Возвращаемое значение
+## Parameters
+- **`object`** (any, required):  
+
+## Returned Value
 `undefined`
 
-## Пример
-``` javascript linenums="1"
+## Example
+```javascript linenums="1"
 // Define an object
 const obj = {
   name: 'MotorXP',
@@ -26,8 +29,8 @@ const obj = {
 
 // Inspect the object
 console.dir(obj)
-``` 
-``` javascript title="Output"
+```
+```javascript title="Output"
 ▶ Object
   name: "MotorXP"
   version: 1
@@ -38,4 +41,4 @@ console.dir(obj)
   ▶ details: Object
       developer: "MotorXP Team"
       license: "Combo"
-``` 
+```

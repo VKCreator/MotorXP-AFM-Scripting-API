@@ -1,29 +1,35 @@
 # id
 
 ## Описание
-The `id` property...
+Идентификатор элемента ротора.
 
 ## Принимаемые значения:
-...
+Одно из констант:
+
+ - RotorItem.ID1
+
+ - RotorItem.ID2
+
+ - RotorItem.ID3
 
 ## Тип значения свойства
 `Number`
 
 ## Доступ
-`Чтение\Запись`
+`Только Чтение`
 
 ## Синтаксис
 ```javascript
-id = value
+id
 ```
 
 ## Пример
 ```javascript linenums="1"
-let result = motor.id
+let result = motor.rotor.item(RotorItem.ID1).id
 console.info(result)
 ```
 
 !!! info "См. также"
 
-    []()
+    [StatorItem.ID](./../constants/ID.md)
 

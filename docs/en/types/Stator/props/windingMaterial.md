@@ -1,13 +1,10 @@
 # windingMaterial
 
 ## Описание
-The `windingMaterial` property...
-
-## Принимаемые значения:
-...
+Материал обмотки статора.
 
 ## Тип значения свойства
-`Number`
+`String`
 
 ## Доступ
 `Чтение\Запись`
@@ -19,7 +16,7 @@ windingMaterial = value
 
 ## Пример
 ```javascript linenums="1"
-let result = motor.windingMaterial
+let result = motor.stator.windingMaterial
 console.info(result)
 ```
 

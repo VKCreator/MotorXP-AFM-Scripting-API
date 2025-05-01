@@ -1,11 +1,13 @@
-# Coil orientation
-- `Coil.CW` — Hамотка по часовой стрелке.  
-  Значение: `-1`
-- `Coil.CCW` — Hамотка против часовой стрелки.  
-  Значение: `+1`
+# Coil Orientation
 
-## Coil direction
+- `Coil.CW` — Clockwise.
+  Value: `-1`
+- `Coil.CCW` — Counterclockwise.
+  Value: `+1`
+
+## Coil Direction
+
 - `Coil.Incoming` — Incoming.  
-  Значение: `+1`
+  Value: `+1`
 - `Coil.Outcoming` — Outcoming.  
-  Значение: `-1`
+  Value: `-1`

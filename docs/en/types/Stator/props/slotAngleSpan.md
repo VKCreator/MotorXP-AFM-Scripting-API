@@ -1,25 +1,22 @@
 # slotAngleSpan
 
 ## Описание
-The `slotAngleSpan` property...
-
-## Принимаемые значения:
-...
+Угловой размер одного паза статора в градусах.
 
 ## Тип значения свойства
 `Number`
 
 ## Доступ
-`Чтение\Запись`
+`Тоько Чтение`
 
 ## Синтаксис
 ```javascript
-slotAngleSpan = value
+slotAngleSpan
 ```
 
 ## Пример
 ```javascript linenums="1"
-let result = motor.slotAngleSpan
+let result = motor.stator.slotAngleSpan
 console.info(result)
 ```
 

@@ -1,25 +1,32 @@
-# polygon()
+# Geom.polygon()
 
-## Описание
-Описание метода.
+## Description
+A 2D Polygon constructed in the XOY plane, with its center at the point [0,0,0].
 
-## Синтаксис
+## Syntax
 ```javascript
-polygon(argument: type) : returnType
+Geom.polygon(points: array of Point3) : Shape
 ```
 
-## Аргументы
-- `argument` (type, обязательно): описание аргумента.
+## Parameters
+- `points` (array of Point3, mandatory): An array of vertices for the polygon.
 
-## Возвращаемое значение
-`returnType`: описание возвращаемого значения.
+## Return Value
+`Shape`: an object of type `Shape`, representing a Polygon.
 
-## Пример
-```javascript linenums="1"
-let result = polygon(value);
-console.info(result);
+## Example
+```javascript
+linenums="1"
+let s = Geom.polygon([
+  Geom.point3(0,0,0),
+  Geom.point3(1,0,0),
+  Geom.point3(1,1,0),
+  Geom.point3(0,1,0),
+  Geom.point3(0,0,0)
+]);
+console.info(s);
 ```
 
-!!! info "См. также"
+!!! info "See Also"
 
     []()

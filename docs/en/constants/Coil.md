@@ -1,4 +1,6 @@
-# Coil Orientation
+# Coil
+
+## Coil Orientation
 
 - `Coil.CW` — Clockwise.
   Value: `-1`

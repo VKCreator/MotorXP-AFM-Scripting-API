@@ -1,4 +1,6 @@
-# Coil orientation
+# Coil
+
+## Coil orientation
 - `Coil.CW` — Hамотка по часовой стрелке.  
   Значение: `-1`
 - `Coil.CCW` — Hамотка против часовой стрелки.  

@@ -70,7 +70,7 @@ plugins:
             constants: Константы
             methods: Методы
             properties: Свойства
-
+  - include-markdown
   - git-revision-date-localized:
         type: custom
         custom_format: "%-d %B %Y, %-H:%M"
@@ -128,6 +128,7 @@ markdown_extensions:
   - pymdownx.tilde
   - admonition
   - pymdownx.details
+  - tables
   - toc:
       permalink: true
   - pymdownx.emoji:

@@ -14,7 +14,7 @@ Material.winding(layer : number = Winding.LayerAuto, turn : number = 0, strand :
 - **`strand`** (number, опционально): Номер провода в витке.
 
 ## Возвращаемое значение
-[`WindingMaterial`](./../../../types/materials/WindingMaterial/_index.md)
+[`WindingMaterial`](./../../../types/materials/WindingMaterial/index.md)
 
 ## Пример
 ``` javascript linenums="1"

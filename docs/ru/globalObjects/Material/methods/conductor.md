@@ -12,7 +12,7 @@ Material.conductor() : ConductorMaterial
     Отсутствуют
 
 ## Возвращаемое значение
-[`ConductorMaterial`](./../../../types/materials/ConductorMaterial/_index.md)
+[`ConductorMaterial`](./../../../types/materials/ConductorMaterial/index.md)
 
 ## Пример
 ``` javascript linenums="1"

@@ -3,7 +3,7 @@ import os
 # Список путей к файлам
 file_paths = [
     # Methods
-    "embeddedObjects/Geom/methods/_index.md",
+    "embeddedObjects/Geom/methods/index.md",
     "embeddedObjects/Geom/methods/angle.md",
     "embeddedObjects/Geom/methods/angleX.md",
     "embeddedObjects/Geom/methods/angleY.md",
@@ -44,8 +44,8 @@ file_paths = [
     "embeddedObjects/Geom/methods/pointAtSegment.md",
 
     # Stator
-    "types/Stator/_index.md",
-    "types/Stator/props/_index.md",
+    "types/Stator/index.md",
+    "types/Stator/props/index.md",
     "types/Stator/props/objectName.md",
     "types/Stator/props/outerDiameter.md",
     "types/Stator/props/outerRadius.md",
@@ -64,7 +64,7 @@ file_paths = [
     "types/Stator/props/items.md",
     "types/Stator/props/simDomain.md",
     "types/Stator/props/simRadialOuterDomain.md",
-    "types/Stator/methods/_index.md",
+    "types/Stator/methods/index.md",
     "types/Stator/methods/item.md",
     "types/Stator/methods/isLower.md",
     "types/Stator/methods/isMiddle.md",
@@ -73,12 +73,12 @@ file_paths = [
     "types/Stator/methods/setItemAngularDisplacement.md",
 
     # StatorItem
-    "types/StatorItem/_index.md",
-    "types/StatorItem/props/_index.md",
+    "types/StatorItem/index.md",
+    "types/StatorItem/props/index.md",
     "types/StatorItem/props/objectName.md",
     "types/StatorItem/props/id.md",
     "types/StatorItem/props/height.md",
-    "types/Stator/statorItem/_index.md",
+    "types/Stator/statorItem/index.md",
     "types/StatorItem/methods/isUpper.md",
     "types/StatorItem/methods/isMiddle.md",
     "types/StatorItem/methods/isLower.md",
@@ -86,8 +86,8 @@ file_paths = [
     "types/StatorItem/methods/setAngularDisplacement.md",
 
     # Rotor
-    "types/Rotor/_index.md",
-    "types/Rotor/props/_index.md",
+    "types/Rotor/index.md",
+    "types/Rotor/props/index.md",
     "types/Rotor/props/outerDiameter.md",
     "types/Rotor/props/outerRadius.md",
     "types/Rotor/props/innerDiameter.md",
@@ -108,7 +108,7 @@ file_paths = [
     "types/Rotor/props/items.md",
     "types/Rotor/props/simDomain.md",
     "types/Rotor/props/simRadialOuterDomain.md",
-    "types/Rotor/methods/_index.md",
+    "types/Rotor/methods/index.md",
     "types/Rotor/methods/item.md",
     "types/Rotor/methods/isLower.md",
     "types/Rotor/methods/isMiddle.md",
@@ -117,12 +117,12 @@ file_paths = [
     "types/Rotor/methods/setItemAngularDisplacement.md",
 
     # RotorItem
-    "types/RotorItem/_index.md",
-    "types/RotorItem/props/_index.md",
+    "types/RotorItem/index.md",
+    "types/RotorItem/props/index.md",
     "types/RotorItem/props/id.md",
     "types/RotorItem/props/height.md",
     "types/RotorItem/props/angularDisplacement.md",
-    "types/RotorItem/methods/_index.md",
+    "types/RotorItem/methods/index.md",
     "types/RotorItem/methods/isUpper.md",
     "types/RotorItem/methods/isMiddle.md",
     "types/RotorItem/methods/isLower.md",
@@ -130,8 +130,8 @@ file_paths = [
     "types/RotorItem/methods/setAngularDisplacement.md",
 
     # Winding
-    "types/Winding/_index.md",
-    "types/Winding/props/_index.md",
+    "types/Winding/index.md",
+    "types/Winding/props/index.md",
     "types/Winding/props/objectName.md",
     "types/Winding/props/circuit.md",
     "types/Winding/props/statorConnection.md",
@@ -147,7 +147,7 @@ file_paths = [
     "types/Winding/props/radialOverhandInnerEndturn.md",
     "types/Winding/props/heightOuterEndturn.md",
     "types/Winding/props/heightInnerEndturn.md",
-    "types/Winding/methods/_index.md",
+    "types/Winding/methods/index.md",
     "types/Winding/methods/isPlanar.md",
     "types/Winding/methods/isToroidal.md",
     "types/Winding/methods/isSingleLayer.md",
@@ -159,8 +159,8 @@ file_paths = [
     "types/Winding/methods/distanceBetweenEndturns.md",
 
     # Mesh
-    "types/Mesh/_index.md",
-    "types/Mesh/props/_index.md",
+    "types/Mesh/index.md",
+    "types/Mesh/props/index.md",
     "types/Mesh/props/objectName.md",
     "types/Mesh/props/autoSizeBound.md",
     "types/Mesh/props/sizeBound.md",
@@ -169,11 +169,11 @@ file_paths = [
     "types/Mesh/props/horizontalSymmetry.md",
 
     # SimDomain
-    "types/SimDomain/_index.md",
-    "types/SimDomain/props/_index.md",
+    "types/SimDomain/index.md",
+    "types/SimDomain/props/index.md",
     "types/SimDomain/props/inner.md",
     "types/SimDomain/props/outer.md",
-    "types/SimDomain/methods/_index.md",
+    "types/SimDomain/methods/index.md",
     "types/SimDomain/methods/range.md"
 ]
 

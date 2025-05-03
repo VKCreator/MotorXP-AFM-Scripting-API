@@ -1,10 +1,10 @@
 # stator
 
 ## Описание
-Возвращает объект типа [`Stator`](../../../types/Stator/_index.md).
+Возвращает объект типа [`Stator`](../../../types/Stator/index.md).
 
 ## Тип значения свойства
-[`Stator`](../../../types/Stator/_index.md)
+[`Stator`](../../../types/Stator/index.md)
 
 ## Доступ
 `Только Чтение`

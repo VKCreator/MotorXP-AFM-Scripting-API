@@ -1,10 +1,10 @@
 # airgap
 
 ## Описание
-Возвращает объект типа [`Airgap`](./../../../types/Airgap/_index.md).
+Возвращает объект типа [`Airgap`](./../../../types/Airgap/index.md).
 
 ## Тип значения свойства
-[`Airgap`](./../../../types/Airgap/_index.md)
+[`Airgap`](./../../../types/Airgap/index.md)
 
 ## Доступ
 `Только Чтение`
@@ -21,4 +21,4 @@ let airgap = motor.airgap
 
 !!! info "См. также"
 
-    [Airgap](./../../../types/Airgap/_index.md)
+    [Airgap](./../../../types/Airgap/index.md)

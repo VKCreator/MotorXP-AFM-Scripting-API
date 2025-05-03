@@ -12,7 +12,7 @@ Material.custom(color : Qt.color = Qt.red) : CustomMaterial
 - **`color`** ([Qt.color](), опционально): цвет материала.
 
 ## Возвращаемое значение
-[`CustomMaterial`](./../../../types/materials/CustomMaterial/_index.md)
+[`CustomMaterial`](./../../../types/materials/CustomMaterial/index.md)
 
 ## Пример
 ``` javascript linenums="1"

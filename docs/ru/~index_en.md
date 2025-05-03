@@ -1,7 +1,7 @@
 # Introduction
 
 ## Description
-This documentation describes the programming interface (API) for writing scripts in the application <span style="white-space: nowrap;">**MotorXP-AFM**</span> for parameterized construction of a motor geometry. It includes detailed information on [global functions](globalFuncs/_index.md), [built-in objects](globalObjects/_index.md), [types of created objects](types/_index.md), [materials](globalObjects/Material/_index.md), [constants](constants/_index.md) and [UI elements](types/widgets/_index.md) (UI widgets).
+This documentation describes the programming interface (API) for writing scripts in the application <span style="white-space: nowrap;">**MotorXP-AFM**</span> for parameterized construction of a motor geometry. It includes detailed information on [global functions](globalFuncs/index.md), [built-in objects](globalObjects/index.md), [types of created objects](types/index.md), [materials](globalObjects/Material/index.md), [constants](constants/index.md) and [UI elements](types/widgets/index.md) (UI widgets).
 
 !!! info "Info"
     The scripting engine of the `MotorXP-AFM` application is implemented based on the scripting engine of the `Qt` framework – `QJSEngine`.

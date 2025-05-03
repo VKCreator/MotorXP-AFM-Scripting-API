@@ -22,5 +22,5 @@ console.info(result)
 
 !!! info "См. также"
 
-    [Shape](./../../../types/Shape/_index.md)
+    [Shape](./../../../types/Shape/index.md)
 

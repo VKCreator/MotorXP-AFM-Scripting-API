@@ -1,11 +1,11 @@
-# toFileSTEP()
+# toFileStep() 
 
 ## Описание
 Описание метода.
 
 ## Синтаксис
 ```javascript
-toFileSTEP(argument: type) : returnType
+toFileStep(argument: type) : returnType
 ```
 
 ## Аргументы
@@ -16,7 +16,7 @@ toFileSTEP(argument: type) : returnType
 
 ## Пример
 ```javascript linenums="1"
-let result = toFileSTEP(value)
+let result = toFileStep(value)
 console.info(result)
 ```
 

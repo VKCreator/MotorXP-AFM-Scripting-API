@@ -1,10 +1,10 @@
 # winding
 
 ## Описание
-Возвращает объект типа [`Winding`](../../../types/Winding/_index.md).
+Возвращает объект типа [`Winding`](../../../types/Winding/index.md).
 
 ## Тип значения свойства
-[`Winding`](../../../types/Winding/_index.md)
+[`Winding`](../../../types/Winding/index.md)
 
 ## Доступ
 `Только Чтение`

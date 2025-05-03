@@ -16,20 +16,20 @@ let m2 = new EndturnMaterial() // Способ 2
 Нет методов.
 
 !!! info "См. также"
-- [Material](./../../../globalObjects/Material/_index.md)
+- [Material](./../../../globalObjects/Material/index.md)
 
-- [EmptyMaterial](./../EmptyMaterial/_index.md)
+- [EmptyMaterial](./../EmptyMaterial/index.md)
 
-- [GeneralMaterial](./../GeneralMaterial/_index.md)
+- [GeneralMaterial](./../GeneralMaterial/index.md)
 
-- [ConductorMaterial](./../ConductorMaterial/_index.md)
+- [ConductorMaterial](./../ConductorMaterial/index.md)
 
-- [IronMaterial](./../IronMaterial/_index.md)
+- [IronMaterial](./../IronMaterial/index.md)
 
-- [WindingMaterial](./../WindingMaterial/_index.md)
+- [WindingMaterial](./../WindingMaterial/index.md)
 
-- [MagnetParallelMaterial](./../MagnetParallelMaterial/_index.md)
+- [MagnetParallelMaterial](./../MagnetParallelMaterial/index.md)
 
-- [MagnetRadialMaterial](./../MagnetRadialMaterial/_index.md)
+- [MagnetRadialMaterial](./../MagnetRadialMaterial/index.md)
 
-- [CustomMaterial](./../CustomMaterial/_index.md)
+- [CustomMaterial](./../CustomMaterial/index.md)

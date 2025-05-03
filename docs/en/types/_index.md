@@ -1,31 +1,31 @@
 # Встроенные типы
 
 ## Части мотора
-- [^^Stator^^](Stator/_index.md):
-- [^^StatorItem^^](StatorItem/_index.md):
-- [^^Rotor^^](Rotor/_index.md):
-- [^^RotorItem^^](RotorItem/_index.md):
-- [^^Airgap^^](Airgap/_index.md):
-- [^^Winding^^](Winding/_index.md):
-- [^^Mesh^^](Mesh/_index.md):
+- [^^Stator^^](Stator/index.md):
+- [^^StatorItem^^](StatorItem/index.md):
+- [^^Rotor^^](Rotor/index.md):
+- [^^RotorItem^^](RotorItem/index.md):
+- [^^Airgap^^](Airgap/index.md):
+- [^^Winding^^](Winding/index.md):
+- [^^Mesh^^](Mesh/index.md):
 
 ## Геометрия
-- [^^Point3^^](./Point3/_index.md):
-- [^^Vector3^^](./Vector3/_index.md):
-- [^^Shape^^](./Shape/_index.md):
-- [^^BoundingBox^^](./BoundingBox/_index.md):
-- [^^Piece^^](./Piece/_index.md):
+- [^^Point3^^](./Point3/index.md):
+- [^^Vector3^^](./Vector3/index.md):
+- [^^Shape^^](./Shape/index.md):
+- [^^BoundingBox^^](./BoundingBox/index.md):
+- [^^Piece^^](./Piece/index.md):
 
 ## Материалы
-- [^^EmptyMaterial^^](./materials/EmptyMaterial/_index.md):
-- [^^GeneralMaterial^^](./materials/GeneralMaterial/_index.md):
-- [^^IronMaterial^^](./materials/IronMaterial/_index.md):
-- [^^ConductorMaterial^^](./materials/ConductorMaterial/_index.md):
-- [^^WindingMaterial^^](./materials/WindingMaterial/_index.md):
-- [^^EndturnMaterial^^](./materials/EndturnMaterial/_index.md):
-- [^^MagnetRadialMaterial^^](./materials/MagnetRadialMaterial/_index.md):
-- [^^MagnetParallelMaterial^^](./materials/MagnetParallelMaterial/_index.md):
-- [^^CustomMaterial^^](./materials/CustomMaterial/_index.md):
+- [^^EmptyMaterial^^](./materials/EmptyMaterial/index.md):
+- [^^GeneralMaterial^^](./materials/GeneralMaterial/index.md):
+- [^^IronMaterial^^](./materials/IronMaterial/index.md):
+- [^^ConductorMaterial^^](./materials/ConductorMaterial/index.md):
+- [^^WindingMaterial^^](./materials/WindingMaterial/index.md):
+- [^^EndturnMaterial^^](./materials/EndturnMaterial/index.md):
+- [^^MagnetRadialMaterial^^](./materials/MagnetRadialMaterial/index.md):
+- [^^MagnetParallelMaterial^^](./materials/MagnetParallelMaterial/index.md):
+- [^^CustomMaterial^^](./materials/CustomMaterial/index.md):
 
 ## UI Widgets
 ### Qt Widgets

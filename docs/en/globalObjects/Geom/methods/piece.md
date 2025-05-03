@@ -26,7 +26,7 @@ console.info(piece) // output:
 
 !!! info "См. также"
 
-    [Geom](./../../Geom/_index.md)
+    [Geom](./../../Geom/index.md)
 
-    [Material](./../../Material/_index.md)
+    [Material](./../../Material/index.md)
 

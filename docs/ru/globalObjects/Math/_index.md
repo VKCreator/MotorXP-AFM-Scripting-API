@@ -11,7 +11,7 @@
 
 ## Методы `Math`
 {%
-    include-markdown "./methods/_index.md"
+    include-markdown "./methods/index.md"
     start="<!--start-->"
     end="<!--end-->"
 %}

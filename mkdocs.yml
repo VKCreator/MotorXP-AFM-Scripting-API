@@ -85,10 +85,11 @@ plugins:
 
       #regex:
       #  - '.*\.(tmp|bin|tar)$'
-  # - with-pdf
-  - print-site:
-        enabled: !ENV [ENABLED_PRINT_SITE, True]
-        path_to_pdf: "$lang$/pdf/document.pdf"
+  - with-pdf
+  # - print-site:
+    #    enabled: !ENV [ENABLED_PRINT_SITE, True]
+     #   path_to_pdf: "pdf/document.pdf"
+        # path_to_pdf: "$lang$/pdf/document.pdf"
         # add_to_navigation: true 
         
 extra_css:
@@ -141,14 +142,14 @@ nav:
   - index.md
 
   - Global methods:
-      - globalFuncs/_index.md
+      - globalFuncs/index.md
       - globalFuncs/include.md
       - globalFuncs/require.md
       - globalFuncs/writeFile.md
       - globalFuncs/readFile.md
 
   - Constants:
-      - constants/_index.md
+      - constants/index.md
       - Direction : constants/Direction.md
       - Coil : constants/Coil.md
       - Magnetization : constants/Magnetization.md
@@ -156,15 +157,15 @@ nav:
       - Colors : constants/Colors.md
 
   - Built-in objects:
-      - globalObjects/_index.md
+      - globalObjects/index.md
 
       - Math:
-          - globalObjects/Math/_index.md
+          - globalObjects/Math/index.md
           - constants:
-            - globalObjects/Math/constants/_index.md
+            - globalObjects/Math/constants/index.md
             - globalObjects/Math/constants/Epsilon.md
           - methods:
-            - globalObjects/Math/methods/_index.md
+            - globalObjects/Math/methods/index.md
             - globalObjects/Math/methods/isEpsilon.md
             #- fuzzyIsNull(устаревшее): globalObjects/Math/methods/fuzzyIsNull.md
             - globalObjects/Math/methods/isEqual.md
@@ -180,9 +181,9 @@ nav:
             - globalObjects/Math/methods/middleAngle.md
 
       - Geom:
-          - globalObjects/Geom/_index.md
+          - globalObjects/Geom/index.md
           - methods:
-            - globalObjects/Geom/methods/_index.md
+            - globalObjects/Geom/methods/index.md
             - globalObjects/Geom/methods/angle.md
             - globalObjects/Geom/methods/angleBetweenVectors.md
             - globalObjects/Geom/methods/angleX.md
@@ -226,9 +227,9 @@ nav:
             - globalObjects/Geom/methods/vector3.md
 
       - Material:
-          - globalObjects/Material/_index.md
+          - globalObjects/Material/index.md
           - methods:
-            - globalObjects/Material/methods/_index.md
+            - globalObjects/Material/methods/index.md
             - globalObjects/Material/methods/empty.md
             - globalObjects/Material/methods/general.md
             - globalObjects/Material/methods/iron.md
@@ -240,9 +241,9 @@ nav:
             - globalObjects/Material/methods/custom.md
 
       - QtWidgets:
-          - globalObjects/QtWidgets/_index.md
+          - globalObjects/QtWidgets/index.md
           - methods:
-              - globalObjects/QtWidgets/methods/_index.md
+              - globalObjects/QtWidgets/methods/index.md
               #Layouts
               - globalObjects/QtWidgets/methods/createQGridLayout.md
               - globalObjects/QtWidgets/methods/createQFormLayout.md
@@ -271,9 +272,9 @@ nav:
               - globalObjects/QtWidgets/methods/createWindingConnectionComboBox.md
 
       - console:
-          - globalObjects/console/_index.md
+          - globalObjects/console/index.md
           - methods:
-              - globalObjects/console/methods/_index.md
+              - globalObjects/console/methods/index.md
               - globalObjects/console/methods/log.md
               - globalObjects/console/methods/info.md
               - globalObjects/console/methods/warn.md
@@ -282,16 +283,16 @@ nav:
               - globalObjects/console/methods/dir.md
 
       - motor:
-          - globalObjects/motor/_index.md
+          - globalObjects/motor/index.md
           - constants: 
-            - globalObjects/motor/constants/_index.md
+            - globalObjects/motor/constants/index.md
             - globalObjects/motor/constants/SR.md
             - globalObjects/motor/constants/SRS.md
             - globalObjects/motor/constants/SRSRS.md
             - globalObjects/motor/constants/RSR.md
             - globalObjects/motor/constants/RSRSR.md
           - properties:
-              - globalObjects/motor/props/_index.md
+              - globalObjects/motor/props/index.md
               - globalObjects/motor/props/machineType.md
               #- height: globalObjects/motor/props/height.md
               #- periodicity: globalObjects/motor/props/periodicity.md
@@ -308,14 +309,14 @@ nav:
               #- analysis: globalObjects/motor/props/analysis.md
 
   - Object Types:
-      - types/_index.md
+      - types/index.md
       - Airgap:
-        - types/Airgap/_index.md
+        - types/Airgap/index.md
         - constants: 
-           - types/Airgap/constants/_index.md
+           - types/Airgap/constants/index.md
            - types/Airgap/constants/ID.md
         - properties: 
-           - types/Airgap/props/_index.md
+           - types/Airgap/props/index.md
            - types/Airgap/props/id.md
            - types/Airgap/props/thickness.md
            - types/Airgap/props/numberLayers.md
@@ -323,12 +324,12 @@ nav:
            - types/Airgap/props/posTop.md
            - types/Airgap/props/posMiddle.md
         - methods:
-           - types/Airgap/methods/_index.md
+           - types/Airgap/methods/index.md
 
       - BoundingBox:
-        - types/BoundingBox/_index.md
+        - types/BoundingBox/index.md
         - properties: 
-           - types/BoundingBox/props/_index.md
+           - types/BoundingBox/props/index.md
            - types/BoundingBox/props/xMin.md
            - types/BoundingBox/props/xMax.md
            - types/BoundingBox/props/xSize.md
@@ -342,14 +343,14 @@ nav:
            - types/BoundingBox/props/zSize.md 
            - types/BoundingBox/props/zCenter.md
         - methods:
-           - types/BoundingBox/methods/_index.md
+           - types/BoundingBox/methods/index.md
       - Stator:
-         - types/Stator/_index.md
+         - types/Stator/index.md
          - constants: 
-           - types/Stator/constants/_index.md
+           - types/Stator/constants/index.md
            - types/Stator/constants/MiddleType.md
          - properties:
-           - types/Stator/props/_index.md
+           - types/Stator/props/index.md
            - types/Stator/props/outerDiameter.md
            - types/Stator/props/outerRadius.md
            - types/Stator/props/innerDiameter.md
@@ -368,7 +369,7 @@ nav:
            - types/Stator/props/conductorMaterial.md
            - types/Stator/props/conductorTemperature.md
          - methods:
-           - types/Stator/methods/_index.md
+           - types/Stator/methods/index.md
            - types/Stator/methods/isLower.md
            - types/Stator/methods/isMiddle.md
            - types/Stator/methods/isUpper.md
@@ -377,29 +378,29 @@ nav:
            - types/Stator/methods/setItemAngularDisplacement.md
 
       - StatorItem:
-         - types/StatorItem/_index.md
+         - types/StatorItem/index.md
          - constants: 
-           - types/StatorItem/constants/_index.md
+           - types/StatorItem/constants/index.md
            - types/StatorItem/constants/ID.md
            - types/StatorItem/constants/Layer.md
          - properties:
-           - types/StatorItem/props/_index.md
+           - types/StatorItem/props/index.md
            - types/StatorItem/props/id.md
            - types/StatorItem/props/height.md
            - types/StatorItem/props/angularDisplacement.md
          - methods:
-           - types/StatorItem/methods/_index.md
+           - types/StatorItem/methods/index.md
            - types/StatorItem/methods/isUpper.md
            - types/StatorItem/methods/isMiddle.md
            - types/StatorItem/methods/isLower.md
 
       - Rotor:
-         - types/Rotor/_index.md
+         - types/Rotor/index.md
          - constants: 
-           - types/Rotor/constants/_index.md
+           - types/Rotor/constants/index.md
            - types/Rotor/constants/MiddleType.md
          - properties:
-           - types/Rotor/props/_index.md
+           - types/Rotor/props/index.md
            - types/Rotor/props/outerDiameter.md
            - types/Rotor/props/outerRadius.md
            - types/Rotor/props/innerDiameter.md
@@ -419,7 +420,7 @@ nav:
            - types/Rotor/props/conductorTemperature.md
            - types/Rotor/props/conductorMaterial.md
          - methods:
-           - types/Rotor/methods/_index.md
+           - types/Rotor/methods/index.md
            - types/Rotor/methods/item.md
            - types/Rotor/methods/isLower.md
            - types/Rotor/methods/isMiddle.md
@@ -428,26 +429,26 @@ nav:
            - types/Rotor/methods/setItemAngularDisplacement.md
 
       - RotorItem:
-          - types/RotorItem/_index.md
+          - types/RotorItem/index.md
           - constants: 
-              - types/RotorItem/constants/_index.md
+              - types/RotorItem/constants/index.md
               - types/RotorItem/constants/ID.md
               - types/RotorItem/constants/Layer.md
           - properties: 
-              - types/RotorItem/props/_index.md
+              - types/RotorItem/props/index.md
               - types/RotorItem/props/id.md
               - types/RotorItem/props/height.md
               - types/RotorItem/props/angularDisplacement.md
           - methods:
-            - types/RotorItem/methods/_index.md
+            - types/RotorItem/methods/index.md
             - types/RotorItem/methods/isUpper.md
             - types/RotorItem/methods/isMiddle.md
             - types/RotorItem/methods/isLower.md
 
       - Winding:
-          - types/Winding/_index.md
+          - types/Winding/index.md
           - constants:
-            - types/Winding/constants/_index.md
+            - types/Winding/constants/index.md
             - Planar: types/Winding/constants/Planar.md
             - Toroidal: types/Winding/constants/Toroidal.md
             - SingleLayer: types/Winding/constants/SingleLayer.md
@@ -459,7 +460,7 @@ nav:
             - Lumped: types/Winding/constants/Lumped.md
             - Full: types/Winding/constants/Full.md
           - properties: 
-            - types/Winding/props/_index.md
+            - types/Winding/props/index.md
             - circuit: types/Winding/props/circuit.md
             - statorConnection: types/Winding/props/statorConnection.md
             - parallelPaths: types/Winding/props/parallelPaths.md
@@ -475,7 +476,7 @@ nav:
             - heightOuterEndturn: types/Winding/props/heightOuterEndturn.md
             - heightInnerEndturn: types/Winding/props/heightInnerEndturn.md
           - methods:
-            - types/Winding/methods/_index.md
+            - types/Winding/methods/index.md
             - isPlanar: types/Winding/methods/isPlanar.md
             - isToroidal: types/Winding/methods/isToroidal.md
             - isSingleLayer: types/Winding/methods/isSingleLayer.md
@@ -487,72 +488,72 @@ nav:
             - distanceBetweenEndturns: types/Winding/methods/distanceBetweenEndturns.md
 
       - Mesh:
-          - types/Mesh/_index.md
+          - types/Mesh/index.md
           - properties: 
-            - types/Mesh/props/_index.md
+            - types/Mesh/props/index.md
             - types/Mesh/props/autoSizeBound.md
             - types/Mesh/props/sizeBound.md
             - types/Mesh/props/numberSlices.md
             - types/Mesh/props/airgapQuality.md
             - types/Mesh/props/horizontalSymmetry.md
           - methods:
-            - types/Mesh/methods/_index.md
+            - types/Mesh/methods/index.md
 
       - EmptyMaterial:
-         - types/materials/EmptyMaterial/_index.md
+         - types/materials/EmptyMaterial/index.md
       - GeneralMaterial:
-          - types/materials/GeneralMaterial/_index.md
+          - types/materials/GeneralMaterial/index.md
       - IronMaterial:
-          - types/materials/IronMaterial/_index.md
+          - types/materials/IronMaterial/index.md
           - properties: 
-            - types/materials/IronMaterial/props/_index.md
+            - types/materials/IronMaterial/props/index.md
             - fillCoefs: types/materials/IronMaterial/props/fillCoefs.md
             - dsomaloy: types/materials/IronMaterial/props/dsomaloy.md
       - ConductorMaterial:
-          - types/materials/ConductorMaterial/_index.md
+          - types/materials/ConductorMaterial/index.md
       - WindingMaterial:
-          - types/materials/WindingMaterial/_index.md
+          - types/materials/WindingMaterial/index.md
           - properties: 
-            - types/materials/WindingMaterial/props/_index.md
+            - types/materials/WindingMaterial/props/index.md
             - layer: types/materials/WindingMaterial/props/layer.md
             - turn: types/materials/WindingMaterial/props/turn.md
             - strand: types/materials/WindingMaterial/props/strand.md
             - windingModel: types/materials/WindingMaterial/props/windingModel.md
           - methods:
-            - types/materials/WindingMaterial/methods/_index.md
+            - types/materials/WindingMaterial/methods/index.md
             - isWindingModelLumped: types/materials/WindingMaterial/methods/isWindingModelLumped.md
             - isWindingModelFull: types/materials/WindingMaterial/methods/isWindingModelFull.md
       - EndturnMaterial:
-          - types/materials/EndturnMaterial/_index.md
+          - types/materials/EndturnMaterial/index.md
       - MagnetRadialMaterial:
-          - types/materials/MagnetRadialMaterial/_index.md
+          - types/materials/MagnetRadialMaterial/index.md
           - properties: 
-            - types/materials/MagnetRadialMaterial/props/_index.md
+            - types/materials/MagnetRadialMaterial/props/index.md
             - direction: types/materials/MagnetRadialMaterial/props/direction.md
             - center: types/materials/MagnetRadialMaterial/props/center.md
       - MagnetParallelMaterial:
-          - types/materials/MagnetParallelMaterial/_index.md
+          - types/materials/MagnetParallelMaterial/index.md
           - properties: 
-            - types/materials/MagnetParallelMaterial/props/_index.md
+            - types/materials/MagnetParallelMaterial/props/index.md
             - angle: types/materials/MagnetParallelMaterial/props/angle.md
             - segmentRadiuses: types/materials/MagnetParallelMaterial/props/segmentRadiuses.md
             - savePoleBorder: types/materials/MagnetParallelMaterial/props/savePoleBorder.md
       - CustomMaterial:
-          - types/materials/CustomMaterial/_index.md
+          - types/materials/CustomMaterial/index.md
           - properties: 
-            - types/materials/CustomMaterial/props/_index.md
+            - types/materials/CustomMaterial/props/index.md
             - color: types/materials/CustomMaterial/props/color.md
 
 # Geometry types:
       - Point3:
-          - types/Point3/_index.md
+          - types/Point3/index.md
           - properties: 
-            - types/Point3/props/_index.md
+            - types/Point3/props/index.md
             - types/Point3/props/x.md
             - types/Point3/props/y.md
             - types/Point3/props/z.md
           - methods:
-            - types/Point3/methods/_index.md
+            - types/Point3/methods/index.md
             - types/Point3/methods/distance.md
             #Translate
             - types/Point3/methods/translate.md
@@ -587,25 +588,25 @@ nav:
             - types/Point3/methods/scaleXYZ.md
 
       - Vector3:
-          - types/Vector3/_index.md
+          - types/Vector3/index.md
           - properties: 
-            - types/Vector3/props/_index.md
+            - types/Vector3/props/index.md
             - types/Vector3/props/x.md
             - types/Vector3/props/y.md
             - types/Vector3/props/z.md
           - methods:
-            - types/Vector3/methods/_index.md
+            - types/Vector3/methods/index.md
             - types/Vector3/methods/lenght.md
             - types/Vector3/methods/lenght2.md
             - types/Vector3/methods/angle.md
             - types/Vector3/methods/isZero.md
 
       - Shape:
-          - types/Shape/_index.md
+          - types/Shape/index.md
           - properties: 
-            - types/Shape/props/_index.md
+            - types/Shape/props/index.md
           - methods:
-            - types/Shape/methods/_index.md
+            - types/Shape/methods/index.md
             - isEmpty: types/Shape/methods/isEmpty.md
             - toFileSTEP: types/Shape/methods/toFileStep.md
             - unite: types/Shape/methods/unite.md
@@ -652,16 +653,16 @@ nav:
             - scaleXYZ: types/Shape/methods/scaleXYZ.md
 
       - Piece:
-          - types/Piece/_index.md
+          - types/Piece/index.md
           - properties: 
-            - types/Piece/props/_index.md
+            - types/Piece/props/index.md
           - methods:
-            - types/Piece/methods/_index.md
+            - types/Piece/methods/index.md
             - types/Piece/methods/toFileStep.md
 
 # GUI Widgets
       - UI Widgets:
-        - types/widgets/_index.md
+        - types/widgets/index.md
         #Qt Widgets
         - QWidget: types/widgets/QWidget.md
         - QLabel: types/widgets/QLabel.md

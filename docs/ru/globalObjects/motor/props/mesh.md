@@ -1,10 +1,10 @@
 # mesh
 
 ## Описание
-Возвращает объект типа [`Mesh`](../../../types/Mesh/_index.md).
+Возвращает объект типа [`Mesh`](../../../types/Mesh/index.md).
 
 ## Тип значения свойства
-[`Mesh`](../../../types/Mesh/_index.md)
+[`Mesh`](../../../types/Mesh/index.md)
 
 ## Доступ
 `Только Чтение`

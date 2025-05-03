@@ -1,10 +1,10 @@
 # rotor
 
 ## Описание
-Возвращает объект типа [`Rotor`](../../../types/Rotor/_index.md).
+Возвращает объект типа [`Rotor`](../../../types/Rotor/index.md).
 
 ## Тип значения свойства
-[`Rotor`](../../../types/Rotor/_index.md)
+[`Rotor`](../../../types/Rotor/index.md)
 
 ## Доступ
 `Только Чтение`

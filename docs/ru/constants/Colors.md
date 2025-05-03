@@ -24,3 +24,13 @@
 | `Qt.darkMagenta` | Темно-пурпурный    | <span style="display:inline-block;width:16px;height:16px;background-color:#8B008B;"></span> |
 | `Qt.darkYellow`  | Темно-желтый       | <span style="display:inline-block;width:16px;height:16px;background-color:#B8860B;"></span> |
 <!--end-->
+
+!!! info "См. также"
+
+    [Coil](Coil.md)	
+
+    [Direction](Direction.md)
+
+    [Magnetization](Magnetization.md)
+
+    [PoleArrangement](PoleArrangement.md)

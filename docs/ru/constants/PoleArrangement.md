@@ -9,3 +9,13 @@
 | `PoleArrangement.NNSS`  | NNSS           | `4`      |
 | `PoleArrangement.NNNN`  | NNNN           | `5`      |
 <!--end-->
+
+!!! info "См. также"
+
+    [Colors](Colors.md)	
+
+    [Coil](Coil.md)
+
+    [Direction](Direction.md)
+
+    [Magnetization](Magnetization.md)

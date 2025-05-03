@@ -15,3 +15,13 @@
 | `Coil.Incoming`     | Incoming (входящий) | `+1`     |
 | `Coil.Outcoming`    | Outcoming (исходящий) | `-1`    |
 <!--endDir-->
+
+!!! info "См. также"
+
+    [Colors](Colors.md)	
+
+    [Direction](Direction.md)
+
+    [Magnetization](Magnetization.md)
+
+    [PoleArrangement](PoleArrangement.md)

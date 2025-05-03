@@ -1,8 +1,8 @@
 # Укажите корневую папку, где находятся файлы
-$rootFolder = "D:/Projects/MotorXP-Doc/MotorXP-AFM_Docs/docs/ru"
+$rootFolder = "D:/Projects/MotorXP-Doc/MotorXP-AFM_Docs/docs/en"
 
 # Укажите старое имя файла и новое имя файла
-$oldFileName = "index (1).md"
+$oldFileName = "_index.md"
 $newFileName = "index.md"
 
 # Рекурсивно найти все файлы с указанным именем и переименовать их

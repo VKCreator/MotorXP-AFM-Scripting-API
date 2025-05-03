@@ -85,7 +85,7 @@ plugins:
 
       #regex:
       #  - '.*\.(tmp|bin|tar)$'
-  - with-pdf
+  # - with-pdf
   # - print-site:
     #    enabled: !ENV [ENABLED_PRINT_SITE, True]
      #   path_to_pdf: "pdf/document.pdf"
@@ -118,6 +118,7 @@ use_directory_urls: false
 
 markdown_extensions:
   - pymdownx.highlight:
+      use_pygments: true
       anchor_linenums: true
       line_spans: __span
       pygments_lang_class: true

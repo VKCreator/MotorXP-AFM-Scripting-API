@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Обложка</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f9f9f9;
+            color: #2c3e50;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            text-align: center;
+        }
+
+        .cover-container {
+            max-width: 600px;
+            padding: 40px;
+            background-color: #ffffff;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+            border-radius: 12px;
+        }
+
+        .logo {
+            width: 80px;
+            height: 80px;
+            margin-bottom: 20px;
+            object-fit: contain;
+        }
+
+        h1 {
+            font-size: 24pt;
+            margin: 0 0 10px 0;
+            color: #2c3e50;
+        }
+
+        p {
+            font-size: 14pt;
+            margin: 8px 0;
+            line-height: 1.5;
+            color: #555;
+        }
+
+        .subtitle {
+            font-style: italic;
+            color: #7f8c8d;
+            font-size: 12pt;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="cover-container">
+        <!-- Логотип -->
+        <img src="docs/assets/logo.png" alt="Логотип компании" class="logo">
+
+        <!-- Заголовок из mkdocs.yml -->
+        <h1>{{ cover_title }}</h1>
+
+        <!-- Статичный текст -->
+        <p><strong>Техническая документация</strong></p>
+        <p>Автор: Иван Петров</p>
+        <p>Дата: {{ now.strftime('%d.%m.%Y') }}</p>
+
+        <!-- Подпись -->
+        <p class="subtitle">Проект анализа дефектов на дорожных покрытиях</p>
+    </div>
+</body>
+</html>

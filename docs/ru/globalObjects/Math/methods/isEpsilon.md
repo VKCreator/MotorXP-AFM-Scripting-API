@@ -5,15 +5,19 @@
 
 ## Синтаксис
 ```javascript
-isEpsilon(arg : number, eps : number = Math.EPSILON) : bool
+isEpsilon(arg: Number, eps: Number = Math.EPSILON) -> Boolean
 ``` 
 
 ## Аргументы
-- `arg` (number, обязательно): значение.
-- `eps` (number, опционально): значение точности, по умолчанию равно `Math.EPSILON`.
+| Аргумент | Тип    | Значение по умолчанию | Обязательный | Описание                      |
+|---------|--------|-----------------------|--------------|-------------------------------|
+| `arg`   | `Number` | —                     | ✅ Да         | Числовое значение, которое обрабатывается. |
+| `eps`   | `Number` | `Math.EPSILON`        | ❌ Нет        | Погрешность сравнения чисел с плавающей точкой. |
 
 ## Возвращаемое значение
-`bool`: результат.
+| Тип    | Описание                      |
+|--------|-------------------------------|
+| **`Boolean`** | Результат выполнения операции. |
 
 ## Пример
 ``` javascript linenums="1"
@@ -30,4 +34,5 @@ console.info(b2) // output: true
     [Math.isLessEqual()](isLessEqual.md)
 
     [Math.isGreatEqual()](isGreatEqual.md)
-    
+
+    [Math.EPSILON](../constants/Epsilon.md)

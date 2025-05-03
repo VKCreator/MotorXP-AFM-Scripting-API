@@ -10,15 +10,10 @@
 - [^^Math.EPSILON^^](constants/Epsilon.md): Минимальное положительное число, такое что 1 + `Math.EPSILON`= 1 при работе с числами с плавающей точкой.
 
 ## Методы `Math`
-Ниже приведен список доступных методов, предоставляемых объектом `Math`. Щелкните имя метода, чтобы увидеть его подробное описание и примеры.
+{%
+    include-markdown "./methods/_index.md"
+    start="<!--start-->"
+    end="<!--end-->"
+%}
 
-- [^^Math.deg()^^](methods/deg.md): Перевод радиан в градусы.
-- [^^Math.rad()^^](methods/rad.md): Перевод градусов в радианы.
-- [^^Math.fromPolar()^^](methods/fromPolar.md): Перевод координат точки из полярных координат `(radius, angle)` в декартовые координаты `(x, y)`.
-- [^^Math.normAngle()^^](methods/normAngle.md): Нормализирует значение угла, возвращает значение в интервале (0°, 360°).
-- [^^Math.middleAngle()^^](methods/middleAngle.md): Расчет среднего угла между углами a~1~ и a~2~ с учетом направления.
-- [^^Math.isEpsilon()^^](methods/isEpsilon.md): Возвращает `true`, если абсолютное значение `arg` меньше или равно `eps`.
-- [^^Math.isEqual()^^](methods/isEqual.md): Возвращает `true`, если разница абсолютных значений arg~1~ и arg~2~ меньше или равно `eps`.
-- [^^Math.isLessEqual()^^](methods/isLessEqual.md): Возвращает `true`, если значение arg~1~ меньше или равно значению arg~2~ с учетом точности `eps`.
-- [^^Math.isGreatEqual()^^](methods/isGreatEqual.md): Возвращает `true`, если значение arg~1~ больше или равно значению arg~2~ с учетом точности `eps`.
 

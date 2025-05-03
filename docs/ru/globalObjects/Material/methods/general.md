@@ -1,7 +1,7 @@
 # Material.general()
 
 ## Описание
-Материал для воздушной среды
+Материал для воздушной среды.
 
 ## Синтаксис
 ```javascript
@@ -12,7 +12,7 @@ Material.general() : GenetalMaterial
     Отсутствуют
     
 ## Возвращаемое значение
-[`GeneralMaterial`](./../../../types/materials/GeneralMaterial/_index.md)
+[`GeneralMaterial`](./../../../types/Materials/GeneralMaterial/_index.md)
 
 ## Пример
 ``` javascript linenums="1"

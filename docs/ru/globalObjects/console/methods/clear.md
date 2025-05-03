@@ -9,10 +9,10 @@ console.clear()
 ```
 
 ## Аргументы
-    Без аргументов
+Нет
 
 ## Возвращаемое значение
-`undefined`
+**`undefined`**
 
 ## Пример
 ``` javascript linenums="1"

@@ -103,6 +103,8 @@ extra:
       link: https://www.linkedin.com/company/motorxp
     - icon: fontawesome/brands/github 
       link: https://github.com/MotorXP
+    - icon: fontawesome/solid/globe
+      link: https://motorxp.com
   alternate:
     - name: English
       link: /en/

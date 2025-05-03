@@ -5,7 +5,7 @@
 Список доступных цветов и их визуальное представление:
 
 | Константа        | Название цвета     | Цвет           |
-|------------------|--------------------|----------------|
+|------------------|--------------------|:----------------:|
 | `Qt.black`       | Черный             | <span style="display:inline-block;width:16px;height:16px;background-color:#000000;border:1px solid #FFFFFF;"></span> |
 | `Qt.white`       | Белый              | <span style="display:inline-block;width:16px;height:16px;background-color:#FFFFFF;border:1px solid #000000;"></span> |
 | `Qt.darkGray`    | Темно-серый        | <span style="display:inline-block;width:16px;height:16px;background-color:#A9A9A9;"></span> |

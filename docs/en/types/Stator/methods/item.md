@@ -5,18 +5,19 @@
 
 ## Синтаксис
 ```javascript
-item(argument: type) : returnType
+item(itemID: StatorItem.ID) : StatorItem
 ```
 
 ## Аргументы
-- `argument` (type, обязательно): описание аргумента.
+- `itemID` (StatorItem.ID, обязательно): Идентификатор элемента статора.
 
 ## Возвращаемое значение
-`returnType`: описание возвращаемого значения.
+`StatorItem`: Объект типа `StatorItem`.
 
 ## Пример
 ```javascript linenums="1"
-let result = item(value)
+let stator = motor.stator
+let result = stator.item(StatorItem.ID1)
 console.info(result)
 ```
 

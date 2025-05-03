@@ -1,26 +1,32 @@
-# radiusZ()
+# Geom.radiusZ()
 
-## Описание
-Описание метода.
+## Description
+The radius of a point in the XOY plane, zero is at [0,0,0].
 
-## Синтаксис
+## Syntax
 ```javascript
-radiusZ(argument: type) : returnType
+Geom.radiusZ(point: Point3) : number
+Geom.radiusZ(x: number, y: number, z: number,) : number
 ```
 
-## Аргументы
-- `argument` (type, обязательно): описание аргумента.
+## Parameters
+- `point` (Point3, mandatory): the point in 3D coordinates.
+- `x` (x, mandatory): x coordinate of the point.
+- `y` (y, mandatory): y coordinate of the point.
+- `z` (z, mandatory): z coordinate of the point.
 
-## Возвращаемое значение
-`returnType`: описание возвращаемого значения.
+## Return Value
+`number`: The radius of the point.
 
-## Пример
+## Example
 ```javascript linenums="1"
-let result = radiusZ(value)
-console.info(result)
-```
+let radius1 = Geom.radiusZ(Geom.point3(10,10,10))
+console.info(radius1) // output:
+let radius2 = Geom.radiusZ(10,10,10)
+console.info(radius2) // output:
 
-!!! info "См. также"
+!!! info "Also see"
 
     []()
 
+```

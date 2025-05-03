@@ -1,26 +1,28 @@
-# section()
+# Geom.section()
 
-## Описание
-Описание метода.
+## Description
+Creates a section.
 
-## Синтаксис
+## Syntax
 ```javascript
-section(argument: type) : returnType
+Geom.section(a: Shape, b: Shape) : Shape
 ```
 
-## Аргументы
-- `argument` (type, обязательно): описание аргумента.
+## Parameters
+- `a` (Shape, mandatory): Body 1.
+- `b` (Shape, mandatory): Body 2.
 
-## Возвращаемое значение
-`returnType`: описание возвращаемого значения.
+## Return value
+`Shape`: An object of type `Shape`, a section.
 
-## Пример
+## Example
 ```javascript linenums="1"
-let result = section(value)
-console.info(result)
+let a = Geom.box(100, 100, 100)
+let b = Geom.inflate(Geom.point3(50,50,50), Geom.vector(100, 100, 100))
+let result = Geom.section(a, b)
+console.info(result) // output:
 ```
 
-!!! info "См. также"
+!!! info "See Also"
 
     []()
-

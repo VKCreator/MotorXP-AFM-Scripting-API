@@ -1,26 +1,31 @@
-# collar()
+# Geom.collar()
 
-## Описание
-Описание метода.
+## Description
+3D primitive (solid): collar (a cylinder with a central hole), defined by the outer radius `r1`, inner radius `r2` and height `h` and is constructed relative to the point [0,0,0]. A sector of the collar can be built using the angle parameter.
 
-## Синтаксис
+## Syntax
 ```javascript
-collar(argument: type) : returnType
+Geom.collar(r1: number, r2: number, h: number) : Shape
+Geom.collar(r1: number, r2: number, h: number, angle: number) : Shape
 ```
 
-## Аргументы
-- `argument` (type, обязательно): описание аргумента.
+## Parameters
+- `r1` (number, mandatory): Outer radius of the collar.
+- `r2` (number, mandatory): Inner radius of the collar.
+- `h` (number, mandatory): Height of the collar.
+- `angle` (number, mandatory): Angle of the sector in degrees, the body is centered around the axis OX.
 
-## Возвращаемое значение
-`returnType`: описание возвращаемого значения.
+## Returned Value
+`Shape`: an object of type `Shape`, a collar.
 
-## Пример
+## Example
 ```javascript linenums="1"
-let result = collar(value)
-console.info(result)
+let s1 = Geom.collar(200, 50, 100)
+console.info(s1) // output:
+let s2 = Geom.collar(200, 50, 100, 30)
+console.info(s2) // output:
 ```
 
-!!! info "См. также"
+!!! info "Also see"
 
     []()
-

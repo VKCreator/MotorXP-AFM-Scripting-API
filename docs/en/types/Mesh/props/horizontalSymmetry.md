@@ -7,7 +7,7 @@ The `horizontalSymmetry` property...
 ...
 
 ## Тип значения свойства
-`Number`
+`bool`
 
 ## Доступ
 `Чтение\Запись`
@@ -19,7 +19,8 @@ horizontalSymmetry = value
 
 ## Пример
 ```javascript linenums="1"
-let result = motor.horizontalSymmetry
+let mesh = motor.mesh
+let result = mesh.horizontalSymmetry
 console.info(result)
 ```
 

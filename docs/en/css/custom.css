@@ -13,6 +13,7 @@
     color: #4fc3f7; /* Цвет текста при наведении */
 }
 
+/* смещение элементов в дереве разделов */
 .md-nav__item--section > .md-nav > .md-nav__list {
     margin-left: 0.7rem;
 }
@@ -21,6 +22,11 @@
     font-weight: 400;
     /* color: brown; */
 }
+
+/* .md-ellipsis {
+    font-weight: bold;
+} */
+
 /*.required-tag {
 	background-color: blue;
 }*/

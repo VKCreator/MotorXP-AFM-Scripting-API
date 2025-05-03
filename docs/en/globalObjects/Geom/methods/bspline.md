@@ -1,26 +1,26 @@
-# bspline()
+# B-spline()
 
-## Описание
-Описание метода.
+## Description
+A 3D smooth line passing through all specified points. Sets the `points` array.
 
-## Синтаксис
+## Syntax
 ```javascript
-bspline(argument: type) : returnType
+Geom.bspline(points: array of Point3, closed: bool = false) : Shape
 ```
 
-## Аргументы
-- `argument` (type, обязательно): описание аргумента.
+## Arguments
+- `points` (array of Point3, required): An array of points for the smooth curve.
+- `closed` (bool, optional): Sets the `closed` flag to create a closed smooth curve.
 
-## Возвращаемое значение
-`returnType`: описание возвращаемого значения.
+## Return Value
+`Shape`: The object type `Shape`, B-spline.
 
-## Пример
+## Example
 ```javascript linenums="1"
-let result = bspline(value)
-console.info(result)
+let s = Geom.bspline([Geom.point3(10,10,10), Geom.point3(20,20,20), Geom.point3(30,30,30)])
+console.info(s) // output:
 ```
 
-!!! info "См. также"
+!!! info "See Also"
 
     []()
-

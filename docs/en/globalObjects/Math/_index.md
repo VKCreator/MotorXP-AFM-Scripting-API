@@ -1,15 +1,15 @@
 #  Обзор объекта `Math`
-Встроенный объект `Math` дополняет стандартный объект <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math" target="_blank" rel="noopener noreferrer">`Math`</a> и предоставляет ряд полезных математических функций.
+Встроенный объект `Math` является расширением стандартного объекта JavaScript <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math" target="_blank" rel="noopener noreferrer">`Math`</a> и предоставляет ряд полезных математических функций.
 
-## Основные возможности
+## Основные возможности `Math`
 - Сравнение чисел с плавающей запятой с заданной точностью (`isEpsilon`, `isEqual`, `isLessEqual`, `isGreatEqual`).
 - Преобразование полярных координат в декартовые координаты (`fromPolar`).
 - Функции для работы с угловыми значениями (`rad`, `deg`, `normAngle`, `middleAngle`).
 
-## Константы
-- [^^Math.Epsilon^^](constants/Epsilon.md): Минимальное положительное число, такое что 1 + `eps`= 1 при работе с числами с плавающей точкой.
+## Константы `Math`
+- [^^Math.EPSILON^^](constants/EPSILON.md): Минимальное положительное число, такое что 1 + `Math.EPSILON`= 1 при работе с числами с плавающей точкой.
 
-## Методы
+## Методы `Math`
 Ниже приведен список доступных методов, предоставляемых объектом `Math`. Щелкните имя метода, чтобы увидеть его подробное описание и примеры.
 
 - [^^Math.deg()^^](methods/deg.md): Перевод радиан в градусы.

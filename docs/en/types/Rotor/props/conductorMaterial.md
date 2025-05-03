@@ -1,13 +1,10 @@
 # conductorMaterial
 
 ## Описание
-The `conductorMaterial` property...
-
-## Принимаемые значения:
-...
+Материал проводника ротора.
 
 ## Тип значения свойства
-`Number`
+`String`
 
 ## Доступ
 `Чтение\Запись`
@@ -19,7 +16,7 @@ conductorMaterial = value
 
 ## Пример
 ```javascript linenums="1"
-let result = motor.conductorMaterial
+let result = motor.rotor.conductorMaterial
 console.info(result)
 ```
 

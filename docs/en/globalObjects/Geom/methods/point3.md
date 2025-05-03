@@ -1,26 +1,34 @@
-# point3()
+# Geom.point3()
 
-## Описание
-Описание метода.
+## Description
+Creating a point in 3D space.
 
-## Синтаксис
+## Syntax
 ```javascript
-point3(argument: type) : returnType
+Geom.point3(x: number, y: number, z: number) : Point3
+Geom.point3(p: QPointF, z: number) : Point3
 ```
 
-## Аргументы
-- `argument` (type, обязательно): описание аргумента.
+## Parameters
+- `x` (number, required): x-coordinate of the point.
+- `y` (number, required): y-coordinate of the point.
+- `z` (number, required): z-coordinate of the point.
+- `p` (QPointF, required): A point with coordinates [x,y].
 
-## Возвращаемое значение
-`returnType`: описание возвращаемого значения.
+## Returned Value
+`Point3`: an object of type Point3.
 
-## Пример
+## Example
 ```javascript linenums="1"
-let result = point3(value)
-console.info(result)
+let p1 = Geom.point3()
+console.info(p1) // output:
+let p2 = Geom.point3(10, 10, 10)
+console.info(p2) // output:
+let pt = Qt.point(10, 10)
+let p3 = Geom.point3(pt, 10)
+console.info(p2) // output:
 ```
 
-!!! info "См. также"
+!!! info "See Also"
 
-    []()
-
+    [Geom.vector()](./vector3.md)

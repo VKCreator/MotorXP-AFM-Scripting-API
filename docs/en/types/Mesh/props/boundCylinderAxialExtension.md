@@ -1,25 +1,26 @@
-# countItem
+# boundCylinderAxialExtension
 
 ## Описание
-The `countItem` property...
+The `boundCylinderAxialExtension` property...
 
 ## Принимаемые значения:
 ...
 
 ## Тип значения свойства
-`Number`
+`number`
 
 ## Доступ
 `Чтение\Запись`
 
 ## Синтаксис
 ```javascript
-countItem = value
+boundCylinderAxialExtension = value
 ```
 
 ## Пример
 ```javascript linenums="1"
-let result = motor.countItem
+let mesh = motor.mesh
+let result = motor.boundCylinderAxialExtension
 console.info(result)
 ```
 

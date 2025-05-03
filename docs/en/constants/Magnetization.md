@@ -1,10 +1,9 @@
 # Magnetization
-- `Magnetization.From` — направление "от".  
-  Значение: `1`
-- `Magnetization.Toward` — направление "к".  
-  Значение: `2`
-- `Magnetization.CW` — по часовой стрелке.  
-  Значение: `3`
-- `Magnetization.CCW` — против часовой стрелки.  
-  Значение: `4`
-  
+- `Magnetization.From` — direction "from".  
+  Value: `1`
+- `Magnetization.Toward` — direction "to".  
+  Value: `2`
+- `Magnetization.CW` — clockwise.  
+  Value: `3`
+- `Magnetization.CCW` — counterclockwise.  
+  Value: `4`

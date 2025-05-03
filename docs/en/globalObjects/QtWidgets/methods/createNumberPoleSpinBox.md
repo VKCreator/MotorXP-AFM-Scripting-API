@@ -1,4 +1,4 @@
-# createNumberPoleSpinBox()
+# QtWidgets.createNumberPoleSpinBox()
 
 ## Описание
 Описание метода.
@@ -16,7 +16,7 @@ createNumberPoleSpinBox(argument: type) : returnType
 
 ## Пример
 ```javascript linenums="1"
-let result = createNumberPoleSpinBox(value)
+let result = QtWidgets.createNumberPoleSpinBox(value)
 console.info(result)
 ```
 

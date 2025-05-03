@@ -1,4 +1,4 @@
-# createQCheckBox()
+# QtWidgets.createQCheckBox()
 
 ## Описание
 Описание метода.
@@ -16,7 +16,7 @@ createQCheckBox(argument: type) : returnType
 
 ## Пример
 ```javascript linenums="1"
-let result = createQCheckBox(value)
+let result = QtWidgets.createQCheckBox(value)
 console.info(result)
 ```
 

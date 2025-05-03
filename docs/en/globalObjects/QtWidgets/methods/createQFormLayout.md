@@ -1,4 +1,4 @@
-# createQFormLayout()
+# QtWidgets.createQFormLayout()
 
 ## Описание
 Описание метода.
@@ -16,7 +16,7 @@ createQFormLayout(argument: type) : returnType
 
 ## Пример
 ```javascript linenums="1"
-let result = createQFormLayout(value)
+let result = QtWidgets.createQFormLayout(value)
 console.info(result)
 ```
 

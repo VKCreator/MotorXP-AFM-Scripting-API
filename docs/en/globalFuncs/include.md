@@ -1,38 +1,38 @@
 # include()
 
-## Описание
-Функция **`include()`** предназначена для включения содержимого одного файла скрипта в другой файл скрипта. Это позволяет использовать код из одного файла (например, библиотечные функции или классы) в другом файле без необходимости копировать этот код вручную.
+## Description
+The `include()` function is designed to include the content of one script file into another script file. This allows you to use code from one file (for example, library functions or classes) in another file without having to copy that code manually.
 
-## Синтаксис
+## Syntax
 ```javascript
 include(path : string)
-``` 
+```
 
-## Аргументы
-- **`path`** (string, обязательно):  
-Путь к файлу скрипта, который нужно включить: 
-    1. Может быть **абсолютным** (полный путь к файлу на диске).  
-      Например,`"C:/scripts/library.js"`.
-    2. Может быть **относительным** (путь относительно текущего исполняемого файла).  
-      Примеры:  
-          * `"./helpers/utils.js"` — файл находится в той же директории или поддиректории.  
-          * `"../config/settings.js"` — файл находится в родительской директории.
+## Parameters
+- **`path`** (string, mandatory):  
+  The path to the script file to be included: 
+    1. Can be an absolute path (the full path to a file on the disk).  
+      For example, `"C:/scripts/library.js"`.
+    2. Can be a relative path (a path relative to the current executable file).  
+      Examples: 
+          * `"./helpers/utils.js"` — a file located in the same directory or subdirectory.
+          * `"../config/settings.js"` — a file located in the parent directory.
 
-## Возвращаемое значение
-**`undefined`**
+## Return Value
+`undefined`
 
-## Пример
-``` javascript linenums="1"
-// Подключаем файл по полному пути
-include("c:/scripts/script.js")
+## Example
+```javascript linenums="1"
+// Include the file by its absolute path
+include("C:/scripts/script.js")
 
-// Подключаем файл script2.js из той же директории
+// Include the script2.js file from the same directory
 include("./script2.js")
 
-// Подключаем файл script3.js из родительской директории
+// Include the script3.js file from the parent directory
 include("../script3.js")
-``` 
+```
 
-!!! info "См. также"
+!!! info "See Also"
 
-    [require()](require.md)	
+    [require()](require.md)

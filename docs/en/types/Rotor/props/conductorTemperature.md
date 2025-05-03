@@ -1,10 +1,7 @@
 # conductorTemperature
 
 ## Описание
-The `conductorTemperature` property...
-
-## Принимаемые значения:
-...
+Температура проводника ротора в градусах Цельсия.
 
 ## Тип значения свойства
 `Number`
@@ -19,7 +16,7 @@ conductorTemperature = value
 
 ## Пример
 ```javascript linenums="1"
-let result = motor.conductorTemperature
+let result = motor.rotor.conductorTemperature
 console.info(result)
 ```
 

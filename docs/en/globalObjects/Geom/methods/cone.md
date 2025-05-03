@@ -1,26 +1,32 @@
-# cone()
+# Geom.cone()
 
-## Описание
-Описание метода.
+## Description
+3D primitive (solid): cone, defined by the lower radius `r1`, upper radius `r2` and height `h`, constructed relative to point [0,0,0].
+It is possible to build a sector of a cone using the parameter `angle`.
 
-## Синтаксис
+## Syntax
 ```javascript
-cone(argument: type) : returnType
+Geom.cone(r1: number, r2: number, h: number) : Shape
+Geom.cone(r1: number, r2: number, h: number, angle: number) : Shape
 ```
 
-## Аргументы
-- `argument` (type, обязательно): описание аргумента.
+## Parameters
+- `r1` (number, mandatory): Lower radius of the cone.
+- `r2` (number, mandatory): Upper radius of the cone.
+- `h` (number, mandatory): Height of the cone.
+- `angle` (number, mandatory): Angle of the sector cone in degrees, the body is centered relative to axis OX.
 
-## Возвращаемое значение
-`returnType`: описание возвращаемого значения.
+## Returned Value
+`Shape`: object type `Shape`, Cone.
 
-## Пример
+## Example
 ```javascript linenums="1"
-let result = cone(value)
-console.info(result)
+let s1 = Geom.cone(100, 50, 100)
+console.info(s1) // output:
+let s2 = Geom.cone(100, 50, 100, 30)
+console.info(s2) // output:
 ```
 
-!!! info "См. также"
+!!! info "See also"
 
     []()
-

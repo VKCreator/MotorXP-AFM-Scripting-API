@@ -1,25 +1,26 @@
-# infplane()
+# Geom.infplane()
 
-## Описание
-Описание метода.
+## Description
+Creates a plane.
 
-## Синтаксис
+## Syntax
 ```javascript
-infplane(argument: type) : returnType
+Geom.infplane(pos: Point3 = Geom.point(0,0,0), dir: Vector3 = Geom.vector3(0,0,1)) : Shape
 ```
 
-## Аргументы
-- `argument` (type, обязательно): описание аргумента.
+## Parameters
+- `pos` (Point3, required): Position of the plane.
+- `dir` (Vector3, required): Direction vector perpendicular to the plane.
 
-## Возвращаемое значение
-`returnType`: описание возвращаемого значения.
+## Return value
+`Shape`: object type `Shape`, Plane.
 
-## Пример
+## Example
 ```javascript linenums="1"
-let result = infplane(value);
-console.info(result);
+let s = Geom.infplane(Geom.point(0,0,0), Geom.vector3(0,0,1));
+console.info(s);
 ```
 
-!!! info "См. также"
+!!! info "See Also"
 
     []()

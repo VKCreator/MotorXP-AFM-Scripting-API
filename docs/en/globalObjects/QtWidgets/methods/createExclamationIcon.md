@@ -1,4 +1,4 @@
-# createExclamationIcon()
+# QtWidgets.createExclamationIcon()
 
 ## Описание
 Описание метода.
@@ -16,7 +16,7 @@ createExclamationIcon(argument: type) : returnType
 
 ## Пример
 ```javascript linenums="1"
-let result = createExclamationIcon(value)
+let result = QtWidgets.createExclamationIcon(value)
 console.info(result)
 ```
 

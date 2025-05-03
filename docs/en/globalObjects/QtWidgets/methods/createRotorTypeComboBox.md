@@ -1,4 +1,4 @@
-# createRotorTypeComboBox()
+# QtWidgets.createRotorTypeComboBox()
 
 ## Описание
 Описание метода.
@@ -16,7 +16,7 @@ createRotorTypeComboBox(argument: type) : returnType
 
 ## Пример
 ```javascript linenums="1"
-let result = createRotorTypeComboBox(value)
+let result = QtWidgets.createRotorTypeComboBox(value)
 console.info(result)
 ```
 

@@ -1,10 +1,10 @@
 # innerRadius
 
 ## Описание
-The `innerRadius` property...
+Внутрений радиус.
 
 ## Принимаемые значения:
-...
+Число больше нуля.
 
 ## Тип значения свойства
 `Number`
@@ -19,7 +19,7 @@ innerRadius = value
 
 ## Пример
 ```javascript linenums="1"
-let result = motor.innerRadius
+let result = motor.stator.innerRadius
 console.info(result)
 ```
 

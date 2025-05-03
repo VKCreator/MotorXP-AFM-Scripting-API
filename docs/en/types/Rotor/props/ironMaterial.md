@@ -1,13 +1,13 @@
 # ironMaterial
 
 ## Описание
-The `ironMaterial` property...
+Материал стали ротора
 
 ## Принимаемые значения:
 ...
 
 ## Тип значения свойства
-`Number`
+`String`
 
 ## Доступ
 `Чтение\Запись`
@@ -19,7 +19,7 @@ ironMaterial = value
 
 ## Пример
 ```javascript linenums="1"
-let result = motor.ironMaterial
+let result = motor.rotor.ironMaterial
 console.info(result)
 ```
 

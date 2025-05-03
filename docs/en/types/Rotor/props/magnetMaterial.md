@@ -1,25 +1,22 @@
 # magnetMaterial
 
 ## Описание
-The `magnetMaterial` property...
-
-## Принимаемые значения:
-...
+Материал магнита ротора.
 
 ## Тип значения свойства
-`Number`
+`String`
 
 ## Доступ
 `Чтение\Запись`
 
 ## Синтаксис
 ```javascript
-magnetMaterial = value
+windingMaterial = value
 ```
 
 ## Пример
 ```javascript linenums="1"
-let result = motor.magnetMaterial
+let result = motor.rotor.windingMaterial
 console.info(result)
 ```
 

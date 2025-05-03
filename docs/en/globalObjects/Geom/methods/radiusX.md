@@ -1,26 +1,31 @@
-# radiusX()
+# Geom.radiusX()
 
-## Описание
-Описание метода.
+## Description
+Radius of a point in the YOZ plane.
 
-## Синтаксис
+## Syntax
 ```javascript
-radiusX(argument: type) : returnType
+Geom.radiusX(point: Point3) : number
+Geom.radiusX(x: number, y: number, z: number,) : number
 ```
 
-## Аргументы
-- `argument` (type, обязательно): описание аргумента.
+## Parameters
+- `point` (Point3, mandatory): 3D coordinates point.
+- `x` (x, mandatory): x coordinate of the point.
+- `y` (y, mandatory): y coordinate of the point.
+- `z` (z, mandatory): z coordinate of the point.
 
-## Возвращаемое значение
-`returnType`: описание возвращаемого значения.
+## Return value
+`number`: The radius of the point relative to the origin [0, 0, 0].
 
-## Пример
+## Example
 ```javascript linenums="1"
-let result = radiusX(value)
-console.info(result)
+let radius1 = Geom.radiusX(Geom.point3(10,10,10))
+console.info(radius1) // output:
+let radius2 = Geom.radiusX(10,10,10)
+console.info(radius2) // output:
 ```
 
-!!! info "См. также"
+!!! info "See Also"
 
     []()
-

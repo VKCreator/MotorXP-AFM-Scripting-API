@@ -1,22 +1,23 @@
 # itemAngularDisplacement()
 
 ## Описание
-Описание метода.
+Угловое смещение элемента статора в градусах.
 
 ## Синтаксис
 ```javascript
-itemAngularDisplacement(argument: type) : returnType
+itemAngularDisplacement(itemID: StatorItem.ID) : number
 ```
 
 ## Аргументы
-- `argument` (type, обязательно): описание аргумента.
+- `itemID` (StatorItem.ID, обязательно): Идентификатор элемента статора.
 
 ## Возвращаемое значение
-`returnType`: описание возвращаемого значения.
+`number`: Угловое смещение элемента статора в градусах.
 
 ## Пример
 ```javascript linenums="1"
-let result = itemAngularDisplacement(value)
+let stator = motor.stator
+let result = stator.itemAngularDisplacement(StatorItem.ID1)
 console.info(result)
 ```
 

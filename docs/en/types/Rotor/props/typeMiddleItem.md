@@ -1,13 +1,15 @@
 # typeMiddleItem
 
 ## Описание
-The `typeMiddleItem` property...
+Тип средней части ротора
 
 ## Принимаемые значения:
-...
+Одно из зачений:
+ - `Rotor.Yoke`
+ - `Rotor.Yokeless`
 
 ## Тип значения свойства
-`Number`
+`Rotor.MiddleType`
 
 ## Доступ
 `Чтение\Запись`
@@ -19,7 +21,7 @@ typeMiddleItem = value
 
 ## Пример
 ```javascript linenums="1"
-let result = motor.typeMiddleItem
+let result = motor.rotor.typeMiddleItem
 console.info(result)
 ```
 

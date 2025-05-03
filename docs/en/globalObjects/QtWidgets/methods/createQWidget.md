@@ -1,4 +1,4 @@
-# createQWidget()
+# QtWidgets.createQWidget()
 
 ## Описание
 Описание метода.
@@ -16,7 +16,7 @@ createQWidget(argument: type) : returnType
 
 ## Пример
 ```javascript linenums="1"
-let result = createQWidget(value)
+let result = QtWidgets.createQWidget(value)
 console.info(result)
 ```
 

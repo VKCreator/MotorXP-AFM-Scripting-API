@@ -1,26 +1,31 @@
 # sphere()
 
-## Описание
-Описание метода.
+## Description
+3D primitive (volume): sphere, constructed relative to point [0,0,0].
 
-## Синтаксис
+## Syntax
 ```javascript
-sphere(argument: type) : returnType
+Geom.sphere(r: number) : Shape
+Geom.sphere(r: number, an1: number) : Shape
+Geom.sphere(r: number, an1: number, an2: number) : Shape
+Geom.sphere(r: number, an1: number, an2: number, an3: number) : Shape
 ```
 
-## Аргументы
-- `argument` (type, обязательно): описание аргумента.
+## Parameters
+- `r` (number, mandatory): radius of the sphere.
+- `an1` (number, mandatory):
+- `an2` (number, mandatory):
+- `an3` (number, mandatory):
 
-## Возвращаемое значение
-`returnType`: описание возвращаемого значения.
+## Returned value
+`Shape`: object type `Shape`, Sphere.
 
-## Пример
+## Example
 ```javascript linenums="1"
-let result = sphere(value)
-console.info(result)
+let s = Geom.sphere(100)
+console.info(s) // output:
 ```
 
-!!! info "См. также"
+!!! info "Also see"
 
     []()
-

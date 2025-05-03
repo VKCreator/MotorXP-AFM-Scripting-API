@@ -1,26 +1,34 @@
-# intersect()
+# Geom.intersect()
 
-## Описание
-Описание метода.
+## Description
+Boolean operation: get the intersection of two or more shapes.
 
-## Синтаксис
+## Syntax
 ```javascript
-intersect(argument: type) : returnType
+Geom.intersect(a: Shape, b: Shape,) : Shape
+Geom.intersect(shapes: array of Shape) : Shape
 ```
 
-## Аргументы
-- `argument` (type, обязательно): описание аргумента.
+- `a` (Shape, required): The first shape.
+- `b` (Shape, required): The second shape.
+- `shapes` (Array of Shape, required): An array of shapes.
 
-## Возвращаемое значение
-`returnType`: описание возвращаемого значения.
+## Returned value
+`Shape`: an object of type `Shape`, the intersection of the shapes.
 
-## Пример
+## Example
 ```javascript linenums="1"
-let result = intersect(value)
-console.info(result)
+let box = Geom.box(100, 100, 100);
+let cyl = Geom.cylinder(50, 150);
+let s1 = Geom.intersect(box, cyl) // box & cyl
+console.info(s1) // output:
 ```
 
-!!! info "См. также"
+!!! info "See also"
 
-    []()
+    [Geom.unite](./unite.md)
 
+    [Geom.diff](./diff.md)
+
+    [Geom.difference](./difference.md)
+```

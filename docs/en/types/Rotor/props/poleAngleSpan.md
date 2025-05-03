@@ -1,25 +1,22 @@
 # poleAngleSpan
 
 ## Описание
-The `poleAngleSpan` property...
-
-## Принимаемые значения:
-...
+Угловой размер одного полюса ротора в градусах.
 
 ## Тип значения свойства
 `Number`
 
 ## Доступ
-`Чтение\Запись`
+`Тоько Чтение`
 
 ## Синтаксис
 ```javascript
-poleAngleSpan = value
+slotAngleSpan
 ```
 
 ## Пример
 ```javascript linenums="1"
-let result = motor.poleAngleSpan
+let result = motor.rotor.slotAngleSpan
 console.info(result)
 ```
 

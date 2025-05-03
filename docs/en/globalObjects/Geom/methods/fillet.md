@@ -1,26 +1,30 @@
-# fillet()
+# Fillet()
 
-## Описание
-Описание метода.
+## Description
+The fillet operation rounds the body. If the body is volumetric - the modifications are applied to edges. If flat - vertices.
+The rounding is defined by a radius `r` and an array of nearby points `refs` to the modified edges/vertices.
 
-## Синтаксис
+## Syntax
 ```javascript
-fillet(argument: type) : returnType
+Geom.fillet(shp: Shape, r: number) : Shape
+Geom.filit(shp: Shape, r: number, refs: array of Point3) : Shape
 ```
 
-## Аргументы
-- `argument` (type, обязательно): описание аргумента.
+## Arguments
+- `shp` (Shape, mandatory): The body to round.
+- `r` (number, mandatory): The radius of rounding.
+- `refs` (Array of Point3, mandatory): An array of nearby points `refs` to the edges/vertices that need rounding.
 
-## Возвращаемое значение
-`returnType`: описание возвращаемого значения.
+## Return Value
+`Shape`: The resulting shape object after the operation.
 
-## Пример
+## Example
 ```javascript linenums="1"
-let result = fillet(value)
-console.info(result)
+let box = Geom.box(100, 100, 100)
+let s = Geom.fillet(box, 1);
+console.info(s) // output:
 ```
 
-!!! info "См. также"
+!!! info "See Also"
 
-    []()
-
+    [Geom.chamfer](./chamfer.md)

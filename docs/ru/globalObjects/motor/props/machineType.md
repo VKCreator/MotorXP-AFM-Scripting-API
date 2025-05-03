@@ -1,4 +1,4 @@
-# machineType
+# motor.machineType
 
 ## Описание
 The `machineType` property defines the configuration type of the motor.

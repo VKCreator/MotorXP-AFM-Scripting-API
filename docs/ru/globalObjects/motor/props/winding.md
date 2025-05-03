@@ -1,4 +1,4 @@
-# winding
+# motor.winding
 
 ## Описание
 Возвращает объект типа [`Winding`](../../../types/Winding/index.md).
@@ -19,4 +19,4 @@ let winding = motor.winding
 ```
 !!! info "См. также"
 	
-	[]()
+	[Winding](../../../types/Winding/index.md)

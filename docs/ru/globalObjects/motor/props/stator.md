@@ -1,4 +1,4 @@
-# stator
+# motor.stator
 
 ## Описание
 Возвращает объект типа [`Stator`](../../../types/Stator/index.md).

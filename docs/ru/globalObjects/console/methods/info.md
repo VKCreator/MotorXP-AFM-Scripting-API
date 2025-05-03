@@ -5,14 +5,19 @@
 
 ## Синтаксис
 ``` javascript
-console.info(message1 : any, message2 : any, ..., messageN : any)
+console.info(message1: any, message2: any, ..., messageN: any) : undefined
 ```
 
 ## Аргументы
-- **`messageN`** (any, обязательно):  
+| Аргумент | Тип      | Обязательный | Описание                                                                 |
+|----------|----------|--------------|--------------------------------------------------------------------------|
+| **`message1`**   | `any` | ✅ Да         | Текст сообщения. |
+| **`message2`**   | `any` | ✅ Да         | Текст сообщения. |
+| ...  | `any` | ✅ Да         | Текст сообщения. |
+| **`messageN`**   | `any` | ✅ Да         | Текст сообщения. |
 
 ## Возвращаемое значение
-`undefined`
+**`undefined`**
 
 ## Пример
 ``` javascript linenums="1"

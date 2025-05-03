@@ -5,17 +5,19 @@
 
 ## Синтаксис
 ``` javascript
-console.dir(object : any)
+console.dir(object: any) : undefined
 ``` 
 ## Аргументы
-- **`object`** (any, обязательно):  
+| Аргумент | Тип      | Обязательный | Описание                                                                 |
+|----------|----------|--------------|--------------------------------------------------------------------------|
+| **`object`**   | `any` | ✅ Да         | JavaScript-объект. |
 
 ## Возвращаемое значение
-`undefined`
+**`undefined`**
 
 ## Пример
 ``` javascript linenums="1"
-// Define an object
+// Определение объекта
 const obj = {
   name: 'MotorXP',
   version: 1.0,
@@ -26,7 +28,7 @@ const obj = {
   }
 };
 
-// Inspect the object
+// Вывод методов и свойств объекта
 console.dir(obj)
 ``` 
 ``` javascript title="Output"

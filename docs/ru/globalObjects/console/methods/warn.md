@@ -5,10 +5,18 @@
 
 ## Синтаксис
 ``` javascript
-console.warn(message1 : any, message2 : any, ..., messageN : any)
+console.warn(message1: any, message2: any, ..., messageN: any) : undefined
 ```
+## Аргументы
+| Аргумент | Тип      | Обязательный | Описание                                                                 |
+|----------|----------|--------------|--------------------------------------------------------------------------|
+| **`message1`**   | `any` | ✅ Да         | Текст сообщения. |
+| **`message2`**   | `any` | ✅ Да         | Текст сообщения. |
+| ...  | `any` | ✅ Да         | Текст сообщения. |
+| **`messageN`**   | `any` | ✅ Да         | Текст сообщения. |
+
 ## Возвращаемое значение
-`undefined`
+**`undefined`**
 
 ## Пример
 ``` javascript linenums="1"
@@ -19,7 +27,7 @@ console.warn('warn text')
 console.warn('text1', 'text2')
 console.warn('text1', 'text2', .. , 'text10')
 
-// Mixed types
+// Различные типы аргументов
 console.warn('text1', 123, true, { key: 'value' })
 ``` 
 

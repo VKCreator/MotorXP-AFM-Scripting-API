@@ -1,4 +1,4 @@
-# airgap
+# motor.airgap
 
 ## Описание
 Возвращает объект типа [`Airgap`](./../../../types/Airgap/index.md).

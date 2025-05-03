@@ -1,4 +1,4 @@
-# mesh
+# motor.mesh
 
 ## Описание
 Возвращает объект типа [`Mesh`](../../../types/Mesh/index.md).

@@ -1,4 +1,4 @@
-# rotor
+# motor.rotor
 
 ## Описание
 Возвращает объект типа [`Rotor`](../../../types/Rotor/index.md).

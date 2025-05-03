@@ -12,7 +12,7 @@ Material.empty(): EmptyMaterial
     Отсутствуют
 
 ## Возвращаемое значение
-[`EmptyMaterial`](./../../../types/materials/EmptyMaterial/_index.md)
+[`EmptyMaterial`](./../../../types/Materials/EmptyMaterial/_index.md)
 
 ## Пример
 ``` javascript linenums="1"

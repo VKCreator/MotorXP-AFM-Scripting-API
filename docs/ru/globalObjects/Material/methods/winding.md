@@ -1,7 +1,7 @@
 # Material.winding()
 
 ## Описание
-Материал для обмотки
+Материал для обмотки.
 
 ## Синтаксис
 ```javascript
@@ -14,7 +14,7 @@ Material.winding(layer : number = Winding.LayerAuto, turn : number = 0, strand :
 - **`strand`** (number, опционально): Номер провода в витке.
 
 ## Возвращаемое значение
-[`WindingMaterial`](./../../../types/materials/WindingMaterial/_index.md)
+[`WindingMaterial`](./../../../types/Materials/WindingMaterial/_index.md)
 
 ## Пример
 ``` javascript linenums="1"

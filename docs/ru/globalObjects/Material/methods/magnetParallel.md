@@ -14,7 +14,7 @@ Material.magnetParallel(angle: number = 0, segmentRadiuses: array of number = []
 - **`savePoleBorder`** (bool, опционально): =true - сохраняем границу между магнитами двух соседних полюсов, если =false - магнит сливается с магнитом соседнего полюса.
 
 ## Возвращаемое значение
-[`MagnetParallelMaterial`](./../../../types/materials/MagnetParallelMaterial/_index.md)
+[`MagnetParallelMaterial`](./../../../types/Materials/MagnetParallelMaterial/_index.md)
 
 ## Пример
 ``` javascript linenums="1"

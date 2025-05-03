@@ -1,7 +1,7 @@
 # Material.iron()
 
 ## Описание
-Материал для железа 
+Материал для железа.
 
 ## Синтаксис
 ```javascript
@@ -13,7 +13,7 @@ Material.iron(fillCoefs: array of number = [], dsomaloy: number = 0) : IronMater
 - **`dsomaloy`** (number, опционально): Smallest cross section of component [m] for Somaloy material
     
 ## Возвращаемое значение
-[`IronMaterial`](./../../../types/materials/IronMaterial/_index.md)
+[`IronMaterial`](./../../../types/Materials/IronMaterial/_index.md)
 
 ## Пример
 ``` javascript linenums="1"

@@ -1,11 +1,6 @@
 # Описание
 Встроенный тип `Piece` представляет собой деталь двигателя.
 
-## Синтаксис
-```javascript
-let piece = Geom.piece(geometry, material)
-```
-
 ## Свойства типа `Piece`
 Ниже приведен список доступных свойств, предоставляемых типом `Piece`. Щелкните имя свойства, чтобы увидеть её подробное описание и примеры.
 
@@ -13,9 +8,4 @@ let piece = Geom.piece(geometry, material)
 ## Методы типа `Piece`
 Ниже приведен список доступных методов, предоставляемых типом `Piece`. Щелкните имя метода, чтобы увидеть его подробное описание и примеры.
 
-- [^^`toFileSTEP`^^](./methods/toFileSTEP.md): 
-
-!!! info "См. также"
-
-- [Geom.piece](./../../globalObjects/Geom/methods/piece.md)
-
+- [^^`toFileStep`^^](./methods/toFileStep.md): 

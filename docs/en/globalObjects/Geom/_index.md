@@ -1,65 +1,67 @@
-# Geom Overview
-The built-in `Geom` object implements a geometric core.
+# Обзор объекта `Geom`
+Встроенный объект `Geom` реализует геометрическое ядро.
 
-## Primary Capabilities of `Geom`
-Represents functions for creating graphical primitives and operating on them.
+## Основные возможности `Geom`
+Предоставляет функции для создания графических примитивов и операции с ними.
 
-## Methods of the `Geom` Object
-Below is a list of available methods provided by the `Geom` object. Click on the name of the method to see its detailed description and examples.
+## Методы объекта `Geom`
+Ниже приведен список доступных методов, предоставляемых объектом `Geom`. Щелкните имя метода, чтобы увидеть его подробное описание и примеры.
 
-### Creating Geometric Primitives
-- [point3()](methods/point3.md): Creates a point.
-- [vector3()](methods/vector3.md): Creates a vector.
-- [boundingBox()](methods/boundingBox.md): Creates a bounding box.
+### Создание геометрических примитивов
+- [^^point3()^^](methods/point3.md): Создание точки.
+- [^^vector3()^^](methods/vector3.md): Создание вектора.
+- [^^boundingBox()^^](methods/boundingBox.md): Создание ограничивающей коробки.
 
-### 2D Primitives (Planar)
-- [arc()](methods/arc.md): An arc.
-- [circle()](methods/circle.md): A circle or sector of a circle
-- [ring()](methods/ring.md): A ring.
-- [ellipse()](methods/ellipse.md): An ellipse or sector of an ellipse.
-- [square()](methods/square.md): A square.
-- [rectangle()](methods/rectangle.md): A rectangle
-- [ngon()](methods/ngon.md): A regular N-gon.
-- [infplane()](methods/infplane.md): A plane
+### 2D-примитивы (плоские)
+- [^^arc()^^](methods/arc.md): Дуга.
+- [^^circle()^^](methods/circle.md): Круг или сектор круга.
+- [^^ring()^^](methods/ring.md): Кольцо.
+- [^^ellipse()^^](methods/ellipse.md): Эллипс или сектор эллипса.
+- [^^square()^^](methods/square.md): Квадрат.
+- [^^rectangle()^^](methods/rectangle.md): Прямоугольник.
+- [^^ngon()^^](methods/ngon.md): Правильный N-угольник.
+- [^^infplane()^^](methods/infplane.md): Плоскость.
 
-- [segment()](methods/segment.md): A segment.
-- [bspline()](methods/bspline.md): A smooth line passing through all given points.
-- [polysegment()](methods/polysegment.md): A lomanted line
-- [polygon()](methods/polygon.md): A polygon
+- [^^segment()^^](methods/segment.md): Отрезок.
+- [^^bspline()^^](methods/bspline.md): Плавная линия, проходящая через все заданные точки.
+- [^^polysegment()^^](methods/polysegment.md): Ломаная линия.
+- [^^polygon()^^](methods/polygon.md): Многоугольник.
 
-### 3D Primitives (Volume)
-- [box()](methods/box.md): A parallelepiped.
-- [collar()](methods/collar.md): A collar.
-- [cone()](methods/cone.md): A cone
-- [cylinder()](methods/cylinder.md): A cylinder.
-- [sphere()](methods/sphere.md): A sphere.
-- [torus()](methods/torus.md): A tor.
+### 3D-примитивы (объемные)
+- [^^box()^^](methods/box.md): Параллелепипед.
+- [^^collar()^^](methods/collar.md): Втулка.
+- [^^cone()^^](methods/cone.md): Конус.
+- [^^cylinder()^^](methods/cylinder.md): Цилиндр.
+- [^^sphere()^^](methods/sphere.md): Сфера.
+- [^^torus()^^](methods/torus.md): Тор.
 
-### Boolean Operations
-- [unite()](methods/unite.md): The union of two or more solids.
-- [intersect()](methods/intersect.md): The intersection of two or more solids.
-- [diff()](methods/diff.md): The difference of two or more solids.
-- [difference()](methods/difference.md): The difference of two or more solids.
+### Булевы операции
+- [^^unite()^^](methods/unite.md): Объединение двух или более тел.
+- [^^intersect()^^](methods/intersect.md): Пересечение двух или более тел.
+- [^^diff()^^](methods/diff.md): Разность двух или более тел.
+- [^^difference()^^](methods/difference.md): Разность двух или более тел.
 
-### Geometric Operations
-- [angle()](methods/angle.md): Gets the angle of a point.
-- [angleX()](methods/angleX.md): Gets the angle of a point relative to the origin in the YOZ plane.
-- [angleY()](methods/angleY.md): Gets the angle of a point relative to the origin in the XOZ plane.
-- [angleZ()](methods/angleZ.md): Gets the angle of a point relative to the origin in the XOY plane.
+### Геометрические операции
+- [^^angle()^^](methods/angle.md): Получить угол точки.
+- [^^angleX()^^](methods/angleX.md): Получить угол точки относительно центра координат [0,0,0] в плоскости YOZ.
+- [^^angleY()^^](methods/angleY.md): Получить угол точки относительно центра координат [0,0,0] в плоскости XOZ.
+- [^^angleZ()^^](methods/angleZ.md): Получить угол точки относительно центра координат [0,0,0] в плоскости XOY.
 
-- [radius()](methods/radius.md): The radius of a point in 2D space.
-- [radiusX()](methods/radiusX.md): The radius of a point in the YOZ plane.
-- [radiusY()](methods/radiusY.md): The radius of a point in the XOZ plane.
-- [radiusZ()](methods/radiusZ.md): The radius of a point in the XOY plane.
+- [^^radius()^^](methods/radius.md): Радиус точки в 2D-пространстве.
+- [^^radiusX()^^](methods/radiusX.md): Радиус точки в плоскости YOZ.
+- [^^radiusY()^^](methods/radiusY.md): Радиус точки в плоскости XOZ.
+- [^^radiusZ()^^](methods/radiusZ.md): Радиус точки в плоскости XOY.
 
-- [angleBetweenVectors()](methods/angleBetweenVectors.md): The angle between two vectors.
-- [pointAtSegment()](methods/pointAtSegment.md): Returns a point at a parameterized position on a segment.
-- [distance()](methods/distance.md): Calculates the distance between two points. 
+- [^^angleBetweenVectors()^^](methods/angleBetweenVectors.md): Угол между векторами.
+- [^^pointAtSegment()^^](methods/pointAtSegment.md): Возвращает точку в параметризованной позиции сегмента.
+- [^^distance()^^](methods/distance.md): Рассчитывает расстояние между двумя точками. 
 
-- [section()](methods/section.md): Creates a section.
-- [unify()](methods/unify.md): Simplifies a geometric representation of an object.
-- [fillet()](methods/fillet.md): The fillet operation on a solid
-- [chamfer()](methods/chamfer.md): The chamfer operation on a solid.
+- [^^section()^^](methods/section.md): Создать сечение. 
+- [^^unify()^^](methods/unify.md): Упрощение геометрического представления объекта.
+- [^^fillet()^^](methods/fillet.md): Операция скругления тела.
+- [^^chamfer()^^](methods/chamfer.md): Операция снятия фаски.
 
-### Creating Assemblies
-- [piece()](methods/piece.md): Creates an assembly
+### Создание детали
+- [^^piece()^^](methods/piece.md): Создание детали.
+
+

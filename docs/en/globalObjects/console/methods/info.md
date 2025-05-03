@@ -1,32 +1,31 @@
 # console.info()
 
-## Description
-The `console.info()` method outputs an informational message in green color to the console, each message is marked with an "info" icon. It is similar to `console.log()`, but intended for informative purposes. It can take multiple arguments and displays them in a single line.
+## Описание
+Метод `console.info()` выводит информационное сообщение зеленым цветом в консоль, каждое сообщение помечается иконкой `info`. Он похож на `console.log()`, но предназначен для информационных целей. Он может принимать несколько аргументов и отображать их в одной строке.
 
-## Syntax
-```javascript
+## Синтаксис
+``` javascript
 console.info(message1 : any, message2 : any, ..., messageN : any)
 ```
 
-## Parameters
-- **`messageN`** (any, mandatory):
+## Аргументы
+- **`messageN`** (any, обязательно):  
 
-## Returned Value
+## Возвращаемое значение
 `undefined`
 
-## Example
-
-```javascript
-// One argument
+## Пример
+``` javascript linenums="1"
+// Один аргумент
 console.info('info text')
 
-// Multiple arguments
+// Несколько аргументов
 console.info('text1', 'text2')
 console.info('text1', 'text2', .. , 'text10')
 
-// Different types of arguments
-console.info('text1', 123, true, { key: 'value''})
-```
+// Различные типы аргументов
+console.info('text1', 123, true, { key: 'value' })
+``` 
 
 !!! info "See also"
 

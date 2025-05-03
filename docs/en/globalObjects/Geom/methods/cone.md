@@ -1,25 +1,25 @@
 # Geom.cone()
 
-## Description
-3D primitive (solid): cone, defined by the lower radius `r1`, upper radius `r2` and height `h`, constructed relative to point [0,0,0].
-It is possible to build a sector of a cone using the parameter `angle`.
+## Описание
+3D примитив(объемный) : конус, задаётся с указанием нижнего радиуса `r1`, верхнего радиуса `r2` и высоты `h` и строится относительно точки [0,0,0].
+Возможно построение сектора конуса с использованием параметра `angle`.
 
-## Syntax
+## Синтаксис
 ```javascript
 Geom.cone(r1: number, r2: number, h: number) : Shape
 Geom.cone(r1: number, r2: number, h: number, angle: number) : Shape
 ```
 
-## Parameters
-- `r1` (number, mandatory): Lower radius of the cone.
-- `r2` (number, mandatory): Upper radius of the cone.
-- `h` (number, mandatory): Height of the cone.
-- `angle` (number, mandatory): Angle of the sector cone in degrees, the body is centered relative to axis OX.
+## Аргументы
+- `r1` (number, обязательно): Нижний радиус конуса.
+- `r2` (number, обязательно): Верхний радиус конуса.
+- `h` (number, обязательно): Высота конуса.
+- `angle` (number, обязательно): Угол сектора конуса в градусах, тело центрируется относительно оси OX.
 
-## Returned Value
-`Shape`: object type `Shape`, Cone.
+## Возвращаемое значение
+`Shape`: объект типа `Shape`, Конус.
 
-## Example
+## Пример
 ```javascript linenums="1"
 let s1 = Geom.cone(100, 50, 100)
 console.info(s1) // output:
@@ -27,6 +27,7 @@ let s2 = Geom.cone(100, 50, 100, 30)
 console.info(s2) // output:
 ```
 
-!!! info "See also"
+!!! info "См. также"
 
     []()
+

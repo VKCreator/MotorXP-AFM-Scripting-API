@@ -1,22 +1,22 @@
-# Overview of the `Material` Object
-The built-in `Material` object is designed to create objects of various materials.
+# Обзор объекта `Material`
+Встроенный объект `Material` предназначен для создания объектов различных материалов.
 
-## Key Features of `Material`
-Creates different materials for ['Piece'](../../types/Piece/_index.md) parts in the engine
+## Основные возможности `Material`
+Создает различные материалы для деталей ['Piece'](./../../types/Piece/_index.md) двигателя.
 
-## Methods of the `Material` Object
-Below is a list of available methods provided by the `Material` object. Clicking on method name will display its detailed description and examples.
+## Методы объекта `Material`
+Ниже приведен список доступных методов, предоставляемых объектом `Material`. Щелкните имя метода, чтобы увидеть его подробное описание и примеры.
 
-- [^Material.empty()](methods/empty.md): Creates an empty material.
-- [^Material.general()](methods/general.md): Creates a material for atmospheric conditions.
-- [^Material.iron()](methods/iron.md): Creates a material for iron.
-- [^Material.winding()](methods/winding.md): Creates a material for winding.
-- [^Material.endturn()](methods/endturn.md): Creates a material for end pieces of windings.
-- [^Material.conductor()](methods/conductor.md): Creates a material for conductor.
-- [^Material.magnetParallel()](methods/magnetParallel.md): Creates a material for parallel magnetic magnet.
-- [^Material.magnetRadial()](methods/magnetRadial.md): Creates a material for radial magnetic magnet.
-- [^Material.custom()](methods/custom.md): Creates a custom material with specified color.
+- [^^Material.empty()^^](methods/empty.md): Создает пустой материал.
+- [^^Material.general()^^](methods/general.md): Создает материал для воздушной среды.
+- [^^Material.iron()^^](methods/iron.md): Создает материал для железа.
+- [^^Material.winding()^^](methods/winding.md): Создает материал для обмотки.
+- [^^Material.endturn()^^](methods/endturn.md): Создает материал для лобовых частей обмоток.
+- [^^Material.conductor()^^](methods/conductor.md): Создает материал для проводника.
+- [^^Material.magnetParallel()^^](methods/magnetParallel.md): Создает материал для магнита с параллельным намагничиванием.
+- [^^Material.magnetRadial()^^](methods/magnetRadial.md): Создает материал для магнита с радиальным намагничиванием.
+- [^^Material.custom()^^](methods/custom.md): Создает пользовательский материал с заданным цветом.
 
-!!! info "See Also"
+!!! info "См. также"
 
-    [^Piece](../../types/Piece/_index.md)
+    [^^Piece^^](./../../types/Piece/_index.md)

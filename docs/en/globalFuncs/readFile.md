@@ -1,25 +1,25 @@
 # readFile()
 
-## Description
-Reading from a file.
+## Описание
+Чтение из файла.
 
-## Syntax
+## Синтаксис
 ```javascript
-function readFile(path: string): string
-```
+readFile(path : string) : string
+``` 
 
-## Parameters
-- **`path`** (string, required): the path to the file, can be **absolute** or **relative**, which specifies the location relative to **`<path_MotorXP-AFM>/bin/assets/scripts`**.
+## Аргументы
+- **`path`** (string, обязательно): путь к файлу, может быть **абсолютным** или **относительным**, который указывает положение относительно **`<path_MotorXP-AFM>/bin/assets/scripts`**.
 
-## Return Value
-**`string`**: the contents of the file.
+## Возвращаемое значение
+**`string`**: содержимое файла.
 
-## Example
-```javascript linenums="1"
+## Пример
+``` javascript linenums="1"
 let content = readFile("c:/temp/sample.txt")
 console.info(content)
-```
+``` 
 
-!!! info "See Also"
+!!! info "См. также"
 
     [writeFile()](writeFile.md)

@@ -1,60 +1,60 @@
-# Geom Object Methods
-Below is a list of available methods provided by the `Geom` object. Click on the method name to see its detailed description and examples.
+# Методы объекта Geom
+Ниже приведен список доступных методов, предоставляемых объектом `Geom`. Щелкните имя метода, чтобы увидеть его подробное описание и примеры.
 
-## Creating geometric primitives
+## Создание геометрических примитивов
 
-- [point3()]: Creating a point
-- [vector3()]: Creating a vector
-- [boundingBox()]: Creating a bounding box.
+- [^^point3()^^](./point3.md): Создание точки.
+- [^^vector3()^^](./vector3.md): Создание вектора.
+- [^^boundingBox()^^](./boundingBox.md): Создание ограничивающей коробки.
 
-## 2D primitives (flat)
-- [arc()]: Arc
-- [circle()]: Circle or sector of a circle
-- [ring()]: Ring
-- [ellipse()]: Ellipse or sector of an ellipse
-- [square()]: Square
-- [rectangle()]: Rectangle
-- [ngon()]: Regular N-gon
-- [infplane()]: Plane
+## 2D-примитивы (плоские)
+- [^^arc()^^](./arc.md): Дуга.
+- [^^circle()^^](./circle.md): Круг или сектор круга
+- [^^ring()^^](./ring.md): Кольцо.
+- [^^ellipse()^^](./ellipse.md): Эллипс или сектор эллипса.
+- [^^square()^^](./square.md): Квадрат.
+- [^^rectangle()^^](./rectangle.md): Прямоугольник
+- [^^ngon()^^](./ngon.md): Правильный N-угольник.
+- [^^infplane()^^](./infplane.md): Плоскость.
 
-- [segment()]: Segment
-- [bspline()]: Smooth line passing through all given points
-- [polysegment()]: Lomanted line
-- [polygon()]: Polygon
+- [^^segment()^^](./segment.md): Отрезок.
+- [^^bspline()^^](./bspline.md): Плавная линия, проходящая через все заданные точки.
+- [^^polysegment()^^](./polysegment.md): Ломаная линия.
+- [^^polygon()^^](./polygon.md): Многоугольник.
 
-## 3D primitives (volume)
-- [box()]: Paralellipiped
-- [collar()]: Collar
-- [cone()]: Cone
-- [cylinder()]: Cylinder
-- [sphere()]: Sphere
-- [torus()]: Tor
+## 3D-примитивы (объемные)
+- [^^box()^^](./box.md): Параллелепипед.
+- [^^collar()^^](./collar.md): Втулка.
+- [^^cone()^^](./cone.md): Конус
+- [^^cylinder()^^](./cylinder.md): Цилиндр.
+- [^^sphere()^^](./sphere.md): Сфера.
+- [^^torus()^^](./torus.md): Тор.
 
-## Boolean operations
-- [unite()]: Union of two or more bodies.
-- [intersect()]: Intersection of two or more bodies.
-- [diff()]: Difference of two or more bodies.
-- [difference()]: Difference of two or more bodies.
+## Булевы операции
+- [^^unite()^^](./unite.md): Объединение двух или более тел.
+- [^^intersect()^^](./intersect.md): Пересечение двух или более тел.
+- [^^diff()^^](./diff.md): Разность двух или более тел.
+- [^^difference()^^](./difference.md): Разность двух или более тел.
 
-## Geometric operations
-- [angle()]: Getting the angle of a point.
-- [angleX()]: Getting the angle of a point relative to the center of coordinates [0,0,0] in plane YOZ.
-- [angleY()]: Getting the angle of a point relative to the center of coordinates [0,0,0] in plane XOZ.
-- [angleZ()]: Getting the angle of a point relative to the center of coordinates [0,0,0] in plane XOY.
+## Геометрические операции
+- [^^angle()^^](./angle.md): Получить угол точки.
+- [^^angleX()^^](./angleX.md): Получить угол точки относительно центра координат [0,0,0] в плоскости YOZ.
+- [^^angleY()^^](./angleY.md): Получить угол точки относительно центра координат [0,0,0] в плоскости XOZ.
+- [^^angleZ()^^](./angleZ.md): Получить угол точки относительно центра координат [0,0,0] в плоскости XOY.
 
-- [radius()]: Radius of a point in 2D space.
-- [radiusX()]: Radius of a point in plane YOZ.
-- [radiusY()]: Radius of a point in plane XOZ.
-- [radiusZ()]: Radius of a point in plane XOY.
+- [^^radius()^^](./radius.md): Радиус точки в 2D-пространстве.
+- [^^radiusX()^^](./radiusX.md): Радиус точки в плоскости YOZ.
+- [^^radiusY()^^](./radiusY.md): Радиус точки в плоскости XOZ.
+- [^^radiusZ()^^](./radiusZ.md): Радиус точки в плоскости XOY.
 
-- [angleBetweenVectors()]: Angle between vectors.
-- [pointAtSegment()]: Returns the point on a segment at a given parameter position.
-- [distance()]: Calculates distance between two points. 
+- [^^angleBetweenVectors()^^](./angleBetweenVectors.md): Угол между векторами.
+- [^^pointAtSegment()^^](./pointAtSegment.md): Возвращает точку в параметризованной позиции сегмента.
+- [^^distance()^^](./distance.md): Расчитывает расстояние между двумя точками. 
 
-- [section()]: Creates a section. 
-- [unify()]: Simplification of the geometric representation of an object.
-- [fillet()]: Operation of radiusing body
-- [chamfer()]: Operation of removing faceting.
+- [^^section()^^](./section.md): Создать сечение. 
+- [^^unify()^^](./unify.md): Упрощение геометрического представления объекта.
+- [^^fillet()^^](./fillet.md): Операция скругления тела.
+- [^^chamfer()^^](./chamfer.md): Операция снятия фаски.
 
-## Creating part
-- [piece()]: Creating a part
+## Создание детали
+- [^^piece()^^](./piece.md): Создание детали.

@@ -1,40 +1,39 @@
 # Material.conductor()
 
-## Description
-Conductor material.
+## Описание
+Материал для проводника.
 
-## Syntax
+## Синтаксис
 ```javascript
 Material.conductor() : ConductorMaterial
-```
+``` 
 
-## Parameters
-None
+## Аргументы
+    Отсутствуют
 
-## Returned Value
+## Возвращаемое значение
 [`ConductorMaterial`](./../../../types/materials/ConductorMaterial/_index.md)
 
-## Example
-```javascript
-linenums="1"
+## Пример
+``` javascript linenums="1"
 let m = Material.conductor()
 console.info(m) // output: Conductor
-```
+``` 
 
-!!! info "See Also"
+!!! info "См. также"
 
-    [^Material.empty()^](empty.md)
+    [^^Material.empty()^^](empty.md)
 
-    [^Material.general()^](general.md)
+    [^^Material.general()^^](general.md)
 
-    [^Material.iron()^](iron.md)
+    [^^Material.iron()^^](iron.md)
 
-    [^Material.winding()^](winding.md)
+    [^^Material.winding()^^](winding.md)
 
-    [^Material.endturn()^](endturn.md)
+    [^^Material.endturn()^^](endturn.md)
 
-    [^Material.magnetParallel()^](magnetParallel.md)
+    [^^Material.magnetParallel()^^](magnetParallel.md)
 
-    [^Material.magnetRadial()^](magnetRadial.md)
+    [^^Material.magnetRadial()^^](magnetRadial.md)
 
-    [^Material.custom()^](custom.md)
+    [^^Material.custom()^^](custom.md)

@@ -1,27 +1,27 @@
 # Geom.vector3()
 
-## Description
-Creation of a vector in 3D space, sets direction and length.
+## Описание
+Создание вектора в 3D пространстве, задает направление и длину.
 
-## Syntax
+## Синтаксис
 ```javascript
 Geom.vector3(x: number, y: number, z: number) : Vector3
 Geom.vector3(p: Point3) : Vector3
 Geom.vector3(p1: Point3, p2: Point3) : Vector3
 ```
 
-## Parameters
-- `x` (number, required): x coordinate of the point.
-- `y` (number, required): y coordinate of the point.
-- `z` (number, required): z coordinate of the point.
-- `p` (Point3, required): Point.
-- `p1` (Point3, required): Starting point.
-- `p2` (Point3, required): Ending point.
+## Аргументы
+- `x` (number, обязательно): x координата точки.
+- `y` (number, обязательно): y координата точки.
+- `z` (number, обязательно): z координата точки.
+- `p` (Point3, обязательно): Точка.
+- `p1` (Point3, обязательно): Начальная точка.
+- `p2` (Point3, обязательно): Конечная точка.
 
-## Returned value
-`Vector`: object with properties of `Vector3`.
+## Возвращаемое значение
+`Vector`: объект тира `Vector3`.
 
-## Example
+## Пример
 ```javascript linenums="1"
 let v1 = Geom.vector3(10,10,10)
 console.info(v1) // output:
@@ -31,6 +31,7 @@ let v3 = Geom.vector3(Geom.point3(20,20,20), Geom.point3(10,10,10))
 console.info(v3) // output:
 ```
 
-!!! info "See also"
+!!! info "См. также"
 
     []()
+

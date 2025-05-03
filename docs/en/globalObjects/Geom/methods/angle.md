@@ -1,26 +1,29 @@
-# `Geom.angle()`
+# Geom.angle()
 
-## Description
-Get the angle of a point.
+## Описание
+Получить угол точки.
 
-## Syntax
+## Синтаксис
 ```javascript
 Geom.angle(x: number, y: number) : number
 ```
 
-## Parameters
-- `x` (type, required): description of x parameter.
-- `y` (type, required): description of y parameter.
+## Аргументы
+- `x` (number, обязательно): значение координаты X.
+- `y` (number, обязательно): значение координаты Y.
 
-## Returns
-`number`: the angle of the point in degrees relative to the origin [0,0] (zero is at three o'clock, increase by hour).
+## Возвращаемое значение
+`number`: угол точки в градусах относительно центра координат [0,0] (ноль — на три часа, увеличение по часовой).
 
-## Example
-```javascript
+## Пример
+```javascript linenums="1"
 let result = Geom.angle(100, 100)
 console.info(result) // output: 45
 ```
 
-!!! info "Also see"
+!!! info "См. также"
 
-    []()
+    [Geom.angleX()](angleX.md)
+    [Geom.angleY()](angleY.md)
+    [Geom.angleZ()](angleZ.md)
+

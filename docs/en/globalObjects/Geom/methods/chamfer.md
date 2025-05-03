@@ -1,31 +1,31 @@
-# Chamfer()
+# Geom.chamfer()
 
-## Description
-Operation to take a chamfer from a solid body. Unlike filletting, this operation is only applied to volumetric solids.
+## Описание
+Операция взятия фаски тела. В отличие от скругления применяется только к объёмным телам.
+Фаска задаётся расстоянием `r`, взятым от ребра до линии фаски и массивом ближайших точек `refs`.
 
-The chamfer is defined by the distance `r`, taken from the edge to the line of the chamfer, and an array of closest points `refs`.
-
-## Syntax
+## Синтаксис
 ```javascript
 Geom.chamfer(shp: Shape, r: number) : Shape
 Geom.chamfer(shp: Shape, r: number, refs: array of Point3) : Shape
 ```
 
-## Parameters
-- `shp` (Shape, required): Body to take the chamfer from.
-- `r` (number, required): Distance taken from the edge to the line of the chamfer.
-- `refs` (Array of Point3, required): Array of closest points `refs` to the edges, requiring a chamfer.
+## Аргументы
+- `shp` (Shape, обязательно): Тело для снятия фаски.
+- `r` (number, обязательно):  Расстояние, взятым от ребра до линии фаски.
+- `refs` (Array of Point3, обязательно): масcивом ближайших точек `refs` к ребрам, требующих снятия фаски.
 
-## Return Value
-`Shape`: The result object type `Shape`, after taking the chamfer operation.
+## Возвращаемое значение
+`Shape`: объект типа `Shape`, результат операции снятия фаски.
 
-## Example
+## Пример
 ```javascript linenums="1"
 let box = Geom.box(100, 100, 100)
 let s = Geom.chamfer(box, 1);
 console.info(result)
 ```
 
-!!! info "See also"
+!!! info "См. также"
 
     [Geom.fillet](./fillet.md)
+

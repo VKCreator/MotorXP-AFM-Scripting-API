@@ -1,5 +1,7 @@
 # Direction
-- `Direction.CW` — Clockwise direction.
-  Value: `-1`
-- `Direction.CCW` — Anticlockwise direction.
-  Value: `+1`
+<!--start-->
+| Константа         | Описание                      | Значение |
+|------------------ |-------------------------------|----------:|
+| `Direction.CW`    | Направление по часовой стрелке | `-1`     |
+| `Direction.CCW`   | Направление против часовой стрелки | `+1`    |
+<!--end-->

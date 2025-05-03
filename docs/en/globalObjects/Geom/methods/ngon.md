@@ -1,26 +1,27 @@
-# Ngon()
+# Geom.ngon()
 
-## Description
-2D Regular Polygon built in the XY plane, with the center of the figure at (0,0,0).
+## Описание
+2D Правильный N-угольник, строится в плоскости XOY, центр фигуры в точке [0,0,0].
 
-## Syntax
+## Синтаксис
 ```javascript
 Geom.ngon(radius: number, n: number) : Shape
 ```
 
-## Parameters
-- `radius` (number, required): Radius of the polygon.
-- `n` (number, required): Number of vertices of the polygon (allowed value: 3 and more).
+## Аргументы
+- `radius` (number, обязательно): Радиус N-угольника.
+- `n` (number, обязательно): Количество углов N-угольника (допустимое значение: 3 и более).
 
-## Returned Value
-`Shape`: an object of type `Shape`, a regular polygon.
+## Возвращаемое значение
+`Shape`: объект типа `Shape`, Правильный N-угольник.
 
-## Example
+## Пример
 ```javascript linenums="1"
 let s = Geom.ngon(100, 6)
 console.info(s)
 ```
 
-!!! info "See Also"
+!!! info "См. также"
 
     []()
+

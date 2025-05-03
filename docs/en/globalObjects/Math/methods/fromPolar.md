@@ -13,7 +13,7 @@ fromPolar(radius : number, angle : number) : Point
 - `angle` (number, обязательно): угол в градусах.
 
 ## Возвращаемое значение
-- `Point`: точка в декартовых координатах.
+`Point`: точка в декартовых координатах.
 
 ## Пример
 ``` javascript linenums="1"

@@ -14,7 +14,7 @@ isGreatEqual(arg1 : number, arg2 : number, eps : number = Math.EPSILON) : number
 - `eps` (number, опционально): значение точности, по умолчанию равно `Math.EPSILON`.
 
 ## Возвращаемое значение
-- `bool`: результат сравнения.
+`bool`: результат сравнения.
 
 ## Пример
 ``` javascript linenums="1"

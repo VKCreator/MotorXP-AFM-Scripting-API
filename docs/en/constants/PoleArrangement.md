@@ -1,13 +1,11 @@
-# Pole Arrangement
-- `PoleArrangement.NN` — NN.
-  Value: `0`
-- `PoleArrangement.NS` — NS.
-  Value: `1`
-- `PoleArrangement.NSNS` — NSNS.
-  Value: `2`
-- `PoleArrangement.NSSN` — NSSN.
-  Value: `3`
-- `PoleArrangement.NNSS` — NNSS.
-  Value: `4`
-- `PoleArrangement.NNNN` — NNNN.
-  Value: `5`
+# PoleArrangement
+<!--start-->
+| Константа                | Описание       | Значение |
+|-------------------------|----------------|----------:|
+| `PoleArrangement.NN`    | NN             | `0`      |
+| `PoleArrangement.NS`    | NS             | `1`      |
+| `PoleArrangement.NSNS`  | NSNS           | `2`      |
+| `PoleArrangement.NSSN`  | NSSN           | `3`      |
+| `PoleArrangement.NNSS`  | NNSS           | `4`      |
+| `PoleArrangement.NNNN`  | NNNN           | `5`      |
+<!--end-->

@@ -11,7 +11,7 @@
 - [^^`outerRadius`^^](./props/outerRadius.md): Внешний радиус.
 - [^^`innerDiameter`^^](./props/outerDiameter.md): Внутрений диаметр.
 - [^^`innerRadius`^^](./props/outerRadius.md): Внутрений радиус.
-- [^^`numberPolePairs`^^](./props/numberPolePairs.md): Количество пазов.
+- [^^`numberPolePairs`^^](./props/numberPolePairs.md): Количество пар полюсов.
 - [^^`poleAngleSpan`^^](./props/poleAngleSpan.md): Угловой размер одного полюса ротора в градусах.
 - [^^`poleArrangement`^^](./props/poleArrangement.md): Расположение полюсов.
 - [^^`typeMiddleItem`^^](./props/typeMiddleItem.md): Тип средней части ротора.

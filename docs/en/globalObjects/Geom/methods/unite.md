@@ -1,23 +1,23 @@
 # Geom.unite()
 
-## Description
-Boolean operation: Union of two or more shapes.
+## Описание
+Булева операция: Объединить два или более тел.
 
-## Syntax
+## Синтаксис
 ```javascript
 Geom.unite(a: Shape, b: Shape,) : Shape
 Geom.unite(shapes: array of Shape) : Shape
 ```
 
-## Parameters
-- `a` (Shape, mandatory): The first shape.
-- `b` (Shape, mandatory): The second shape.
-- `shapes` (Array of Shape, mandatory): An array of shapes.
+## Аргументы
+- `a` (Shape, обязательно): Тело 1.
+- `b` (Shape, обязательно): Тело 2.
+- `shapes` (Array of Shape, обязательно): Массив тел.
 
-## Return value
-`Shape`: object of type `Shape`, The union of the shapes.
+## Возвращаемое значение
+`Shape`: объект типа `Shape`, Объединение тел.
 
-## Example
+## Пример
 ```javascript linenums="1"
 let box = Geom.box(100, 100, 100);
 let cyl = Geom.cylinder(50, 150);
@@ -25,10 +25,11 @@ let result = Geom.unite(box, cyl) // box + cyl
 console.info(result) // output:
 ```
 
-!!! info "See also"
+!!! info "См. также"
 
     [Geom.intersect](./unite.md)
 
     [Geom.diff](./diff.md)
 
     [Geom.difference](./difference.md)
+

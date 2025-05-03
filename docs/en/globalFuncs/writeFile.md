@@ -1,28 +1,28 @@
-# write_file()
+# writeFile()
 
-## Description
-Write to a file.
+## Описание
+Запись в файл.
 
-## Syntax
+## Синтаксис
 ```javascript
-write_file(path : string, content : string, append : bool = true) : bool
-```
+writeFile(path : string, content : string, append : bool = true) : bool
+``` 
 
-## Parameters
-- **`path`** (string, mandatory): path to the file, may be either an absolute or relative path that indicates position relative to `<path_MotorXP-AFM>/bin/assets/scripts`.
-- **`content`** (string, mandatory): file content.
-- **`append`** (boolean, optional, default = `true`): is equal to `true` – append to the file; otherwise, truncate the file before writing.
+## Аргументы
+- **`path`** (string, обязательно): путь к файлу, может быть **абсолютным** или **относительным**, который указывает положение относительно **`<path_MotorXP-AFM>/bin/assets/scripts`**.
+- **`content`** (string, обязательно): содержимое файла.
+- **`append`** (boolean, опционально, по умолчанию = **`true`**): равно **`true`** – добавить в файл, иначе перед записью файл усекается.
 
-## Return value
-`bool`: true if successful write operation, and false otherwise, if there are errors during writing. Errors output to console.
+## Возвращаемое значение
+**`bool`**: равно **`true`** – успешная запись, иначе равно **`false`**, если при записи возникли ошибки. Ошибки выводятся в консоль.
 
-## Example
-```javascript linenums="1"
-let sampleText = "Sample text";
-let result = write_file("c:/temp/sample.txt", sampleText);
-console.info(result);
-```
+## Пример
+``` javascript linenums="1"
+let sampleText = "Sample text"
+let result = writeFile("c:/temp/sample.txt", sampleText)
+console.info(result)
+``` 
 
-!!! info "Also see"
+!!! info "См. также"
 
-    [read_file()](readFile.md)
+    [readFile()](readFile.md)

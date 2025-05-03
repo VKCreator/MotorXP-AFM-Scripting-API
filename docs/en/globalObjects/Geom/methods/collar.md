@@ -1,24 +1,24 @@
 # Geom.collar()
 
-## Description
-3D primitive (solid): collar (a cylinder with a central hole), defined by the outer radius `r1`, inner radius `r2` and height `h` and is constructed relative to the point [0,0,0]. A sector of the collar can be built using the angle parameter.
+## Описание
+3D примитив(объемный) : втулка (цилиндр с осевым отверстием), задаётся с указанием внешненго радиуса `r1`, внутреннего радиуса `r2` и высоты `h` и строится относительно точки [0,0,0]. Возможно построение сектора втулки с использованием параметра angle.
 
-## Syntax
+## Синтаксис
 ```javascript
 Geom.collar(r1: number, r2: number, h: number) : Shape
 Geom.collar(r1: number, r2: number, h: number, angle: number) : Shape
 ```
 
-## Parameters
-- `r1` (number, mandatory): Outer radius of the collar.
-- `r2` (number, mandatory): Inner radius of the collar.
-- `h` (number, mandatory): Height of the collar.
-- `angle` (number, mandatory): Angle of the sector in degrees, the body is centered around the axis OX.
+## Аргументы
+- `r1` (number, обязательно): Внешний радиус втулки.
+- `r2` (number, обязательно): Внутренний радиус втулки.
+- `h` (number, обязательно): Высота втулки.
+- `angle` (number, обязательно): Угол сектора втулки в градусах, тело центрируется относительно оси OX.
 
-## Returned Value
-`Shape`: an object of type `Shape`, a collar.
+## Возвращаемое значение
+`Shape`: объект типа `Shape`, Втулка.
 
-## Example
+## Пример
 ```javascript linenums="1"
 let s1 = Geom.collar(200, 50, 100)
 console.info(s1) // output:
@@ -26,6 +26,7 @@ let s2 = Geom.collar(200, 50, 100, 30)
 console.info(s2) // output:
 ```
 
-!!! info "Also see"
+!!! info "См. также"
 
     []()
+

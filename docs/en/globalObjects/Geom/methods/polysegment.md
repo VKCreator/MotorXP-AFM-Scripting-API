@@ -1,26 +1,27 @@
-# PolySegment()
+# Geom.polysegment()
 
-## Description
-A 3D broken line. Set by an array of points `points`.
+## Описание
+Полисегмент - 3D ломанная линия. Задаётся массивом точек `points`.
 
-## Syntax
+## Синтаксис
 ```javascript
 Geom.polysegment(points: array of Point3, closed: bool = false) : Shape
 ```
 
-## Arguments
-- `points` (array of Point3, mandatory): An array of points of the polyline.
-- `closed` (bool, optional): The flag `closed` creates a closed polyline, adds the segment of the polyline going from the end point to the start point.
+## Аргументы
+- `points` (array of Point3, обязательно): Массив точек полилинии.
+- `closed` (bool, опционально): Установка флага `closed` создает замкнутую полилинию, добавляет сегмент полилинии, идущий от точки конца к точке начала.
 
-## Return Value
-`Shape`: an object of type `Shape`, a polyline.
+## Возвращаемое значение
+`Shape`: объект типа `Shape`, полилиния.
 
-## Example
+## Пример
 ```javascript linenums="1"
 let s = Geom.polysegment([Geom.point3(10,10,10), Geom.point3(20,20,20), Geom.point3(30,30,30)])
 console.info(s) // output:
 ```
 
-!!! info "See Also"
+!!! info "См. также"
 
     []()
+

@@ -1,9 +1,9 @@
-# torus()
+# Geom.torus()
 
-## Description
-3D primitive (solid): a torus, constructed relative to the point [0,0,0].
+## Описание
+3D примитив(объемный) : тор, строится относительно точки [0,0,0].
 
-## Syntax
+## Синтаксис
 ```javascript
 Geom.torus(r1: number) : Shape
 Geom.torus(r1: number, r2: number) : Shape
@@ -12,22 +12,23 @@ Geom.torus(r1: number, r2: number, va1: number, va2: number) : Shape
 Geom.torus(r1: number, r2: number, va1: number, va2: number, ua: number) : Shape
 ```
 
-## Arguments
-- `r1` (number, required):
-- `r2` (number, required):
-- `ua` (number, required):
-- `va1` (number, required):
-- `va2` (number, required):
+## Аргументы
+- `r1` (number, обязательно):
+- `r2` (number, обязательно):
+- `ua` (number, обязательно):
+- `va1` (number, обязательно):
+- `va2` (number, обязательно):
 
-## Returned Value
-`Shape`: an object of type `Shape`, a torus.
+## Возвращаемое значение
+`Shape`: объект типа `Shape`, тор.
 
-## Example
+## Пример
 ```javascript linenums="1"
 let s = Geom.torus(100)
 console.info(s) // output:
 ```
 
-!!! info "See Also"
+!!! info "См. также"
 
     []()
+

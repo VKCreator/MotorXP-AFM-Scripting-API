@@ -14,7 +14,7 @@ Material.magnetRadial(direction: Magnetization.From, center: point = Qt.point(0,
 - **`segmentRadiuses`** (array of number, опционально): Массив радиусов сегментов магнита.
 
 ## Возвращаемое значение
-[`MagnetRadialMaterial`](./../../../types/Materials/MagnetRadialMaterial/_index.md)
+[`MagnetRadialMaterial`](./../../../types/materials/MagnetRadialMaterial/_index.md)
 
 ## Пример
 ``` javascript linenums="1"

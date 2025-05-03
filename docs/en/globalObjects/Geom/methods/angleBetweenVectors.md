@@ -1,26 +1,27 @@
 # Geom.angleBetweenVectors()
 
-## Description
-Angle between vectors.
+## Описание
+Угол между векторами.
 
-## Syntax
+## Синтаксис
 ```javascript
 Geom.angleBetweenVectors(v1: Vector3, v2: Vector3) : number
 ```
 
-## Parameters
-- `v1` (Vector3, required): Vector 1.
-- `v2` (Vector3, required): Vector 2.
+## Аргументы
+- `v1` (Vector3, обязательно): вектор 1.
+- `v2` (Vector3, обязательно): вектор 2.
 
-## Return Value
-`number`: Angle between vectors in degrees.
+## Возвращаемое значение
+`number`: угол между векторами в градусах.
 
-## Example
+## Пример
 ```javascript linenums="1"
 let angle = Geom.angleBetweenVectors(Geom.vetor3(10,10,10), Geom.vetor3(30,30,30))
 console.info(angle) // output:
 ```
 
-!!! info "Also see"
+!!! info "См. также"
 
     []()
+

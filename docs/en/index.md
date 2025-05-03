@@ -1,8 +1,14 @@
-# Introduction
+# Введение
 
-## Description
-This document describes the API for writing scripts in the application **MotorXP-AFM** for parametric construction of a motor geometry. It includes detailed information on [global functions](globalFunctions_index.md), [built-in objects](globalObjects_index.md), [types of created objects](types_index.md), [materials](globalObjects/Material_index.md), [constants](constants_index.md) and [elements of control](types/widgets_index.md) (UI widgets).
+## Описание
+Данная документация описывает программный интерфейс (API) для написания скриптов в приложении <span style="white-space: nowrap;">**MotorXP-AFM**</span> для параметрического построения геометрии мотора. Включает подробную информацию о [глобальных функциях](globalFuncs/_index.md), [встроенных объектах](globalObjects/_index.md), [типах создаваемых объектов](types/_index.md), [материалах](globalObjects/Material/_index.md), [константах](constants/_index.md) и [элементах управления](types/widgets/_index.md) (UI-виджеты).
 
-!!! info "Information"
-The application's scripting engine is implemented based on the Qt framework's QJSEngine.
-JavaScript with the specification of ECMAScript 6 (ES2015) is used for writing scripts.
+!!! info "Информация"
+    Скриптовая машина приложения `MotorXP-AFM` реализована на базе скриптовой машины фреймворка `Qt` — `QJSEngine`.
+    Для написания скриптов используется язык программирования JavaScript со спецификацией <b>ECMAScript 6 (ES2015)</b>.
+
+## Официальный сайт
+Посетите наш веб-сайт: <a href="https://motorxp.com" target="_blank">motorxp.com</a>
+
+## Контакты
+Если вы обнаружите какие-либо ошибки или неточности в документации, пожалуйста, сообщите о них по электронной почте: [nika_homework@mail.ru](mailto:nika_homework@mail.ru), [info@motorxp.com](mailto:info@motorxp.com).

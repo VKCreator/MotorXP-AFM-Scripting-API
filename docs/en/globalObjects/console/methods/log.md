@@ -1,33 +1,33 @@
 # console.log()
 
-## Description
-The `console.log()` method outputs a message in gray color to the console, each message is marked with an icon of "bug". It can accept multiple arguments and display them on one line.
+## Описание
+Метод `console.log()` выводит сообщение серым цветом в консоль, каждое сообщение помечается иконкой `bug`. Он может принимать несколько аргументов и отображать их в одной строке.
 
-## Syntax
-```javascript
+## Синтаксис
+``` javascript
 console.log(message1 : any, message2 : any, ..., messageN : any)
-```
+``` 
 
-## Parameters
-- **`messageN`** (any, mandatory):  
+## Аргументы
+- **`messageN`** (any, обязательно):  
 
-## Return Value
+## Возвращаемое значение
 `undefined`
 
-## Example
-```javascript
-// One argument
+## Пример
+``` javascript linenums="1"
+// Один аргумент
 console.log('log text')
 
-// Multiple arguments
+// Несколько аргументов
 console.log('text1', 'text2')
 console.log('text1', 'text2', .. , 'text10')
 
-// Different types of arguments
-console.log('text1', 123, true, { key: 'value''})
-```
+// Различные типы аргументов
+console.log('text1', 123, true, { key: 'value' })
+``` 
 
-!!! info "See also"
+!!! info "См. также"
 
     [console.info()](info.md)
 	

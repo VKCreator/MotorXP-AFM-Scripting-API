@@ -1,27 +1,27 @@
 # Geom.radius()
 
-## Description
-Radius of a point in 2D space.
+## Описание
+Радиус точки в 2D пространстве.
 
-## Syntax
+## Синтаксис
 ```javascript
 Geom.radius(x: number, y: number) : number
 ```
 
-## Parameters
-- `x` (number, required): x coordinate of the point.
-- `y` (number, required): y coordinate of the point.
+## Аргументы
+- `x` (number, обязательно): x координата точки.
+- `y` (number, обязательно): y координата точки.
 
-## Return value
-`number`: Radius of the point with coordinates [x,y] relative to the origin [0,0].
+## Возвращаемое значение
+`number`: Радиус точки с координатами [x,y] относительно точки ноль [0,0].
 
-## Example
-```javascript
-// linenums="1"
+## Пример
+```javascript linenums="1"
 let result = Geom.radius(10, 10)
-console.info(result) // output:
+console.info(result) // output: 
 ```
 
-!!! info "Also see"
+!!! info "См. также"
 
     []()
+

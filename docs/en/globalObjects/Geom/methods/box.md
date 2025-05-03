@@ -1,24 +1,24 @@
 # Geom.box()
 
-## Description
-3D primitive (volume): box, defined by three dimensions `x`, `y`, `z` and built relative to the point [0,0,0].
+## Описание
+3D примитив(объемный) : параллелипипед, задаётся с указанием трёх размеров `x`, `y`, `z` и строится относительно точки [0,0,0].
 
-## Syntax
+## Синтаксис
 ```javascript
 Geom.box(x: number, y: number, z: number) : Shape
 Geom.box(a: number) : Shape
 ```
 
-## Parameters
-- `x` (number, mandatory): The size of the box along axis X.
-- `y` (number, mandatory): The size of the box along axis Y.
-- `z` (number, mandatory): The size of the box along axis Z.
-- `a` (number, mandatory): The size of a cube.
+## Аргументы
+- `x` (number, обязательно): Размер параллелипипеда по оси X.
+- `y` (number, обязательно): Размер параллелипипеда по оси Y.
+- `z` (number, обязательно): Размер параллелипипеда по оси Z.
+- `a` (number, обязательно): Размер куба.
 
-## Return Value
-`Shape`: an object of type Shape, Box.
+## Возвращаемое значение
+`Shape`: объект типа Shape, Параллелипипед.
 
-## Example
+## Пример
 ```javascript linenums="1"
 let s1 = Geom.box(10, 20, 30)
 console.info(s1) // output:
@@ -26,6 +26,7 @@ let s2 = Geom.box(10)
 console.info(s2) // output:
 ```
 
-!!! info "See also"
+!!! info "См. также"
 
     []()
+

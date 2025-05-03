@@ -12,7 +12,7 @@ Material.endturn() : EndturnMaterial
     Отсутствуют
     
 ## Возвращаемое значение
-[`EndturnMaterial`](./../../../types/Materials/EndturnMaterial/_index.md)
+[`EndturnMaterial`](./../../../types/materials/EndturnMaterial/_index.md)
 
 ## Пример
 ``` javascript linenums="1"

@@ -1,26 +1,27 @@
 # Geom.angleZ()
 
-## Description
-Get the angle of a point relative to the center of coordinates [0,0,0] in the XY plane.
+## Описание
+Получить угол точки относительно центра координат [0,0,0] в плоскости XOY.
 
-## Syntax
+## Синтаксис
 ```javascript
 Geom.angleX(point: Point3) : number
 ```
 
-## Parameters
-- `point` ([`Point3`](../../../types/Point3/_index.md), required): The point.
+## Аргументы
+- `argument` ([`Point3`](../../../types/Point3/_index.md), обязательно): Точка.
 
-## Return value
-`number`: the angle of the point relative to the center of coordinates [0,0,0] in the XY plane (zero - three o'clock, increasing by hour).
+## Возвращаемое значение
+`number`: угол точки относительно центра координат [0,0,0] в плоскости XOY (ноль - на три часа, увеличение по часовой).
 
-## Example
+## Пример
 ```javascript linenums="1"
 let point = Geom.point3(100,100,100)
 let angle = Geom.angleZ(point)
 console.info(result) // output:
 ```
 
-!!! info "See also"
+!!! info "См. также"
 
     []()
+

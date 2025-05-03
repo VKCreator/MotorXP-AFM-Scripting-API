@@ -1,15 +1,17 @@
 # Coil
 
-## Coil Orientation
+## Coil orientation
+<!--startOrient-->
+| Константа          | Описание                   | Значение |
+|-------------------|----------------------------|----------:|
+| `Coil.CW`         | Намотка по часовой стрелке  | `-1`     |
+| `Coil.CCW`        | Намотка против часовой стрелки | `+1`    |
+<!--endOrient-->
 
-- `Coil.CW` — Clockwise.
-  Value: `-1`
-- `Coil.CCW` — Counterclockwise.
-  Value: `+1`
-
-## Coil Direction
-
-- `Coil.Incoming` — Incoming.  
-  Value: `+1`
-- `Coil.Outcoming` — Outcoming.  
-  Value: `-1`
+## Coil direction
+<!--startDir-->
+| Константа            | Описание           | Значение |
+|---------------------|--------------------|----------:|
+| `Coil.Incoming`     | Incoming (входящий) | `+1`     |
+| `Coil.Outcoming`    | Outcoming (исходящий) | `-1`    |
+<!--endDir-->

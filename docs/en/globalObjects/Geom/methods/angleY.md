@@ -1,26 +1,27 @@
 # Geom.angleY()
 
-## Description
-Get the angle of a point relative to the origin [0,0,0] in the XOZ plane.
+## Описание
+Получить угол точки относительно центра координат [0,0,0] в плоскости XOZ.
 
-## Syntax
+## Синтаксис
 ```javascript
-Geom.angleY(point: Point3) : number
+Geom.angleX(point: Point3) : number
 ```
 
-## Parameters
-- `point` ([`Point3`](../../../types/Point3/_index.md), mandatory)
+## Аргументы
+- `argument` ([`Point3`](../../../types/Point3/_index.md), обязательно)
 
-## Return value
-`number`: The angle of a point relative to the origin [0,0,0] in the XOZ plane (zero - three o'clock, increasing by hour).
+## Возвращаемое значение
+`number`: угол точки относительно центра координат [0,0,0] в плоскости XOZ (ноль - на три часа, увеличение по часовой).
 
-## Example
+## Пример
 ```javascript linenums="1"
 let point = Geom.point3(100,100,100)
 let angle = Geom.angleY(point)
 console.info(result) // output:
 ```
 
-!!! info "Also see"
+!!! info "См. также"
 
     []()
+

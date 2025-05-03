@@ -1,8 +1,9 @@
-# Built-in Objects
-
-* [Console](console/_index.md): Application console.
-* [Motor](motor/_index.md): Motor (generator) model with various parameters.
-* [Math](Math/_index.md): Mathematical functions.
-* [Geom](Geom/_index.md): Geometric core.
-* [Material](Material/_index.md): Materials.
-* [QtWidgets](QtWidgets/_index.md): UI widgets.
+# Встроенные объекты
+| Название         | Описание                                      |
+|------------------|-----------------------------------------------|
+| [^^console^^](console/_index.md)     | Консоль приложения.                          |
+| [^^motor^^](motor/_index.md)         | Модель двигателя (генератора) с различными параметрами. |
+| [^^Math^^](Math/_index.md)           | Математические функции.                       |
+| [^^Geom^^](Geom/_index.md)           | Геометрическое ядро.                          |
+| [^^Material^^](Material/_index.md)   | Материалы.                                    |
+| [^^QtWidgets^^](QtWidgets/_index.md) | UI-виджеты.                                   |

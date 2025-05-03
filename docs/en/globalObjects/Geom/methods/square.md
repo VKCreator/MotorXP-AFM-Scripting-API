@@ -1,26 +1,26 @@
 # Geom.square()
 
-## Description
-2D Square, built in the XOY plane, with its center at the point [0,0,0].
+## Описание
+2D Квадрат, строится в плоскости XOY, центр фигуры в точке [0,0,0].
 
-## Syntax
+## Синтаксис
 ```javascript
 Geom.square(a: number) : Shape
 ```
 
-## Parameters
-- `a` (number, required): Side length of the square.
+## Аргументы
+- `a` (number, обязательно): Сторона квадрата.
 
-## Return Value
-`Shape`: an object of type `Shape`, Square.
+## Возвращаемое значение
+`Shape`: объект типа `Shape`, Квадрат.
 
-## Example
-```javascript
-linenums="1"
+## Пример
+```javascript linenums="1"
 let s = Geom.square(100)
 console.info(s) // output:
 ```
 
-!!! info "Also see"
+!!! info "См. также"
 
     []()
+

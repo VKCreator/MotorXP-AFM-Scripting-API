@@ -1,27 +1,26 @@
-# Geometry.rectangle()
+# Geom.rectangle()
 
-## Description
-A 2D Rectangle constructed in the XOY plane, with its center at the point [0,0,0].
+## Описание
+2D Прямоугольник, строится в плоскости XOY, центр фигуры в точке [0,0,0].
 
-## Syntax
+## Синтаксис
 ```javascript
 Geom.rectangle(a: number, b: number) : Shape
 ```
 
-## Parameters
-- `a` (number, mandatory): The side length of the rectangle along X.
-- `b` (number, mandatory): The side length of the rectangle along Y.
+## Аргументы
+- `a` (number, обязательно): Сторона прямоугольника по X.
+- `b` (number, обязательно): Сторона прямоугольника по Y.
 
-## Return Value
-`Shape`: an object of type `Shape`, a Rectangle.
+## Возвращаемое значение
+`Shape`: объект типа `Shape`, Прямоугольник.
 
-## Example
+## Пример
 ```javascript linenums="1"
 let s = Geom.rectangle(300, 200);
 console.info(s) // output:
 ```
 
-!!! info "See also"
+!!! info "См. также"
 
     []()
- ```

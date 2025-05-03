@@ -10,25 +10,25 @@
 - [^^Mesh^^](Mesh/_index.md):
 
 ## Геометрия
-- [^^Point3^^](Point3/_index.md):
-- [^^Vector3^^](Vector3/_index.md):
-- [^^Shape^^](Shape/_index.md):
-- [^^BoundingBox^^](BoundingBox/_index.md):
-- [^^Piece^^](Piece/_index.md):
+- [^^Point3^^](./Point3/_index.md):
+- [^^Vector3^^](./Vector3/_index.md):
+- [^^Shape^^](./Shape/_index.md):
+- [^^BoundingBox^^](./BoundingBox/_index.md):
+- [^^Piece^^](./Piece/_index.md):
 
 ## Материалы
-- [^^EmptyMaterial^^](materials/EmptyMaterial/_index.md):
-- [^^GeneralMaterial^^](materials/GeneralMaterial/_index.md):
-- [^^IronMaterial^^](materials/IronMaterial/_index.md):
-- [^^ConductorMaterial^^](materials/ConductorMaterial/_index.md):
-- [^^WindingMaterial^^](materials/WindingMaterial/_index.md):
-- [^^EndturnMaterial^^](materials/EndturnMaterial/_index.md):
-- [^^MagnetRadialMaterial^^](materials/MagnetRadialMaterial/_index.md):
-- [^^MagnetParallelMaterial^^](materials/MagnetParallelMaterial/_index.md):
-- [^^CustomMaterial^^](materials/CustomMaterial/_index.md):
+- [^^EmptyMaterial^^](./materials/EmptyMaterial/_index.md):
+- [^^GeneralMaterial^^](./materials/GeneralMaterial/_index.md):
+- [^^IronMaterial^^](./materials/IronMaterial/_index.md):
+- [^^ConductorMaterial^^](./materials/ConductorMaterial/_index.md):
+- [^^WindingMaterial^^](./materials/WindingMaterial/_index.md):
+- [^^EndturnMaterial^^](./materials/EndturnMaterial/_index.md):
+- [^^MagnetRadialMaterial^^](./materials/MagnetRadialMaterial/_index.md):
+- [^^MagnetParallelMaterial^^](./materials/MagnetParallelMaterial/_index.md):
+- [^^CustomMaterial^^](./materials/CustomMaterial/_index.md):
 
 ## UI Widgets
-### Qt widgets
+### Qt Widgets
 - [^^QWidget^^](widgets/QWidget.md):
 - [^^QLabel^^](widgets/QLabel.md):
 - [^^QLineEdit^^](widgets/QLineEdit.md):
@@ -40,7 +40,7 @@
 - [^^QCheckBox^^](widgets/QCheckBox.md):
 - [^^QGridLayout^^](widgets/QGridLayout.md):
 - [^^QFormLayout^^](widgets/QFormLayout.md):
-### Custom widgets
+### Custom Widgets
 - [^^WarningIcon^^](widgets/WarningIcon.md):
 - [^^ExclamationIcon^^](widgets/ExclamationIcon.md):
 - [^^NumberEdit^^](widgets/NumberEdit.md):

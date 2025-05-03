@@ -1,28 +1,29 @@
-# `console.warn()`
+# console.warn()
 
-## Description
-The `console.warn()` method outputs a warning message in yellow color to the console, each message is tagged with an icon "warn". This method is used to indicate potential problems that are not critical but should be fixed. The method can accept multiple arguments and display them in one line.
+## Описание
+Метод `console.info()` выводит предупреждающее сообщение желтым цветом в консоль, каждое сообщение помечается иконкой `warn`. Данный метод используется для указания на потенциальные проблемы, которые не являются критичными, но должны быть устранены. Метод может принимать несколько аргументов и отображать их в одной строке.
 
-## Syntax
-```javascript
+## Синтаксис
+``` javascript
 console.warn(message1 : any, message2 : any, ..., messageN : any)
 ```
-## Returned Value
+## Возвращаемое значение
 `undefined`
 
-## Example
-```javascript
-// One argument
+## Пример
+``` javascript linenums="1"
+// Один аргумент
 console.warn('warn text')
 
-// Multiple arguments
+// Несколько аргументов
 console.warn('text1', 'text2')
 console.warn('text1', 'text2', .. , 'text10')
 
 // Mixed types
-console.warn('text1', 123, true, { key: 'value''})
-```
-!!! info "Also see"
+console.warn('text1', 123, true, { key: 'value' })
+``` 
+
+!!! info "См. также"
 
 	[console.log()](log.md)
 

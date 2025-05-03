@@ -1,22 +1,22 @@
 # Geom.difference()
 
-## Description
-Boolean operation: Difference of two or more shapes.
+## Описание
+Булева операция: Разность двух или более тел.
 
-## Syntax
+## Синтаксис
 ```javascript
 Geom.difference(a: Shape, b: Shape,) : Shape
 Geom.difference(shapes: array of Shape) : Shape
 ```
 
-- `a` (Shape, mandatory): The first shape.
-- `b` (Shape, mandatory): The second shape.
-- `shapes` (Array of Shape, mandatory): An array of shapes.
+- `a` (Shape, обязательно): Тело 1.
+- `b` (Shape, обязательно): Тело 2.
+- `shapes` (Array of Shape, обязательно): Массив тел.
 
-## Return value
-`Shape`: A `Shape` object representing the union of shapes.
+## Возвращаемое значение
+`Shape`: объект типа `Shape`, объединение тел.
 
-## Example
+## Пример
 ```javascript linenums="1"
 let box = Geom.box(100, 100, 100);
 let cyl = Geom.cylinder(50, 150);
@@ -26,6 +26,7 @@ let s2 = Geom.difference(cyl, box) // cyl - box
 console.info(s2) // output:
 ```
 
-!!! info "See Also"
+!!! info "См. также"
 
     [Geom.diff](./diff.md)
+

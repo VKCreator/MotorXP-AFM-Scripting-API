@@ -13,7 +13,7 @@ isEpsilon(arg : number, eps : number = Math.EPSILON) : bool
 - `eps` (number, опционально): значение точности, по умолчанию равно `Math.EPSILON`.
 
 ## Возвращаемое значение
-- `bool`: результат.
+`bool`: результат.
 
 ## Пример
 ``` javascript linenums="1"

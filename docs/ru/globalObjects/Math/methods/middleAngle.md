@@ -14,7 +14,7 @@ middleAngle(a1 : number, a2 : number, dir = [Direction.CW | Direction.CCW]) : nu
 - `dir` (number, обязательно): направление обхода, одно из констант `Direction.CW` | `Direction.CCW`.
 
 ## Возвращаемое значение
-- `number`: средний угол.
+`number`: средний угол.
 
 ## Пример
 ``` javascript linenums="1"

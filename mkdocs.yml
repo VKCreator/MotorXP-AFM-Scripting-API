@@ -87,7 +87,7 @@ plugins:
 
       #regex:
       #  - '.*\.(tmp|bin|tar)$'
-  # - with-pdf:
+  # - with-pdf
     #   cover_title: MotorXP-AFM Scripting API manual
      #  cover_subtitle: subtitle
   - print-site:

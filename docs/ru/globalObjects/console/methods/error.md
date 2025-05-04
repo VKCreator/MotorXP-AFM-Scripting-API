@@ -5,7 +5,7 @@
 
 ## Синтаксис
 ```javascript
-console.error(message1: any, message2: any, ..., messageN: any) ->  undefined
+console.error(message1: any, message2: any, ..., messageN: any) -> undefined
 ``` 
 
 ## Аргументы

@@ -5,7 +5,7 @@
 
 ## Синтаксис
 ```javascript
-rad(degrees: Number) ->  Number
+rad(degrees: Number) -> Number
 ``` 
 
 ## Аргументы

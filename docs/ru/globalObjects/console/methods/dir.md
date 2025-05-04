@@ -5,7 +5,7 @@
 
 ## Синтаксис
 ``` javascript
-console.dir(object: any) ->  undefined
+console.dir(object: any) -> undefined
 ``` 
 ## Аргументы
 | Аргумент | Тип      | Обязательный | Описание                                                                 |

@@ -5,7 +5,7 @@
 
 ## Синтаксис
 ```javascript
-Geom.angleX(point: Point3) ->  Number
+Geom.angleX(point: Point3) -> Number
 ```
 
 ## Аргументы

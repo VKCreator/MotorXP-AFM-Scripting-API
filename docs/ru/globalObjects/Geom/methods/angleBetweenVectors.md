@@ -5,7 +5,7 @@
 
 ## Синтаксис
 ```javascript
-Geom.angleBetweenVectors(v1: Vector3, v2: Vector3) ->  Number
+Geom.angleBetweenVectors(v1: Vector3, v2: Vector3) -> Number
 ```
 
 ## Аргументы

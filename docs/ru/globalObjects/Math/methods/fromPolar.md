@@ -5,7 +5,7 @@
 
 ## Синтаксис
 ```javascript
-fromPolar(radius: Number, angle: Number) ->  Point
+fromPolar(radius: Number, angle: Number) -> Point
 ``` 
 
 ## Аргументы

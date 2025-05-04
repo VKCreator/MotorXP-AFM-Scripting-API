@@ -5,7 +5,7 @@
 
 ## Синтаксис
 ```javascript
-middleAngle(a1: Number, a2: Number, dir: Number = [Direction.CW | Direction.CCW]) ->  Number
+middleAngle(a1: Number, a2: Number, dir: Number = [Direction.CW | Direction.CCW]) -> Number
 ``` 
 
 ## Аргументы

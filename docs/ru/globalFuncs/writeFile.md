@@ -5,7 +5,7 @@
 
 ## Синтаксис
 ```javascript
-writeFile(path: String, content: String, append: Boolean = true) ->  Boolean
+writeFile(path: String, content: String, append: Boolean = true) -> Boolean
 ``` 
 
 ## Аргументы

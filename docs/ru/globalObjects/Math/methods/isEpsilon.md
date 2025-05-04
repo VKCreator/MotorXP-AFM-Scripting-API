@@ -5,7 +5,7 @@
 
 ## Синтаксис
 ```javascript
-isEpsilon(arg: Number, eps: Number = Math.EPSILON) ->  Boolean
+isEpsilon(arg: Number, eps: Number = Math.EPSILON) -> Boolean
 ``` 
 
 ## Аргументы

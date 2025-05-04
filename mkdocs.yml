@@ -72,6 +72,7 @@ plugins:
             constants: Константы
             methods: Методы
             properties: Свойства
+            Mind map: Интеллект-карта
   - include-markdown
   - git-revision-date-localized:
         type: custom
@@ -701,3 +702,5 @@ nav:
         - PoleArrangementComboBox: types/widgets/PoleArrangementComboBox.md
         - StatorConnectionComboBox: types/widgets/StatorConnectionComboBox.md
         - RotorConnectionComboBox: types/widgets/RotorConnectionComboBox.md
+
+  - Mind map: ./mindmap.md

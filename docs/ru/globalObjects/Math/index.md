@@ -44,16 +44,16 @@
         D --> D4["middleAngle()"]
 
         %% === Стили === %%
-        classDef math fill:#f0f8ff,stroke:#3366cc,stroke-width:2px;
-        classDef compare fill:#fff5e6,stroke:#cc6600,stroke-width:2px;
-        classDef coords fill:#e6ffe6,stroke:#009933,stroke-width:2px;
-        classDef angles fill:#ffe6e6,stroke:#cc0052,stroke-width:2px;
+        %%classDef math fill:#f0f8ff,stroke:#3366cc,stroke-width:2px;
+        %%classDef compare fill:#fff5e6,stroke:#cc6600,stroke-width:2px;
+        %%classDef coords fill:#e6ffe6,stroke:#009933,stroke-width:2px;
+        %%classDef angles fill:#ffe6e6,stroke:#cc0052,stroke-width:2px;
         %%classDef func fill:#ffffff,stroke:#aaaaaa,stroke-width:1px;
 
         %%=== Применяем стили к узлам === %%
-        class Parent,A math
-        class B compare
-        class C coords
-        class D angles
+        %%class Parent,A math
+        %%class B compare
+        %%class C coords
+        %%class D angles
         %%class B1,B2,B3,B4,C1,D1,D2,D3,D4 func
 ```

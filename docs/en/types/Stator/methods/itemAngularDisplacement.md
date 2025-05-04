@@ -5,14 +5,14 @@
 
 ## Синтаксис
 ```javascript
-itemAngularDisplacement(itemID: StatorItem.ID) : number
+itemAngularDisplacement(itemID: StatorItem.ID) -> Number
 ```
 
 ## Аргументы
 - `itemID` (StatorItem.ID, обязательно): Идентификатор элемента статора.
 
 ## Возвращаемое значение
-`number`: Угловое смещение элемента статора в градусах.
+`Number`: Угловое смещение элемента статора в градусах.
 
 ## Пример
 ```javascript linenums="1"

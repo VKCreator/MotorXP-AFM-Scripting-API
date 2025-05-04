@@ -5,7 +5,7 @@
 
 ## Синтаксис
 ```javascript
-Geom.piece(shp: Shape, material: Material) : Piece
+Geom.piece(shp: Shape, material: Material) -> Piece
 ```
 
 ## Аргументы

@@ -5,7 +5,7 @@
 
 ## Синтаксис
 ```javascript
-Material.endturn() : EndturnMaterial
+Material.endturn() -> EndturnMaterial
 ``` 
 
 ## Аргументы

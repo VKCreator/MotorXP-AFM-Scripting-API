@@ -5,7 +5,7 @@
 
 ## Синтаксис
 ```javascript
-checkOverlapEndturns(argument: type) : returnType
+checkOverlapEndturns(argument: type) -> returnType
 ```
 
 ## Аргументы

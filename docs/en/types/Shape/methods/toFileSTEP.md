@@ -5,7 +5,7 @@
 
 ## Синтаксис
 ```javascript
-toFileStep(argument: type) : returnType
+toFileStep(argument: type) -> returnType
 ```
 
 ## Аргументы

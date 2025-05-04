@@ -5,7 +5,7 @@
 
 ## Синтаксис
 ```javascript
-Material.general() : GenetalMaterial
+Material.general() -> GenetalMaterial
 ``` 
 
 ## Аргументы

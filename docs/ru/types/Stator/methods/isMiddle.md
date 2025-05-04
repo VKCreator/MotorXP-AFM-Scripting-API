@@ -5,14 +5,14 @@
 
 ## Синтаксис
 ```javascript
-isLower(itemID: StatorItem.ID) : bool
+isLower(itemID: StatorItem.ID) -> Boolean
 ```
 
 ## Аргументы
 - `itemID` (StatorItem.ID, обязательно): Идентификатор элемента статора.
 
 ## Возвращаемое значение
-`bool`: Истина, если в моторе элемент статора средний.
+`Boolean`: Истина, если в моторе элемент статора средний.
 
 ## Пример
 ```javascript linenums="1"

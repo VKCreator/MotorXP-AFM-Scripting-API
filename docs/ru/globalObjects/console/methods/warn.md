@@ -5,7 +5,7 @@
 
 ## Синтаксис
 ``` javascript
-console.warn(message1: any, message2: any, ..., messageN: any) : undefined
+console.warn(message1: any, message2: any, ..., messageN: any) ->  undefined
 ```
 ## Аргументы
 | Аргумент | Тип      | Обязательный | Описание                                                                 |

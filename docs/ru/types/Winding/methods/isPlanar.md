@@ -5,7 +5,7 @@
 
 ## Синтаксис
 ```javascript
-isPlanar(argument: type) : returnType
+isPlanar(argument: type) -> returnType
 ```
 
 ## Аргументы

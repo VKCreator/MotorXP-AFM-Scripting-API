@@ -5,7 +5,7 @@
 
 ## Синтаксис
 ```javascript
-isOrientationUpperLower(argument: type) : returnType
+isOrientationUpperLower(argument: type) -> returnType
 ```
 
 ## Аргументы

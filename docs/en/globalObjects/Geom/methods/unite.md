@@ -5,8 +5,8 @@
 
 ## Синтаксис
 ```javascript
-Geom.unite(a: Shape, b: Shape,) : Shape
-Geom.unite(shapes: array of Shape) : Shape
+Geom.unite(a: Shape, b: Shape,) -> Shape
+Geom.unite(shapes: array of Shape) -> Shape
 ```
 
 ## Аргументы

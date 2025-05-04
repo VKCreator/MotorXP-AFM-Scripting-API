@@ -5,16 +5,23 @@
 
 ## Синтаксис
 ```javascript
-Geom.intersect(a: Shape, b: Shape,) : Shape
-Geom.intersect(shapes: array of Shape) : Shape
+Geom.intersect(a: Shape, b: Shape,) -> Shape
+Geom.intersect(shapes: array of Shape) -> Shape
 ```
 
-- `a` (Shape, обязательно): Тело 1.
-- `b` (Shape, обязательно): Тело 2.
-- `shapes` (Array of Shape, обязательно): Массив тел.
+## Аргументы
+
+| Аргумент  | Тип           | Обязательный | Описание                  |
+|-----------|---------------|--------------|---------------------------|
+| `a`       | Shape         | :white_check_mark: Да          | Тело 1.                   |
+| `b`       | Shape         | :white_check_mark: Да          | Тело 2.                   |
+| `shapes`  | Array of Shape| :white_check_mark: Да          | Массив тел для объединения. |
 
 ## Возвращаемое значение
-`Shape`: объект типа `Shape`, Объединение тел.
+
+| Тип   | Описание                          |
+|-------|-----------------------------------|
+| Shape | Объект типа `Shape`, объединение тел. |
 
 ## Пример
 ```javascript linenums="1"

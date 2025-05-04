@@ -5,7 +5,7 @@
 
 ## Синтаксис
 ```javascript
-lenght2(argument: type) : returnType
+lenght2(argument: type) -> returnType
 ```
 
 ## Аргументы

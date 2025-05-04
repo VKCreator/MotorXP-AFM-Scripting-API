@@ -5,7 +5,7 @@
 
 ## Синтаксис
 ```javascript
-isToroidal(argument: type) : returnType
+isToroidal(argument: type) -> returnType
 ```
 
 ## Аргументы

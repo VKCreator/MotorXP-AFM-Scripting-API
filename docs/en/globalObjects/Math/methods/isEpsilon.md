@@ -5,15 +5,15 @@
 
 ## Синтаксис
 ```javascript
-isEpsilon(arg : number, eps : number = Math.EPSILON) : bool
+isEpsilon(arg : Number, eps : Number = Math.EPSILON) -> Boolean
 ``` 
 
 ## Аргументы
-- `arg` (number, обязательно): значение.
-- `eps` (number, опционально): значение точности, по умолчанию равно `Math.EPSILON`.
+- `arg` (Number, обязательно): значение.
+- `eps` (Number, опционально): значение точности, по умолчанию равно `Math.EPSILON`.
 
 ## Возвращаемое значение
-`bool`: результат.
+`Boolean`: результат.
 
 ## Пример
 ``` javascript linenums="1"

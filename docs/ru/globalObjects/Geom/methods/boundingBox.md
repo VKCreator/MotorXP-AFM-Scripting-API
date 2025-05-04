@@ -5,14 +5,20 @@
 
 ## Синтаксис
 ```javascript
-Geom.boundingBox(shp: Shape) : BoundingBox
+Geom.boundingBox(shp: Shape) -> BoundingBox
 ```
 
 ## Аргументы
-- `shp` (Shape, обязательно): Тело.
+
+| Аргумент | Тип   | Обязательный | Описание           |
+|---------|-------|--------------|--------------------|
+| `shp`   | Shape | :white_check_mark: Да          | Тело.              |
 
 ## Возвращаемое значение
-`BoundingBox`: Объект типа `BoundingBox`, ограничивающая коробка тела.
+
+| Тип         | Описание                          |
+|-------------|-----------------------------------|
+| `BoundingBox` | Ограничивающая коробка тела. |
 
 ## Пример
 ```javascript linenums="1"
@@ -23,4 +29,6 @@ console.info(result)
 !!! info "См. также"
 
     [Shape](./../../../types/Shape/index.md)
+
+    [BoundingBox](./../../../types/BoundingBox/index.md)
 

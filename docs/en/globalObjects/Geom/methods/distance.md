@@ -5,7 +5,7 @@
 
 ## Синтаксис
 ```javascript
-Geom.distance(p1: Point3, p2: Point3) : number
+Geom.distance(p1: Point3, p2: Point3) -> Number
 ```
 
 ## Аргументы
@@ -13,7 +13,7 @@ Geom.distance(p1: Point3, p2: Point3) : number
 - `p2` (Point3, обязательно): Точка 2.
 
 ## Возвращаемое значение
-`number`: расстояние между двумя точками.
+`Number`: расстояние между двумя точками.
 
 ## Пример
 ```javascript linenums="1"

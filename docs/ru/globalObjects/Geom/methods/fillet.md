@@ -6,17 +6,23 @@
 
 ## Синтаксис
 ```javascript
-Geom.fillet(shp: Shape, r: number) : Shape
-Geom.fillet(shp: Shape, r: number, refs: array of Point3) : Shape
+Geom.fillet(shp: Shape, r: Number) -> Shape
+Geom.fillet(shp: Shape, r: Number, refs: array of Point3) -> Shape
 ```
 
 ## Аргументы
-- `shp` (Shape, обязательно): Тело для скругления.
-- `r` (number, обязательно): Радиус скругления.
-- `refs` (Array of Point3, обязательно): масcивом ближайших точек `refs` к ребрам/вершинам, требующих скругления.
+
+| Аргумент | Тип              | Обязательный | Описание                                                |
+|---------|------------------|--------------|---------------------------------------------------------|
+| `shp`   | Shape            | :white_check_mark: Да          | Тело для скругления.                                    |
+| `r`     | Number           | :white_check_mark: Да          | Радиус скругления.                                      |
+| `refs`  | Array of Point3  | :white_check_mark: Да          | Массив ближайших точек `refs` к ребрам или вершинам, подлежащим скруглению. |
 
 ## Возвращаемое значение
-`Shape`: объект типа `Shape`, результат операции скругления.
+
+| Тип   | Описание                              |
+|-------|---------------------------------------|
+| Shape | Объект типа `Shape`, результат операции скругления. |
 
 ## Пример
 ```javascript linenums="1"

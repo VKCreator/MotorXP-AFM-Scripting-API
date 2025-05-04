@@ -36,7 +36,7 @@ def translate_file(input_path, output_path):
     with open(output_path, 'w', encoding='utf-8') as file:
         file.write(translated_text)
 
-    print(f"\n✅ Перевод завершён. Результат сохранён в '{output_path}'")
+    print(f"\n:white_check_mark: Перевод завершён. Результат сохранён в '{output_path}'")
 
 # === Запуск ===
 if __name__ == "__main__":

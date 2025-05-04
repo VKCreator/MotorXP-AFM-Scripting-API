@@ -5,20 +5,26 @@
 
 ## Синтаксис
 ```javascript
-Geom.arc(radius: number, angle: number) : Shape
-Geom.arc(radius: number, angle1: number, angle2: number) : Shape
-Geom.arc(p1: Point3, p2: Point3, p3: Point3) : Shape
+Geom.arc(radius: Number, angle: Number) -> Shape
+Geom.arc(radius: Number, angle1: Number, angle2: Number) -> Shape
+Geom.arc(p1: Point3, p2: Point3, p3: Point3) -> Shape
 ```
 
 ## Аргументы
-- `radius` (number, обязательно): Радиус дуги.
-- `angle` (number, обязательно): Угол дуги в градусах в диапазоне [0...360], начальный угол равен 0.
-- `angle1` (number, обязательно): Начальный угол дуги в градусах в диапазоне [0...360].
-- `angle2` (number, обязательно): Конечный угол дуги в градусах в диапазоне [0...360].
-- `p1, p2, p3` (Point3, обязательно): Дуга проходящяя через три точки.
+
+| Аргумент   | Тип                  | Обязательный | Описание                                                |
+|------------|----------------------|--------------|---------------------------------------------------------|
+| `radius`   | `Number`               | :white_check_mark: Да          | Радиус дуги.                                            |
+| `angle`    | `Number`               | :white_check_mark: Да          | Угол дуги в градусах в диапазоне [0...360], начальный угол равен 0. |
+| `angle1`   | `Number`              | :white_check_mark: Да          | Начальный угол дуги в градусах в диапазоне [0...360].   |
+| `angle2`   | `Number`               | :white_check_mark: Да          | Конечный угол дуги в градусах в диапазоне [0...360].    |
+| `p1, p2, p3` | `Point3`              | :white_check_mark: Да          | Дуга, проходящая через три точки.                      |
 
 ## Возвращаемое значение
-`Shape`: объект типа Shape, дуга.
+
+| Тип   | Описание                          |
+|-------|-----------------------------------|
+| `Shape` | Объект типа Shape, дуга.          |
 
 ## Пример
 ```javascript linenums="1"
@@ -32,5 +38,8 @@ console.info(s3) // output:
 
 !!! info "См. также"
 
-    []()
+    [Point3]()
+
+    [Shape]()
+
 

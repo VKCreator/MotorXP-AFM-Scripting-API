@@ -5,7 +5,7 @@
 
 ## Синтаксис
 ```javascript
-QPushButton(argument: type) : returnType
+QPushButton(argument: type) -> returnType
 ```
 
 ## Аргументы

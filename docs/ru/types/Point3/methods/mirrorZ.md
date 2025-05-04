@@ -5,7 +5,7 @@
 
 ## Синтаксис
 ```javascript
-mirrorZ(argument: type) : returnType
+mirrorZ(argument: type) -> returnType
 ```
 
 ## Аргументы

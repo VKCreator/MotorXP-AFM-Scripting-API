@@ -5,7 +5,7 @@
 
 ## Синтаксис
 ```javascript
-createStatorTypeComboBox(argument: type) : returnType
+createStatorTypeComboBox(argument: type) -> returnType
 ```
 
 ## Аргументы

@@ -5,7 +5,7 @@
 
 ## Синтаксис
 ```javascript
-WindingTypeComboBox(argument: type) : returnType
+WindingTypeComboBox(argument: type) -> returnType
 ```
 
 ## Аргументы

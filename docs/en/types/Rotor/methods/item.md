@@ -5,7 +5,7 @@
 
 ## Синтаксис
 ```javascript
-item(itemID: RotorItem.ID) : RotorItem
+item(itemID: RotorItem.ID) -> RotorItem
 ```
 
 ## Аргументы

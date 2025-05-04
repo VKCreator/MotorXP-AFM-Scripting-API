@@ -5,7 +5,7 @@
 
 ## Синтаксис
 ```javascript
-rotate(argument: type) : returnType
+rotate(argument: type) -> returnType
 ```
 
 ## Аргументы

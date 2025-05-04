@@ -6,13 +6,13 @@
 
 ## Синтаксис
 ```javascript
-Geom.chamfer(shp: Shape, r: number) : Shape
-Geom.chamfer(shp: Shape, r: number, refs: array of Point3) : Shape
+Geom.chamfer(shp: Shape, r: Number) -> Shape
+Geom.chamfer(shp: Shape, r: Number, refs: array of Point3) -> Shape
 ```
 
 ## Аргументы
 - `shp` (Shape, обязательно): Тело для снятия фаски.
-- `r` (number, обязательно):  Расстояние, взятым от ребра до линии фаски.
+- `r` (Number, обязательно):  Расстояние, взятым от ребра до линии фаски.
 - `refs` (Array of Point3, обязательно): масcивом ближайших точек `refs` к ребрам, требующих снятия фаски.
 
 ## Возвращаемое значение

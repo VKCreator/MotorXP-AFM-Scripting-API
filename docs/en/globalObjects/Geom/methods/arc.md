@@ -5,16 +5,16 @@
 
 ## Синтаксис
 ```javascript
-Geom.arc(radius: number, angle: number) : Shape
-Geom.arc(radius: number, angle1: number, angle2: number) : Shape
-Geom.arc(p1: Point3, p2: Point3, p3: Point3) : Shape
+Geom.arc(radius: Number, angle: Number) -> Shape
+Geom.arc(radius: Number, angle1: Number, angle2: Number) -> Shape
+Geom.arc(p1: Point3, p2: Point3, p3: Point3) -> Shape
 ```
 
 ## Аргументы
-- `radius` (number, обязательно): Радиус дуги.
-- `angle` (number, обязательно): Угол дуги в градусах в диапазоне [0...360], начальный угол равен 0.
-- `angle1` (number, обязательно): Начальный угол дуги в градусах в диапазоне [0...360].
-- `angle2` (number, обязательно): Конечный угол дуги в градусах в диапазоне [0...360].
+- `radius` (Number, обязательно): Радиус дуги.
+- `angle` (Number, обязательно): Угол дуги в градусах в диапазоне [0...360], начальный угол равен 0.
+- `angle1` (Number, обязательно): Начальный угол дуги в градусах в диапазоне [0...360].
+- `angle2` (Number, обязательно): Конечный угол дуги в градусах в диапазоне [0...360].
 - `p1, p2, p3` (Point3, обязательно): Дуга проходящяя через три точки.
 
 ## Возвращаемое значение

@@ -5,13 +5,13 @@
 
 ## Синтаксис
 ```javascript
-Material.magnetParallel(angle: number = 0, segmentRadiuses: array of number = [], savePoleBorder: bool = true) : MagnetParallelMaterial
+Material.magnetParallel(angle: Number = 0, segmentRadiuses: array of Number = [], savePoleBorder: Boolean = true) -> MagnetParallelMaterial
 ``` 
 
 ## Аргументы
-- **`angle`** (string, обязательно): Угол параллельного намагничивания
-- **`segmentRadiuses`** (array of number, опционально): массив радиусов сегментов магнита
-- **`savePoleBorder`** (bool, опционально): =true - сохраняем границу между магнитами двух соседних полюсов, если =false - магнит сливается с магнитом соседнего полюса.
+- **`angle`** (String, обязательно): Угол параллельного намагничивания
+- **`segmentRadiuses`** (array of Number, опционально): массив радиусов сегментов магнита
+- **`savePoleBorder`** (Boolean, опционально): =true - сохраняем границу между магнитами двух соседних полюсов, если =false - магнит сливается с магнитом соседнего полюса.
 
 ## Возвращаемое значение
 [`MagnetParallelMaterial`](./../../../types/materials/MagnetParallelMaterial/index.md)

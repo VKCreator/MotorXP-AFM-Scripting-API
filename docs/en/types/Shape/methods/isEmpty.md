@@ -5,7 +5,7 @@
 
 ## Синтаксис
 ```javascript
-isEmpty(argument: type) : returnType
+isEmpty(argument: type) -> returnType
 ```
 
 ## Аргументы

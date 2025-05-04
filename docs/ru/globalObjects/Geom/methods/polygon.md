@@ -5,7 +5,7 @@
 
 ## Синтаксис
 ```javascript
-Geom.polygon(points: array of Point3) : Shape
+Geom.polygon(points: array of Point3) -> Shape
 ```
 
 ## Аргументы

@@ -5,16 +5,16 @@
 
 ## Синтаксис
 ```javascript
-Geom.circle(radius: number) : Shape
-Geom.circle(radius: number, angle: number) : Shape
-Geom.circle(radius: number, angle1: number, angle2: number) : Shape
+Geom.circle(radius: Number) -> Shape
+Geom.circle(radius: Number, angle: Number) -> Shape
+Geom.circle(radius: Number, angle1: Number, angle2: Number) -> Shape
 ```
 
 ## Аргументы
-- `radius` (number, обязательно): Радиус круга.
-- `angle` (number, обязательно): угол сектора круга в градусах в диапазоне [0...360], тело центрируется относительно оси OX.
-- `angle1` (number, обязательно): Начальный угол сектора круга в градусах в диапазоне [0...360].
-- `angle2` (number, обязательно): Конечный угол сектора круга в градусах в диапазоне [0...360].
+- `radius` (Number, обязательно): Радиус круга.
+- `angle` (Number, обязательно): угол сектора круга в градусах в диапазоне [0...360], тело центрируется относительно оси OX.
+- `angle1` (Number, обязательно): Начальный угол сектора круга в градусах в диапазоне [0...360].
+- `angle2` (Number, обязательно): Конечный угол сектора круга в градусах в диапазоне [0...360].
 
 ## Возвращаемое значение
 `Shape`: объект типа `Shape`, круг или сектор круга.

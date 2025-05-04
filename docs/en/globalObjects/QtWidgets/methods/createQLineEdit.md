@@ -5,7 +5,7 @@
 
 ## Синтаксис
 ```javascript
-createQLineEdit(argument: type) : returnType
+createQLineEdit(argument: type) -> returnType
 ```
 
 ## Аргументы

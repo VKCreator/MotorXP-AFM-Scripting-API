@@ -5,7 +5,7 @@
 
 ## Синтаксис
 ```javascript
-Geom.boundingBox(shp: Shape) : BoundingBox
+Geom.boundingBox(shp: Shape) -> BoundingBox
 ```
 
 ## Аргументы

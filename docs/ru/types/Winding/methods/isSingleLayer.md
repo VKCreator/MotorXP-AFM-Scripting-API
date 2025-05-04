@@ -5,7 +5,7 @@
 
 ## Синтаксис
 ```javascript
-isSingleLayer(argument: type) : returnType
+isSingleLayer(argument: type) -> returnType
 ```
 
 ## Аргументы

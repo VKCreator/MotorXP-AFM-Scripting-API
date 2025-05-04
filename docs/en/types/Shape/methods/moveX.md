@@ -5,7 +5,7 @@
 
 ## Синтаксис
 ```javascript
-moveX(argument: type) : returnType
+moveX(argument: type) -> returnType
 ```
 
 ## Аргументы

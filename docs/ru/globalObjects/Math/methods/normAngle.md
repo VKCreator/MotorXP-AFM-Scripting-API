@@ -5,7 +5,7 @@
 
 ## Синтаксис
 ```javascript
-normAngle(a: Number) -> Number
+normAngle(a: Number) ->  Number
 ``` 
 
 ## Аргументы

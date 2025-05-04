@@ -5,7 +5,7 @@
 
 ## Синтаксис
 ```javascript
-unite(argument: type) : returnType
+unite(argument: type) -> returnType
 ```
 
 ## Аргументы

@@ -5,7 +5,7 @@
 
 ## Синтаксис
 ```javascript
-volumeOverlapEndturns(argument: type) : returnType
+volumeOverlapEndturns(argument: type) -> returnType
 ```
 
 ## Аргументы

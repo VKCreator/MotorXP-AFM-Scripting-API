@@ -5,8 +5,8 @@
 
 ## Синтаксис
 ```javascript
-Geom.radiusY(point: Point3) : number
-Geom.radiusY(x: number, y: number, z: number,) : number
+Geom.radiusY(point: Point3) -> Number
+Geom.radiusY(x: Number, y: Number, z: Number,) -> Number
 ```
 
 ## Аргументы
@@ -16,7 +16,7 @@ Geom.radiusY(x: number, y: number, z: number,) : number
 - `z` (z, обязательно): z координата точки.
 
 ## Возвращаемое значение
-`number`: Радиус точки.
+`Number`: Радиус точки.
 
 ## Пример
 ```javascript linenums="1"

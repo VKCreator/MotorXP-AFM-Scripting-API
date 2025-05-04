@@ -5,7 +5,7 @@
 
 ## Синтаксис
 ```javascript
-include(path: String) -> undefined
+include(path: String) ->  undefined
 ``` 
 
 ## Аргументы

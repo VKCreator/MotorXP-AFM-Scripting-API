@@ -5,7 +5,7 @@
 
 ## Синтаксис
 ```javascript
-WindingLayersOrientationComboBox(argument: type) : returnType
+WindingLayersOrientationComboBox(argument: type) -> returnType
 ```
 
 ## Аргументы

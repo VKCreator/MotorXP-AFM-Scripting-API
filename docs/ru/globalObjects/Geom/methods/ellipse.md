@@ -5,18 +5,24 @@
 
 ## Синтаксис
 ```javascript
-Geom.ellipse(radius1: number, radius2: number) : Shape
-Geom.ellipse(radius1: number, radius2: number, angle1: number, angle2: number) : Shape
+Geom.ellipse(radius1: Number, radius2: Number) -> Shape
+Geom.ellipse(radius1: Number, radius2: Number, angle1: Number, angle2: Number) -> Shape
 ```
 
 ## Аргументы
-- `radius1` (number, обязательно): Радиус 1 эллипса.
-- `radius2` (number, обязательно): Радиус 2 эллипса.
-- `angle1` (number, обязательно): Начальный угол сектора эллипса в градусах в диапазоне [0...360].
-- `angle2` (number, обязательно): Конечный угол сектора эллипса в градусах в диапазоне [0...360].
+
+| Аргумент   | Тип    | Обязательный | Описание                                      |
+|------------|--------|--------------|-----------------------------------------------|
+| `radius1`  | Number | :white_check_mark: Да          | Первый радиус эллипса.                        |
+| `radius2`  | Number | :white_check_mark: Да          | Второй радиус эллипса.                        |
+| `angle1`   | Number | :white_check_mark: Да          | Начальный угол сектора эллипса в градусах в диапазоне [0...360]. |
+| `angle2`   | Number | :white_check_mark: Да          | Конечный угол сектора эллипса в градусах в диапазоне [0...360]. |
 
 ## Возвращаемое значение
-`Shape`: объект типа `Shape`, эллипс или сектор эллипса.
+
+| Тип   | Описание                              |
+|-------|---------------------------------------|
+| Shape | Объект типа `Shape`, эллипс или сектор эллипса. |
 
 ## Пример
 ```javascript linenums="1"

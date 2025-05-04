@@ -5,7 +5,7 @@
 
 ## Синтаксис
 ```javascript
-QGroupBox(argument: type) : returnType
+QGroupBox(argument: type) -> returnType
 ```
 
 ## Аргументы

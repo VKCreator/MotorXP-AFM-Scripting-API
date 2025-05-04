@@ -5,7 +5,7 @@
 
 ## Синтаксис
 ```javascript
-createQWidget(argument: type) : returnType
+createQWidget(argument: type) -> returnType
 ```
 
 ## Аргументы

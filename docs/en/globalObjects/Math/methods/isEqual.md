@@ -5,16 +5,16 @@
 
 ## Синтаксис
 ```javascript
-isEqual(arg1 : number, arg2 : number, eps : number = Math.EPSILON) : bool
+isEqual(arg1 : Number, arg2 : Number, eps : Number = Math.EPSILON) -> Boolean
 ``` 
 
 ## Аргументы
-- `arg1` (number, обязательно): первое значение.
-- `arg2` (number, обязательно): второе значение.
-- `eps` (number, опционально): значение точности, по умолчанию равно `Math.EPSILON`.
+- `arg1` (Number, обязательно): первое значение.
+- `arg2` (Number, обязательно): второе значение.
+- `eps` (Number, опционально): значение точности, по умолчанию равно `Math.EPSILON`.
 
 ## Возвращаемое значение
-`bool`: результат.
+`Boolean`: результат.
 
 ## Пример
 ``` javascript linenums="1"

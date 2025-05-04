@@ -5,8 +5,8 @@
 
 ## Синтаксис
 ```javascript
-Geom.diff(a: Shape, b: Shape,) : Shape
-Geom.diff(shapes: array of Shape) : Shape
+Geom.diff(a: Shape, b: Shape,) -> Shape
+Geom.diff(shapes: array of Shape) -> Shape
 ```
 
 - `a` (Shape, обязательно): Тело 1.

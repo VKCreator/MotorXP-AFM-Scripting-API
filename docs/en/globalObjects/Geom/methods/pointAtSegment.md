@@ -5,13 +5,13 @@
 
 ## Синтаксис
 ```javascript
-Geom.pointAtSegment(p1: Point3, p2: Point3, t : number) : Point3
+Geom.pointAtSegment(p1: Point3, p2: Point3, t : Number) -> Point3
 ```
 
 ## Аргументы
 - `p1` (Point3, обязательно): Первая точка сегмента.
 - `p2` (Point3, обязательно): Вторая точка сегмента.
-- `t` (number, обязательно): Параметризованная позиция сегмента.
+- `t` (Number, обязательно): Параметризованная позиция сегмента.
 
 ## Возвращаемое значение
 `Point3`: Возвращает точку `Point3`

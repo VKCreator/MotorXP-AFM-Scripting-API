@@ -5,7 +5,7 @@
 
 ## Синтаксис
 ```javascript
-isLessEqual(arg1: Number, arg2: Number, eps: Number = Math.EPSILON) -> Boolean
+isLessEqual(arg1: Number, arg2: Number, eps: Number = Math.EPSILON) ->  Boolean
 ``` 
 
 ## Аргументы

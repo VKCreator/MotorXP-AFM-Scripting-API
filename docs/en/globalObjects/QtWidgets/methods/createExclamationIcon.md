@@ -5,7 +5,7 @@
 
 ## Синтаксис
 ```javascript
-createExclamationIcon(argument: type) : returnType
+createExclamationIcon(argument: type) -> returnType
 ```
 
 ## Аргументы

@@ -5,7 +5,7 @@
  
 ## Синтаксис
 ``` javascript
-require(path: String) -> Object
+require(path: String) ->  Object
 ``` 
 
 ## Аргументы

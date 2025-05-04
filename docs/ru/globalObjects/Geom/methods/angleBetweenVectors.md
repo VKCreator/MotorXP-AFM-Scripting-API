@@ -5,19 +5,28 @@
 
 ## Синтаксис
 ```javascript
-Geom.angleBetweenVectors(v1: Vector3, v2: Vector3) : number
+Geom.angleBetweenVectors(v1: Vector3, v2: Vector3) ->  Number
 ```
 
 ## Аргументы
-- `v1` (Vector3, обязательно): вектор 1.
-- `v2` (Vector3, обязательно): вектор 2.
+
+| Аргумент | Тип      | Обязательный | Описание        |
+|---------|----------|--------------|-----------------|
+| `v1`    | [`Vector3`]()  | :white_check_mark: Да          | Вектор 1.        |
+| `v2`    | [`Vector3`]()  | :white_check_mark: Да          | Вектор 2.        |
 
 ## Возвращаемое значение
-`number`: угол между векторами в градусах.
+
+| Тип     | Описание                                  |
+|---------|-------------------------------------------|
+| `Number`  | Угол между векторами в градусах.           |
 
 ## Пример
 ```javascript linenums="1"
-let angle = Geom.angleBetweenVectors(Geom.vetor3(10,10,10), Geom.vetor3(30,30,30))
+let v1 = Geom.vector3(10,10,10)
+let v2 = Geom.vector3(30,30,30)
+let angle = Geom.angleBetweenVectors(v1, v2)
+
 console.info(angle) // output:
 ```
 

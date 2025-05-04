@@ -5,7 +5,7 @@
 
 ## Синтаксис
 ```javascript
-angle(argument: type) : returnType
+angle(argument: type) -> returnType
 ```
 
 ## Аргументы

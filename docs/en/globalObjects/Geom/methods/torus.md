@@ -1,23 +1,23 @@
 # Geom.torus()
 
 ## Описание
-3D примитив(объемный) : тор, строится относительно точки [0,0,0].
+3D примитив(объемный) -> тор, строится относительно точки [0,0,0].
 
 ## Синтаксис
 ```javascript
-Geom.torus(r1: number) : Shape
-Geom.torus(r1: number, r2: number) : Shape
-Geom.torus(r1: number, r2: number, ua: number) : Shape
-Geom.torus(r1: number, r2: number, va1: number, va2: number) : Shape
-Geom.torus(r1: number, r2: number, va1: number, va2: number, ua: number) : Shape
+Geom.torus(r1: Number) -> Shape
+Geom.torus(r1: Number, r2: Number) -> Shape
+Geom.torus(r1: Number, r2: Number, ua: Number) -> Shape
+Geom.torus(r1: Number, r2: Number, va1: Number, va2: Number) -> Shape
+Geom.torus(r1: Number, r2: Number, va1: Number, va2: Number, ua: Number) -> Shape
 ```
 
 ## Аргументы
-- `r1` (number, обязательно):
-- `r2` (number, обязательно):
-- `ua` (number, обязательно):
-- `va1` (number, обязательно):
-- `va2` (number, обязательно):
+- `r1` (Number, обязательно):
+- `r2` (Number, обязательно):
+- `ua` (Number, обязательно):
+- `va1` (Number, обязательно):
+- `va2` (Number, обязательно):
 
 ## Возвращаемое значение
 `Shape`: объект типа `Shape`, тор.

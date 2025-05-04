@@ -5,7 +5,7 @@
 
 ## Синтаксис
 ```javascript
-Material.custom(color : Qt.color = Qt.red) : CustomMaterial
+Material.custom(color : Qt.color = Qt.red) -> CustomMaterial
 ``` 
 
 ## Аргументы

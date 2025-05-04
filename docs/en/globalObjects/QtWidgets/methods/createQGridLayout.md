@@ -5,7 +5,7 @@
 
 ## Синтаксис
 ```javascript
-createQGridLayout(argument: type) : returnType
+createQGridLayout(argument: type) -> returnType
 ```
 
 ## Аргументы

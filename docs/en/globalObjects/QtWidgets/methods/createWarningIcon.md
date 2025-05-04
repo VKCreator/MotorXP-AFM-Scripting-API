@@ -5,7 +5,7 @@
 
 ## Синтаксис
 ```javascript
-createWarningIcon(argument: type) : returnType
+createWarningIcon(argument: type) -> returnType
 ```
 
 ## Аргументы

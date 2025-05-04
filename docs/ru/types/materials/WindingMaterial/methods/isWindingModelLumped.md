@@ -5,7 +5,7 @@
 
 ## Синтаксис
 ```javascript
-isWindingModelLumped(argument: type) : returnType
+isWindingModelLumped(argument: type) -> returnType
 ```
 
 ## Аргументы

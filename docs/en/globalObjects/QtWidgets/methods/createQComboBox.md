@@ -5,7 +5,7 @@
 
 ## Синтаксис
 ```javascript
-createQComboBox(argument: type) : returnType
+createQComboBox(argument: type) -> returnType
 ```
 
 ## Аргументы

@@ -5,7 +5,7 @@
 
 ## Синтаксис
 ```javascript
-createRotorTypeComboBox(argument: type) : returnType
+createRotorTypeComboBox(argument: type) -> returnType
 ```
 
 ## Аргументы

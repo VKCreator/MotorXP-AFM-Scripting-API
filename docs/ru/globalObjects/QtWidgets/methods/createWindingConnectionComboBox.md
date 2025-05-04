@@ -5,7 +5,7 @@
 
 ## Синтаксис
 ```javascript
-createWindingConnectionComboBox(argument: type) : returnType
+createWindingConnectionComboBox(argument: type) -> returnType
 ```
 
 ## Аргументы

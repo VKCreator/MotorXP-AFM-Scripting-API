@@ -5,15 +5,15 @@
 
 ## Синтаксис
 ```javascript
-Geom.vector3(x: number, y: number, z: number) : Vector3
-Geom.vector3(p: Point3) : Vector3
-Geom.vector3(p1: Point3, p2: Point3) : Vector3
+Geom.vector3(x: Number, y: Number, z: Number) -> Vector3
+Geom.vector3(p: Point3) -> Vector3
+Geom.vector3(p1: Point3, p2: Point3) -> Vector3
 ```
 
 ## Аргументы
-- `x` (number, обязательно): x координата точки.
-- `y` (number, обязательно): y координата точки.
-- `z` (number, обязательно): z координата точки.
+- `x` (Number, обязательно): x координата точки.
+- `y` (Number, обязательно): y координата точки.
+- `z` (Number, обязательно): z координата точки.
 - `p` (Point3, обязательно): Точка.
 - `p1` (Point3, обязательно): Начальная точка.
 - `p2` (Point3, обязательно): Конечная точка.

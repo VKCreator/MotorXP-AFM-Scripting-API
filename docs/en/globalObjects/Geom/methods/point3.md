@@ -5,14 +5,14 @@
 
 ## Синтаксис
 ```javascript
-Geom.point3(x: number, y: number, z: number) : Point3
-Geom.point3(p: QPointF, z: number) : Point3
+Geom.point3(x: Number, y: Number, z: Number) -> Point3
+Geom.point3(p: QPointF, z: Number) -> Point3
 ```
 
 ## Аргументы
-- `x` (number, обязятельно): `x` координата точки.
-- `y` (number, обязятельно): `y` координата точки.
-- `z` (number, обязятельно): `z` координата точки.
+- `x` (Number, обязятельно): `x` координата точки.
+- `y` (Number, обязятельно): `y` координата точки.
+- `z` (Number, обязятельно): `z` координата точки.
 - `p` (QPointF, обязятельно): Точка с координатами [x,y].
 
 ## Возвращаемое значение

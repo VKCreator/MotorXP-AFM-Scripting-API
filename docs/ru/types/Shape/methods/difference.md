@@ -5,7 +5,7 @@
 
 ## Синтаксис
 ```javascript
-difference(argument: type) : returnType
+difference(argument: type) -> returnType
 ```
 
 ## Аргументы

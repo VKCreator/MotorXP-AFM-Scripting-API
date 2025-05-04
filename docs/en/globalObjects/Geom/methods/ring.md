@@ -5,17 +5,17 @@
 
 ## Синтаксис
 ```javascript
-Geom.ring(radius1: number, radius2: number) : Shape
-Geom.ring(radius1: number, radius2: number, angle: number) : Shape
-Geom.ring(radius1: number, radius2: number, angle1: number, angle2: number) : Shape
+Geom.ring(radius1: Number, radius2: Number) -> Shape
+Geom.ring(radius1: Number, radius2: Number, angle: Number) -> Shape
+Geom.ring(radius1: Number, radius2: Number, angle1: Number, angle2: Number) -> Shape
 ```
 
 ## Аргументы
-- `radius1` (number, обязательно): Наружний радиус кольца.
-- `radius2` (number, обязательно): Внутренний радиус кольца.
-- `angle` (number, обязательно): угол сектора кольца в градусах в диапазоне [0...360], тело центрируется относительно оси OX.
-- `angle1` (number, обязательно): Начальный угол сектора кольца в градусах в диапазоне [0...360].
-- `angle2` (number, обязательно): Конечный угол сектора кольца в градусах в диапазоне [0...360].
+- `radius1` (Number, обязательно): Наружний радиус кольца.
+- `radius2` (Number, обязательно): Внутренний радиус кольца.
+- `angle` (Number, обязательно): угол сектора кольца в градусах в диапазоне [0...360], тело центрируется относительно оси OX.
+- `angle1` (Number, обязательно): Начальный угол сектора кольца в градусах в диапазоне [0...360].
+- `angle2` (Number, обязательно): Конечный угол сектора кольца в градусах в диапазоне [0...360].
 
 ## Возвращаемое значение
 `Shape`: объект типа `Shape`, кольцо или сектор кольца.

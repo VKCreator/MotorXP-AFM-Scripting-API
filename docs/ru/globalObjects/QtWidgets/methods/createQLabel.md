@@ -5,7 +5,7 @@
 
 ## Синтаксис
 ```javascript
-createQLabel(argument: type) : returnType
+createQLabel(argument: type) -> returnType
 ```
 
 ## Аргументы

@@ -5,7 +5,7 @@
 
 ## Синтаксис
 ```javascript
-Geom.angleBetweenVectors(v1: Vector3, v2: Vector3) : number
+Geom.angleBetweenVectors(v1: Vector3, v2: Vector3) -> Number
 ```
 
 ## Аргументы
@@ -13,7 +13,7 @@ Geom.angleBetweenVectors(v1: Vector3, v2: Vector3) : number
 - `v2` (Vector3, обязательно): вектор 2.
 
 ## Возвращаемое значение
-`number`: угол между векторами в градусах.
+`Number`: угол между векторами в градусах.
 
 ## Пример
 ```javascript linenums="1"

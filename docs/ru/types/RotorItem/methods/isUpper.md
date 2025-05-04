@@ -5,7 +5,7 @@
 
 ## Синтаксис
 ```javascript
-isUpper(argument: type) : returnType
+isUpper(argument: type) -> returnType
 ```
 
 ## Аргументы

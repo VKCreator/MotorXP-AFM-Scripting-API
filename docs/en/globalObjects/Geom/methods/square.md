@@ -5,11 +5,11 @@
 
 ## Синтаксис
 ```javascript
-Geom.square(a: number) : Shape
+Geom.square(a: Number) -> Shape
 ```
 
 ## Аргументы
-- `a` (number, обязательно): Сторона квадрата.
+- `a` (Number, обязательно): Сторона квадрата.
 
 ## Возвращаемое значение
 `Shape`: объект типа `Shape`, Квадрат.

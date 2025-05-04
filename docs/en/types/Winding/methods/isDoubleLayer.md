@@ -5,7 +5,7 @@
 
 ## Синтаксис
 ```javascript
-isDoubleLayer(argument: type) : returnType
+isDoubleLayer(argument: type) -> returnType
 ```
 
 ## Аргументы

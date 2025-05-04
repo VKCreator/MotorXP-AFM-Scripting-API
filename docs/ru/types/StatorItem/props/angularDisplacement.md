@@ -35,7 +35,7 @@ console.info(result)
 
 ## Синтаксис
 ```javascript
-angularDisplacement(argument: type) : returnType
+angularDisplacement(argument: type) -> returnType
 ```
 
 ## Аргументы

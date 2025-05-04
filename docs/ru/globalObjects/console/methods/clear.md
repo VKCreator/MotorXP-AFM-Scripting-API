@@ -5,7 +5,7 @@
 
 ## Синтаксис
 ``` javascript
-console.clear() : undefined
+console.clear() ->  undefined
 ```
 
 ## Аргументы

@@ -5,7 +5,7 @@
 
 ## Синтаксис
 ```javascript
-QFormLayout(argument: type) : returnType
+QFormLayout(argument: type) -> returnType
 ```
 
 ## Аргументы

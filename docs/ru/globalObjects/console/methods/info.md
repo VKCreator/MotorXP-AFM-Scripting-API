@@ -5,7 +5,7 @@
 
 ## Синтаксис
 ``` javascript
-console.info(message1: any, message2: any, ..., messageN: any) : undefined
+console.info(message1: any, message2: any, ..., messageN: any) ->  undefined
 ```
 
 ## Аргументы

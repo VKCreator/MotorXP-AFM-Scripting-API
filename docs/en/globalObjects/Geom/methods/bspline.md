@@ -5,12 +5,12 @@ B-spline - 3D плавная линия, проходящая через все 
 
 ## Синтаксис
 ```javascript
-Geom.bspline(points: array of Point3, closed: bool = false) : Shape
+Geom.bspline(points: array of Point3, closed: Boolean = false) -> Shape
 ```
 
 ## Аргументы
 - `points` (array of Point3, обязательно): Массив точек плавной кривой.
-- `closed` (bool, опционально): Установка флага `closed` создает замкнутую плавную кривую.
+- `closed` (Boolean, опционально): Установка флага `closed` создает замкнутую плавную кривую.
 
 ## Возвращаемое значение
 `Shape`: объект типа `Shape`, B-spline.

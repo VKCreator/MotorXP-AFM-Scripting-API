@@ -5,7 +5,7 @@
 
 ## Синтаксис
 ```javascript
-Material.conductor() : ConductorMaterial
+Material.conductor() -> ConductorMaterial
 ``` 
 
 ## Аргументы

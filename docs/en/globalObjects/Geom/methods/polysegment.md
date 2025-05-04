@@ -5,12 +5,12 @@
 
 ## Синтаксис
 ```javascript
-Geom.polysegment(points: array of Point3, closed: bool = false) : Shape
+Geom.polysegment(points: array of Point3, closed: Boolean = false) -> Shape
 ```
 
 ## Аргументы
 - `points` (array of Point3, обязательно): Массив точек полилинии.
-- `closed` (bool, опционально): Установка флага `closed` создает замкнутую полилинию, добавляет сегмент полилинии, идущий от точки конца к точке начала.
+- `closed` (Boolean, опционально): Установка флага `closed` создает замкнутую полилинию, добавляет сегмент полилинии, идущий от точки конца к точке начала.
 
 ## Возвращаемое значение
 `Shape`: объект типа `Shape`, полилиния.

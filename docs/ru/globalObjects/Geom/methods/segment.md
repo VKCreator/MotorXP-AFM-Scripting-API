@@ -5,7 +5,7 @@
 
 ## Синтаксис
 ```javascript
-Geom.segment(argument: type) : Shape
+Geom.segment(argument: type) -> Shape
 ```
 
 ## Аргументы

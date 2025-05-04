@@ -5,7 +5,7 @@
 
 ## Синтаксис
 ```javascript
-Geom.angle(x: Number, y: Number) : Number
+Geom.angle(x: Number, y: Number) -> Number
 ```
 
 ## Аргументы

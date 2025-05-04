@@ -5,7 +5,7 @@
 
 ## Синтаксис
 ```javascript
-extrudeX(argument: type) : returnType
+extrudeX(argument: type) -> returnType
 ```
 
 ## Аргументы

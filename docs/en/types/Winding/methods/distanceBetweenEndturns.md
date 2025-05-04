@@ -5,7 +5,7 @@
 
 ## Синтаксис
 ```javascript
-distanceBetweenEndturns(argument: type) : returnType
+distanceBetweenEndturns(argument: type) -> returnType
 ```
 
 ## Аргументы

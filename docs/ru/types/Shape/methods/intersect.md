@@ -5,7 +5,7 @@
 
 ## Синтаксис
 ```javascript
-intersect(argument: type) : returnType
+intersect(argument: type) -> returnType
 ```
 
 ## Аргументы

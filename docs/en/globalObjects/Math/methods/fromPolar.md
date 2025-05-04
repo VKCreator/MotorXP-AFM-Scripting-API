@@ -5,12 +5,12 @@
 
 ## Синтаксис
 ```javascript
-fromPolar(radius : number, angle : number) : Point
+fromPolar(radius : Number, angle : Number) -> Point
 ``` 
 
 ## Аргументы
-- `radius` (number, обязательно): радиус.
-- `angle` (number, обязательно): угол в градусах.
+- `radius` (Number, обязательно): радиус.
+- `angle` (Number, обязательно): угол в градусах.
 
 ## Возвращаемое значение
 `Point`: точка в декартовых координатах.

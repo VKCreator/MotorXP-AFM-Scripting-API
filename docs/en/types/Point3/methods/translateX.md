@@ -5,7 +5,7 @@
 
 ## Синтаксис
 ```javascript
-translateX(argument: type) : returnType
+translateX(argument: type) -> returnType
 ```
 
 ## Аргументы

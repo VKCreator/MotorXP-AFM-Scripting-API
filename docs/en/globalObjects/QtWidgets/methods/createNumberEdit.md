@@ -5,7 +5,7 @@
 
 ## Синтаксис
 ```javascript
-createNumberEdit(argument: type) : returnType
+createNumberEdit(argument: type) -> returnType
 ```
 
 ## Аргументы

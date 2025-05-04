@@ -1,21 +1,21 @@
 # Geom.sphere()
 
 ## Описание
-3D примитив(объемный) : сфера, строится относительно точки [0,0,0].
+3D примитив(объемный) -> сфера, строится относительно точки [0,0,0].
 
 ## Синтаксис
 ```javascript
-Geom.sphere(r: number) : Shape
-Geom.sphere(r: number, an1: number) : Shape
-Geom.sphere(r: number, an1: number, an2: number) : Shape
-Geom.sphere(r: number, an1: number, an2: number, an3: number) : Shape
+Geom.sphere(r: Number) -> Shape
+Geom.sphere(r: Number, an1: Number) -> Shape
+Geom.sphere(r: Number, an1: Number, an2: Number) -> Shape
+Geom.sphere(r: Number, an1: Number, an2: Number, an3: Number) -> Shape
 ```
 
 ## Аргументы
-- `r` (number, обязательно): Радиус сферы.
-- `an1` (number, обязательно):
-- `an2` (number, обязательно):
-- `an3` (number, обязательно):
+- `r` (Number, обязательно): Радиус сферы.
+- `an1` (Number, обязательно):
+- `an2` (Number, обязательно):
+- `an3` (Number, обязательно):
 
 ## Возвращаемое значение
 `Shape`: объект типа `Shape`, Сфера.

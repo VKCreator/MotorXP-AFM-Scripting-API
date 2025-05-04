@@ -5,7 +5,7 @@
 
 ## Синтаксис
 ```javascript
-isGreatEqual(arg1: Number, arg2: Number, eps: Number = Math.EPSILON) -> Boolean
+isGreatEqual(arg1: Number, arg2: Number, eps: Number = Math.EPSILON) ->  Boolean
 ``` 
 
 ## Аргументы

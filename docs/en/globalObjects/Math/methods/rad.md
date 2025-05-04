@@ -5,14 +5,14 @@
 
 ## Синтаксис
 ```javascript
-rad(degrees : number): number
+rad(degrees : Number): Number
 ``` 
 
 ## Аргументы
-`degrees` (number, обязательно): значение угла в градусах.
+`degrees` (Number, обязательно): значение угла в градусах.
 
 ## Возвращаемое значение
-`number`: значение угла в радианах.
+`Number`: значение угла в радианах.
 
 ## Пример
 ``` javascript linenums="1"

@@ -5,7 +5,7 @@
 
 ## Синтаксис
 ```javascript
-isMiddle(argument: type) : returnType
+isMiddle(argument: type) -> returnType
 ```
 
 ## Аргументы

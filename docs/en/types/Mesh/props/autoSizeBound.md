@@ -7,7 +7,7 @@ The `autoSizeBound` property...
 ...
 
 ## Тип значения свойства
-`bool`
+`Boolean`
 
 ## Доступ
 `Чтение\Запись`

@@ -5,7 +5,7 @@
 
 ## Синтаксис
 ```javascript
-unify(argument: type) : returnType
+unify(argument: type) -> returnType
 ```
 
 ## Аргументы

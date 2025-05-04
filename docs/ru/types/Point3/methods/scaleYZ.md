@@ -5,7 +5,7 @@
 
 ## Синтаксис
 ```javascript
-scaleYZ(argument: type) : returnType
+scaleYZ(argument: type) -> returnType
 ```
 
 ## Аргументы

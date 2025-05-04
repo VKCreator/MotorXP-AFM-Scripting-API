@@ -82,7 +82,7 @@ def create_files(file_paths):
                 file.write("## Описание\n")
                 file.write("Описание метода.\n\n")
                 file.write("## Синтаксис\n")
-                file.write(f"```javascript\n{file_name}(argument: type) : returnType\n```\n\n")
+                file.write(f"```javascript\n{file_name}(argument: type) -> returnType\n```\n\n")
                 file.write("## Аргументы\n")
                 file.write("- `argument` (type, обязательно): описание аргумента.\n\n")
                 file.write("## Возвращаемое значение\n")

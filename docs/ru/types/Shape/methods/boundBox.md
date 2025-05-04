@@ -5,7 +5,7 @@
 
 ## Синтаксис
 ```javascript
-boundBox(argument: type) : returnType
+boundBox(argument: type) -> returnType
 ```
 
 ## Аргументы

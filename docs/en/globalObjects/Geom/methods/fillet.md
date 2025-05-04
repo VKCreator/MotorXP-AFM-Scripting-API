@@ -6,13 +6,13 @@
 
 ## Синтаксис
 ```javascript
-Geom.fillet(shp: Shape, r: number) : Shape
-Geom.fillet(shp: Shape, r: number, refs: array of Point3) : Shape
+Geom.fillet(shp: Shape, r: Number) -> Shape
+Geom.fillet(shp: Shape, r: Number, refs: array of Point3) -> Shape
 ```
 
 ## Аргументы
 - `shp` (Shape, обязательно): Тело для скругления.
-- `r` (number, обязательно): Радиус скругления.
+- `r` (Number, обязательно): Радиус скругления.
 - `refs` (Array of Point3, обязательно): масcивом ближайших точек `refs` к ребрам/вершинам, требующих скругления.
 
 ## Возвращаемое значение

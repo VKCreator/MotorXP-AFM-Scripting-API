@@ -5,7 +5,7 @@
 
 ## Синтаксис
 ```javascript
-Geom.unify(shp: Shape) : Shape
+Geom.unify(shp: Shape) -> Shape
 ```
 
 ## Аргументы

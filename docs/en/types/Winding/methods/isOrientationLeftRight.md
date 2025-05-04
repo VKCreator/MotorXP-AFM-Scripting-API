@@ -5,7 +5,7 @@
 
 ## Синтаксис
 ```javascript
-isOrientationLeftRight(argument: type) : returnType
+isOrientationLeftRight(argument: type) -> returnType
 ```
 
 ## Аргументы

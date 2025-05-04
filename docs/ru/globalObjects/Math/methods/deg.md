@@ -5,7 +5,7 @@
 
 ## Синтаксис
 ```javascript
-deg(radians: Number) -> Number
+deg(radians: Number) ->  Number
 ``` 
 
 ## Аргументы

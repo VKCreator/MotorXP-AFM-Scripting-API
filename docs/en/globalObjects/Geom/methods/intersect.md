@@ -5,8 +5,8 @@
 
 ## Синтаксис
 ```javascript
-Geom.intersect(a: Shape, b: Shape,) : Shape
-Geom.intersect(shapes: array of Shape) : Shape
+Geom.intersect(a: Shape, b: Shape,) -> Shape
+Geom.intersect(shapes: array of Shape) -> Shape
 ```
 
 - `a` (Shape, обязательно): Тело 1.

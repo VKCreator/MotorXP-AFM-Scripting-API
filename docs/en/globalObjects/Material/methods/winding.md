@@ -5,13 +5,13 @@
 
 ## Синтаксис
 ```javascript
-Material.winding(layer : number = Winding.LayerAuto, turn : number = 0, strand : number = 0) : WindingMaterial
+Material.winding(layer : Number = Winding.LayerAuto, turn : Number = 0, strand : Number = 0) -> WindingMaterial
 ``` 
 
 ## Аргументы
-- **`layer`** (number, опционально): Номер слоя, одно из значений `Winding.LayerAuto` | `Winding.LayerSingle` | `Winding.LayerDouble`.
-- **`turn`** (number, опционально): Номер витка.
-- **`strand`** (number, опционально): Номер провода в витке.
+- **`layer`** (Number, опционально): Номер слоя, одно из значений `Winding.LayerAuto` | `Winding.LayerSingle` | `Winding.LayerDouble`.
+- **`turn`** (Number, опционально): Номер витка.
+- **`strand`** (Number, опционально): Номер провода в витке.
 
 ## Возвращаемое значение
 [`WindingMaterial`](./../../../types/materials/WindingMaterial/index.md)

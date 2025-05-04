@@ -5,7 +5,7 @@
 
 ## Синтаксис
 ```javascript
-createWindingLayersComboBox(argument: type) : returnType
+createWindingLayersComboBox(argument: type) -> returnType
 ```
 
 ## Аргументы

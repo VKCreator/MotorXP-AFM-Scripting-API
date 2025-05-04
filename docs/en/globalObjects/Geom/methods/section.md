@@ -5,7 +5,7 @@
 
 ## Синтаксис
 ```javascript
-Geom.section(a: Shape, b: Shape) : Shape
+Geom.section(a: Shape, b: Shape) -> Shape
 ```
 
 ## Аргументы

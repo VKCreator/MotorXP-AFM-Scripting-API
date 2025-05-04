@@ -5,16 +5,16 @@
 
 ## Синтаксис
 ```javascript
-middleAngle(a1 : number, a2 : number, dir = [Direction.CW | Direction.CCW]) : number
+middleAngle(a1 : Number, a2 : Number, dir = [Direction.CW | Direction.CCW]) -> Number
 ``` 
 
 ## Аргументы
-- `a1` (number, обязательно): первый угол.
-- `a2` (number, обязательно): второй угол.
-- `dir` (number, обязательно): направление обхода, одно из констант `Direction.CW` | `Direction.CCW`.
+- `a1` (Number, обязательно): первый угол.
+- `a2` (Number, обязательно): второй угол.
+- `dir` (Number, обязательно): направление обхода, одно из констант `Direction.CW` | `Direction.CCW`.
 
 ## Возвращаемое значение
-`number`: средний угол.
+`Number`: средний угол.
 
 ## Пример
 ``` javascript linenums="1"

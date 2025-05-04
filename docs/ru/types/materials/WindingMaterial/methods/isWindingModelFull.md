@@ -5,7 +5,7 @@
 
 ## Синтаксис
 ```javascript
-isWindingModelFull(argument: type) : returnType
+isWindingModelFull(argument: type) -> returnType
 ```
 
 ## Аргументы

@@ -5,7 +5,7 @@
 
 ## Синтаксис
 ```javascript
-mirrorY(argument: type) : returnType
+mirrorY(argument: type) -> returnType
 ```
 
 ## Аргументы

@@ -5,7 +5,7 @@
 
 ## Синтаксис
 ```javascript
-distance(argument: type) : returnType
+distance(argument: type) -> returnType
 ```
 
 ## Аргументы

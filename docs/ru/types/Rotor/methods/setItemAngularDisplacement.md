@@ -5,12 +5,12 @@
 
 ## Синтаксис
 ```javascript
-setItemAngularDisplacement(itemID: StatorItem.ID, angle: number)
+setItemAngularDisplacement(itemID: StatorItem.ID, angle: Number)
 ```
 
 ## Аргументы
 - `itemID` (StatorItem.ID, обязательно): Идентификатор элемента статора.
-- `angle` (number, обязательно): Угловое смещение элемента статора.
+- `angle` (Number, обязательно): Угловое смещение элемента статора.
 
 ## Возвращаемое значение
 `undefine`

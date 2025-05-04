@@ -5,11 +5,11 @@
 
 ## Синтаксис
 ```javascript
-toFileSTEP(pathFile: string)
+toFileSTEP(pathFile: String)
 ```
 
 ## Аргументы
-- `pathFile` (string, обязательно): 
+- `pathFile` (String, обязательно): 
 
 ## Возвращаемое значение
     Ничего не возвлащает

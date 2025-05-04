@@ -5,16 +5,16 @@
 
 ## Синтаксис
 ```javascript
-isLessEqual(arg1 : number, arg2 : number, eps : number = Math.EPSILON) : number
+isLessEqual(arg1 : Number, arg2 : Number, eps : Number = Math.EPSILON) -> Number
 ``` 
 
 ## Аргументы
-- `arg1` (number, обязательно): значение 1.
-- `arg2` (number, обязательно): начение 2.
-- `eps` (number, опционально): значение точности, по умолчанию равно `Math.EPSILON`.
+- `arg1` (Number, обязательно): значение 1.
+- `arg2` (Number, обязательно): начение 2.
+- `eps` (Number, опционально): значение точности, по умолчанию равно `Math.EPSILON`.
 
 ## Возвращаемое значение
-`bool`: результат сравнения.
+`Boolean`: результат сравнения.
 
 ## Пример
 ``` javascript linenums="1"

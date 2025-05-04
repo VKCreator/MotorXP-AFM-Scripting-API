@@ -5,7 +5,7 @@
 
 ## Синтаксис
 ```javascript
-NumberSlotSpinBox(argument: type) : returnType
+NumberSlotSpinBox(argument: type) -> returnType
 ```
 
 ## Аргументы

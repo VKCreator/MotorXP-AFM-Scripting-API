@@ -5,7 +5,7 @@
 
 ## Синтаксис
 ```javascript
-isEqual(arg1: Number, arg2: Number, eps: Number = Math.EPSILON) -> Boolean
+isEqual(arg1: Number, arg2: Number, eps: Number = Math.EPSILON) ->  Boolean
 ``` 
 
 ## Аргументы

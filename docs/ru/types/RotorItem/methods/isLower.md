@@ -5,7 +5,7 @@
 
 ## Синтаксис
 ```javascript
-isLower(argument: type) : returnType
+isLower(argument: type) -> returnType
 ```
 
 ## Аргументы

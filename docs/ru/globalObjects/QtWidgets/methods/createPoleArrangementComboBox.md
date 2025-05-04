@@ -5,7 +5,7 @@
 
 ## Синтаксис
 ```javascript
-createPoleArrangementComboBox(argument: type) : returnType
+createPoleArrangementComboBox(argument: type) -> returnType
 ```
 
 ## Аргументы

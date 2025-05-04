@@ -5,7 +5,7 @@
 
 ## Синтаксис
 ```javascript
-QDoubleSpinBox(argument: type) : returnType
+QDoubleSpinBox(argument: type) -> returnType
 ```
 
 ## Аргументы

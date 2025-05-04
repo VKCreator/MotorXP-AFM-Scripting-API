@@ -5,7 +5,7 @@
 
 ## Синтаксис
 ```javascript
-center(argument: type) : returnType
+center(argument: type) -> returnType
 ```
 
 ## Аргументы

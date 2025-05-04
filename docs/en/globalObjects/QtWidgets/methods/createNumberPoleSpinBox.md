@@ -5,7 +5,7 @@
 
 ## Синтаксис
 ```javascript
-createNumberPoleSpinBox(argument: type) : returnType
+createNumberPoleSpinBox(argument: type) -> returnType
 ```
 
 ## Аргументы

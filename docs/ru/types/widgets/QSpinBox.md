@@ -5,7 +5,7 @@
 
 ## Синтаксис
 ```javascript
-QSpinBox(argument: type) : returnType
+QSpinBox(argument: type) -> returnType
 ```
 
 ## Аргументы

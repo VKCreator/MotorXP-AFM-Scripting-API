@@ -5,7 +5,7 @@
 
 ## Синтаксис
 ```javascript
-readFile(path: String) -> String
+readFile(path: String) ->  String
 ``` 
 
 ## Аргументы

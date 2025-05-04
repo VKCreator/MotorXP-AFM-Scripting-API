@@ -5,7 +5,7 @@
 
 ## Синтаксис
 ```javascript
-Geom.infplane(pos: Point3 = Geom.point(0,0,0), dir: Vector3 = Geom.vector3(0,0,1)) : Shape
+Geom.infplane(pos: Point3 = Geom.point(0,0,0), dir: Vector3 = Geom.vector3(0,0,1)) -> Shape
 ```
 
 ## Аргументы

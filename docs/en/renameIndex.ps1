@@ -9,5 +9,5 @@ $newFileName = "index.md"
 Get-ChildItem -Path $rootFolder -Recurse -Filter $oldFileName | ForEach-Object {
     $newFilePath = Join-Path $_.DirectoryName $newFileName
     Rename-Item -Path $_.FullName -NewName $newFileName
-   # Write-Host ("Переименован файл: $($_.FullName) -> $newFilePath")
+   # Write-Host ("Переименован файл: $($_.FullName) ->  $newFilePath")
 }

@@ -5,7 +5,7 @@
 
 ## Синтаксис
 ```javascript
-QCheckBox(argument: type) : returnType
+QCheckBox(argument: type) -> returnType
 ```
 
 ## Аргументы

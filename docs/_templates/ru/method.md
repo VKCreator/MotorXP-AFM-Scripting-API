@@ -4,7 +4,7 @@
 
 ## Синтаксис
 ```javascript
-methodName(arg: any): string
+methodName(arg: any): String
 ``` 
 
 ## Аргументы

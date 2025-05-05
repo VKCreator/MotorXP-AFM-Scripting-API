@@ -19,7 +19,6 @@ console.info(result)
 
 !!! info "См. также"
 
-    
     - [`isPlanar()`](./isPlanar.md)
     
     - [`isToroidal()`](./isToroidal.md)

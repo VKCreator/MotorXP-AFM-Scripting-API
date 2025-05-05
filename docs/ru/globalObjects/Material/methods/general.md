@@ -5,11 +5,11 @@
 
 ## Синтаксис
 ```javascript
-Material.general() -> GenetalMaterial
+Material.general() -> GeneralMaterial
 ``` 
 
 ## Аргументы
-    Отсутствуют
+Нет
     
 ## Возвращаемое значение
 [`GeneralMaterial`](./../../../types/materials/GeneralMaterial/index.md)

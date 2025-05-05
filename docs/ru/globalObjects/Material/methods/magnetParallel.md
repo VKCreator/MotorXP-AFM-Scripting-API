@@ -5,16 +5,22 @@
 
 ## Синтаксис
 ```javascript
-Material.magnetParallel(angle: Number = 0, segmentRadiuses: array of Number = [], savePoleBorder: Boolean = true) -> MagnetParallelMaterial
+Material.magnetParallel(angle: Number = 0, segmentRadiuses: Array[Number] = [], savePoleBorder: Boolean = true) -> MagnetParallelMaterial
 ``` 
 
 ## Аргументы
-- **`angle`** (String, обязательно): Угол параллельного намагничивания
-- **`segmentRadiuses`** (array of Number, опционально): массив радиусов сегментов магнита
-- **`savePoleBorder`** (Boolean, опционально): =true - сохраняем границу между магнитами двух соседних полюсов, если =false - магнит сливается с магнитом соседнего полюса.
+
+| Аргумент             | Тип                 | Значение по умолчанию | Обязательный | Описание                                                                 |
+|----------------------|----------------------|------------------------|--------------|--------------------------------------------------------------------------|
+| `angle`              | `Number`               | `0`                      | ❌ Нет          | Угол параллельного намагничивания.                                       |
+| `segmentRadiuses`    | `Array[Number]`     | `[]`                      | ❌ Нет        | Массив радиусов сегментов магнита.                                       |
+| `savePoleBorder`     | `Boolean`              | `true`                | ❌ Нет        | Если `true` — сохраняется граница между магнитами соседних полюсов.      |
 
 ## Возвращаемое значение
-[`MagnetParallelMaterial`](./../../../types/materials/MagnetParallelMaterial/index.md)
+
+| Тип                                                  | Описание                                      |
+|-------------------------------------------------------|-----------------------------------------------|
+| [`MagnetParallelMaterial`](./../../../types/materials/MagnetParallelMaterial/index.md) | Объект типа `MagnetParallelMaterial`. |
 
 ## Пример
 ``` javascript linenums="1"

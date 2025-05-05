@@ -9,7 +9,7 @@ Material.empty(): EmptyMaterial
 ``` 
 
 ## Аргументы
-    Отсутствуют
+Нет
 
 ## Возвращаемое значение
 [`EmptyMaterial`](./../../../types/materials/EmptyMaterial/index.md)

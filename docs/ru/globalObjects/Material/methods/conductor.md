@@ -9,7 +9,7 @@ Material.conductor() -> ConductorMaterial
 ``` 
 
 ## Аргументы
-    Отсутствуют
+Нет
 
 ## Возвращаемое значение
 [`ConductorMaterial`](./../../../types/materials/ConductorMaterial/index.md)

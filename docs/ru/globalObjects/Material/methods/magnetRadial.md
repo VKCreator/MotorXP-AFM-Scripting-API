@@ -5,16 +5,22 @@
 
 ## Синтаксис
 ```javascript
-Material.magnetRadial(direction: Magnetization.From, center: point = Qt.point(0, 0), segmentRadiuses: array of numbers = []) -> MagnetRadialMaterial
+Material.magnetRadial(direction: Number = Magnetization.From, center: Point = Qt.point(0, 0), segmentRadiuses: Array[Number] = []) -> MagnetRadialMaterial
 ``` 
 
 ## Аргументы
-- **`direction`** (String, обязательно): Направление магнетизации.
-- **`center`** (QPointF, опционально): Центр магнизации.
-- **`segmentRadiuses`** (array of Number, опционально): Массив радиусов сегментов магнита.
+
+| Аргумент          | Тип               | Значение по умолчанию | Обязательный | Описание                                  |
+|-------------------|--------------------|------------------------|--------------|-------------------------------------------|
+| `direction`       | `Number`             | `Magnetization.From`                      | ❌ Нет         | Направление магнетизации.                 |
+| `center`          | `QPointF`            | `Qt.point(0, 0)`                      | ❌ Нет        | Центр магнетизации.                       |
+| `segmentRadiuses` | `Array[Number]`   | `[]`                      | ❌ Нет        | Массив радиусов сегментов магнита.        |
 
 ## Возвращаемое значение
-[`MagnetRadialMaterial`](./../../../types/materials/MagnetRadialMaterial/index.md)
+
+| Тип                                                | Описание                                      |
+|----------------------------------------------------|-----------------------------------------------|
+| [`MagnetRadialMaterial`](./../../../types/materials/MagnetRadialMaterial/index.md) | Объект типа `MagnetRadialMaterial`. |
 
 ## Пример
 ``` javascript linenums="1"

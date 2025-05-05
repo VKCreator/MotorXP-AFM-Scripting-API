@@ -5,15 +5,21 @@
 
 ## Синтаксис
 ```javascript
-Material.iron(fillCoefs: array of Number = [], dsomaloy: Number = 0) -> IronMaterial
+Material.iron(fillCoefs: Array[Number] = [], dsomaloy: Number = 0) -> IronMaterial
 ``` 
 
 ## Аргументы
-- **`fillCoefs`** (array of Number, опционально): Material filling coefficient
-- **`dsomaloy`** (Number, опционально): Smallest cross section of component [m] for Somaloy material
-    
+
+| Аргумент      | Тип                 | Значение по умолчанию | Обязательный | Описание                                                  |
+|---------------|----------------------|------------------------|--------------|-----------------------------------------------------------|
+| `fillCoefs`   | `Array[Number]`     | `[]`                      | ❌ Нет        | Коэффициент заполнения материала.                         |
+| `dsomaloy`    | `Number`              | `0`                      | ❌ Нет        | Наименьшее поперечное сечение компонента [м] для материала Somaloy. |
+
 ## Возвращаемое значение
-[`IronMaterial`](./../../../types/materials/IronMaterial/index.md)
+
+| Тип                                      | Описание                                  |
+|------------------------------------------|-------------------------------------------|
+| [`IronMaterial`](./../../../types/materials/IronMaterial/index.md) | Объект типа `IronMaterial`. |
 
 ## Пример
 ``` javascript linenums="1"

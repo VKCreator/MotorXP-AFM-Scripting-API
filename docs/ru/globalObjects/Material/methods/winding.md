@@ -5,21 +5,28 @@
 
 ## Синтаксис
 ```javascript
-Material.winding(layer : Number = Winding.LayerAuto, turn : Number = 0, strand : Number = 0) -> WindingMaterial
+Material.winding(layer: Number = Winding.LayerAuto, turn: Number = 0, strand: Number = 0) -> WindingMaterial
 ``` 
 
 ## Аргументы
-- **`layer`** (Number, опционально): Номер слоя, одно из значений `Winding.LayerAuto` | `Winding.LayerSingle` | `Winding.LayerDouble`.
-- **`turn`** (Number, опционально): Номер витка.
-- **`strand`** (Number, опционально): Номер провода в витке.
+
+| Аргумент   | Тип    | Значение по умолчанию | Обязательный | Описание                                                                 |
+|-----------|--------|------------------------|--------------|--------------------------------------------------------------------------|
+| `layer`   | `Number` | `Winding.LayerAuto`                      | ❌ Нет        | Номер слоя. Может быть: `Winding.LayerAuto`, `Winding.LayerSingle`, `Winding.LayerDouble`. |
+| `turn`    | `Number` | `0`                      | ❌ Нет        | Номер витка.                                                            |
+| `strand`  | `Number` | `0`                      | ❌ Нет        | Номер провода в витке.                                                  |
 
 ## Возвращаемое значение
-[`WindingMaterial`](./../../../types/materials/WindingMaterial/index.md)
+
+| Тип                                      | Описание                                  |
+|------------------------------------------|-------------------------------------------|
+| [`WindingMaterial`](./../../../types/materials/WindingMaterial/index.md) | Объект типа `WindingMaterial`. |
 
 ## Пример
 ``` javascript linenums="1"
 let m1 = Material.winding()
 console.info(m1) // output: Winding, layer None
+
 let m2 = Material.winding(Winding.SingleLayer, 1, 1)
 console.info(m2) // output: Winding, layer 1, turn 1, strand 1
 ``` 
@@ -41,3 +48,5 @@ console.info(m2) // output: Winding, layer 1, turn 1, strand 1
     [^^Material.magnetRadial()^^](magnetRadial.md)
     
     [^^Material.custom()^^](custom.md)
+
+    [^^Winding^^](../../../types/Winding/index.md)

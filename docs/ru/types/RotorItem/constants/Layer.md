@@ -20,7 +20,7 @@ console.info(value);
 
 
 ## Значение
-`Number`: значение константы.
+`#!javascript Number`: значение константы.
 
 ## Пример
 ```javascript linenums="1"

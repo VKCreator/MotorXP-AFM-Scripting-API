@@ -9,7 +9,7 @@ isToroidal() -> Boolean
 ```
 
 ## Возвращаемое значение
-`Boolean`: Истина, если тип обмотки тороидальный.
+`#!javascript Boolean`: Истина, если тип обмотки тороидальный.
 
 ## Пример
 ```javascript linenums="1"

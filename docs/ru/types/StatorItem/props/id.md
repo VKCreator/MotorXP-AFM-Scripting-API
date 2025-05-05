@@ -13,7 +13,7 @@
  - `StatorItem.ID3`
 
 ## Тип значения свойства
-`Number`
+`#!javascript Number`
 
 ## Доступ
 `Только Чтение`

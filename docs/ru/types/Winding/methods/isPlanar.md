@@ -9,7 +9,7 @@ isPlanar() -> Boolean
 ```
 
 ## Возвращаемое значение
-`Boolean`: Истина, если тип обмотки планарный.
+`#!javascript Boolean`: Истина, если тип обмотки планарный.
 
 ## Пример
 ```javascript linenums="1"

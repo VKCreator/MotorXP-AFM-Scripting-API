@@ -14,7 +14,7 @@ Translate the following Markdown text from {SOURCE_LANG} to {TARGET_LANG}.
 Preserve all formatting including headers, lists, tables, links, code blocks and indentation.
 Do not add or remove any content. Just translate the text inside."""
 
-# === Функция перевода через Ollama ===
+# === Метод перевода через Ollama ===
 def translate_text(text):
     try:
         response = ollama.chat(model=MODEL_NAME, messages=[

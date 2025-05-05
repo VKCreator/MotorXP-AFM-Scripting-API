@@ -13,10 +13,10 @@ Geom.box(a: Number) -> Shape
 
 | Аргумент | Тип    | Обязательный | Описание                              |
 |---------|--------|--------------|---------------------------------------|
-| `x`     | `Number` | :white_check_mark: Да          | Размер параллелепипеда по оси X.       |
-| `y`     | `Number` | :white_check_mark: Да          | Размер параллелепипеда по оси Y.       |``
-| `z`     | `Number` | :white_check_mark: Да          | Размер параллелепипеда по оси Z.       |``
-| `a`     | `Number` | :white_check_mark: Да          | Размер куба.                           |
+| `x`     | `#!javascript Number` | :white_check_mark: Да          | Размер параллелепипеда по оси X.       |
+| `y`     | `#!javascript Number` | :white_check_mark: Да          | Размер параллелепипеда по оси Y.       |``
+| `z`     | `#!javascript Number` | :white_check_mark: Да          | Размер параллелепипеда по оси Z.       |``
+| `a`     | `#!javascript Number` | :white_check_mark: Да          | Размер куба.                           |
 
 ## Возвращаемое значение
 

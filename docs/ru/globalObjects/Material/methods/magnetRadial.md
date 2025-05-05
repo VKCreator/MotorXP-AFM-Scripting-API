@@ -12,7 +12,7 @@ Material.magnetRadial(direction: Number = Magnetization.From, center: Point = Qt
 
 | Аргумент          | Тип               | Значение по умолчанию | Обязательный | Описание                                  |
 |-------------------|--------------------|------------------------|--------------|-------------------------------------------|
-| `direction`       | `Number`             | `Magnetization.From`                      | ❌ Нет         | Направление магнетизации.                 |
+| `direction`       | `#!javascript Number`             | `Magnetization.From`                      | ❌ Нет         | Направление магнетизации.                 |
 | `center`          | `QPointF`            | `Qt.point(0, 0)`                      | ❌ Нет        | Центр магнетизации.                       |
 | `segmentRadiuses` | `Array[Number]`   | `[]`                      | ❌ Нет        | Массив радиусов сегментов магнита.        |
 

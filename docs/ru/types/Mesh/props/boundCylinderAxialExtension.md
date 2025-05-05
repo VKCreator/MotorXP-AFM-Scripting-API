@@ -7,7 +7,7 @@ The `boundCylinderAxialExtension` property...
 ...
 
 ## Тип значения свойства
-`Number`
+`#!javascript Number`
 
 ## Доступ
 `Чтение\Запись`

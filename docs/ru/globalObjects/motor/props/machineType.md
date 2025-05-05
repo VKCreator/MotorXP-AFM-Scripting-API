@@ -16,7 +16,7 @@ The `machineType` property defines the configuration type of the motor.
   Значение: `4`
 
 ## Тип значения свойства
-`Number`
+`#!javascript Number`
 
 ## Доступ
 `Чтение\Запись`

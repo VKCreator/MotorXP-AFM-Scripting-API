@@ -9,7 +9,7 @@ isDoubleLayer() -> Boolean
 ```
 
 ## Возвращаемое значение
-`Boolean`: Истина, если задан двойной слой.
+`#!javascript Boolean`: Истина, если задан двойной слой.
 
 ## Пример
 ```javascript linenums="1"

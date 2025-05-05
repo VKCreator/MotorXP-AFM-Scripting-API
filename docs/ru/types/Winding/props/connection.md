@@ -7,7 +7,7 @@ The `сonnection` property...
 ...
 
 ## Тип значения свойства
-`String`
+`#!javascript String`
 
 ## Доступ
 `Чтение\Запись`

@@ -11,8 +11,8 @@ fromPolar(radius: Number, angle: Number) -> Point
 ## Аргументы
 | Аргумент | Тип    | Обязательный | Описание                     |
 |----------|--------|--------------|------------------------------|
-| `radius`      | `Number` | :white_check_mark: Да           | Радиус.        |
-| `angle`      | `Number` | :white_check_mark: Да           | Угол в градусах.       |
+| `radius`      | `#!javascript Number` | :white_check_mark: Да           | Радиус.        |
+| `angle`      | `#!javascript Number` | :white_check_mark: Да           | Угол в градусах.       |
 
 ## Возвращаемое значение
 | Тип      | Описание                                                                 |

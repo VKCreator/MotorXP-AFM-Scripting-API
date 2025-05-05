@@ -1,5 +1,6 @@
 # Описание `IronMaterial`
-Материал для сердечника, предназначен для задания материала деталей мотора `Piece`.
+Материал для сердечника. Предназначен для задания материала деталям `Piece` мотора.
+
 
 ## Синтаксис
 ```javascript
@@ -7,29 +8,30 @@ let m1 = Material.iron() // Способ 1
 let m2 = new IronMaterial() // Способ 2
 ```
 
-## Свойства `IronMaterial`
-
-Нет свойств.
+{%
+    include-markdown "./props/index.md"
+    heading-offset=1
+%}
 
 ## Методы `IronMaterial`
-
-Нет методов.
+Нет
 
 !!! info "См. также"
-- [Material](./../../../globalObjects/Material/index.md)
 
-- [EmptyMaterial](./../EmptyMaterial/index.md)
+    [Material](./../../../globalObjects/Material/index.md)
 
-- [GeneralMaterial](./../GeneralMaterial/index.md)
+    [EmptyMaterial](./../EmptyMaterial/index.md)
 
-- [ConductorMaterial](./../ConductorMaterial/index.md)
+    [GeneralMaterial](./../GeneralMaterial/index.md)
 
-- [WindingMaterial](./../WindingMaterial/index.md)
+    [ConductorMaterial](./../ConductorMaterial/index.md)
 
-- [EndturnMaterial](./../EndturnMaterial/index.md)
+    [WindingMaterial](./../WindingMaterial/index.md)
 
-- [MagnetParallelMaterial](./../MagnetParallelMaterial/index.md)
+    [EndturnMaterial](./../EndturnMaterial/index.md)
 
-- [MagnetRadialMaterial](./../MagnetRadialMaterial/index.md)
+    [MagnetParallelMaterial](./../MagnetParallelMaterial/index.md)
 
-- [CustomMaterial](./../CustomMaterial/index.md)
+    [MagnetRadialMaterial](./../MagnetRadialMaterial/index.md)
+
+    [CustomMaterial](./../CustomMaterial/index.md)

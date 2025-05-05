@@ -1,5 +1,5 @@
 # Описание `GeneralMaterial`
-Материал для воздуха, предназначен для задания материала деталей мотора `Piece`.
+Материал для воздуха. Предназначен для задания материала деталям `Piece` мотора.
 
 ## Синтаксис
 ```javascript
@@ -8,28 +8,27 @@ let m2 = new GeneralMaterial() // Способ 2
 ```
 
 ## Свойства `GeneralMaterial`
-
-Нет свойств.
+Нет
 
 ## Методы `GeneralMaterial`
-
-Нет методов.
+Нет
 
 !!! info "См. также"
-- [Material](./../../../globalObjects/Material/index.md)
 
-- [EmptyMaterial](./../EmptyMaterial/index.md)
+    [Material](./../../../globalObjects/Material/index.md)
 
-- [ConductorMaterial](./../ConductorMaterial/index.md)
+    [EmptyMaterial](./../EmptyMaterial/index.md)
 
-- [IronMaterial](./../IronMaterial/index.md)
+    [ConductorMaterial](./../ConductorMaterial/index.md)
 
-- [WindingMaterial](./../WindingMaterial/index.md)
+    [IronMaterial](./../IronMaterial/index.md)
 
-- [EndturnMaterial](./../EndturnMaterial/index.md)
+    [WindingMaterial](./../WindingMaterial/index.md)
+    
+    [EndturnMaterial](./../EndturnMaterial/index.md)
 
-- [MagnetParallelMaterial](./../MagnetParallelMaterial/index.md)
+    [MagnetParallelMaterial](./../MagnetParallelMaterial/index.md)
 
-- [MagnetRadialMaterial](./../MagnetRadialMaterial/index.md)
+    [MagnetRadialMaterial](./../MagnetRadialMaterial/index.md)
 
-- [CustomMaterial](./../CustomMaterial/index.md)
+    [CustomMaterial](./../CustomMaterial/index.md)

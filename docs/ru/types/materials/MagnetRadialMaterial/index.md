@@ -1,5 +1,5 @@
 # Описание `MagnetRadialMaterial`
-Материал для магнитов с радиальным намагничиванием, предназначен для задания материала деталей мотора `Piece`.
+Материал для магнитов с радиальным намагничиванием. Предназначен для задания материала деталям `Piece` мотора.
 
 ## Синтаксис
 ```javascript
@@ -7,28 +7,30 @@ let m1 = Material.magnetRadial() // Способ 1
 let m2 = new MagnetRadialMaterial() // Способ 2
 ```
 
-## Свойства `MagnetRadialMaterial`
-
+{%
+    include-markdown "./props/index.md"
+    heading-offset=1
+%}
 
 ## Методы `MagnetRadialMaterial`
-
-Нет методов.
+Нет
 
 !!! info "См. также"
-- [Material](./../../../globalObjects/Material/index.md)
 
-- [EmptyMaterial](./../EmptyMaterial/index.md)
+    [Material](./../../../globalObjects/Material/index.md)
 
-- [GeneralMaterial](./../GeneralMaterial/index.md)
+    [EmptyMaterial](./../EmptyMaterial/index.md)
 
-- [ConductorMaterial](./../ConductorMaterial/index.md)
+    [GeneralMaterial](./../GeneralMaterial/index.md)
 
-- [IronMaterial](./../IronMaterial/index.md)
+    [ConductorMaterial](./../ConductorMaterial/index.md)
 
-- [WindingMaterial](./../WindingMaterial/index.md)
+    [IronMaterial](./../IronMaterial/index.md)
 
-- [EndturnMaterial](./../EndturnMaterial/index.md)
+    [WindingMaterial](./../WindingMaterial/index.md)
 
-- [MagnetParallelMaterial](./../MagnetParallelMaterial/index.md)
+    [EndturnMaterial](./../EndturnMaterial/index.md)
 
-- [CustomMaterial](./../CustomMaterial/index.md)
+    [MagnetParallelMaterial](./../MagnetParallelMaterial/index.md)
+    
+    [CustomMaterial](./../CustomMaterial/index.md)

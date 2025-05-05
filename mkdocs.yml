@@ -511,49 +511,49 @@ nav:
             - types/Mesh/methods/index.md
 
       - EmptyMaterial:
-         - types/Materials/EmptyMaterial/index.md
+         - types/materials/EmptyMaterial/index.md
       - GeneralMaterial:
-          - types/Materials/GeneralMaterial/index.md
+          - types/materials/GeneralMaterial/index.md
       - IronMaterial:
-          - types/Materials/IronMaterial/index.md
+          - types/materials/IronMaterial/index.md
           - properties: 
-            - types/Materials/IronMaterial/props/index.md
-            - types/Materials/IronMaterial/props/fillCoefs.md
-            - types/Materials/IronMaterial/props/dsomaloy.md
+            - types/materials/IronMaterial/props/index.md
+            - types/materials/IronMaterial/props/fillCoefs.md
+            - types/materials/IronMaterial/props/dsomaloy.md
       - ConductorMaterial:
-          - types/Materials/ConductorMaterial/index.md
+          - types/materials/ConductorMaterial/index.md
       - WindingMaterial:
-          - types/Materials/WindingMaterial/index.md
+          - types/materials/WindingMaterial/index.md
           - properties: 
-            - types/Materials/WindingMaterial/props/index.md
-            - types/Materials/WindingMaterial/props/layer.md
-            - types/Materials/WindingMaterial/props/turn.md
-            - types/Materials/WindingMaterial/props/strand.md
-            - types/Materials/WindingMaterial/props/windingModel.md
+            - types/materials/WindingMaterial/props/index.md
+            - types/materials/WindingMaterial/props/layer.md
+            - types/materials/WindingMaterial/props/turn.md
+            - types/materials/WindingMaterial/props/strand.md
+            - types/materials/WindingMaterial/props/windingModel.md
           - methods:
-            - types/Materials/WindingMaterial/methods/index.md
-            - types/Materials/WindingMaterial/methods/isWindingModelLumped.md
-            - types/Materials/WindingMaterial/methods/isWindingModelFull.md
+            - types/materials/WindingMaterial/methods/index.md
+            - types/materials/WindingMaterial/methods/isWindingModelLumped.md
+            - types/materials/WindingMaterial/methods/isWindingModelFull.md
       - EndturnMaterial:
-          - types/Materials/EndturnMaterial/index.md
+          - types/materials/EndturnMaterial/index.md
       - MagnetRadialMaterial:
-          - types/Materials/MagnetRadialMaterial/index.md
+          - types/materials/MagnetRadialMaterial/index.md
           - properties: 
-            - types/Materials/MagnetRadialMaterial/props/index.md
-            - types/Materials/MagnetRadialMaterial/props/direction.md
-            - types/Materials/MagnetRadialMaterial/props/center.md
+            - types/materials/MagnetRadialMaterial/props/index.md
+            - types/materials/MagnetRadialMaterial/props/direction.md
+            - types/materials/MagnetRadialMaterial/props/center.md
       - MagnetParallelMaterial:
-          - types/Materials/MagnetParallelMaterial/index.md
+          - types/materials/MagnetParallelMaterial/index.md
           - properties: 
-            - types/Materials/MagnetParallelMaterial/props/index.md
-            - types/Materials/MagnetParallelMaterial/props/angle.md
-            - types/Materials/MagnetParallelMaterial/props/segmentRadiuses.md
-            - types/Materials/MagnetParallelMaterial/props/savePoleBorder.md
+            - types/materials/MagnetParallelMaterial/props/index.md
+            - types/materials/MagnetParallelMaterial/props/angle.md
+            - types/materials/MagnetParallelMaterial/props/segmentRadiuses.md
+            - types/materials/MagnetParallelMaterial/props/savePoleBorder.md
       - CustomMaterial:
-          - types/Materials/CustomMaterial/index.md
+          - types/materials/CustomMaterial/index.md
           - properties: 
-            - types/Materials/CustomMaterial/props/index.md
-            - types/Materials/CustomMaterial/props/color.md
+            - types/materials/CustomMaterial/props/index.md
+            - types/materials/CustomMaterial/props/color.md
 
 # Geometry types:
       - Point3:
@@ -673,31 +673,31 @@ nav:
 
 # GUI Widgets
       - UI Widgets:
-        - types/Widgets/index.md
+        - types/widgets/index.md
         #Qt Widgets
-        - QWidget: types/Widgets/QWidget.md
-        - QLabel: types/Widgets/QLabel.md
-        - QLineEdit: types/Widgets/QLineEdit.md
-        - QPushButton: types/Widgets/QPushButton.md
-        - QSpinBox: types/Widgets/QSpinBox.md
-        - QDoubleSpinBox: types/Widgets/QDoubleSpinBox.md
-        - QComboBox: types/Widgets/QComboBox.md
-        - QGroupBox: types/Widgets/QGroupBox.md
-        - QCheckBox: types/Widgets/QCheckBox.md
-        - QGridLayout: types/Widgets/QGridLayout.md
-        - QFormLayout: types/Widgets/QFormLayout.md
+        - QWidget: types/widgets/QWidget.md
+        - QLabel: types/widgets/QLabel.md
+        - QLineEdit: types/widgets/QLineEdit.md
+        - QPushButton: types/widgets/QPushButton.md
+        - QSpinBox: types/widgets/QSpinBox.md
+        - QDoubleSpinBox: types/widgets/QDoubleSpinBox.md
+        - QComboBox: types/widgets/QComboBox.md
+        - QGroupBox: types/widgets/QGroupBox.md
+        - QCheckBox: types/widgets/QCheckBox.md
+        - QGridLayout: types/widgets/QGridLayout.md
+        - QFormLayout: types/widgets/QFormLayout.md
 
         #Custon Widgets
-        - WarningIcon: types/Widgets/WarningIcon.md
-        - ExclamationIcon: types/Widgets/ExclamationIcon.md
-        - NumberEdit: types/Widgets/NumberEdit.md
-        - NumberSlotSpinBox: types/Widgets/NumberSlotSpinBox.md
-        - StatorTypeComboBox: types/Widgets/StatorTypeComboBox.md
-        - WindingLayersComboBox: types/Widgets/WindingLayersComboBox.md
-        - WindingLayersOrientationComboBox: types/Widgets/WindingLayersOrientationComboBox.md
-        - WindingTypeComboBox: types/Widgets/WindingTypeComboBox.md
-        - PoleArrangementComboBox: types/Widgets/PoleArrangementComboBox.md
-        - StatorConnectionComboBox: types/Widgets/StatorConnectionComboBox.md
-        - RotorConnectionComboBox: types/Widgets/RotorConnectionComboBox.md
+        - WarningIcon: types/widgets/WarningIcon.md
+        - ExclamationIcon: types/widgets/ExclamationIcon.md
+        - NumberEdit: types/widgets/NumberEdit.md
+        - NumberSlotSpinBox: types/widgets/NumberSlotSpinBox.md
+        - StatorTypeComboBox: types/widgets/StatorTypeComboBox.md
+        - WindingLayersComboBox: types/widgets/WindingLayersComboBox.md
+        - WindingLayersOrientationComboBox: types/widgets/WindingLayersOrientationComboBox.md
+        - WindingTypeComboBox: types/widgets/WindingTypeComboBox.md
+        - PoleArrangementComboBox: types/widgets/PoleArrangementComboBox.md
+        - StatorConnectionComboBox: types/widgets/StatorConnectionComboBox.md
+        - RotorConnectionComboBox: types/widgets/RotorConnectionComboBox.md
 
   - Mind map: ./mindmap.md

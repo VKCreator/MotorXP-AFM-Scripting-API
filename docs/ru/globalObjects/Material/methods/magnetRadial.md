@@ -20,7 +20,7 @@ Material.magnetRadial(direction: Number = Magnetization.From, center: Point = Qt
 
 | Тип                                                | Описание                                      |
 |----------------------------------------------------|-----------------------------------------------|
-| [`MagnetRadialMaterial`](./../../../types/Materials/MagnetRadialMaterial/index.md) | Объект типа `MagnetRadialMaterial`. |
+| [`MagnetRadialMaterial`](./../../../types/materials/MagnetRadialMaterial/index.md) | Объект типа `MagnetRadialMaterial`. |
 
 ## Пример
 ``` javascript linenums="1"

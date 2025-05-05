@@ -7,7 +7,7 @@ The `autoCalcOverhandEndturns` property...
 ...
 
 ## Тип значения свойства
-`Number`
+`Boolean`
 
 ## Доступ
 `Чтение\Запись`

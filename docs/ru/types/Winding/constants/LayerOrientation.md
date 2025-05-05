@@ -14,5 +14,11 @@ console.info(Winding.LeftRight);
 
 !!! info "См. также"
 
-    []()
+- [`Winding.Type`](./constants/Type.md)
+
+- [`Winding.Layer`](./constants/Layer.md)
+
+- [`Winding.Circuit`](./constants/Circuit.md)
+
+- [`Winding.Model`](./constants/Model.md)
 

@@ -14,5 +14,10 @@ console.info(Winding.Toroidal);
 
 !!! info "См. также"
 
-    []()
+- [`Winding.Layer`](./constants/Layer.md)
 
+- [`Winding.LayerOrientation`](./constants/LayerOrientation.md)
+
+- [`Winding.Circuit`](./constants/Circuit.md)
+
+- [`Winding.Model`](./constants/Model.md)

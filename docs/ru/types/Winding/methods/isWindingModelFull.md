@@ -19,5 +19,17 @@ console.info(result)
 
 !!! info "См. также"
 
-    []()
 
+- [`isPlanar()`](./isPlanar.md)
+
+- [`isToroidal()`](./isToroidal.md)
+
+- [`isSingleLayer()`](./isSingleLayer.md)
+
+- [`isDoubleLayer()`](./isDoubleLayer.md)
+
+- [`isOrientationUpperLower()`](./isOrientationUpperLower.md)
+
+- [`isOrientationLeftRight()`](./isOrientationLeftRight.md)
+
+- [`isWindingModelLumped()`](./isWindingModelLumped.md)

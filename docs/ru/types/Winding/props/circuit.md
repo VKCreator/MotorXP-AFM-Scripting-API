@@ -7,7 +7,7 @@ The `circuit` property...
 ...
 
 ## Тип значения свойства
-`Number`
+`Winding.Circuit`
 
 ## Доступ
 `Чтение\Запись`
@@ -19,11 +19,11 @@ circuit = value
 
 ## Пример
 ```javascript linenums="1"
-let result = motor.circuit
+let result = motor.winding.circuit
 console.info(result)
 ```
 
 !!! info "См. также"
 
-    []()
+    [Winding.Circuit](./../constants/Circuit.md)
 

@@ -19,7 +19,7 @@ numberLayers = value
 
 ## Пример
 ```javascript linenums="1"
-let result = motor.numberLayers
+let result = motor.winding.numberLayers
 console.info(result)
 ```
 

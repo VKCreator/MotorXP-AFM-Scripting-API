@@ -19,7 +19,7 @@ heightOuterEndturn = value
 
 ## Пример
 ```javascript linenums="1"
-let result = motor.heightOuterEndturn
+let result = motor.winding.heightOuterEndturn
 console.info(result)
 ```
 

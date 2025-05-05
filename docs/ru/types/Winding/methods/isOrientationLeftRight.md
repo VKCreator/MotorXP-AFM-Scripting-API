@@ -5,15 +5,11 @@
 
 ## Синтаксис
 ```javascript
-<<<<<<< Updated upstream
-isOrientationLeftRight(argument: type) -> returnType
-=======
-isOrientationLeftRight() -> bool
->>>>>>> Stashed changes
+isOrientationLeftRight() -> Boolean
 ```
 
 ## Возвращаемое значение
-`bool`: Истина, если для двойного слоя задана ориентация обмотки Верх/Низ.
+`Boolean`: Истина, если для двойного слоя задана ориентация обмотки Верх/Низ.
 
 ## Пример
 ```javascript linenums="1"
@@ -23,5 +19,18 @@ console.info(result)
 
 !!! info "См. также"
 
-    []()
-
+    
+    - [`isPlanar()`](./isPlanar.md)
+    
+    - [`isToroidal()`](./isToroidal.md)
+    
+    - [`isSingleLayer()`](./isSingleLayer.md)
+    
+    - [`isDoubleLayer()`](./isDoubleLayer.md)
+    
+    - [`isOrientationUpperLower()`](./isOrientationUpperLower.md)
+    
+    - [`isWindingModelLumped()`](./isWindingModelLumped.md)
+    
+    - [`isWindingModelFull()`](./isWindingModelFull.md)
+    

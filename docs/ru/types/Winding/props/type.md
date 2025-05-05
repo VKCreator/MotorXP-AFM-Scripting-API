@@ -19,7 +19,7 @@ type = value
 
 ## Пример
 ```javascript linenums="1"
-let result = motor.type
+let result = motor.winding.type
 console.info(result)
 ```
 

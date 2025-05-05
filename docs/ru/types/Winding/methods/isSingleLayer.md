@@ -5,11 +5,7 @@
 
 ## Синтаксис
 ```javascript
-<<<<<<< Updated upstream
-isSingleLayer(argument: type) -> returnType
-=======
-isSingleLayer() : Boolean
->>>>>>> Stashed changes
+isSingleLayer() -> Boolean
 ```
 
 ## Возвращаемое значение
@@ -23,5 +19,17 @@ console.info(result)
 
 !!! info "См. также"
 
-    []()
+- [`isPlanar()`](./isPlanar.md)
+
+- [`isToroidal()`](./isToroidal.md)
+
+- [`isDoubleLayer()`](./isDoubleLayer.md)
+
+- [`isOrientationUpperLower()`](./isOrientationUpperLower.md)
+
+- [`isOrientationLeftRight()`](./isOrientationLeftRight.md)
+
+- [`isWindingModelLumped()`](./isWindingModelLumped.md)
+
+- [`isWindingModelFull()`](./isWindingModelFull.md)
 

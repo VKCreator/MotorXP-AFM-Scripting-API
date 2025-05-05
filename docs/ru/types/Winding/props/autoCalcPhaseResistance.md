@@ -1,25 +1,25 @@
-# numberTurns
+# autoCalcCoilSpan
 
 ## Описание
-The `numberTurns` property...
+The `autoCalcCoilSpan` property...
 
 ## Принимаемые значения:
 ...
 
 ## Тип значения свойства
-`Number`
+`Boolean`
 
 ## Доступ
 `Чтение\Запись`
 
 ## Синтаксис
 ```javascript
-numberTurns = value
+autoCalcCoilSpan = value
 ```
 
 ## Пример
 ```javascript linenums="1"
-let result = motor.winding.numberTurns
+let result = motor.autoCalcCoilSpan
 console.info(result)
 ```
 

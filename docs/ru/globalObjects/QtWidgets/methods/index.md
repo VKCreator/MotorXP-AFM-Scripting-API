@@ -5,8 +5,8 @@
 
 | Метод | Описание |
 |-------|----------|
-| <span style="white-space: nowrap">[^^QtWidgets.createQGridLayout()^^]()</span> | Создает сеточную раскладку для размещения виджетов в виде строк и столбцов. |
-| <span style="white-space: nowrap">[^^QtWidgets.createQFormLayout()^^]()</span> | Создает форму-раскладку для пар "метка - поле ввода". |
+| <span style="white-space: nowrap">[^^QtWidgets.createQGridLayout()^^]()</span> | Создает табличную компоновку для размещения виджетов в виде строк и столбцов. |
+| <span style="white-space: nowrap">[^^QtWidgets.createQFormLayout()^^]()</span> | Создает компоновку для пар "метка - виджет". |
 
 ## Стандартные Qt-виджеты
 

@@ -9,14 +9,14 @@ toFileStep(pathFile: String)
 ```
 
 ## Аргументы
-- `pathFile` (String, обязательно): 
+- `pathFile` (String, обязательно): Полный  путь к файлу или относительный путь от каталога приложения MotorXP-AFM_DS. 
 
 ## Возвращаемое значение
-    Ничего не возвлащает
+    Ничего не возвращает
 
 ## Пример
 ```javascript linenums="1"
-piece.toFileStep("d:/temp/piece.Step")
+piece.toFileStep("d:/temp/piece.step")
 ```
 
 !!! info "См. также"

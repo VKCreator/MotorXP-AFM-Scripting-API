@@ -1,25 +1,25 @@
-# statorConnection
+# autoCalcCoilSpan
 
 ## Описание
-The `statorConnection` property...
+The `autoCalcCoilSpan` property...
 
 ## Принимаемые значения:
 ...
 
 ## Тип значения свойства
-`Number`
+`Boolean`
 
 ## Доступ
 `Чтение\Запись`
 
 ## Синтаксис
 ```javascript
-statorConnection = value
+autoCalcCoilSpan = value
 ```
 
 ## Пример
 ```javascript linenums="1"
-let result = motor.statorConnection
+let result = motor.autoCalcCoilSpan
 console.info(result)
 ```
 

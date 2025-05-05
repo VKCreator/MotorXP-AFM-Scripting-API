@@ -19,7 +19,7 @@ radialOverhandInnerEndturn = value
 
 ## Пример
 ```javascript linenums="1"
-let result = motor.radialOverhandInnerEndturn
+let result = motor.winding.radialOverhandInnerEndturn
 console.info(result)
 ```
 

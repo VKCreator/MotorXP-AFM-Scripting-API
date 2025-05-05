@@ -1,29 +1,29 @@
-# strandsConductor
+# windingModel
 
 ## Описание
-The `strandsConductor` property...
+The `windingModel` property...
 
 ## Принимаемые значения:
 ...
 
 ## Тип значения свойства
-`Number`
+`Winding.Model`
 
 ## Доступ
 `Чтение\Запись`
 
 ## Синтаксис
 ```javascript
-strandsConductor = value
+windingModel = value
 ```
 
 ## Пример
 ```javascript linenums="1"
-let result = motor.strandsConductor
+let result = motor.winding.windingModel
 console.info(result)
 ```
 
 !!! info "См. также"
 
-    []()
+    [Winding.Model](./../constants/Model.md)
 

@@ -5,11 +5,7 @@
 
 ## Синтаксис
 ```javascript
-<<<<<<< Updated upstream
-isToroidal(argument: type) -> returnType
-=======
 isToroidal() -> Boolean
->>>>>>> Stashed changes
 ```
 
 ## Возвращаемое значение
@@ -23,5 +19,18 @@ console.info(result)
 
 !!! info "См. также"
 
-    []()
+
+- [`isPlanar()`](./isPlanar.md)
+
+- [`isSingleLayer()`](./isSingleLayer.md)
+
+- [`isDoubleLayer()`](./isDoubleLayer.md)
+
+- [`isOrientationUpperLower()`](./isOrientationUpperLower.md)
+
+- [`isOrientationLeftRight()`](./isOrientationLeftRight.md)
+
+- [`isWindingModelLumped()`](./isWindingModelLumped.md)
+
+- [`isWindingModelFull()`](./isWindingModelFull.md)
 

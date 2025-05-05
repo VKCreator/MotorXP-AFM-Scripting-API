@@ -19,7 +19,7 @@ parallelPaths = value
 
 ## Пример
 ```javascript linenums="1"
-let result = motor.parallelPaths
+let result = motor.winding.parallelPaths
 console.info(result)
 ```
 

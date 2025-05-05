@@ -1,7 +1,7 @@
-# numberOuterSegments
+# numberStrands
 
 ## Описание
-The `numberOuterSegments` property...
+The `numberStrands` property...
 
 ## Принимаемые значения:
 ...
@@ -14,12 +14,12 @@ The `numberOuterSegments` property...
 
 ## Синтаксис
 ```javascript
-numberOuterSegments = value
+numberStrands = value
 ```
 
 ## Пример
 ```javascript linenums="1"
-let result = motor.numberOuterSegments
+let result = motor.winding.numberStrands
 console.info(result)
 ```
 

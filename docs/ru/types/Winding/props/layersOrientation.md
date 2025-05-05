@@ -7,7 +7,7 @@ The `layersOrientation` property...
 ...
 
 ## Тип значения свойства
-`Number`
+`Winding.LayerOrientation`
 
 ## Доступ
 `Чтение\Запись`
@@ -19,11 +19,11 @@ layersOrientation = value
 
 ## Пример
 ```javascript linenums="1"
-let result = motor.layersOrientation
+let result = motor.winding.layersOrientation
 console.info(result)
 ```
 
 !!! info "См. также"
 
-    []()
+    [Winding.LayerOrientation](./../constants/LayerOrientation.md)
 

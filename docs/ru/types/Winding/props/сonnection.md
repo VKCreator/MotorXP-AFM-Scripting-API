@@ -1,25 +1,25 @@
-# numberTurns
+# сonnection
 
 ## Описание
-The `numberTurns` property...
+The `сonnection` property...
 
 ## Принимаемые значения:
 ...
 
 ## Тип значения свойства
-`Number`
+`String`
 
 ## Доступ
 `Чтение\Запись`
 
 ## Синтаксис
 ```javascript
-numberTurns = value
+statorConnection = value
 ```
 
 ## Пример
 ```javascript linenums="1"
-let result = motor.winding.numberTurns
+let result = motor.winding.statorConnection
 console.info(result)
 ```
 

@@ -20,7 +20,7 @@ Material.winding(layer: Number = Winding.LayerAuto, turn: Number = 0, strand: Nu
 
 | Тип                                      | Описание                                  |
 |------------------------------------------|-------------------------------------------|
-| [`WindingMaterial`](./../../../types/materials/WindingMaterial/index.md) | Объект типа `WindingMaterial`. |
+| [`WindingMaterial`](./../../../types/Materials/WindingMaterial/index.md) | Объект типа `WindingMaterial`. |
 
 ## Пример
 ``` javascript linenums="1"

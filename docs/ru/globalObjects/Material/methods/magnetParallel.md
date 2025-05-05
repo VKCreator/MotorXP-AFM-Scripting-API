@@ -20,7 +20,7 @@ Material.magnetParallel(angle: Number = 0, segmentRadiuses: Array[Number] = [], 
 
 | Тип                                                  | Описание                                      |
 |-------------------------------------------------------|-----------------------------------------------|
-| [`MagnetParallelMaterial`](./../../../types/materials/MagnetParallelMaterial/index.md) | Объект типа `MagnetParallelMaterial`. |
+| [`MagnetParallelMaterial`](./../../../types/Materials/MagnetParallelMaterial/index.md) | Объект типа `MagnetParallelMaterial`. |
 
 ## Пример
 ``` javascript linenums="1"

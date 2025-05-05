@@ -14,10 +14,10 @@ console.info(Winding.Model);
 
 !!! info "См. также"
 
-- [`Winding.Type`](./constants/Type.md)
+- [`Winding.Type`](./Type.md)
 
-- [`Winding.Layer`](./constants/Layer.md)
+- [`Winding.Layer`](./Layer.md)
 
-- [`Winding.LayerOrientation`](./constants/LayerOrientation.md)
+- [`Winding.LayerOrientation`](./LayerOrientation.md)
 
-- [`Winding.Circuit`](./constants/Circuit.md)
+- [`Winding.Circuit`](./Circuit.md)

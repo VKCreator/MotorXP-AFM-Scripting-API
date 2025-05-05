@@ -20,7 +20,7 @@ Material.custom(color: Qt.color = Qt.red) -> CustomMaterial
 
 | Тип                              | Описание                                      |
 |----------------------------------|-----------------------------------------------|
-| [`CustomMaterial`](./../../../types/materials/CustomMaterial/index.md) | Объект типа `CustomMaterial`. |
+| [`CustomMaterial`](./../../../types/Materials/CustomMaterial/index.md) | Объект типа `CustomMaterial`. |
 
 ## Пример
 ``` javascript linenums="1"

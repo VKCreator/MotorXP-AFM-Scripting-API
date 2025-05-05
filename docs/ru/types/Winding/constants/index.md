@@ -1,7 +1,7 @@
 # Константы `Winding`
 
-- [^^`Winding.Type`^^](./../constants/Type.md): Тип обмотки.
-- [^^`Winding.Layer`^^](./../constants/Layer.md): Слои обмотки.
-- [^^`Winding.LayerOrientation`^^](./../constants/LayerOrientation.md): Ориентация слоев обмотки.
-- [^^`Winding.Circuit`^^](./../constants/Circuit.md): Схема обмотки.
-- [^^`Winding.Model`^^](./../constants/Model.md): Модель обмотки.
+- [^^`Winding.Type`^^](./Type.md): Тип обмотки.
+- [^^`Winding.Layer`^^](./Layer.md): Слои обмотки.
+- [^^`Winding.LayerOrientation`^^](./LayerOrientation.md): Ориентация слоев обмотки.
+- [^^`Winding.Circuit`^^](./Circuit.md): Схема обмотки.
+- [^^`Winding.Model`^^](./Model.md): Модель обмотки.

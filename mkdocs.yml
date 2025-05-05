@@ -486,7 +486,7 @@ nav:
             - types/Winding/props/heightOuterEndturn.md
             - types/Winding/props/heightInnerEndturn.md
             - types/Winding/props/radialOverhandOuterEndturn.md
-            - types/Winding/props/radialOverhandInnerEndturn.md
+            - types/Winding/props/radialOverhangInnerEndturn.md
           - methods:
             - types/Winding/methods/index.md
             - types/Winding/methods/isPlanar.md
@@ -619,7 +619,7 @@ nav:
           - methods:
             - types/Shape/methods/index.md
             - isEmpty: types/Shape/methods/isEmpty.md
-            - types/Shape/methods/toFileStep.md
+            - types/Shape/methods/toFileSTEP.md
             - unite: types/Shape/methods/unite.md
             - intersect: types/Shape/methods/intersect.md
             - difference: types/Shape/methods/difference.md

@@ -17,7 +17,7 @@
 - [^^`autoCalcCoilSpan`^^](./autoCalcCoilSpan.md): 
 
 - [^^`autoCalcOverhangEndturns`^^](./autoCalcOverhandEndturns.md): 
-- [^^`radialOverhangOuterEndturn`^^](./radialOverhangOuterEndturn.md): 
+- [^^`radialOverhangOuterEndturn`^^](./radialOverhandOuterEndturn.md): 
 - [^^`radialOverhangInnerEndturn`^^](./radialOverhangInnerEndturn.md): 
 - [^^`heightOuterEndturn`^^](./heightOuterEndturn.md): 
 - [^^`heightInnerEndturn`^^](./heightInnerEndturn.md): 

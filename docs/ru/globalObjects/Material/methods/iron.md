@@ -19,7 +19,7 @@ Material.iron(fillCoefs: Array[Number] = [], dsomaloy: Number = 0) -> IronMateri
 
 | Тип                                      | Описание                                  |
 |------------------------------------------|-------------------------------------------|
-| [`IronMaterial`](./../../../types/materials/IronMaterial/index.md) | Объект типа `IronMaterial`. |
+| [`IronMaterial`](./../../../types/Materials/IronMaterial/index.md) | Объект типа `IronMaterial`. |
 
 ## Пример
 ``` javascript linenums="1"

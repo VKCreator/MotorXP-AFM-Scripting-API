@@ -1,22 +1,23 @@
 # isDoubleLayer()
 
 ## Описание
-Описание метода.
+Истина, если задан двойной слой.
 
 ## Синтаксис
 ```javascript
+<<<<<<< Updated upstream
 isDoubleLayer(argument: type) -> returnType
+=======
+isDoubleLayer() -> Boolean
+>>>>>>> Stashed changes
 ```
 
-## Аргументы
-- `argument` (type, обязательно): описание аргумента.
-
 ## Возвращаемое значение
-`returnType`: описание возвращаемого значения.
+`Boolean`: Истина, если задан двойной слой.
 
 ## Пример
 ```javascript linenums="1"
-let result = isDoubleLayer(value)
+let result = motor.winding.isDoubleLayer()
 console.info(result)
 ```
 

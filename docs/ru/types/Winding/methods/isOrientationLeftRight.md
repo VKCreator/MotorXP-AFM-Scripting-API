@@ -1,22 +1,23 @@
 # isOrientationLeftRight()
 
 ## Описание
-Описание метода.
+Истина, если для двойного слоя задана ориентация обмотки Верх/Низ.
 
 ## Синтаксис
 ```javascript
+<<<<<<< Updated upstream
 isOrientationLeftRight(argument: type) -> returnType
+=======
+isOrientationLeftRight() -> bool
+>>>>>>> Stashed changes
 ```
 
-## Аргументы
-- `argument` (type, обязательно): описание аргумента.
-
 ## Возвращаемое значение
-`returnType`: описание возвращаемого значения.
+`bool`: Истина, если для двойного слоя задана ориентация обмотки Верх/Низ.
 
 ## Пример
 ```javascript linenums="1"
-let result = isOrientationLeftRight(value)
+let result = motor.winding.isOrientationLeftRight()
 console.info(result)
 ```
 

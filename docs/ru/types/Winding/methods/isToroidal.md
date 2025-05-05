@@ -1,22 +1,23 @@
 # isToroidal()
 
 ## Описание
-Описание метода.
+Истина, если тип обмотки тороидальный.
 
 ## Синтаксис
 ```javascript
+<<<<<<< Updated upstream
 isToroidal(argument: type) -> returnType
+=======
+isToroidal() -> Boolean
+>>>>>>> Stashed changes
 ```
 
-## Аргументы
-- `argument` (type, обязательно): описание аргумента.
-
 ## Возвращаемое значение
-`returnType`: описание возвращаемого значения.
+`Boolean`: Истина, если тип обмотки тороидальный.
 
 ## Пример
 ```javascript linenums="1"
-let result = isToroidal(value)
+let result = motor.winding.isToroidal()
 console.info(result)
 ```
 

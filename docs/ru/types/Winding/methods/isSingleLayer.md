@@ -1,22 +1,23 @@
 # isSingleLayer()
 
 ## Описание
-Описание метода.
+Истина, если задан одинарный слой.
 
 ## Синтаксис
 ```javascript
+<<<<<<< Updated upstream
 isSingleLayer(argument: type) -> returnType
+=======
+isSingleLayer() : Boolean
+>>>>>>> Stashed changes
 ```
 
-## Аргументы
-- `argument` (type, обязательно): описание аргумента.
-
 ## Возвращаемое значение
-`returnType`: описание возвращаемого значения.
+`Boolean`: Истина, если задан одинарный слой.
 
 ## Пример
 ```javascript linenums="1"
-let result = isSingleLayer(value)
+let result = motor.winding.isSingleLayer()
 console.info(result)
 ```
 

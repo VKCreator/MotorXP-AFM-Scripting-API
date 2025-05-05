@@ -1,22 +1,23 @@
 # isPlanar()
 
 ## Описание
-Описание метода.
+Истина, если тип обмотки планарный.
 
 ## Синтаксис
 ```javascript
+<<<<<<< Updated upstream
 isPlanar(argument: type) -> returnType
+=======
+isPlanar() -> Boolean
+>>>>>>> Stashed changes
 ```
 
-## Аргументы
-- `argument` (type, обязательно): описание аргумента.
-
 ## Возвращаемое значение
-`returnType`: описание возвращаемого значения.
+`Boolean`: Истина, если тип обмотки планарный.
 
 ## Пример
 ```javascript linenums="1"
-let result = isPlanar(value)
+let result = motor.winding.isPlanar()
 console.info(result)
 ```
 

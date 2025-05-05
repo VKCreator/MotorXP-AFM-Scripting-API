@@ -463,16 +463,11 @@ nav:
           - types/Winding/index.md
           - constants:
             - types/Winding/constants/index.md
-            - Planar: types/Winding/constants/Planar.md
-            - Toroidal: types/Winding/constants/Toroidal.md
-            - SingleLayer: types/Winding/constants/SingleLayer.md
-            - DoubleLayer: types/Winding/constants/DoubleLayer.md
-            - UpperLower: types/Winding/constants/UpperLower.md
-            - LeftRight: types/Winding/constants/LeftRight.md
-            - Star: types/Winding/constants/Star.md
-            - Delta: types/Winding/constants/Delta.md
-            - Lumped: types/Winding/constants/Lumped.md
-            - Full: types/Winding/constants/Full.md
+            - types/Winding/constants/Type.md
+            - types/Winding/constants/Circuit.md
+            - types/Winding/constants/Layer.md
+            - types/Winding/constants/LayerOrientation.md
+            - types/Winding/constants/Model.md
           - properties: 
             - types/Winding/props/index.md
             - circuit: types/Winding/props/circuit.md

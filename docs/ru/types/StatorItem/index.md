@@ -1,24 +1,20 @@
 # Описание `StatorItem`
 Встроенный тип `StatorItem` является составной частью статора и описывает свойства элемента статора мотора.
 
-# Константы `StatorItem`
+{%
+    include-markdown "./constants/index.md"
+    heading-offset=1
+%}
 
-- [^^`StatorItem.ID`^^](./constants/ID.md): Идентификатор элемента статора.
-- [^^`StatorItem.Layer`^^](./constants/Layer.md): Идентификатор слоя элемента статора.
+{%
+    include-markdown "./props/index.md"
+    heading-offset=1
+%}
 
-## Свойства `StatorItem`
-Ниже приведен список доступных свойств, предоставляемых типом `StatorItem`. Щелкните имя метода, чтобы увидеть его подробное описание и примеры.
-
-- [^^`id`^^](./props/id.md): Идентификатор элемента статора.
-- [^^`height`^^](./props/height.md): Высота элемента статора.
-- [^^`angularDisplacement`^^](./props/angularDisplacement.md): Угловое смещение элемента статора.
-
-## Методы `StatorItem`
-Ниже приведен список доступных методов, предоставляемых типом `Stator`. Щелкните имя метода, чтобы увидеть его подробное описание и примеры.
-
-- [^^`isLower`^^](./methods/isLower.md): Истина, если в моторе элемент статора нижний.
-- [^^`isMiddle`^^](./methods/isMiddle.md):  Истина, если в моторе элемент статора средний.
-- [^^`isUpper`^^](./methods/isUpper.md):  Истина, если в моторе элемент статора верхний.
+{%
+    include-markdown "./methods/index.md"
+    heading-offset=1
+%}
 
 !!! info "См. также"
 

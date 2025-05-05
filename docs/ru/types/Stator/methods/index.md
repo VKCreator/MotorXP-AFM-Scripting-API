@@ -1,9 +1,9 @@
 # Методы `Stator`
 Ниже приведен список доступных методов, предоставляемых типом `Stator`. Щелкните имя метода, чтобы увидеть его подробное описание и примеры.
 
-- [^^`isLower`^^](./isLower.md): Истина, если в моторе элемент статора нижний..
-- [^^`isMiddle`^^](./isMiddle.md):  Истина, если в моторе элемент статора средний.
-- [^^`isUpper`^^](./isUpper.md):  Истина, если в моторе элемент статора верхний.
-- [^^`item`^^](./item.md): Элемент статора.
-- [^^`itemAngularDisplacement`^^](./itemAngularDisplacement.md): Угловое смещение элемента статора.
-- [^^`setItemAngularDisplacement`^^](./setItemAngularDisplacement.md): Задать угловое смещение элемента статора.
+- [^^`isLower()`^^](./isLower.md): Истина, если в моторе элемент статора нижний.
+- [^^`isMiddle()`^^](./isMiddle.md):  Истина, если в моторе элемент статора средний.
+- [^^`isUpper()`^^](./isUpper.md):  Истина, если в моторе элемент статора верхний.
+- [^^`item()`^^](./item.md): Элемент статора.
+- [^^`itemAngularDisplacement()`^^](./itemAngularDisplacement.md): Угловое смещение элемента статора.
+- [^^`setItemAngularDisplacement()`^^](./setItemAngularDisplacement.md): Задать угловое смещение элемента статора.

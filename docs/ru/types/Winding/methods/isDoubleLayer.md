@@ -18,16 +18,17 @@ console.info(result)
 ```
 
 !!! info "См. также"
-- [`isPlanar()`](./isPlanar.md)
 
-- [`isToroidal()`](./isToroidal.md)
+    [isPlanar()](./isPlanar.md)
 
-- [`isSingleLayer()`](./isSingleLayer.md)
+    [isToroidal()](./isToroidal.md)
 
-- [`isOrientationUpperLower()`](./isOrientationUpperLower.md)
+    [isSingleLayer()](./isSingleLayer.md)
 
-- [`isOrientationLeftRight()`](./isOrientationLeftRight.md)
+    [isOrientationUpperLower()](./isOrientationUpperLower.md)
 
-- [`isWindingModelLumped()`](./isWindingModelLumped.md)
+    [isOrientationLeftRight()](./isOrientationLeftRight.md)
 
-- [`isWindingModelFull()`](./isWindingModelFull.md)
+    [isWindingModelLumped()](./isWindingModelLumped.md)
+
+    [isWindingModelFull()](./isWindingModelFull.md)

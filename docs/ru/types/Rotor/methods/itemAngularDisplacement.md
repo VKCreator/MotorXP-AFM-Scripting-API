@@ -12,7 +12,7 @@ itemAngularDisplacement(itemID: RotorItem.ID) -> Number
 - `itemID` (RotorItem.ID, обязательно): Идентификатор элемента ротора.
 
 ## Возвращаемое значение
-`Number`: Угловое смещение элемента ротора в градусах.
+`#!javascript Number`: Угловое смещение элемента ротора в градусах.
 
 ## Пример
 ```javascript linenums="1"

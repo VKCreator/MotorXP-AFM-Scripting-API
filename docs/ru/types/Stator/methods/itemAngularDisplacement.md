@@ -12,7 +12,7 @@ itemAngularDisplacement(itemID: StatorItem.ID) -> Number
 - `itemID` (StatorItem.ID, обязательно): Идентификатор элемента статора.
 
 ## Возвращаемое значение
-`Number`: Угловое смещение элемента статора в градусах.
+`#!javascript Number`: Угловое смещение элемента статора в градусах.
 
 ## Пример
 ```javascript linenums="1"

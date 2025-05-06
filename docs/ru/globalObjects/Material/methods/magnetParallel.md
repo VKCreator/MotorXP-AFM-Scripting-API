@@ -12,15 +12,15 @@ Material.magnetParallel(angle: Number = 0, segmentRadiuses: Array[Number] = [], 
 
 | Аргумент             | Тип                 | Значение по умолчанию | Обязательный | Описание                                                                 |
 |----------------------|----------------------|------------------------|--------------|--------------------------------------------------------------------------|
-| `angle`              | `Number`               | `0`                      | ❌ Нет          | Угол параллельного намагничивания.                                       |
+| `angle`              | `#!javascript Number`               | `0`                      | ❌ Нет          | Угол параллельного намагничивания.                                       |
 | `segmentRadiuses`    | `Array[Number]`     | `[]`                      | ❌ Нет        | Массив радиусов сегментов магнита.                                       |
-| `savePoleBorder`     | `Boolean`              | `true`                | ❌ Нет        | Если `true` — сохраняется граница между магнитами соседних полюсов.      |
+| `savePoleBorder`     | `#!javascript Boolean`              | `true`                | ❌ Нет        | Если `true` — сохраняется граница между магнитами соседних полюсов.      |
 
 ## Возвращаемое значение
 
 | Тип                                                  | Описание                                      |
 |-------------------------------------------------------|-----------------------------------------------|
-| [`MagnetParallelMaterial`](./../../../types/Materials/MagnetParallelMaterial/index.md) | Объект типа `MagnetParallelMaterial`. |
+| [`MagnetParallelMaterial`](./../../../types/materials/MagnetParallelMaterial/index.md) | Объект типа `MagnetParallelMaterial`. |
 
 ## Пример
 ``` javascript linenums="1"

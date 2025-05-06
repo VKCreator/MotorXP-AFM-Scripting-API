@@ -12,7 +12,7 @@ isLower(itemID: RotorItem.ID) -> Boolean
 - `itemID` (RotorItem.ID, обязательно): Идентификатор элемента ротора.
 
 ## Возвращаемое значение
-`Boolean`: Истина, если в моторе элемент ротора нижний.
+`#!javascript Boolean`: Истина, если в моторе элемент ротора нижний.
 
 ## Пример
 ```javascript linenums="1"

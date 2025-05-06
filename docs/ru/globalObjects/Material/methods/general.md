@@ -12,7 +12,7 @@ Material.general() -> GeneralMaterial
 Нет
     
 ## Возвращаемое значение
-[`GeneralMaterial`](./../../../types/Materials/GeneralMaterial/index.md)
+[`GeneralMaterial`](./../../../types/materials/GeneralMaterial/index.md)
 
 ## Пример
 ``` javascript linenums="1"

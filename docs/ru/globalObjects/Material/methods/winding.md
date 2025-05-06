@@ -12,15 +12,15 @@ Material.winding(layer: Number = Winding.LayerAuto, turn: Number = 0, strand: Nu
 
 | Аргумент   | Тип    | Значение по умолчанию | Обязательный | Описание                                                                 |
 |-----------|--------|------------------------|--------------|--------------------------------------------------------------------------|
-| `layer`   | `Number` | `Winding.LayerAuto`                      | ❌ Нет        | Номер слоя. Может быть: `Winding.LayerAuto`, `Winding.LayerSingle`, `Winding.LayerDouble`. |
-| `turn`    | `Number` | `0`                      | ❌ Нет        | Номер витка.                                                            |
-| `strand`  | `Number` | `0`                      | ❌ Нет        | Номер провода в витке.                                                  |
+| `layer`   | `#!javascript Number` | `Winding.LayerAuto`                      | ❌ Нет        | Номер слоя. Может быть: `Winding.LayerAuto`, `Winding.LayerSingle`, `Winding.LayerDouble`. |
+| `turn`    | `#!javascript Number` | `0`                      | ❌ Нет        | Номер витка.                                                            |
+| `strand`  | `#!javascript Number` | `0`                      | ❌ Нет        | Номер провода в витке.                                                  |
 
 ## Возвращаемое значение
 
 | Тип                                      | Описание                                  |
 |------------------------------------------|-------------------------------------------|
-| [`WindingMaterial`](./../../../types/Materials/WindingMaterial/index.md) | Объект типа `WindingMaterial`. |
+| [`WindingMaterial`](./../../../types/materials/WindingMaterial/index.md) | Объект типа `WindingMaterial`. |
 
 ## Пример
 ``` javascript linenums="1"

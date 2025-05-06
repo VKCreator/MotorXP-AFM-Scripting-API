@@ -11,15 +11,15 @@ middleAngle(a1: Number, a2: Number, dir: Number = [Direction.CW | Direction.CCW]
 ## Аргументы
 | Аргумент | Тип    | Обязательный | Описание |
 |---------|--------|--------------|----------|
-| `a1`    | `Number` | :white_check_mark: Да         | Первый угол (в градусах). |
-| `a2`    | `Number` | :white_check_mark: Да         | Второй угол (в градусах). |
-| `dir`   | `Number` | :white_check_mark: Да         | Направление обхода. Возможные значения: `Direction.CW` (по часовой стрелке), `Direction.CCW` (против часовой стрелки). |
+| `a1`    | `#!javascript Number` | :white_check_mark: Да         | Первый угол (в градусах). |
+| `a2`    | `#!javascript Number` | :white_check_mark: Да         | Второй угол (в градусах). |
+| `dir`   | `#!javascript Number` | :white_check_mark: Да         | Направление обхода. Возможные значения: `Direction.CW` (по часовой стрелке), `Direction.CCW` (против часовой стрелки). |
 
 ## Возвращаемое значение
 
 | Тип      | Описание                                      |
 |----------|-----------------------------------------------|
-| **`Number`** | Среднее значение угла (в градусах). |
+| **`#!javascript Number`** | Среднее значение угла (в градусах). |
 
 ## Пример
 ``` javascript linenums="1"

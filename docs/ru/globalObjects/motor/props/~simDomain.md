@@ -7,7 +7,7 @@ The <b>`propertyName`</b> property defines the configuration type of the motor.
 - `Motor.SR` (0): stator - rotor
 
 ## Тип значения свойства
-`Number`
+`#!javascript Number`
 
 ## Доступ
 `Только Чтение`

@@ -177,7 +177,7 @@ file_paths = [
     "types/SimDomain/methods/range.md"
 ]
 
-# Функция для создания файлов
+# Метод для создания файлов
 def create_files(file_paths):
     for file_path in file_paths:
         # Создание директорий, если они не существуют
@@ -205,7 +205,7 @@ def create_files(file_paths):
                 file.write("## Принимаемые значения:\n")
                 file.write("...\n\n")
                 file.write("## Тип значения свойства\n")
-                file.write("`Number`\n\n")
+                file.write("`#!javascript Number`\n\n")
                 file.write("## Доступ\n")
                 file.write("`Чтение\\Запись`\n\n")
                 file.write("## Синтаксис\n")

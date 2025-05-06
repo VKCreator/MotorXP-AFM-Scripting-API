@@ -9,7 +9,7 @@ isSingleLayer() -> Boolean
 ```
 
 ## Возвращаемое значение
-`Boolean`: Истина, если задан одинарный слой.
+`#!javascript Boolean`: Истина, если задан одинарный слой.
 
 ## Пример
 ```javascript linenums="1"

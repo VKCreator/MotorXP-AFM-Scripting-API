@@ -19,7 +19,7 @@ Geom.angleBetweenVectors(v1: Vector3, v2: Vector3) -> Number
 
 | Тип     | Описание                                  |
 |---------|-------------------------------------------|
-| `Number`  | Угол между векторами в градусах.           |
+| `#!javascript Number`  | Угол между векторами в градусах.           |
 
 ## Пример
 ```javascript linenums="1"

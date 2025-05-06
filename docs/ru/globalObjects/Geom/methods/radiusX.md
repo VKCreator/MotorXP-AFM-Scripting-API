@@ -16,7 +16,7 @@ Geom.radiusX(x: Number, y: Number, z: Number,) -> Number
 - `z` (z, обязательно): z координата точки.
 
 ## Возвращаемое значение
-`Number`: Радиус точки относительно точки ноль [0,0,0].
+`#!javascript Number`: Радиус точки относительно точки ноль [0,0,0].
 
 ## Пример
 ```javascript linenums="1"

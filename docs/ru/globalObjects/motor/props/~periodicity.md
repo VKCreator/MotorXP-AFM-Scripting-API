@@ -12,7 +12,7 @@ motor.periodicity = 100;
 - `Motor.SR` (0): stator - rotor
 
 ## Тип значения свойства
-`Number`
+`#!javascript Number`
 
 ## Доступ
 `Только Чтение`

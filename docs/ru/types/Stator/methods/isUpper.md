@@ -12,7 +12,7 @@ isLower(itemID: StatorItem.ID) -> Boolean
 - `itemID` (StatorItem.ID, обязательно): Идентификатор элемента статора.
 
 ## Возвращаемое значение
-`Boolean`: Истина, если в моторе элемент статора верхний.
+`#!javascript Boolean`: Истина, если в моторе элемент статора верхний.
 
 ## Пример
 ```javascript linenums="1"

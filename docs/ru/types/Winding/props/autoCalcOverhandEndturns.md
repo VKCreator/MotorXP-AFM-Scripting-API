@@ -7,7 +7,7 @@ The `autoCalcOverhandEndturns` property...
 ...
 
 ## Тип значения свойства
-`Boolean`
+`#!javascript Boolean`
 
 ## Доступ
 `Чтение\Запись`

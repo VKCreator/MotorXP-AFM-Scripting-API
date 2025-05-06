@@ -9,7 +9,7 @@ isWindingModelFull() -> Boolean
 ```
 
 ## Возвращаемое значение
-`Boolean`: Истина, если задана модель `Full`.
+`#!javascript Boolean`: Истина, если задана модель `Full`.
 
 ## Пример
 ```javascript linenums="1"

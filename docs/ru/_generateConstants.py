@@ -38,7 +38,7 @@ file_paths = [
     "types/Winding/constants/Full.md"
 ]
 
-# Функция для создания файлов
+# Метод для создания файлов
 def create_files(file_paths):
     for file_path in file_paths:
         # Создание директорий, если они не существуют
@@ -62,7 +62,7 @@ def create_files(file_paths):
             file.write("## Описание\n")
             file.write(f"Константа `{file_name}`.\n\n")
             file.write("## Значение\n")
-            file.write("`Number`: значение константы.\n\n")
+            file.write("`#!javascript Number`: значение константы.\n\n")
             file.write("## Пример\n")
             file.write("```javascript linenums=\"1\"\n")
             file.write(f"let value = Constants.{file_name};\n")

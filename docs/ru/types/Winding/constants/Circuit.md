@@ -8,16 +8,16 @@
 
 ## Пример
 ```javascript linenums="1"
-console.info(Winding.Start);
-console.info(Winding.Delta);
+console.info(Winding.Start)
+console.info(Winding.Delta)
 ```
 
 !!! info "См. также"
 
-- [`Winding.Type`](./Type.md)
+    [Winding.Type](./Type.md)
 
-- [`Winding.Layer`](./Layer.md)
+    [Winding.Layer](./Layer.md)
 
-- [`Winding.LayerOrientation`](./LayerOrientation.md)
+    [Winding.LayerOrientation](./LayerOrientation.md)
 
-- [`Winding.Model`](./Model.md)
+    [Winding.Model](./Model.md)

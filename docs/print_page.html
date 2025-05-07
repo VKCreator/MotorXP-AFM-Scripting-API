@@ -12374,12 +12374,12 @@
   
   
     <li class="md-nav__item">
-      <a href="types/Shape/methods/translateY.html" class="md-nav__link">
+      <a href="types/Shape/methods/translateZ.html" class="md-nav__link">
         
   
   
   <span class="md-ellipsis">
-    translateY
+    translateZ
     
   </span>
   
@@ -18201,9 +18201,9 @@
 </li>
         
           <li class="md-nav__item">
-  <a href="#types-shape-methods-translatey" class="md-nav__link">
+  <a href="#types-shape-methods-translatez" class="md-nav__link">
     <span class="md-ellipsis">
-      5.21.3.18 translateY
+      5.21.3.18 translateZ
     </span>
   </a>
   
@@ -24555,44 +24555,122 @@ console.info(radius2) // output:</p>
 <h2 id="globalobjects-motor-index-_1">Описание<a class="headerlink" href="#globalobjects-motor-index-_1" title="Permanent link">&para;</a></h2>
 <p>Встроенный объект <code>motor</code> представляет собой модель двигателя (генератора) с различными параметрами.</p>
 <h2 id="globalobjects-motor-index-motor_1">Константы объекта <code>motor</code><a class="headerlink" href="#globalobjects-motor-index-motor_1" title="Permanent link">&para;</a></h2>
-<ul>
-<li><a href="#globalobjects-motor-constants-sr"><ins><code>Motor.SR</code></ins></a> — Тип мотора: Статор-Ротор.<br />
-  Значение: <code>0</code></li>
-<li><a href="#globalobjects-motor-constants-srs"><ins><code>Motor.SRS</code></ins></a> — Тип мотора: Статор-Ротор-Статор.<br />
-  Значение: <code>1</code></li>
-<li><a href="#globalobjects-motor-constants-srsrs"><ins><code>Motor.SRSRS</code></ins></a> — Тип мотора: Статор-Ротор-Статор-Ротор-Статор.<br />
-  Значение: <code>2</code></li>
-<li><a href="#globalobjects-motor-constants-rsr"><ins><code>Motor.RSR</code></ins></a> — Тип мотора: Ротор-Статор-Ротор.<br />
-  Значение: <code>3</code></li>
-<li><a href="#globalobjects-motor-constants-rsrsr"><ins><code>Motor.RSRSR</code></ins></a> — Тип мотора: Ротор-Статор-Ротор-Статор-Ротор.<br />
-  Значение: <code>4</code></li>
-</ul>
+<!--start-->
+<table>
+<thead>
+<tr>
+<th>Константа</th>
+<th>Описание</th>
+<th style="text-align: right;">Значение</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="#globalobjects-motor-constants-sr">Motor.SR</a></td>
+<td>Тип мотора: Статор-Ротор</td>
+<td style="text-align: right;"><code>0</code></td>
+</tr>
+<tr>
+<td><a href="#globalobjects-motor-constants-srs">Motor.SRS</a></td>
+<td>Тип мотора: Статор-Ротор-Статор</td>
+<td style="text-align: right;"><code>1</code></td>
+</tr>
+<tr>
+<td><a href="#globalobjects-motor-constants-srsrs">Motor.SRSRS</a></td>
+<td>Тип мотора: Статор-Ротор-Статор-Ротор-Статор</td>
+<td style="text-align: right;"><code>2</code></td>
+</tr>
+<tr>
+<td><a href="#globalobjects-motor-constants-rsr">Motor.RSR</a></td>
+<td>Тип мотора: Ротор-Статор-Ротор</td>
+<td style="text-align: right;"><code>3</code></td>
+</tr>
+<tr>
+<td><a href="#globalobjects-motor-constants-rsrsr">Motor.RSRSR</a></td>
+<td>Тип мотора: Ротор-Статор-Ротор-Статор-Ротор</td>
+<td style="text-align: right;"><code>4</code></td>
+</tr>
+</tbody>
+</table>
+<!--end-->
+
 <h2 id="globalobjects-motor-index-motor_2">Свойства объекта <code>motor</code><a class="headerlink" href="#globalobjects-motor-index-motor_2" title="Permanent link">&para;</a></h2>
-<p>Ниже приведен список доступных свойств, предоставляемых объектом <code>motor</code>. Щелкните имя свойства, чтобы увидеть её подробное описание и примеры.</p>
-<ul>
-<li><a href="#globalobjects-motor-props-machinetype"><ins><code>machineType</code></ins></a>: Type of the machine.</li>
-<li><a href="#globalobjects-motor-props-stator"><ins><code>stator</code></ins></a>: Returns the <code>Stator</code> object associated with the motor.</li>
-<li><a href="#globalobjects-motor-props-rotor"><ins><code>rotor</code></ins></a>: Returns the <code>Rotor</code> object associated with the motor.</li>
-<li><a href="#globalobjects-motor-props-airgap"><ins><code>airgap</code></ins></a>: Returns the <code>Airgap</code> object associated with the motor.</li>
-<li><a href="#globalobjects-motor-props-winding"><ins><code>winding</code></ins></a>: Returns the <code>Winding</code> object associated with the motor.</li>
-<li><a href="#globalobjects-motor-props-mesh"><ins><code>mesh</code></ins></a>: Returns the <code>Mesh</code> object associated with the motor.</li>
-</ul></section>
+<table>
+<thead>
+<tr>
+<th>Свойство</th>
+<th>Описание</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="#globalobjects-motor-props-machinetype"><code>machineType</code></a></td>
+<td>Тип машины.</td>
+</tr>
+<tr>
+<td><a href="#globalobjects-motor-props-stator"><code>stator</code></a></td>
+<td>Возвращает объект <code>Stator</code>, связанный с двигателем.</td>
+</tr>
+<tr>
+<td><a href="#globalobjects-motor-props-rotor"><code>rotor</code></a></td>
+<td>Возвращает объект <code>Rotor</code>, связанный с двигателем.</td>
+</tr>
+<tr>
+<td><a href="#globalobjects-motor-props-airgap"><code>airgap</code></a></td>
+<td>Возвращает объект <code>Airgap</code>, связанный с двигателем.</td>
+</tr>
+<tr>
+<td><a href="#globalobjects-motor-props-winding"><code>winding</code></a></td>
+<td>Возвращает объект <code>Winding</code>, связанный с двигателем.</td>
+</tr>
+<tr>
+<td><a href="#globalobjects-motor-props-mesh"><code>mesh</code></a></td>
+<td>Возвращает объект <code>Mesh</code>, связанный с двигателем.</td>
+</tr>
+</tbody>
+</table></section>
                     <section class='print-page md-section' id='section-4-7-2' heading-number='4.7.2'>
                         <h1>Константы<a class='headerlink' href='#section-4-7-2' title='Permanent link'></a>
                         </h1>
-                    <section class="print-page" id="globalobjects-motor-constants-index" heading-number="4.7.2.1"><h1 id="globalobjects-motor-constants-index-motor">Константы объекта motor<a class="headerlink" href="#globalobjects-motor-constants-index-motor" title="Permanent link">&para;</a></h1>
-<ul>
-<li><a href="#globalobjects-motor-constants-sr"><ins><code>Motor.SR</code></ins></a> — Тип мотора: Статор-Ротор.
-  Значение: <code>0</code></li>
-<li><a href="#globalobjects-motor-constants-srs"><ins><code>Motor.SRS</code></ins></a> — Тип мотора: Статор-Ротор-Статор.
-  Значение: <code>1</code></li>
-<li><a href="#globalobjects-motor-constants-srsrs"><ins><code>Motor.SRSRS</code></ins></a> — Тип мотора: Статор-Ротор-Статор-Ротор-Статор.
-  Значение: <code>2</code></li>
-<li><a href="#globalobjects-motor-constants-rsr"><ins><code>Motor.RSR</code></ins></a> — Тип мотора: Ротор-Статор-Ротор.
-  Значение: <code>3</code></li>
-<li><a href="#globalobjects-motor-constants-rsrsr"><ins><code>Motor.RSRSR</code></ins></a> — Тип мотора: Ротор-Статор-Ротор-Статор-Ротор.
-  Значение: <code>4</code></li>
-</ul></section><section class="print-page" id="globalobjects-motor-constants-sr" heading-number="4.7.2.2"><h1 id="globalobjects-motor-constants-sr-motorsr">Motor.SR<a class="headerlink" href="#globalobjects-motor-constants-sr-motorsr" title="Permanent link">&para;</a></h1>
+                    <section class="print-page" id="globalobjects-motor-constants-index" heading-number="4.7.2.1"><h1 id="globalobjects-motor-constants-index-motor">Константы объекта <code>motor</code><a class="headerlink" href="#globalobjects-motor-constants-index-motor" title="Permanent link">&para;</a></h1>
+<!--start-->
+<table>
+<thead>
+<tr>
+<th>Константа</th>
+<th>Описание</th>
+<th style="text-align: right;">Значение</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="#globalobjects-motor-constants-sr">Motor.SR</a></td>
+<td>Тип мотора: Статор-Ротор</td>
+<td style="text-align: right;"><code>0</code></td>
+</tr>
+<tr>
+<td><a href="#globalobjects-motor-constants-srs">Motor.SRS</a></td>
+<td>Тип мотора: Статор-Ротор-Статор</td>
+<td style="text-align: right;"><code>1</code></td>
+</tr>
+<tr>
+<td><a href="#globalobjects-motor-constants-srsrs">Motor.SRSRS</a></td>
+<td>Тип мотора: Статор-Ротор-Статор-Ротор-Статор</td>
+<td style="text-align: right;"><code>2</code></td>
+</tr>
+<tr>
+<td><a href="#globalobjects-motor-constants-rsr">Motor.RSR</a></td>
+<td>Тип мотора: Ротор-Статор-Ротор</td>
+<td style="text-align: right;"><code>3</code></td>
+</tr>
+<tr>
+<td><a href="#globalobjects-motor-constants-rsrsr">Motor.RSRSR</a></td>
+<td>Тип мотора: Ротор-Статор-Ротор-Статор-Ротор</td>
+<td style="text-align: right;"><code>4</code></td>
+</tr>
+</tbody>
+</table>
+<!--end--></section><section class="print-page" id="globalobjects-motor-constants-sr" heading-number="4.7.2.2"><h1 id="globalobjects-motor-constants-sr-motorsr">Motor.SR<a class="headerlink" href="#globalobjects-motor-constants-sr-motorsr" title="Permanent link">&para;</a></h1>
 <h2 id="globalobjects-motor-constants-sr-_1">Описание<a class="headerlink" href="#globalobjects-motor-constants-sr-_1" title="Permanent link">&para;</a></h2>
 <p>Тип мотора: Статор-Ротор.</p>
 <h2 id="globalobjects-motor-constants-sr-_2">Значение<a class="headerlink" href="#globalobjects-motor-constants-sr-_2" title="Permanent link">&para;</a></h2>
@@ -24662,35 +24740,86 @@ console.info(radius2) // output:</p>
                         <h1>Свойства<a class='headerlink' href='#section-4-7-3' title='Permanent link'></a>
                         </h1>
                     <section class="print-page" id="globalobjects-motor-props-index" heading-number="4.7.3.1"><h1 id="globalobjects-motor-props-index-motor">Свойства объекта <code>motor</code><a class="headerlink" href="#globalobjects-motor-props-index-motor" title="Permanent link">&para;</a></h1>
-<ul>
-<li><a href="#globalobjects-motor-props-machinetype"><ins><code>machineType</code></ins></a>: Type of the machine.</li>
-<li><a href="#globalobjects-motor-props-stator"><ins><code>stator</code></ins></a>: Returns the <code>Stator</code> object associated with the motor.</li>
-<li><a href="#globalobjects-motor-props-rotor"><ins><code>rotor</code></ins></a>: Returns the <code>Rotor</code> object associated with the motor.</li>
-<li><a href="#globalobjects-motor-props-airgap"><ins><code>airgap</code></ins></a>: Returns the <code>Airgap</code> object associated with the motor.</li>
-<li><a href="#globalobjects-motor-props-winding"><ins><code>winding</code></ins></a>: Returns the <code>Winding</code> object associated with the motor.</li>
-<li><a href="#globalobjects-motor-props-mesh"><ins><code>mesh</code></ins></a>: Returns the <code>Mesh</code> object associated with the motor.</li>
-</ul></section><section class="print-page" id="globalobjects-motor-props-machinetype" heading-number="4.7.3.2"><h1 id="globalobjects-motor-props-machinetype-motormachinetype">motor.machineType<a class="headerlink" href="#globalobjects-motor-props-machinetype-motormachinetype" title="Permanent link">&para;</a></h1>
+<table>
+<thead>
+<tr>
+<th>Свойство</th>
+<th>Описание</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="#globalobjects-motor-props-machinetype"><code>machineType</code></a></td>
+<td>Тип машины.</td>
+</tr>
+<tr>
+<td><a href="#globalobjects-motor-props-stator"><code>stator</code></a></td>
+<td>Возвращает объект <code>Stator</code>, связанный с двигателем.</td>
+</tr>
+<tr>
+<td><a href="#globalobjects-motor-props-rotor"><code>rotor</code></a></td>
+<td>Возвращает объект <code>Rotor</code>, связанный с двигателем.</td>
+</tr>
+<tr>
+<td><a href="#globalobjects-motor-props-airgap"><code>airgap</code></a></td>
+<td>Возвращает объект <code>Airgap</code>, связанный с двигателем.</td>
+</tr>
+<tr>
+<td><a href="#globalobjects-motor-props-winding"><code>winding</code></a></td>
+<td>Возвращает объект <code>Winding</code>, связанный с двигателем.</td>
+</tr>
+<tr>
+<td><a href="#globalobjects-motor-props-mesh"><code>mesh</code></a></td>
+<td>Возвращает объект <code>Mesh</code>, связанный с двигателем.</td>
+</tr>
+</tbody>
+</table></section><section class="print-page" id="globalobjects-motor-props-machinetype" heading-number="4.7.3.2"><h1 id="globalobjects-motor-props-machinetype-motormachinetype">motor.machineType<a class="headerlink" href="#globalobjects-motor-props-machinetype-motormachinetype" title="Permanent link">&para;</a></h1>
 <h2 id="globalobjects-motor-props-machinetype-_1">Описание<a class="headerlink" href="#globalobjects-motor-props-machinetype-_1" title="Permanent link">&para;</a></h2>
 <p>The <code>machineType</code> property defines the configuration type of the motor.</p>
 <h2 id="globalobjects-motor-props-machinetype-_2">Принимаемые значения<a class="headerlink" href="#globalobjects-motor-props-machinetype-_2" title="Permanent link">&para;</a></h2>
-<ul>
-<li><a href="#globalobjects-motor-constants-sr"><ins><code>Motor.SR</code></ins></a> — Тип мотора: Статор-Ротор.
-  Значение: <code>0</code></li>
-<li><a href="#globalobjects-motor-constants-srs"><ins><code>Motor.SRS</code></ins></a> — Тип мотора: Статор-Ротор-Статор.
-  Значение: <code>1</code></li>
-<li><a href="#globalobjects-motor-constants-srsrs"><ins><code>Motor.SRSRS</code></ins></a> — Тип мотора: Статор-Ротор-Статор-Ротор-Статор.
-  Значение: <code>2</code></li>
-<li><a href="#globalobjects-motor-constants-rsr"><ins><code>Motor.RSR</code></ins></a> — Тип мотора: Ротор-Статор-Ротор.
-  Значение: <code>3</code></li>
-<li><a href="#globalobjects-motor-constants-rsrsr"><ins><code>Motor.RSRSR</code></ins></a> — Тип мотора: Ротор-Статор-Ротор-Статор-Ротор.
-  Значение: <code>4</code></li>
-</ul>
+<table>
+<thead>
+<tr>
+<th>Константа</th>
+<th>Описание</th>
+<th style="text-align: right;">Значение</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="#globalobjects-motor-constants-sr">Motor.SR</a></td>
+<td>Тип мотора: Статор-Ротор</td>
+<td style="text-align: right;"><code>0</code></td>
+</tr>
+<tr>
+<td><a href="#globalobjects-motor-constants-srs">Motor.SRS</a></td>
+<td>Тип мотора: Статор-Ротор-Статор</td>
+<td style="text-align: right;"><code>1</code></td>
+</tr>
+<tr>
+<td><a href="#globalobjects-motor-constants-srsrs">Motor.SRSRS</a></td>
+<td>Тип мотора: Статор-Ротор-Статор-Ротор-Статор</td>
+<td style="text-align: right;"><code>2</code></td>
+</tr>
+<tr>
+<td><a href="#globalobjects-motor-constants-rsr">Motor.RSR</a></td>
+<td>Тип мотора: Ротор-Статор-Ротор</td>
+<td style="text-align: right;"><code>3</code></td>
+</tr>
+<tr>
+<td><a href="#globalobjects-motor-constants-rsrsr">Motor.RSRSR</a></td>
+<td>Тип мотора: Ротор-Статор-Ротор-Статор-Ротор</td>
+<td style="text-align: right;"><code>4</code></td>
+</tr>
+</tbody>
+</table>
 <h2 id="globalobjects-motor-props-machinetype-_3">Тип значения свойства<a class="headerlink" href="#globalobjects-motor-props-machinetype-_3" title="Permanent link">&para;</a></h2>
 <p><code class="language-javascript highlight"><span class="nb">Number</span></code></p>
 <h2 id="globalobjects-motor-props-machinetype-_4">Доступ<a class="headerlink" href="#globalobjects-motor-props-machinetype-_4" title="Permanent link">&para;</a></h2>
 <p><code>Чтение\Запись</code></p>
 <h2 id="globalobjects-motor-props-machinetype-_5">Синтаксис<a class="headerlink" href="#globalobjects-motor-props-machinetype-_5" title="Permanent link">&para;</a></h2>
-<div class="language-javascript highlight"><pre><span></span><code><span id="__span-0-1"><a id="__codelineno-0-1" name="__codelineno-0-1" href="#globalobjects-motor-props-machinetype-__codelineno-0-1"></a><span class="nx">motor</span><span class="p">.</span><span class="nx">machineType</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nx">Motor</span><span class="p">.</span><span class="o">&lt;</span><span class="nx">TYPE</span><span class="o">&gt;</span>
+<div class="language-javascript highlight"><pre><span></span><code><span id="__span-0-1"><a id="__codelineno-0-1" name="__codelineno-0-1" href="#globalobjects-motor-props-machinetype-__codelineno-0-1"></a><span class="nx">motor</span><span class="p">.</span><span class="nx">machineType</span>
+</span><span id="__span-0-2"><a id="__codelineno-0-2" name="__codelineno-0-2" href="#globalobjects-motor-props-machinetype-__codelineno-0-2"></a><span class="nx">motor</span><span class="p">.</span><span class="nx">machineType</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nx">Motor</span><span class="p">.</span><span class="o">&lt;</span><span class="nx">TYPE</span><span class="o">&gt;</span>
 </span></code></pre></div>
 <h2 id="globalobjects-motor-props-machinetype-_6">Пример<a class="headerlink" href="#globalobjects-motor-props-machinetype-_6" title="Permanent link">&para;</a></h2>
 <div class="language-javascript highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal"><a href="#globalobjects-motor-props-machinetype-__codelineno-1-1">1</a></span>
@@ -24723,7 +24852,7 @@ console.info(radius2) // output:</p>
 </span></code></pre></div></td></tr></table></div>
 <div class="admonition info">
 <p class="admonition-title">См. также</p>
-<p><a href="#globalobjects-motor-props"></a></p>
+<p><a href="#types-stator-index">Stator</a></p>
 </div></section><section class="print-page" id="globalobjects-motor-props-rotor" heading-number="4.7.3.4"><h1 id="globalobjects-motor-props-rotor-motorrotor">motor.rotor<a class="headerlink" href="#globalobjects-motor-props-rotor-motorrotor" title="Permanent link">&para;</a></h1>
 <h2 id="globalobjects-motor-props-rotor-_1">Описание<a class="headerlink" href="#globalobjects-motor-props-rotor-_1" title="Permanent link">&para;</a></h2>
 <p>Возвращает объект типа <a href="#types-rotor-index"><code>Rotor</code></a>.</p>
@@ -24739,7 +24868,7 @@ console.info(radius2) // output:</p>
 </span></code></pre></div></td></tr></table></div>
 <div class="admonition info">
 <p class="admonition-title">См. также</p>
-<p><a href="#globalobjects-motor-props"></a></p>
+<p><a href="#types-rotor-index">Rotor</a></p>
 </div></section><section class="print-page" id="globalobjects-motor-props-airgap" heading-number="4.7.3.5"><h1 id="globalobjects-motor-props-airgap-motorairgap">motor.airgap<a class="headerlink" href="#globalobjects-motor-props-airgap-motorairgap" title="Permanent link">&para;</a></h1>
 <h2 id="globalobjects-motor-props-airgap-_1">Описание<a class="headerlink" href="#globalobjects-motor-props-airgap-_1" title="Permanent link">&para;</a></h2>
 <p>Возвращает объект типа <a href="#types-airgap-index"><code>Airgap</code></a>.</p>
@@ -24787,8 +24916,7 @@ console.info(radius2) // output:</p>
 </span></code></pre></div></td></tr></table></div>
 <div class="admonition info">
 <p class="admonition-title">См. также</p>
-<p><a href="#globalobjects-motor-props"></a></p>
-<p><a href="#globalobjects-motor-props"></a></p>
+<p><a href="#types-mesh-index">Mesh</a></p>
 </div></section></section></section></section>
                     <section class='print-page md-section' id='section-5' heading-number='5'>
                         <h1>Типы объектов<a class='headerlink' href='#section-5' title='Permanent link'></a>
@@ -26288,7 +26416,7 @@ console.info(radius2) // output:</p>
 <h2 id="types-stator-props-countitems-_3">Доступ<a class="headerlink" href="#types-stator-props-countitems-_3" title="Permanent link">&para;</a></h2>
 <p><code>Только Чтение</code></p>
 <h2 id="types-stator-props-countitems-_4">Синтаксис<a class="headerlink" href="#types-stator-props-countitems-_4" title="Permanent link">&para;</a></h2>
-<div class="language-javascript highlight"><pre><span></span><code><span id="__span-0-1"><a id="__codelineno-0-1" name="__codelineno-0-1" href="#types-stator-props-countitems-__codelineno-0-1"></a><span class="nx">countItems</span>
+<div class="language-javascript highlight"><pre><span></span><code><span id="__span-0-1"><a id="__codelineno-0-1" name="__codelineno-0-1" href="#types-stator-props-countitems-__codelineno-0-1"></a><span class="nx">stator</span><span class="p">.</span><span class="nx">countItems</span>
 </span></code></pre></div>
 <h2 id="types-stator-props-countitems-_5">Пример<a class="headerlink" href="#types-stator-props-countitems-_5" title="Permanent link">&para;</a></h2>
 <div class="language-javascript highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal"><a href="#types-stator-props-countitems-__codelineno-1-1">1</a></span>
@@ -26300,22 +26428,22 @@ console.info(radius2) // output:</p>
 <p><a href="#types-stator-props"></a></p>
 </div></section><section class="print-page" id="types-stator-props-items" heading-number="5.4.3.12"><h1 id="types-stator-props-items-items">items<a class="headerlink" href="#types-stator-props-items-items" title="Permanent link">&para;</a></h1>
 <h2 id="types-stator-props-items-_1">Описание<a class="headerlink" href="#types-stator-props-items-_1" title="Permanent link">&para;</a></h2>
-<p>Массив элементов статора, количество элементов зависит от motor.machineType.</p>
+<p>Массив элементов статора, количество элементов статора зависит от значения свойства <code>motor.machineType</code>.</p>
 <h2 id="types-stator-props-items-_2">Тип значения свойства<a class="headerlink" href="#types-stator-props-items-_2" title="Permanent link">&para;</a></h2>
-<p><code>Array of StatorItem</code></p>
+<p><code class="language-javascript highlight"><span class="nb">Array</span><span class="p">[</span><span class="nx">StatorItem</span><span class="p">]</span></code></p>
 <h2 id="types-stator-props-items-_3">Доступ<a class="headerlink" href="#types-stator-props-items-_3" title="Permanent link">&para;</a></h2>
 <p><code>Только Чтение</code></p>
-<h2 id="types-stator-props-items-_4">Синтаксис<a class="headerlink" href="#types-stator-props-items-_4" title="Permanent link">&para;</a></h2>
-<div class="language-javascript highlight"><pre><span></span><code><span id="__span-0-1"><a id="__codelineno-0-1" name="__codelineno-0-1" href="#types-stator-props-items-__codelineno-0-1"></a><span class="nx">items</span>
-</span></code></pre></div>
-<h2 id="types-stator-props-items-_5">Пример<a class="headerlink" href="#types-stator-props-items-_5" title="Permanent link">&para;</a></h2>
-<div class="language-javascript highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal"><a href="#types-stator-props-items-__codelineno-1-1">1</a></span>
-<span class="normal"><a href="#types-stator-props-items-__codelineno-1-2">2</a></span></pre></div></td><td class="code"><div><pre><span></span><code><span id="__span-1-1"><a id="__codelineno-1-1" name="__codelineno-1-1"></a><span class="kd">let</span><span class="w"> </span><span class="nx">result</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nx">motor</span><span class="p">.</span><span class="nx">stator</span><span class="p">.</span><span class="nx">items</span>
-</span><span id="__span-1-2"><a id="__codelineno-1-2" name="__codelineno-1-2"></a><span class="nx">console</span><span class="p">.</span><span class="nx">info</span><span class="p">(</span><span class="nx">result</span><span class="p">)</span>
+<h2 id="types-stator-props-items-_4">Пример<a class="headerlink" href="#types-stator-props-items-_4" title="Permanent link">&para;</a></h2>
+<div class="language-javascript highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal"><a href="#types-stator-props-items-__codelineno-0-1">1</a></span>
+<span class="normal"><a href="#types-stator-props-items-__codelineno-0-2">2</a></span></pre></div></td><td class="code"><div><pre><span></span><code><span id="__span-0-1"><a id="__codelineno-0-1" name="__codelineno-0-1"></a><span class="kd">let</span><span class="w"> </span><span class="nx">result</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nx">motor</span><span class="p">.</span><span class="nx">stator</span><span class="p">.</span><span class="nx">items</span>
+</span><span id="__span-0-2"><a id="__codelineno-0-2" name="__codelineno-0-2"></a><span class="nx">console</span><span class="p">.</span><span class="nx">info</span><span class="p">(</span><span class="nx">result</span><span class="p">)</span><span class="w"> </span><span class="c1">// output: 09:33:29.723 | Stator | StatorItem(0x22591e173c0, &quot;statorItem1&quot;),StatorItem(0x22591e174c0, &quot;statorItem2&quot;),StatorItem(0x22591e168c0, &quot;statorItem3&quot;)</span>
 </span></code></pre></div></td></tr></table></div>
 <div class="admonition info">
 <p class="admonition-title">См. также</p>
-<p><a href="#types-stator-props"></a></p>
+<p><a href="#globalobjects-motor-props-machinetype">motor.machineType</a></p>
+<p><a href="#globalobjects-motor-props-stator">motor.stator</a></p>
+<p><a href="#types-stator-index">Stator</a></p>
+<p><a href="#types-statoritem-index">StatorItem</a></p>
 </div></section><section class="print-page" id="types-stator-props-ironmaterial" heading-number="5.4.3.13"><h1 id="types-stator-props-ironmaterial-ironmaterial">ironMaterial<a class="headerlink" href="#types-stator-props-ironmaterial-ironmaterial" title="Permanent link">&para;</a></h1>
 <h2 id="types-stator-props-ironmaterial-_1">Описание<a class="headerlink" href="#types-stator-props-ironmaterial-_1" title="Permanent link">&para;</a></h2>
 <p>Материал стали статора</p>
@@ -26399,13 +26527,10 @@ console.info(radius2) // output:</p>
 <p><code class="language-javascript highlight"><span class="nb">String</span></code></p>
 <h2 id="types-stator-props-conductormaterial-_3">Доступ<a class="headerlink" href="#types-stator-props-conductormaterial-_3" title="Permanent link">&para;</a></h2>
 <p><code>Чтение\Запись</code></p>
-<h2 id="types-stator-props-conductormaterial-_4">Синтаксис<a class="headerlink" href="#types-stator-props-conductormaterial-_4" title="Permanent link">&para;</a></h2>
-<div class="language-javascript highlight"><pre><span></span><code><span id="__span-0-1"><a id="__codelineno-0-1" name="__codelineno-0-1" href="#types-stator-props-conductormaterial-__codelineno-0-1"></a><span class="nx">conductorMaterial</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nx">value</span>
-</span></code></pre></div>
-<h2 id="types-stator-props-conductormaterial-_5">Пример<a class="headerlink" href="#types-stator-props-conductormaterial-_5" title="Permanent link">&para;</a></h2>
-<div class="language-javascript highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal"><a href="#types-stator-props-conductormaterial-__codelineno-1-1">1</a></span>
-<span class="normal"><a href="#types-stator-props-conductormaterial-__codelineno-1-2">2</a></span></pre></div></td><td class="code"><div><pre><span></span><code><span id="__span-1-1"><a id="__codelineno-1-1" name="__codelineno-1-1"></a><span class="kd">let</span><span class="w"> </span><span class="nx">result</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nx">motor</span><span class="p">.</span><span class="nx">stator</span><span class="p">.</span><span class="nx">conductorMaterial</span>
-</span><span id="__span-1-2"><a id="__codelineno-1-2" name="__codelineno-1-2"></a><span class="nx">console</span><span class="p">.</span><span class="nx">info</span><span class="p">(</span><span class="nx">result</span><span class="p">)</span>
+<h2 id="types-stator-props-conductormaterial-_4">Пример<a class="headerlink" href="#types-stator-props-conductormaterial-_4" title="Permanent link">&para;</a></h2>
+<div class="language-javascript highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal"><a href="#types-stator-props-conductormaterial-__codelineno-0-1">1</a></span>
+<span class="normal"><a href="#types-stator-props-conductormaterial-__codelineno-0-2">2</a></span></pre></div></td><td class="code"><div><pre><span></span><code><span id="__span-0-1"><a id="__codelineno-0-1" name="__codelineno-0-1"></a><span class="kd">let</span><span class="w"> </span><span class="nx">result</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nx">motor</span><span class="p">.</span><span class="nx">stator</span><span class="p">.</span><span class="nx">conductorMaterial</span>
+</span><span id="__span-0-2"><a id="__codelineno-0-2" name="__codelineno-0-2"></a><span class="nx">console</span><span class="p">.</span><span class="nx">info</span><span class="p">(</span><span class="nx">result</span><span class="p">)</span>
 </span></code></pre></div></td></tr></table></div>
 <div class="admonition info">
 <p class="admonition-title">См. также</p>
@@ -26612,19 +26737,50 @@ console.info(radius2) // output:</p>
 <h2 id="types-statoritem-constants-id-_1">Описание<a class="headerlink" href="#types-statoritem-constants-id-_1" title="Permanent link">&para;</a></h2>
 <p>Идентификатор элемента статора.</p>
 <h2 id="types-statoritem-constants-id-_2">Значение<a class="headerlink" href="#types-statoritem-constants-id-_2" title="Permanent link">&para;</a></h2>
-<ul>
-<li><code>StatorItem.ID1</code>: 1</li>
-<li><code>StatorItem.ID2</code>: 2</li>
-<li><code>StatorItem.ID3</code>: 3</li>
-</ul>
+<table>
+<thead>
+<tr>
+<th>Константа</th>
+<th>Описание</th>
+<th style="text-align: right;">Значение</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>StatorItem.ID1</code></td>
+<td>Идентификатор нижней части статора</td>
+<td style="text-align: right;"><code>1</code></td>
+</tr>
+<tr>
+<td><code>StatorItem.ID2</code></td>
+<td>Идентификатор средней части статора</td>
+<td style="text-align: right;"><code>2</code></td>
+</tr>
+<tr>
+<td><code>StatorItem.ID3</code></td>
+<td>Идентификатор верхней части статора</td>
+<td style="text-align: right;"><code>3</code></td>
+</tr>
+</tbody>
+</table>
+<div class="admonition warning">
+<p class="admonition-title">Внимание</p>
+<p>Значения констант увеличиваются <strong>от нижней части статора к верхней</strong>, а не наоборот.</p>
+</div>
 <h2 id="types-statoritem-constants-id-_3">Пример<a class="headerlink" href="#types-statoritem-constants-id-_3" title="Permanent link">&para;</a></h2>
 <div class="language-javascript highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal"><a href="#types-statoritem-constants-id-__codelineno-0-1">1</a></span>
-<span class="normal"><a href="#types-statoritem-constants-id-__codelineno-0-2">2</a></span></pre></div></td><td class="code"><div><pre><span></span><code><span id="__span-0-1"><a id="__codelineno-0-1" name="__codelineno-0-1"></a><span class="kd">let</span><span class="w"> </span><span class="nx">value</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nx">StatorItem</span><span class="p">.</span><span class="nx">Lower</span><span class="p">;</span>
-</span><span id="__span-0-2"><a id="__codelineno-0-2" name="__codelineno-0-2"></a><span class="nx">console</span><span class="p">.</span><span class="nx">info</span><span class="p">(</span><span class="nx">value</span><span class="p">);</span>
+<span class="normal"><a href="#types-statoritem-constants-id-__codelineno-0-2">2</a></span>
+<span class="normal"><a href="#types-statoritem-constants-id-__codelineno-0-3">3</a></span>
+<span class="normal"><a href="#types-statoritem-constants-id-__codelineno-0-4">4</a></span></pre></div></td><td class="code"><div><pre><span></span><code><span id="__span-0-1"><a id="__codelineno-0-1" name="__codelineno-0-1"></a><span class="nx">console</span><span class="p">.</span><span class="nx">info</span><span class="p">(</span><span class="nx">StatorItem</span><span class="p">.</span><span class="nx">ID1</span><span class="p">)</span><span class="w"> </span><span class="c1">// output: 1</span>
+</span><span id="__span-0-2"><a id="__codelineno-0-2" name="__codelineno-0-2"></a>
+</span><span id="__span-0-3"><a id="__codelineno-0-3" name="__codelineno-0-3"></a><span class="kd">let</span><span class="w"> </span><span class="nx">BtmStatorHeight</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nx">stator</span><span class="p">.</span><span class="nx">item</span><span class="p">(</span><span class="nx">StatorItem</span><span class="p">.</span><span class="nx">ID1</span><span class="p">).</span><span class="nx">height</span><span class="p">;</span>
+</span><span id="__span-0-4"><a id="__codelineno-0-4" name="__codelineno-0-4"></a><span class="nx">console</span><span class="p">.</span><span class="nx">info</span><span class="p">(</span><span class="nx">BtmStatorHeight</span><span class="p">)</span><span class="w"> </span><span class="c1">// output: for example, 50</span>
 </span></code></pre></div></td></tr></table></div>
 <div class="admonition info">
 <p class="admonition-title">См. также</p>
-<p><a href="#types-statoritem-constants"></a></p>
+<p><a href="#types-stator-index">Stator</a></p>
+<p><a href="#types-statoritem-index">StatorItem</a></p>
+<p><a href="#types-statoritem-constants-layer">StatorItem.Layer</a></p>
 </div></section><section class="print-page" id="types-statoritem-constants-layer" heading-number="5.5.2.3"><h1 id="types-statoritem-constants-layer-statoritemlayer">StatorItem.Layer<a class="headerlink" href="#types-statoritem-constants-layer-statoritemlayer" title="Permanent link">&para;</a></h1>
 <h2 id="types-statoritem-constants-layer-_1">Описание<a class="headerlink" href="#types-statoritem-constants-layer-_1" title="Permanent link">&para;</a></h2>
 <p>Слой элемента статора.</p>
@@ -27812,13 +27968,36 @@ console.info(radius2) // output:</p>
                         </h1>
                     <section class="print-page" id="types-winding-index" heading-number="5.8.1"><h1 id="types-winding-index-winding">Описание <code>Winding</code><a class="headerlink" href="#types-winding-index-winding" title="Permanent link">&para;</a></h1>
 <h2 id="types-winding-index-winding_1">Константы <code>Winding</code><a class="headerlink" href="#types-winding-index-winding_1" title="Permanent link">&para;</a></h2>
-<ul>
-<li><a href="#types-winding-constants-type"><ins><code>Winding.Type</code></ins></a>: Тип обмотки.</li>
-<li><a href="#types-winding-constants-layer"><ins><code>Winding.Layer</code></ins></a>: Слои обмотки.</li>
-<li><a href="#types-winding-constants-layerorientation"><ins><code>Winding.LayerOrientation</code></ins></a>: Ориентация слоев обмотки.</li>
-<li><a href="#types-winding-constants-circuit"><ins><code>Winding.Circuit</code></ins></a>: Схема обмотки.</li>
-<li><a href="#types-winding-constants-model"><ins><code>Winding.Model</code></ins></a>: Модель обмотки.</li>
-</ul>
+<table>
+<thead>
+<tr>
+<th>Константа</th>
+<th>Описание</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="#types-winding-constants-type"><code>Winding.Type</code></a></td>
+<td>Тип обмотки.</td>
+</tr>
+<tr>
+<td><a href="#types-winding-constants-layer"><code>Winding.Layer</code></a></td>
+<td>Слои обмотки.</td>
+</tr>
+<tr>
+<td><a href="#types-winding-constants-layerorientation"><code>Winding.LayerOrientation</code></a></td>
+<td>Ориентация слоев обмотки.</td>
+</tr>
+<tr>
+<td><a href="#types-winding-constants-circuit"><code>Winding.Circuit</code></a></td>
+<td>Схема обмотки.</td>
+</tr>
+<tr>
+<td><a href="#types-winding-constants-model"><code>Winding.Model</code></a></td>
+<td>Модель обмотки.</td>
+</tr>
+</tbody>
+</table>
 <h2 id="types-winding-index-winding_2">Свойства <code>Winding</code><a class="headerlink" href="#types-winding-index-winding_2" title="Permanent link">&para;</a></h2>
 <p>Ниже приведен список доступных свойств, предоставляемых типом <code>Winding</code>. Щелкните имя свойства, чтобы увидеть её подробное описание и примеры.</p>
 <ul>
@@ -27862,27 +28041,82 @@ console.info(radius2) // output:</p>
 </ul>
 <h2 id="types-winding-index-winding_3">Методы <code>Winding</code><a class="headerlink" href="#types-winding-index-winding_3" title="Permanent link">&para;</a></h2>
 <p>Ниже приведен список доступных методов, предоставляемых типом <code>Winding</code>. Щелкните имя метода, чтобы увидеть его подробное описание и примеры.</p>
-<ul>
-<li><a href="#types-winding-methods-isplanar"><ins><code>isPlanar()</code></ins></a>: Истина, если тип обмотки планарный.</li>
-<li><a href="#types-winding-methods-istoroidal"><ins><code>isToroidal()</code></ins></a>: Истина, если тип обмотки тороидальный.</li>
-<li><a href="#types-winding-methods-issinglelayer"><ins><code>isSingleLayer()</code></ins></a>: Истина, если задан одинарный слой.</li>
-<li><a href="#types-winding-methods-isdoublelayer"><ins><code>isDoubleLayer()</code></ins></a>: Истина, если задан двойной слой.</li>
-<li><a href="#types-winding-methods-isorientationupperlower"><ins><code>isOrientationUpperLower()</code></ins></a>: Истина, если для двойного слоя задана ориентация обмотки Верх/Низ.</li>
-<li><a href="#types-winding-methods-isorientationleftright"><ins><code>isOrientationLeftRight()</code></ins></a>: Истина, если для двойного слоя задана ориентация обмотки Слева/Справа.</li>
-<li><a href="#types-winding-methods-iswindingmodellumped"><ins><code>isWindingModelLumped()</code></ins></a>: Истина, если задана модель <code>Lumped</code>.</li>
-<li><a href="#types-winding-methods-iswindingmodelfull"><ins><code>isWindingModelFull()</code></ins></a>: Истина, если задана модель <code>Full</code>.</li>
-</ul></section>
+<table>
+<thead>
+<tr>
+<th>Метод</th>
+<th>Описание</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="#types-winding-methods-isplanar"><code>isPlanar()</code></a></td>
+<td>Возвращает <code>true</code>, если тип обмотки — планарный.</td>
+</tr>
+<tr>
+<td><a href="#types-winding-methods-istoroidal"><code>isToroidal()</code></a></td>
+<td>Возвращает <code>true</code>, если тип обмотки — тороидальный.</td>
+</tr>
+<tr>
+<td><a href="#types-winding-methods-issinglelayer"><code>isSingleLayer()</code></a></td>
+<td>Возвращает <code>true</code>, если задан одинарный слой обмотки.</td>
+</tr>
+<tr>
+<td><a href="#types-winding-methods-isdoublelayer"><code>isDoubleLayer()</code></a></td>
+<td>Возвращает <code>true</code>, если задан двойной слой обмотки.</td>
+</tr>
+<tr>
+<td><a href="#types-winding-methods-isorientationupperlower"><code>isOrientationUpperLower()</code></a></td>
+<td>Возвращает <code>true</code>, если для двойного слоя задана ориентация Верх/Низ.</td>
+</tr>
+<tr>
+<td><a href="#types-winding-methods-isorientationleftright"><code>isOrientationLeftRight()</code></a></td>
+<td>Возвращает <code>true</code>, если для двойного слоя задана ориентация Слева/Справа.</td>
+</tr>
+<tr>
+<td><a href="#types-winding-methods-iswindingmodellumped"><code>isWindingModelLumped()</code></a></td>
+<td>Возвращает <code>true</code>, если модель обмотки — <code>Lumped</code>.</td>
+</tr>
+<tr>
+<td><a href="#types-winding-methods-iswindingmodelfull"><code>isWindingModelFull()</code></a></td>
+<td>Возвращает <code>true</code>, если модель обмотки — <code>Full</code>.</td>
+</tr>
+</tbody>
+</table></section>
                     <section class='print-page md-section' id='section-5-8-2' heading-number='5.8.2'>
                         <h1>Константы<a class='headerlink' href='#section-5-8-2' title='Permanent link'></a>
                         </h1>
                     <section class="print-page" id="types-winding-constants-index" heading-number="5.8.2.1"><h1 id="types-winding-constants-index-winding">Константы <code>Winding</code><a class="headerlink" href="#types-winding-constants-index-winding" title="Permanent link">&para;</a></h1>
-<ul>
-<li><a href="#types-winding-constants-type"><ins><code>Winding.Type</code></ins></a>: Тип обмотки.</li>
-<li><a href="#types-winding-constants-layer"><ins><code>Winding.Layer</code></ins></a>: Слои обмотки.</li>
-<li><a href="#types-winding-constants-layerorientation"><ins><code>Winding.LayerOrientation</code></ins></a>: Ориентация слоев обмотки.</li>
-<li><a href="#types-winding-constants-circuit"><ins><code>Winding.Circuit</code></ins></a>: Схема обмотки.</li>
-<li><a href="#types-winding-constants-model"><ins><code>Winding.Model</code></ins></a>: Модель обмотки.</li>
-</ul></section><section class="print-page" id="types-winding-constants-type" heading-number="5.8.2.2"><h1 id="types-winding-constants-type-windingtype">Winding.Type<a class="headerlink" href="#types-winding-constants-type-windingtype" title="Permanent link">&para;</a></h1>
+<table>
+<thead>
+<tr>
+<th>Константа</th>
+<th>Описание</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="#types-winding-constants-type"><code>Winding.Type</code></a></td>
+<td>Тип обмотки.</td>
+</tr>
+<tr>
+<td><a href="#types-winding-constants-layer"><code>Winding.Layer</code></a></td>
+<td>Слои обмотки.</td>
+</tr>
+<tr>
+<td><a href="#types-winding-constants-layerorientation"><code>Winding.LayerOrientation</code></a></td>
+<td>Ориентация слоев обмотки.</td>
+</tr>
+<tr>
+<td><a href="#types-winding-constants-circuit"><code>Winding.Circuit</code></a></td>
+<td>Схема обмотки.</td>
+</tr>
+<tr>
+<td><a href="#types-winding-constants-model"><code>Winding.Model</code></a></td>
+<td>Модель обмотки.</td>
+</tr>
+</tbody>
+</table></section><section class="print-page" id="types-winding-constants-type" heading-number="5.8.2.2"><h1 id="types-winding-constants-type-windingtype">Winding.Type<a class="headerlink" href="#types-winding-constants-type-windingtype" title="Permanent link">&para;</a></h1>
 <!--start-->
 <table>
 <thead>
@@ -27909,26 +28143,16 @@ console.info(radius2) // output:</p>
 
 <h2 id="types-winding-constants-type-_1">Пример<a class="headerlink" href="#types-winding-constants-type-_1" title="Permanent link">&para;</a></h2>
 <div class="language-javascript highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal"><a href="#types-winding-constants-type-__codelineno-0-1">1</a></span>
-<span class="normal"><a href="#types-winding-constants-type-__codelineno-0-2">2</a></span></pre></div></td><td class="code"><div><pre><span></span><code><span id="__span-0-1"><a id="__codelineno-0-1" name="__codelineno-0-1"></a><span class="nx">console</span><span class="p">.</span><span class="nx">info</span><span class="p">(</span><span class="nx">Winding</span><span class="p">.</span><span class="nx">Planar</span><span class="p">);</span>
-</span><span id="__span-0-2"><a id="__codelineno-0-2" name="__codelineno-0-2"></a><span class="nx">console</span><span class="p">.</span><span class="nx">info</span><span class="p">(</span><span class="nx">Winding</span><span class="p">.</span><span class="nx">Toroidal</span><span class="p">);</span>
+<span class="normal"><a href="#types-winding-constants-type-__codelineno-0-2">2</a></span></pre></div></td><td class="code"><div><pre><span></span><code><span id="__span-0-1"><a id="__codelineno-0-1" name="__codelineno-0-1"></a><span class="nx">console</span><span class="p">.</span><span class="nx">info</span><span class="p">(</span><span class="nx">Winding</span><span class="p">.</span><span class="nx">Planar</span><span class="p">)</span>
+</span><span id="__span-0-2"><a id="__codelineno-0-2" name="__codelineno-0-2"></a><span class="nx">console</span><span class="p">.</span><span class="nx">info</span><span class="p">(</span><span class="nx">Winding</span><span class="p">.</span><span class="nx">Toroidal</span><span class="p">)</span>
 </span></code></pre></div></td></tr></table></div>
 <div class="admonition info">
 <p class="admonition-title">См. также</p>
-</div>
-<ul>
-<li>
-<p><a href="#types-winding-constants-layer"><code>Winding.Layer</code></a></p>
-</li>
-<li>
-<p><a href="#types-winding-constants-layerorientation"><code>Winding.LayerOrientation</code></a></p>
-</li>
-<li>
-<p><a href="#types-winding-constants-circuit"><code>Winding.Circuit</code></a></p>
-</li>
-<li>
-<p><a href="#types-winding-constants-model"><code>Winding.Model</code></a></p>
-</li>
-</ul></section><section class="print-page" id="types-winding-constants-circuit" heading-number="5.8.2.3"><h1 id="types-winding-constants-circuit-windingcircuit">Winding.Circuit<a class="headerlink" href="#types-winding-constants-circuit-windingcircuit" title="Permanent link">&para;</a></h1>
+<p><a href="#types-winding-constants-layer">Winding.Layer</a></p>
+<p><a href="#types-winding-constants-layerorientation">Winding.LayerOrientation</a></p>
+<p><a href="#types-winding-constants-circuit">Winding.Circuit</a></p>
+<p><a href="#types-winding-constants-model">Winding.Model</a></p>
+</div></section><section class="print-page" id="types-winding-constants-circuit" heading-number="5.8.2.3"><h1 id="types-winding-constants-circuit-windingcircuit">Winding.Circuit<a class="headerlink" href="#types-winding-constants-circuit-windingcircuit" title="Permanent link">&para;</a></h1>
 <!--start-->
 <table>
 <thead>
@@ -27955,26 +28179,16 @@ console.info(radius2) // output:</p>
 
 <h2 id="types-winding-constants-circuit-_1">Пример<a class="headerlink" href="#types-winding-constants-circuit-_1" title="Permanent link">&para;</a></h2>
 <div class="language-javascript highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal"><a href="#types-winding-constants-circuit-__codelineno-0-1">1</a></span>
-<span class="normal"><a href="#types-winding-constants-circuit-__codelineno-0-2">2</a></span></pre></div></td><td class="code"><div><pre><span></span><code><span id="__span-0-1"><a id="__codelineno-0-1" name="__codelineno-0-1"></a><span class="nx">console</span><span class="p">.</span><span class="nx">info</span><span class="p">(</span><span class="nx">Winding</span><span class="p">.</span><span class="nx">Start</span><span class="p">);</span>
-</span><span id="__span-0-2"><a id="__codelineno-0-2" name="__codelineno-0-2"></a><span class="nx">console</span><span class="p">.</span><span class="nx">info</span><span class="p">(</span><span class="nx">Winding</span><span class="p">.</span><span class="nx">Delta</span><span class="p">);</span>
+<span class="normal"><a href="#types-winding-constants-circuit-__codelineno-0-2">2</a></span></pre></div></td><td class="code"><div><pre><span></span><code><span id="__span-0-1"><a id="__codelineno-0-1" name="__codelineno-0-1"></a><span class="nx">console</span><span class="p">.</span><span class="nx">info</span><span class="p">(</span><span class="nx">Winding</span><span class="p">.</span><span class="nx">Start</span><span class="p">)</span>
+</span><span id="__span-0-2"><a id="__codelineno-0-2" name="__codelineno-0-2"></a><span class="nx">console</span><span class="p">.</span><span class="nx">info</span><span class="p">(</span><span class="nx">Winding</span><span class="p">.</span><span class="nx">Delta</span><span class="p">)</span>
 </span></code></pre></div></td></tr></table></div>
 <div class="admonition info">
 <p class="admonition-title">См. также</p>
-</div>
-<ul>
-<li>
-<p><a href="#types-winding-constants-type"><code>Winding.Type</code></a></p>
-</li>
-<li>
-<p><a href="#types-winding-constants-layer"><code>Winding.Layer</code></a></p>
-</li>
-<li>
-<p><a href="#types-winding-constants-layerorientation"><code>Winding.LayerOrientation</code></a></p>
-</li>
-<li>
-<p><a href="#types-winding-constants-model"><code>Winding.Model</code></a></p>
-</li>
-</ul></section><section class="print-page" id="types-winding-constants-layer" heading-number="5.8.2.4"><h1 id="types-winding-constants-layer-windinglayer">Winding.Layer<a class="headerlink" href="#types-winding-constants-layer-windinglayer" title="Permanent link">&para;</a></h1>
+<p><a href="#types-winding-constants-type">Winding.Type</a></p>
+<p><a href="#types-winding-constants-layer">Winding.Layer</a></p>
+<p><a href="#types-winding-constants-layerorientation">Winding.LayerOrientation</a></p>
+<p><a href="#types-winding-constants-model">Winding.Model</a></p>
+</div></section><section class="print-page" id="types-winding-constants-layer" heading-number="5.8.2.4"><h1 id="types-winding-constants-layer-windinglayer">Winding.Layer<a class="headerlink" href="#types-winding-constants-layer-windinglayer" title="Permanent link">&para;</a></h1>
 <!--start-->
 <table>
 <thead>
@@ -28001,26 +28215,16 @@ console.info(radius2) // output:</p>
 
 <h2 id="types-winding-constants-layer-_1">Пример<a class="headerlink" href="#types-winding-constants-layer-_1" title="Permanent link">&para;</a></h2>
 <div class="language-javascript highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal"><a href="#types-winding-constants-layer-__codelineno-0-1">1</a></span>
-<span class="normal"><a href="#types-winding-constants-layer-__codelineno-0-2">2</a></span></pre></div></td><td class="code"><div><pre><span></span><code><span id="__span-0-1"><a id="__codelineno-0-1" name="__codelineno-0-1"></a><span class="nx">console</span><span class="p">.</span><span class="nx">info</span><span class="p">(</span><span class="nx">Winding</span><span class="p">.</span><span class="nx">SingleLayer</span><span class="p">);</span>
-</span><span id="__span-0-2"><a id="__codelineno-0-2" name="__codelineno-0-2"></a><span class="nx">console</span><span class="p">.</span><span class="nx">info</span><span class="p">(</span><span class="nx">Winding</span><span class="p">.</span><span class="nx">DoubleLayer</span><span class="p">);</span>
+<span class="normal"><a href="#types-winding-constants-layer-__codelineno-0-2">2</a></span></pre></div></td><td class="code"><div><pre><span></span><code><span id="__span-0-1"><a id="__codelineno-0-1" name="__codelineno-0-1"></a><span class="nx">console</span><span class="p">.</span><span class="nx">info</span><span class="p">(</span><span class="nx">Winding</span><span class="p">.</span><span class="nx">SingleLayer</span><span class="p">)</span>
+</span><span id="__span-0-2"><a id="__codelineno-0-2" name="__codelineno-0-2"></a><span class="nx">console</span><span class="p">.</span><span class="nx">info</span><span class="p">(</span><span class="nx">Winding</span><span class="p">.</span><span class="nx">DoubleLayer</span><span class="p">)</span>
 </span></code></pre></div></td></tr></table></div>
 <div class="admonition info">
 <p class="admonition-title">См. также</p>
-</div>
-<ul>
-<li>
-<p><a href="#types-winding-constants-type"><code>Winding.Type</code></a></p>
-</li>
-<li>
-<p><a href="#types-winding-constants-layerorientation"><code>Winding.LayerOrientation</code></a></p>
-</li>
-<li>
-<p><a href="#types-winding-constants-circuit"><code>Winding.Circuit</code></a></p>
-</li>
-<li>
-<p><a href="#types-winding-constants-model"><code>Winding.Model</code></a></p>
-</li>
-</ul></section><section class="print-page" id="types-winding-constants-layerorientation" heading-number="5.8.2.5"><h1 id="types-winding-constants-layerorientation-windinglayerorientation">Winding.LayerOrientation<a class="headerlink" href="#types-winding-constants-layerorientation-windinglayerorientation" title="Permanent link">&para;</a></h1>
+<p><a href="#types-winding-constants-type">Winding.Type</a></p>
+<p><a href="#types-winding-constants-layerorientation">Winding.LayerOrientation</a></p>
+<p><a href="#types-winding-constants-circuit">Winding.Circuit</a></p>
+<p><a href="#types-winding-constants-model">Winding.Model</a></p>
+</div></section><section class="print-page" id="types-winding-constants-layerorientation" heading-number="5.8.2.5"><h1 id="types-winding-constants-layerorientation-windinglayerorientation">Winding.LayerOrientation<a class="headerlink" href="#types-winding-constants-layerorientation-windinglayerorientation" title="Permanent link">&para;</a></h1>
 <!--start-->
 <table>
 <thead>
@@ -28047,26 +28251,16 @@ console.info(radius2) // output:</p>
 
 <h2 id="types-winding-constants-layerorientation-_1">Пример<a class="headerlink" href="#types-winding-constants-layerorientation-_1" title="Permanent link">&para;</a></h2>
 <div class="language-javascript highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal"><a href="#types-winding-constants-layerorientation-__codelineno-0-1">1</a></span>
-<span class="normal"><a href="#types-winding-constants-layerorientation-__codelineno-0-2">2</a></span></pre></div></td><td class="code"><div><pre><span></span><code><span id="__span-0-1"><a id="__codelineno-0-1" name="__codelineno-0-1"></a><span class="nx">console</span><span class="p">.</span><span class="nx">info</span><span class="p">(</span><span class="nx">Winding</span><span class="p">.</span><span class="nx">UpperLower</span><span class="p">);</span>
-</span><span id="__span-0-2"><a id="__codelineno-0-2" name="__codelineno-0-2"></a><span class="nx">console</span><span class="p">.</span><span class="nx">info</span><span class="p">(</span><span class="nx">Winding</span><span class="p">.</span><span class="nx">LeftRight</span><span class="p">);</span>
+<span class="normal"><a href="#types-winding-constants-layerorientation-__codelineno-0-2">2</a></span></pre></div></td><td class="code"><div><pre><span></span><code><span id="__span-0-1"><a id="__codelineno-0-1" name="__codelineno-0-1"></a><span class="nx">console</span><span class="p">.</span><span class="nx">info</span><span class="p">(</span><span class="nx">Winding</span><span class="p">.</span><span class="nx">UpperLower</span><span class="p">)</span>
+</span><span id="__span-0-2"><a id="__codelineno-0-2" name="__codelineno-0-2"></a><span class="nx">console</span><span class="p">.</span><span class="nx">info</span><span class="p">(</span><span class="nx">Winding</span><span class="p">.</span><span class="nx">LeftRight</span><span class="p">)</span>
 </span></code></pre></div></td></tr></table></div>
 <div class="admonition info">
 <p class="admonition-title">См. также</p>
-</div>
-<ul>
-<li>
-<p><a href="#types-winding-constants-type"><code>Winding.Type</code></a></p>
-</li>
-<li>
-<p><a href="#types-winding-constants-layer"><code>Winding.Layer</code></a></p>
-</li>
-<li>
-<p><a href="#types-winding-constants-circuit"><code>Winding.Circuit</code></a></p>
-</li>
-<li>
-<p><a href="#types-winding-constants-model"><code>Winding.Model</code></a></p>
-</li>
-</ul></section><section class="print-page" id="types-winding-constants-model" heading-number="5.8.2.6"><h1 id="types-winding-constants-model-windingmodel">Winding.Model<a class="headerlink" href="#types-winding-constants-model-windingmodel" title="Permanent link">&para;</a></h1>
+<p><a href="#types-winding-constants-type">Winding.Type</a></p>
+<p><a href="#types-winding-constants-layer">Winding.Layer</a></p>
+<p><a href="#types-winding-constants-circuit">Winding.Circuit</a></p>
+<p><a href="#types-winding-constants-model">Winding.Model</a></p>
+</div></section><section class="print-page" id="types-winding-constants-model" heading-number="5.8.2.6"><h1 id="types-winding-constants-model-windingmodel">Winding.Model<a class="headerlink" href="#types-winding-constants-model-windingmodel" title="Permanent link">&para;</a></h1>
 <!--start-->
 <table>
 <thead>
@@ -28093,8 +28287,8 @@ console.info(radius2) // output:</p>
 
 <h2 id="types-winding-constants-model-_1">Пример<a class="headerlink" href="#types-winding-constants-model-_1" title="Permanent link">&para;</a></h2>
 <div class="language-javascript highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal"><a href="#types-winding-constants-model-__codelineno-0-1">1</a></span>
-<span class="normal"><a href="#types-winding-constants-model-__codelineno-0-2">2</a></span></pre></div></td><td class="code"><div><pre><span></span><code><span id="__span-0-1"><a id="__codelineno-0-1" name="__codelineno-0-1"></a><span class="nx">console</span><span class="p">.</span><span class="nx">info</span><span class="p">(</span><span class="nx">Winding</span><span class="p">.</span><span class="nx">Lumped</span><span class="p">);</span>
-</span><span id="__span-0-2"><a id="__codelineno-0-2" name="__codelineno-0-2"></a><span class="nx">console</span><span class="p">.</span><span class="nx">info</span><span class="p">(</span><span class="nx">Winding</span><span class="p">.</span><span class="nx">Model</span><span class="p">);</span>
+<span class="normal"><a href="#types-winding-constants-model-__codelineno-0-2">2</a></span></pre></div></td><td class="code"><div><pre><span></span><code><span id="__span-0-1"><a id="__codelineno-0-1" name="__codelineno-0-1"></a><span class="nx">console</span><span class="p">.</span><span class="nx">info</span><span class="p">(</span><span class="nx">Winding</span><span class="p">.</span><span class="nx">Lumped</span><span class="p">)</span>
+</span><span id="__span-0-2"><a id="__codelineno-0-2" name="__codelineno-0-2"></a><span class="nx">console</span><span class="p">.</span><span class="nx">info</span><span class="p">(</span><span class="nx">Winding</span><span class="p">.</span><span class="nx">Model</span><span class="p">)</span>
 </span></code></pre></div></td></tr></table></div>
 <div class="admonition info">
 <p class="admonition-title">См. также</p>
@@ -28502,16 +28696,48 @@ console.info(radius2) // output:</p>
                         </h1>
                     <section class="print-page" id="types-winding-methods-index" heading-number="5.8.4.1"><h1 id="types-winding-methods-index-winding">Методы <code>Winding</code><a class="headerlink" href="#types-winding-methods-index-winding" title="Permanent link">&para;</a></h1>
 <p>Ниже приведен список доступных методов, предоставляемых типом <code>Winding</code>. Щелкните имя метода, чтобы увидеть его подробное описание и примеры.</p>
-<ul>
-<li><a href="#types-winding-methods-isplanar"><ins><code>isPlanar()</code></ins></a>: Истина, если тип обмотки планарный.</li>
-<li><a href="#types-winding-methods-istoroidal"><ins><code>isToroidal()</code></ins></a>: Истина, если тип обмотки тороидальный.</li>
-<li><a href="#types-winding-methods-issinglelayer"><ins><code>isSingleLayer()</code></ins></a>: Истина, если задан одинарный слой.</li>
-<li><a href="#types-winding-methods-isdoublelayer"><ins><code>isDoubleLayer()</code></ins></a>: Истина, если задан двойной слой.</li>
-<li><a href="#types-winding-methods-isorientationupperlower"><ins><code>isOrientationUpperLower()</code></ins></a>: Истина, если для двойного слоя задана ориентация обмотки Верх/Низ.</li>
-<li><a href="#types-winding-methods-isorientationleftright"><ins><code>isOrientationLeftRight()</code></ins></a>: Истина, если для двойного слоя задана ориентация обмотки Слева/Справа.</li>
-<li><a href="#types-winding-methods-iswindingmodellumped"><ins><code>isWindingModelLumped()</code></ins></a>: Истина, если задана модель <code>Lumped</code>.</li>
-<li><a href="#types-winding-methods-iswindingmodelfull"><ins><code>isWindingModelFull()</code></ins></a>: Истина, если задана модель <code>Full</code>.</li>
-</ul></section><section class="print-page" id="types-winding-methods-isplanar" heading-number="5.8.4.2"><h1 id="types-winding-methods-isplanar-isplanar">isPlanar()<a class="headerlink" href="#types-winding-methods-isplanar-isplanar" title="Permanent link">&para;</a></h1>
+<table>
+<thead>
+<tr>
+<th>Метод</th>
+<th>Описание</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="#types-winding-methods-isplanar"><code>isPlanar()</code></a></td>
+<td>Возвращает <code>true</code>, если тип обмотки — планарный.</td>
+</tr>
+<tr>
+<td><a href="#types-winding-methods-istoroidal"><code>isToroidal()</code></a></td>
+<td>Возвращает <code>true</code>, если тип обмотки — тороидальный.</td>
+</tr>
+<tr>
+<td><a href="#types-winding-methods-issinglelayer"><code>isSingleLayer()</code></a></td>
+<td>Возвращает <code>true</code>, если задан одинарный слой обмотки.</td>
+</tr>
+<tr>
+<td><a href="#types-winding-methods-isdoublelayer"><code>isDoubleLayer()</code></a></td>
+<td>Возвращает <code>true</code>, если задан двойной слой обмотки.</td>
+</tr>
+<tr>
+<td><a href="#types-winding-methods-isorientationupperlower"><code>isOrientationUpperLower()</code></a></td>
+<td>Возвращает <code>true</code>, если для двойного слоя задана ориентация Верх/Низ.</td>
+</tr>
+<tr>
+<td><a href="#types-winding-methods-isorientationleftright"><code>isOrientationLeftRight()</code></a></td>
+<td>Возвращает <code>true</code>, если для двойного слоя задана ориентация Слева/Справа.</td>
+</tr>
+<tr>
+<td><a href="#types-winding-methods-iswindingmodellumped"><code>isWindingModelLumped()</code></a></td>
+<td>Возвращает <code>true</code>, если модель обмотки — <code>Lumped</code>.</td>
+</tr>
+<tr>
+<td><a href="#types-winding-methods-iswindingmodelfull"><code>isWindingModelFull()</code></a></td>
+<td>Возвращает <code>true</code>, если модель обмотки — <code>Full</code>.</td>
+</tr>
+</tbody>
+</table></section><section class="print-page" id="types-winding-methods-isplanar" heading-number="5.8.4.2"><h1 id="types-winding-methods-isplanar-isplanar">isPlanar()<a class="headerlink" href="#types-winding-methods-isplanar-isplanar" title="Permanent link">&para;</a></h1>
 <h2 id="types-winding-methods-isplanar-_1">Описание<a class="headerlink" href="#types-winding-methods-isplanar-_1" title="Permanent link">&para;</a></h2>
 <p>Истина, если тип обмотки планарный.</p>
 <h2 id="types-winding-methods-isplanar-_2">Синтаксис<a class="headerlink" href="#types-winding-methods-isplanar-_2" title="Permanent link">&para;</a></h2>
@@ -28632,7 +28858,7 @@ console.info(radius2) // output:</p>
 <div class="language-javascript highlight"><pre><span></span><code><span id="__span-0-1"><a id="__codelineno-0-1" name="__codelineno-0-1" href="#types-winding-methods-isdoublelayer-__codelineno-0-1"></a><span class="nx">isDoubleLayer</span><span class="p">()</span><span class="w"> </span><span class="o">-&gt;</span><span class="w"> </span><span class="nb">Boolean</span>
 </span></code></pre></div>
 <h2 id="types-winding-methods-isdoublelayer-_3">Возвращаемое значение<a class="headerlink" href="#types-winding-methods-isdoublelayer-_3" title="Permanent link">&para;</a></h2>
-<p><code class="language-javascript highlight"><span class="nb">Boolean</span></code>: Истина, если задан двойной слой.</p>
+<p><code>Boolean</code>: Истина, если задан двойной слой.</p>
 <h2 id="types-winding-methods-isdoublelayer-_4">Пример<a class="headerlink" href="#types-winding-methods-isdoublelayer-_4" title="Permanent link">&para;</a></h2>
 <div class="language-javascript highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal"><a href="#types-winding-methods-isdoublelayer-__codelineno-1-1">1</a></span>
 <span class="normal"><a href="#types-winding-methods-isdoublelayer-__codelineno-1-2">2</a></span></pre></div></td><td class="code"><div><pre><span></span><code><span id="__span-1-1"><a id="__codelineno-1-1" name="__codelineno-1-1"></a><span class="kd">let</span><span class="w"> </span><span class="nx">result</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nx">motor</span><span class="p">.</span><span class="nx">winding</span><span class="p">.</span><span class="nx">isDoubleLayer</span><span class="p">()</span>
@@ -28640,30 +28866,14 @@ console.info(radius2) // output:</p>
 </span></code></pre></div></td></tr></table></div>
 <div class="admonition info">
 <p class="admonition-title">См. также</p>
-</div>
-<ul>
-<li>
-<p><a href="#types-winding-methods-isplanar"><code>isPlanar()</code></a></p>
-</li>
-<li>
-<p><a href="#types-winding-methods-istoroidal"><code>isToroidal()</code></a></p>
-</li>
-<li>
-<p><a href="#types-winding-methods-issinglelayer"><code>isSingleLayer()</code></a></p>
-</li>
-<li>
-<p><a href="#types-winding-methods-isorientationupperlower"><code>isOrientationUpperLower()</code></a></p>
-</li>
-<li>
-<p><a href="#types-winding-methods-isorientationleftright"><code>isOrientationLeftRight()</code></a></p>
-</li>
-<li>
-<p><a href="#types-winding-methods-iswindingmodellumped"><code>isWindingModelLumped()</code></a></p>
-</li>
-<li>
-<p><a href="#types-winding-methods-iswindingmodelfull"><code>isWindingModelFull()</code></a></p>
-</li>
-</ul></section><section class="print-page" id="types-winding-methods-isorientationupperlower" heading-number="5.8.4.6"><h1 id="types-winding-methods-isorientationupperlower-isorientationupperlower">isOrientationUpperLower()<a class="headerlink" href="#types-winding-methods-isorientationupperlower-isorientationupperlower" title="Permanent link">&para;</a></h1>
+<p><a href="#types-winding-methods-isplanar">isPlanar()</a></p>
+<p><a href="#types-winding-methods-istoroidal">isToroidal()</a></p>
+<p><a href="#types-winding-methods-issinglelayer">isSingleLayer()</a></p>
+<p><a href="#types-winding-methods-isorientationupperlower">isOrientationUpperLower()</a></p>
+<p><a href="#types-winding-methods-isorientationleftright">isOrientationLeftRight()</a></p>
+<p><a href="#types-winding-methods-iswindingmodellumped">isWindingModelLumped()</a></p>
+<p><a href="#types-winding-methods-iswindingmodelfull">isWindingModelFull()</a></p>
+</div></section><section class="print-page" id="types-winding-methods-isorientationupperlower" heading-number="5.8.4.6"><h1 id="types-winding-methods-isorientationupperlower-isorientationupperlower">isOrientationUpperLower()<a class="headerlink" href="#types-winding-methods-isorientationupperlower-isorientationupperlower" title="Permanent link">&para;</a></h1>
 <h2 id="types-winding-methods-isorientationupperlower-_1">Описание<a class="headerlink" href="#types-winding-methods-isorientationupperlower-_1" title="Permanent link">&para;</a></h2>
 <p>Истина, если для двойного слоя задана ориентация обмотки Верх/Низ.</p>
 <h2 id="types-winding-methods-isorientationupperlower-_2">Синтаксис<a class="headerlink" href="#types-winding-methods-isorientationupperlower-_2" title="Permanent link">&para;</a></h2>
@@ -30757,21 +30967,21 @@ console.info(radius2) // output:</p>
 <div class="admonition info">
 <p class="admonition-title">См. также</p>
 <p><a href="#types-shape-methods"></a></p>
-</div></section><section class="print-page" id="types-shape-methods-translatey" heading-number="5.21.3.18"><h1 id="types-shape-methods-translatey-translatey">translateY()<a class="headerlink" href="#types-shape-methods-translatey-translatey" title="Permanent link">&para;</a></h1>
-<h2 id="types-shape-methods-translatey-_1">Описание<a class="headerlink" href="#types-shape-methods-translatey-_1" title="Permanent link">&para;</a></h2>
+</div></section><section class="print-page" id="types-shape-methods-translatez" heading-number="5.21.3.18"><h1 id="types-shape-methods-translatez-translatez">translateZ()<a class="headerlink" href="#types-shape-methods-translatez-translatez" title="Permanent link">&para;</a></h1>
+<h2 id="types-shape-methods-translatez-_1">Описание<a class="headerlink" href="#types-shape-methods-translatez-_1" title="Permanent link">&para;</a></h2>
 <p>Описание метода.</p>
-<h2 id="types-shape-methods-translatey-_2">Синтаксис<a class="headerlink" href="#types-shape-methods-translatey-_2" title="Permanent link">&para;</a></h2>
-<div class="language-javascript highlight"><pre><span></span><code><span id="__span-0-1"><a id="__codelineno-0-1" name="__codelineno-0-1" href="#types-shape-methods-translatey-__codelineno-0-1"></a><span class="nx">translateY</span><span class="p">(</span><span class="nx">argument</span><span class="o">:</span><span class="w"> </span><span class="nx">type</span><span class="p">)</span><span class="w"> </span><span class="o">-&gt;</span><span class="w"> </span><span class="nx">returnType</span>
+<h2 id="types-shape-methods-translatez-_2">Синтаксис<a class="headerlink" href="#types-shape-methods-translatez-_2" title="Permanent link">&para;</a></h2>
+<div class="language-javascript highlight"><pre><span></span><code><span id="__span-0-1"><a id="__codelineno-0-1" name="__codelineno-0-1" href="#types-shape-methods-translatez-__codelineno-0-1"></a><span class="nx">translateZ</span><span class="p">(</span><span class="nx">argument</span><span class="o">:</span><span class="w"> </span><span class="nx">type</span><span class="p">)</span><span class="w"> </span><span class="o">-&gt;</span><span class="w"> </span><span class="nx">returnType</span>
 </span></code></pre></div>
-<h2 id="types-shape-methods-translatey-_3">Аргументы<a class="headerlink" href="#types-shape-methods-translatey-_3" title="Permanent link">&para;</a></h2>
+<h2 id="types-shape-methods-translatez-_3">Аргументы<a class="headerlink" href="#types-shape-methods-translatez-_3" title="Permanent link">&para;</a></h2>
 <ul>
 <li><code>argument</code> (type, обязательно): описание аргумента.</li>
 </ul>
-<h2 id="types-shape-methods-translatey-_4">Возвращаемое значение<a class="headerlink" href="#types-shape-methods-translatey-_4" title="Permanent link">&para;</a></h2>
+<h2 id="types-shape-methods-translatez-_4">Возвращаемое значение<a class="headerlink" href="#types-shape-methods-translatez-_4" title="Permanent link">&para;</a></h2>
 <p><code>returnType</code>: описание возвращаемого значения.</p>
-<h2 id="types-shape-methods-translatey-_5">Пример<a class="headerlink" href="#types-shape-methods-translatey-_5" title="Permanent link">&para;</a></h2>
-<div class="language-javascript highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal"><a href="#types-shape-methods-translatey-__codelineno-1-1">1</a></span>
-<span class="normal"><a href="#types-shape-methods-translatey-__codelineno-1-2">2</a></span></pre></div></td><td class="code"><div><pre><span></span><code><span id="__span-1-1"><a id="__codelineno-1-1" name="__codelineno-1-1"></a><span class="kd">let</span><span class="w"> </span><span class="nx">result</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nx">translateY</span><span class="p">(</span><span class="nx">value</span><span class="p">)</span>
+<h2 id="types-shape-methods-translatez-_5">Пример<a class="headerlink" href="#types-shape-methods-translatez-_5" title="Permanent link">&para;</a></h2>
+<div class="language-javascript highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal"><a href="#types-shape-methods-translatez-__codelineno-1-1">1</a></span>
+<span class="normal"><a href="#types-shape-methods-translatez-__codelineno-1-2">2</a></span></pre></div></td><td class="code"><div><pre><span></span><code><span id="__span-1-1"><a id="__codelineno-1-1" name="__codelineno-1-1"></a><span class="kd">let</span><span class="w"> </span><span class="nx">result</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nx">translateZ</span><span class="p">(</span><span class="nx">value</span><span class="p">)</span>
 </span><span id="__span-1-2"><a id="__codelineno-1-2" name="__codelineno-1-2"></a><span class="nx">console</span><span class="p">.</span><span class="nx">info</span><span class="p">(</span><span class="nx">result</span><span class="p">)</span>
 </span></code></pre></div></td></tr></table></div>
 <div class="admonition info">
@@ -31750,9 +31960,34 @@ console.info(radius2) // output:</p>
             motor
 
         Object Types
+
             Motor Elements
+                Stator
+                StatorItem
+                Rotor
+                RotorItem
+                Airgap
+                Winding
+                Mesh
+
             Geometry
+                Point3
+                Vector3
+                Shape
+                BoundingBox
+                Piece
+
             Materials
+                ConductorMaterial
+                EmptyMaterial
+                EndturnMaterial
+                GeneralMaterial
+                IronMaterial
+                MagnetParallelMaterial
+                MagnetRadialMaterial
+                WindingMaterial
+                CustomMaterial
+
             UI Widgets
                 Qt Widgets
                 Custom Widgets</code></pre></section></div><style>.print-site-enumerate-headings #index > h1:before { content: '1 ' }
@@ -32609,7 +32844,7 @@ console.info(radius2) // output:</p>
 
 .print-site-enumerate-headings #types-shape-methods-translatey > h1:before { content: '5.21.3.17 ' }
 
-.print-site-enumerate-headings #types-shape-methods-translatey > h1:before { content: '5.21.3.18 ' }
+.print-site-enumerate-headings #types-shape-methods-translatez > h1:before { content: '5.21.3.18 ' }
 
 .print-site-enumerate-headings #types-shape-methods-move > h1:before { content: '5.21.3.19 ' }
 

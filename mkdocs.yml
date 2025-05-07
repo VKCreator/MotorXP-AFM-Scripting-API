@@ -88,8 +88,8 @@ plugins:
 
       #regex:
       #  - '.*\.(tmp|bin|tar)$'
-  - with-pdf:
-        enabled_if_env: ENABLE_PDF_EXPORT
+  # - with-pdf:
+        # enabled_if_env: ENABLE_PDF_EXPORT
     #   cover_title: MotorXP-AFM Scripting API manual
      #  cover_subtitle: subtitle
   - print-site:

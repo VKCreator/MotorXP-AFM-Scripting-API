@@ -12476,12 +12476,12 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../types/Shape/methods/translateY.html" class="md-nav__link">
+      <a href="../../../types/Shape/methods/translateZ.html" class="md-nav__link">
         
   
   
   <span class="md-ellipsis">
-    translateY
+    translateZ
     
   </span>
   
@@ -13993,24 +13993,49 @@ https://github.com/mkdocs/mkdocs/blob/master/mkdocs/themes/mkdocs/content.html -
 <h2 id="_1">Описание<a class="headerlink" href="#_1" title="Permanent link">&para;</a></h2>
 <p>The <code>machineType</code> property defines the configuration type of the motor.</p>
 <h2 id="_2">Принимаемые значения<a class="headerlink" href="#_2" title="Permanent link">&para;</a></h2>
-<ul>
-<li><a href="../constants/SR.html"><ins><code>Motor.SR</code></ins></a> — Тип мотора: Статор-Ротор.
-  Значение: <code>0</code></li>
-<li><a href="../constants/SRS.html"><ins><code>Motor.SRS</code></ins></a> — Тип мотора: Статор-Ротор-Статор.
-  Значение: <code>1</code></li>
-<li><a href="../constants/SRSRS.html"><ins><code>Motor.SRSRS</code></ins></a> — Тип мотора: Статор-Ротор-Статор-Ротор-Статор.
-  Значение: <code>2</code></li>
-<li><a href="../constants/RSR.html"><ins><code>Motor.RSR</code></ins></a> — Тип мотора: Ротор-Статор-Ротор.
-  Значение: <code>3</code></li>
-<li><a href="../constants/RSRSR.html"><ins><code>Motor.RSRSR</code></ins></a> — Тип мотора: Ротор-Статор-Ротор-Статор-Ротор.
-  Значение: <code>4</code></li>
-</ul>
+<table>
+<thead>
+<tr>
+<th>Константа</th>
+<th>Описание</th>
+<th style="text-align: right;">Значение</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="../constants/SR.html">Motor.SR</a></td>
+<td>Тип мотора: Статор-Ротор</td>
+<td style="text-align: right;"><code>0</code></td>
+</tr>
+<tr>
+<td><a href="../constants/SRS.html">Motor.SRS</a></td>
+<td>Тип мотора: Статор-Ротор-Статор</td>
+<td style="text-align: right;"><code>1</code></td>
+</tr>
+<tr>
+<td><a href="../constants/SRSRS.html">Motor.SRSRS</a></td>
+<td>Тип мотора: Статор-Ротор-Статор-Ротор-Статор</td>
+<td style="text-align: right;"><code>2</code></td>
+</tr>
+<tr>
+<td><a href="../constants/RSR.html">Motor.RSR</a></td>
+<td>Тип мотора: Ротор-Статор-Ротор</td>
+<td style="text-align: right;"><code>3</code></td>
+</tr>
+<tr>
+<td><a href="../constants/RSRSR.html">Motor.RSRSR</a></td>
+<td>Тип мотора: Ротор-Статор-Ротор-Статор-Ротор</td>
+<td style="text-align: right;"><code>4</code></td>
+</tr>
+</tbody>
+</table>
 <h2 id="_3">Тип значения свойства<a class="headerlink" href="#_3" title="Permanent link">&para;</a></h2>
 <p><code class="language-javascript highlight"><span class="nb">Number</span></code></p>
 <h2 id="_4">Доступ<a class="headerlink" href="#_4" title="Permanent link">&para;</a></h2>
 <p><code>Чтение\Запись</code></p>
 <h2 id="_5">Синтаксис<a class="headerlink" href="#_5" title="Permanent link">&para;</a></h2>
-<div class="language-javascript highlight"><pre><span></span><code><span id="__span-0-1"><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a><span class="nx">motor</span><span class="p">.</span><span class="nx">machineType</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nx">Motor</span><span class="p">.</span><span class="o">&lt;</span><span class="nx">TYPE</span><span class="o">&gt;</span>
+<div class="language-javascript highlight"><pre><span></span><code><span id="__span-0-1"><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a><span class="nx">motor</span><span class="p">.</span><span class="nx">machineType</span>
+</span><span id="__span-0-2"><a id="__codelineno-0-2" name="__codelineno-0-2" href="#__codelineno-0-2"></a><span class="nx">motor</span><span class="p">.</span><span class="nx">machineType</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nx">Motor</span><span class="p">.</span><span class="o">&lt;</span><span class="nx">TYPE</span><span class="o">&gt;</span>
 </span></code></pre></div>
 <h2 id="_6">Пример<a class="headerlink" href="#_6" title="Permanent link">&para;</a></h2>
 <div class="language-javascript highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal"><a href="#__codelineno-1-1">1</a></span>
@@ -14032,7 +14057,7 @@ https://github.com/mkdocs/mkdocs/blob/master/mkdocs/themes/mkdocs/content.html -
 
 <!-- This section adds support for localized revision dates -->
 
-    <small>Last update: <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-custom" title="5 мая 2025 г. 11:27:27">5 мая 2025, 11:27</span></small>
+    <small>Last update: <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-custom" title="6 мая 2025 г. 16:35:52">6 мая 2025, 16:35</span></small>
 
 
                 

@@ -12453,12 +12453,12 @@
   
   
     <li class="md-nav__item">
-      <a href="../../Shape/methods/translateY.html" class="md-nav__link">
+      <a href="../../Shape/methods/translateZ.html" class="md-nav__link">
         
   
   
   <span class="md-ellipsis">
-    translateY
+    translateZ
     
   </span>
   
@@ -13943,24 +13943,55 @@ https://github.com/mkdocs/mkdocs/blob/master/mkdocs/themes/mkdocs/content.html -
 <h2 id="_1">Описание<a class="headerlink" href="#_1" title="Permanent link">&para;</a></h2>
 <p>Идентификатор элемента статора.</p>
 <h2 id="_2">Значение<a class="headerlink" href="#_2" title="Permanent link">&para;</a></h2>
-<ul>
-<li><code>StatorItem.ID1</code>: 1</li>
-<li><code>StatorItem.ID2</code>: 2</li>
-<li><code>StatorItem.ID3</code>: 3</li>
-</ul>
+<table>
+<thead>
+<tr>
+<th>Константа</th>
+<th>Описание</th>
+<th style="text-align: right;">Значение</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>StatorItem.ID1</code></td>
+<td>Идентификатор нижней части статора</td>
+<td style="text-align: right;"><code>1</code></td>
+</tr>
+<tr>
+<td><code>StatorItem.ID2</code></td>
+<td>Идентификатор средней части статора</td>
+<td style="text-align: right;"><code>2</code></td>
+</tr>
+<tr>
+<td><code>StatorItem.ID3</code></td>
+<td>Идентификатор верхней части статора</td>
+<td style="text-align: right;"><code>3</code></td>
+</tr>
+</tbody>
+</table>
+<div class="admonition warning">
+<p class="admonition-title">Внимание</p>
+<p>Значения констант увеличиваются <strong>от нижней части статора к верхней</strong>, а не наоборот.</p>
+</div>
 <h2 id="_3">Пример<a class="headerlink" href="#_3" title="Permanent link">&para;</a></h2>
 <div class="language-javascript highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal"><a href="#__codelineno-0-1">1</a></span>
-<span class="normal"><a href="#__codelineno-0-2">2</a></span></pre></div></td><td class="code"><div><pre><span></span><code><span id="__span-0-1"><a id="__codelineno-0-1" name="__codelineno-0-1"></a><span class="kd">let</span><span class="w"> </span><span class="nx">value</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nx">StatorItem</span><span class="p">.</span><span class="nx">Lower</span><span class="p">;</span>
-</span><span id="__span-0-2"><a id="__codelineno-0-2" name="__codelineno-0-2"></a><span class="nx">console</span><span class="p">.</span><span class="nx">info</span><span class="p">(</span><span class="nx">value</span><span class="p">);</span>
+<span class="normal"><a href="#__codelineno-0-2">2</a></span>
+<span class="normal"><a href="#__codelineno-0-3">3</a></span>
+<span class="normal"><a href="#__codelineno-0-4">4</a></span></pre></div></td><td class="code"><div><pre><span></span><code><span id="__span-0-1"><a id="__codelineno-0-1" name="__codelineno-0-1"></a><span class="nx">console</span><span class="p">.</span><span class="nx">info</span><span class="p">(</span><span class="nx">StatorItem</span><span class="p">.</span><span class="nx">ID1</span><span class="p">)</span><span class="w"> </span><span class="c1">// output: 1</span>
+</span><span id="__span-0-2"><a id="__codelineno-0-2" name="__codelineno-0-2"></a>
+</span><span id="__span-0-3"><a id="__codelineno-0-3" name="__codelineno-0-3"></a><span class="kd">let</span><span class="w"> </span><span class="nx">BtmStatorHeight</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nx">stator</span><span class="p">.</span><span class="nx">item</span><span class="p">(</span><span class="nx">StatorItem</span><span class="p">.</span><span class="nx">ID1</span><span class="p">).</span><span class="nx">height</span><span class="p">;</span>
+</span><span id="__span-0-4"><a id="__codelineno-0-4" name="__codelineno-0-4"></a><span class="nx">console</span><span class="p">.</span><span class="nx">info</span><span class="p">(</span><span class="nx">BtmStatorHeight</span><span class="p">)</span><span class="w"> </span><span class="c1">// output: for example, 50</span>
 </span></code></pre></div></td></tr></table></div>
 <div class="admonition info">
 <p class="admonition-title">См. также</p>
-<p><a href=""></a></p>
+<p><a href="../../Stator/index.html">Stator</a></p>
+<p><a href="../index.html">StatorItem</a></p>
+<p><a href="Layer.html">StatorItem.Layer</a></p>
 </div>
 
 <!-- This section adds support for localized revision dates -->
 
-    <small>Last update: <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-custom" title="29 апреля 2025 г. 22:02:06">29 апреля 2025, 22:02</span></small>
+    <small>Last update: <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-custom" title="7 мая 2025 г. 09:30:50">7 мая 2025, 9:30</span></small>
 
 
                 

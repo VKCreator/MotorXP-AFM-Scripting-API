@@ -12382,12 +12382,12 @@
   
   
     <li class="md-nav__item">
-      <a href="../Shape/methods/translateY.html" class="md-nav__link">
+      <a href="../Shape/methods/translateZ.html" class="md-nav__link">
         
   
   
   <span class="md-ellipsis">
-    translateY
+    translateZ
     
   </span>
   
@@ -13870,13 +13870,36 @@ https://github.com/mkdocs/mkdocs/blob/master/mkdocs/themes/mkdocs/content.html -
 
 <h1 id="winding">Описание <code>Winding</code><a class="headerlink" href="#winding" title="Permanent link">&para;</a></h1>
 <h2 id="winding_1">Константы <code>Winding</code><a class="headerlink" href="#winding_1" title="Permanent link">&para;</a></h2>
-<ul>
-<li><a href="constants/Type.html"><ins><code>Winding.Type</code></ins></a>: Тип обмотки.</li>
-<li><a href="constants/Layer.html"><ins><code>Winding.Layer</code></ins></a>: Слои обмотки.</li>
-<li><a href="constants/LayerOrientation.html"><ins><code>Winding.LayerOrientation</code></ins></a>: Ориентация слоев обмотки.</li>
-<li><a href="constants/Circuit.html"><ins><code>Winding.Circuit</code></ins></a>: Схема обмотки.</li>
-<li><a href="constants/Model.html"><ins><code>Winding.Model</code></ins></a>: Модель обмотки.</li>
-</ul>
+<table>
+<thead>
+<tr>
+<th>Константа</th>
+<th>Описание</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="constants/Type.html"><code>Winding.Type</code></a></td>
+<td>Тип обмотки.</td>
+</tr>
+<tr>
+<td><a href="constants/Layer.html"><code>Winding.Layer</code></a></td>
+<td>Слои обмотки.</td>
+</tr>
+<tr>
+<td><a href="constants/LayerOrientation.html"><code>Winding.LayerOrientation</code></a></td>
+<td>Ориентация слоев обмотки.</td>
+</tr>
+<tr>
+<td><a href="constants/Circuit.html"><code>Winding.Circuit</code></a></td>
+<td>Схема обмотки.</td>
+</tr>
+<tr>
+<td><a href="constants/Model.html"><code>Winding.Model</code></a></td>
+<td>Модель обмотки.</td>
+</tr>
+</tbody>
+</table>
 <h2 id="winding_2">Свойства <code>Winding</code><a class="headerlink" href="#winding_2" title="Permanent link">&para;</a></h2>
 <p>Ниже приведен список доступных свойств, предоставляемых типом <code>Winding</code>. Щелкните имя свойства, чтобы увидеть её подробное описание и примеры.</p>
 <ul>
@@ -13920,16 +13943,48 @@ https://github.com/mkdocs/mkdocs/blob/master/mkdocs/themes/mkdocs/content.html -
 </ul>
 <h2 id="winding_3">Методы <code>Winding</code><a class="headerlink" href="#winding_3" title="Permanent link">&para;</a></h2>
 <p>Ниже приведен список доступных методов, предоставляемых типом <code>Winding</code>. Щелкните имя метода, чтобы увидеть его подробное описание и примеры.</p>
-<ul>
-<li><a href="methods/isPlanar.html"><ins><code>isPlanar()</code></ins></a>: Истина, если тип обмотки планарный.</li>
-<li><a href="methods/isToroidal.html"><ins><code>isToroidal()</code></ins></a>: Истина, если тип обмотки тороидальный.</li>
-<li><a href="methods/isSingleLayer.html"><ins><code>isSingleLayer()</code></ins></a>: Истина, если задан одинарный слой.</li>
-<li><a href="methods/isDoubleLayer.html"><ins><code>isDoubleLayer()</code></ins></a>: Истина, если задан двойной слой.</li>
-<li><a href="methods/isOrientationUpperLower.html"><ins><code>isOrientationUpperLower()</code></ins></a>: Истина, если для двойного слоя задана ориентация обмотки Верх/Низ.</li>
-<li><a href="methods/isOrientationLeftRight.html"><ins><code>isOrientationLeftRight()</code></ins></a>: Истина, если для двойного слоя задана ориентация обмотки Слева/Справа.</li>
-<li><a href="methods/isWindingModelLumped.html"><ins><code>isWindingModelLumped()</code></ins></a>: Истина, если задана модель <code>Lumped</code>.</li>
-<li><a href="methods/isWindingModelFull.html"><ins><code>isWindingModelFull()</code></ins></a>: Истина, если задана модель <code>Full</code>.</li>
-</ul>
+<table>
+<thead>
+<tr>
+<th>Метод</th>
+<th>Описание</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="methods/isPlanar.html"><code>isPlanar()</code></a></td>
+<td>Возвращает <code>true</code>, если тип обмотки — планарный.</td>
+</tr>
+<tr>
+<td><a href="methods/isToroidal.html"><code>isToroidal()</code></a></td>
+<td>Возвращает <code>true</code>, если тип обмотки — тороидальный.</td>
+</tr>
+<tr>
+<td><a href="methods/isSingleLayer.html"><code>isSingleLayer()</code></a></td>
+<td>Возвращает <code>true</code>, если задан одинарный слой обмотки.</td>
+</tr>
+<tr>
+<td><a href="methods/isDoubleLayer.html"><code>isDoubleLayer()</code></a></td>
+<td>Возвращает <code>true</code>, если задан двойной слой обмотки.</td>
+</tr>
+<tr>
+<td><a href="methods/isOrientationUpperLower.html"><code>isOrientationUpperLower()</code></a></td>
+<td>Возвращает <code>true</code>, если для двойного слоя задана ориентация Верх/Низ.</td>
+</tr>
+<tr>
+<td><a href="methods/isOrientationLeftRight.html"><code>isOrientationLeftRight()</code></a></td>
+<td>Возвращает <code>true</code>, если для двойного слоя задана ориентация Слева/Справа.</td>
+</tr>
+<tr>
+<td><a href="methods/isWindingModelLumped.html"><code>isWindingModelLumped()</code></a></td>
+<td>Возвращает <code>true</code>, если модель обмотки — <code>Lumped</code>.</td>
+</tr>
+<tr>
+<td><a href="methods/isWindingModelFull.html"><code>isWindingModelFull()</code></a></td>
+<td>Возвращает <code>true</code>, если модель обмотки — <code>Full</code>.</td>
+</tr>
+</tbody>
+</table>
 
 <!-- This section adds support for localized revision dates -->
 

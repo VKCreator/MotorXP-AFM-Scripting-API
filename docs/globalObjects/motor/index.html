@@ -12382,12 +12382,12 @@
   
   
     <li class="md-nav__item">
-      <a href="../../types/Shape/methods/translateY.html" class="md-nav__link">
+      <a href="../../types/Shape/methods/translateZ.html" class="md-nav__link">
         
   
   
   <span class="md-ellipsis">
-    translateY
+    translateZ
     
   </span>
   
@@ -13872,32 +13872,84 @@ https://github.com/mkdocs/mkdocs/blob/master/mkdocs/themes/mkdocs/content.html -
 <h2 id="_1">Описание<a class="headerlink" href="#_1" title="Permanent link">&para;</a></h2>
 <p>Встроенный объект <code>motor</code> представляет собой модель двигателя (генератора) с различными параметрами.</p>
 <h2 id="motor_1">Константы объекта <code>motor</code><a class="headerlink" href="#motor_1" title="Permanent link">&para;</a></h2>
-<ul>
-<li><a href="constants/SR.html"><ins><code>Motor.SR</code></ins></a> — Тип мотора: Статор-Ротор.<br />
-  Значение: <code>0</code></li>
-<li><a href="constants/SRS.html"><ins><code>Motor.SRS</code></ins></a> — Тип мотора: Статор-Ротор-Статор.<br />
-  Значение: <code>1</code></li>
-<li><a href="constants/SRSRS.html"><ins><code>Motor.SRSRS</code></ins></a> — Тип мотора: Статор-Ротор-Статор-Ротор-Статор.<br />
-  Значение: <code>2</code></li>
-<li><a href="constants/RSR.html"><ins><code>Motor.RSR</code></ins></a> — Тип мотора: Ротор-Статор-Ротор.<br />
-  Значение: <code>3</code></li>
-<li><a href="constants/RSRSR.html"><ins><code>Motor.RSRSR</code></ins></a> — Тип мотора: Ротор-Статор-Ротор-Статор-Ротор.<br />
-  Значение: <code>4</code></li>
-</ul>
+<!--start-->
+<table>
+<thead>
+<tr>
+<th>Константа</th>
+<th>Описание</th>
+<th style="text-align: right;">Значение</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="constants/SR.html">Motor.SR</a></td>
+<td>Тип мотора: Статор-Ротор</td>
+<td style="text-align: right;"><code>0</code></td>
+</tr>
+<tr>
+<td><a href="constants/SRS.html">Motor.SRS</a></td>
+<td>Тип мотора: Статор-Ротор-Статор</td>
+<td style="text-align: right;"><code>1</code></td>
+</tr>
+<tr>
+<td><a href="constants/SRSRS.html">Motor.SRSRS</a></td>
+<td>Тип мотора: Статор-Ротор-Статор-Ротор-Статор</td>
+<td style="text-align: right;"><code>2</code></td>
+</tr>
+<tr>
+<td><a href="constants/RSR.html">Motor.RSR</a></td>
+<td>Тип мотора: Ротор-Статор-Ротор</td>
+<td style="text-align: right;"><code>3</code></td>
+</tr>
+<tr>
+<td><a href="constants/RSRSR.html">Motor.RSRSR</a></td>
+<td>Тип мотора: Ротор-Статор-Ротор-Статор-Ротор</td>
+<td style="text-align: right;"><code>4</code></td>
+</tr>
+</tbody>
+</table>
+<!--end-->
+
 <h2 id="motor_2">Свойства объекта <code>motor</code><a class="headerlink" href="#motor_2" title="Permanent link">&para;</a></h2>
-<p>Ниже приведен список доступных свойств, предоставляемых объектом <code>motor</code>. Щелкните имя свойства, чтобы увидеть её подробное описание и примеры.</p>
-<ul>
-<li><a href="props/machineType.html"><ins><code>machineType</code></ins></a>: Type of the machine.</li>
-<li><a href="props/stator.html"><ins><code>stator</code></ins></a>: Returns the <code>Stator</code> object associated with the motor.</li>
-<li><a href="props/rotor.html"><ins><code>rotor</code></ins></a>: Returns the <code>Rotor</code> object associated with the motor.</li>
-<li><a href="props/airgap.html"><ins><code>airgap</code></ins></a>: Returns the <code>Airgap</code> object associated with the motor.</li>
-<li><a href="props/winding.html"><ins><code>winding</code></ins></a>: Returns the <code>Winding</code> object associated with the motor.</li>
-<li><a href="props/mesh.html"><ins><code>mesh</code></ins></a>: Returns the <code>Mesh</code> object associated with the motor.</li>
-</ul>
+<table>
+<thead>
+<tr>
+<th>Свойство</th>
+<th>Описание</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="props/machineType.html"><code>machineType</code></a></td>
+<td>Тип машины.</td>
+</tr>
+<tr>
+<td><a href="props/stator.html"><code>stator</code></a></td>
+<td>Возвращает объект <code>Stator</code>, связанный с двигателем.</td>
+</tr>
+<tr>
+<td><a href="props/rotor.html"><code>rotor</code></a></td>
+<td>Возвращает объект <code>Rotor</code>, связанный с двигателем.</td>
+</tr>
+<tr>
+<td><a href="props/airgap.html"><code>airgap</code></a></td>
+<td>Возвращает объект <code>Airgap</code>, связанный с двигателем.</td>
+</tr>
+<tr>
+<td><a href="props/winding.html"><code>winding</code></a></td>
+<td>Возвращает объект <code>Winding</code>, связанный с двигателем.</td>
+</tr>
+<tr>
+<td><a href="props/mesh.html"><code>mesh</code></a></td>
+<td>Возвращает объект <code>Mesh</code>, связанный с двигателем.</td>
+</tr>
+</tbody>
+</table>
 
 <!-- This section adds support for localized revision dates -->
 
-    <small>Last update: <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-custom" title="3 мая 2025 г. 11:59:11">3 мая 2025, 11:59</span></small>
+    <small>Last update: <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-custom" title="6 мая 2025 г. 16:35:52">6 мая 2025, 16:35</span></small>
 
 
                 

@@ -5710,15 +5710,6 @@
         <li class="md-nav__item">
   <a href="#_4" class="md-nav__link">
     <span class="md-ellipsis">
-      Синтаксис
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#_5" class="md-nav__link">
-    <span class="md-ellipsis">
       Пример
     </span>
   </a>
@@ -12471,12 +12462,12 @@
   
   
     <li class="md-nav__item">
-      <a href="../../Shape/methods/translateY.html" class="md-nav__link">
+      <a href="../../Shape/methods/translateZ.html" class="md-nav__link">
         
   
   
   <span class="md-ellipsis">
-    translateY
+    translateZ
     
   </span>
   
@@ -13943,15 +13934,6 @@
         <li class="md-nav__item">
   <a href="#_4" class="md-nav__link">
     <span class="md-ellipsis">
-      Синтаксис
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#_5" class="md-nav__link">
-    <span class="md-ellipsis">
       Пример
     </span>
   </a>
@@ -13977,27 +13959,27 @@ https://github.com/mkdocs/mkdocs/blob/master/mkdocs/themes/mkdocs/content.html -
 
 <h1 id="items">items<a class="headerlink" href="#items" title="Permanent link">&para;</a></h1>
 <h2 id="_1">Описание<a class="headerlink" href="#_1" title="Permanent link">&para;</a></h2>
-<p>Массив элементов статора, количество элементов зависит от motor.machineType.</p>
+<p>Массив элементов статора, количество элементов статора зависит от значения свойства <code>motor.machineType</code>.</p>
 <h2 id="_2">Тип значения свойства<a class="headerlink" href="#_2" title="Permanent link">&para;</a></h2>
-<p><code>Array of StatorItem</code></p>
+<p><code class="language-javascript highlight"><span class="nb">Array</span><span class="p">[</span><span class="nx">StatorItem</span><span class="p">]</span></code></p>
 <h2 id="_3">Доступ<a class="headerlink" href="#_3" title="Permanent link">&para;</a></h2>
 <p><code>Только Чтение</code></p>
-<h2 id="_4">Синтаксис<a class="headerlink" href="#_4" title="Permanent link">&para;</a></h2>
-<div class="language-javascript highlight"><pre><span></span><code><span id="__span-0-1"><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a><span class="nx">items</span>
-</span></code></pre></div>
-<h2 id="_5">Пример<a class="headerlink" href="#_5" title="Permanent link">&para;</a></h2>
-<div class="language-javascript highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal"><a href="#__codelineno-1-1">1</a></span>
-<span class="normal"><a href="#__codelineno-1-2">2</a></span></pre></div></td><td class="code"><div><pre><span></span><code><span id="__span-1-1"><a id="__codelineno-1-1" name="__codelineno-1-1"></a><span class="kd">let</span><span class="w"> </span><span class="nx">result</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nx">motor</span><span class="p">.</span><span class="nx">stator</span><span class="p">.</span><span class="nx">items</span>
-</span><span id="__span-1-2"><a id="__codelineno-1-2" name="__codelineno-1-2"></a><span class="nx">console</span><span class="p">.</span><span class="nx">info</span><span class="p">(</span><span class="nx">result</span><span class="p">)</span>
+<h2 id="_4">Пример<a class="headerlink" href="#_4" title="Permanent link">&para;</a></h2>
+<div class="language-javascript highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal"><a href="#__codelineno-0-1">1</a></span>
+<span class="normal"><a href="#__codelineno-0-2">2</a></span></pre></div></td><td class="code"><div><pre><span></span><code><span id="__span-0-1"><a id="__codelineno-0-1" name="__codelineno-0-1"></a><span class="kd">let</span><span class="w"> </span><span class="nx">result</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nx">motor</span><span class="p">.</span><span class="nx">stator</span><span class="p">.</span><span class="nx">items</span>
+</span><span id="__span-0-2"><a id="__codelineno-0-2" name="__codelineno-0-2"></a><span class="nx">console</span><span class="p">.</span><span class="nx">info</span><span class="p">(</span><span class="nx">result</span><span class="p">)</span><span class="w"> </span><span class="c1">// output: 09:33:29.723 | Stator | StatorItem(0x22591e173c0, &quot;statorItem1&quot;),StatorItem(0x22591e174c0, &quot;statorItem2&quot;),StatorItem(0x22591e168c0, &quot;statorItem3&quot;)</span>
 </span></code></pre></div></td></tr></table></div>
 <div class="admonition info">
 <p class="admonition-title">См. также</p>
-<p><a href=""></a></p>
+<p><a href="../../../globalObjects/motor/props/machineType.html">motor.machineType</a></p>
+<p><a href="../../../globalObjects/motor/props/stator.html">motor.stator</a></p>
+<p><a href="../index.html">Stator</a></p>
+<p><a href="../../StatorItem/index.html">StatorItem</a></p>
 </div>
 
 <!-- This section adds support for localized revision dates -->
 
-    <small>Last update: <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-custom" title="29 апреля 2025 г. 22:02:06">29 апреля 2025, 22:02</span></small>
+    <small>Last update: <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-custom" title="7 мая 2025 г. 14:20:29">7 мая 2025, 14:20</span></small>
 
 
                 

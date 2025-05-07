@@ -4,16 +4,11 @@
 The `machineType` property defines the configuration type of the motor.
 
 ## Принимаемые значения
-- [^^`Motor.SR`^^](../constants/SR.md) — Тип мотора: Статор-Ротор.
-  Значение: `0`
-- [^^`Motor.SRS`^^](../constants/SRS.md) — Тип мотора: Статор-Ротор-Статор.
-  Значение: `1`
-- [^^`Motor.SRSRS`^^](../constants/SRSRS.md) — Тип мотора: Статор-Ротор-Статор-Ротор-Статор.
-  Значение: `2`
-- [^^`Motor.RSR`^^](../constants/RSR.md) — Тип мотора: Ротор-Статор-Ротор.
-  Значение: `3`
-- [^^`Motor.RSRSR`^^](../constants/RSRSR.md) — Тип мотора: Ротор-Статор-Ротор-Статор-Ротор.
-  Значение: `4`
+{%
+    include-markdown "../constants/index.md"
+    start="<!--start-->"
+    end="<!--end-->"
+%}
 
 ## Тип значения свойства
 `#!javascript Number`
@@ -23,6 +18,7 @@ The `machineType` property defines the configuration type of the motor.
 
 ## Синтаксис
 ``` javascript
+motor.machineType
 motor.machineType = Motor.<TYPE>
 ```
 ## Пример

@@ -1,8 +1,10 @@
 # Свойства объекта `motor`
 
-- [^^`machineType`^^](./machineType.md): Type of the machine.
-- [^^`stator`^^](./stator.md): Returns the `Stator` object associated with the motor.
-- [^^`rotor`^^](./rotor.md): Returns the `Rotor` object associated with the motor.
-- [^^`airgap`^^](./airgap.md): Returns the `Airgap` object associated with the motor.
-- [^^`winding`^^](./winding.md): Returns the `Winding` object associated with the motor.
-- [^^`mesh`^^](./mesh.md): Returns the `Mesh` object associated with the motor.
+| Свойство              | Описание                                                    |
+|----------------------|-------------------------------------------------------------|
+| [`machineType`](./machineType.md)  | Тип машины.                                                  |
+| [`stator`](./stator.md)           | Возвращает объект `Stator`, связанный с двигателем.         |
+| [`rotor`](./rotor.md)             | Возвращает объект `Rotor`, связанный с двигателем.          |
+| [`airgap`](./airgap.md)           | Возвращает объект `Airgap`, связанный с двигателем.         |
+| [`winding`](./winding.md)         | Возвращает объект `Winding`, связанный с двигателем.        |
+| [`mesh`](./mesh.md)               | Возвращает объект `Mesh`, связанный с двигателем.           |

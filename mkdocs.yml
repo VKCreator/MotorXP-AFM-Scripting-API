@@ -43,12 +43,12 @@ theme:
 plugins:
   - search
   - offline
-  # :
-      # enabled: !ENV [OFFLINE, false]
+ #  :
+     # enabled: !ENV [OFFLINE, false]
   # - section-index
   - mike
   # Раскомментировать пред релиз-сборкой
-  #- privacy
+  # - privacy
   - i18n:
       docs_structure: folder
       reconfigure_material: true
@@ -88,7 +88,8 @@ plugins:
 
       #regex:
       #  - '.*\.(tmp|bin|tar)$'
-  # - with-pdf
+  - with-pdf:
+        enabled_if_env: ENABLE_PDF_EXPORT
     #   cover_title: MotorXP-AFM Scripting API manual
      #  cover_subtitle: subtitle
   - print-site:
@@ -635,7 +636,7 @@ nav:
             - translate: types/Shape/methods/translate.md
             - translateX: types/Shape/methods/translateX.md
             - translateY: types/Shape/methods/translateY.md
-            - translateZ: types/Shape/methods/translateY.md
+            - translateZ: types/Shape/methods/translateZ.md
             - move: types/Shape/methods/move.md
             - moveX: types/Shape/methods/moveX.md
             - moveY: types/Shape/methods/moveY.md

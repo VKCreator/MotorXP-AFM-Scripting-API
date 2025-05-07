@@ -17,10 +17,8 @@ motor.mesh
 ## Пример
 ``` javascript linenums="1"
 let mesh = motor.mesh
-
 ```
 !!! info "См. также"
 
-    []()
+	[Mesh](../../../types/Mesh/index.md)
 	
-	[]()

@@ -20,4 +20,4 @@ let stator = motor.stator
 
 !!! info "См. также"
 	
-	[]()
+	[Stator](../../../types/Stator/index.md)

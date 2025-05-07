@@ -11,7 +11,7 @@
 
 ## Синтаксис
 ```javascript
-countItems
+stator.countItems
 ```
 
 ## Пример

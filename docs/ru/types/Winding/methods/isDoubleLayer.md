@@ -9,7 +9,7 @@ isDoubleLayer() -> Boolean
 ```
 
 ## Возвращаемое значение
-`#!javascript Boolean`: Истина, если задан двойной слой.
+`Boolean`: Истина, если задан двойной слой.
 
 ## Пример
 ```javascript linenums="1"
@@ -19,16 +19,16 @@ console.info(result)
 
 !!! info "См. также"
 
-- [`isPlanar()`](./isPlanar.md)
+    [isPlanar()](./isPlanar.md)
 
-- [`isToroidal()`](./isToroidal.md)
+    [isToroidal()](./isToroidal.md)
 
-- [`isSingleLayer()`](./isSingleLayer.md)
+    [isSingleLayer()](./isSingleLayer.md)
 
-- [`isOrientationUpperLower()`](./isOrientationUpperLower.md)
+    [isOrientationUpperLower()](./isOrientationUpperLower.md)
 
-- [`isOrientationLeftRight()`](./isOrientationLeftRight.md)
+    [isOrientationLeftRight()](./isOrientationLeftRight.md)
 
-- [`isWindingModelLumped()`](./isWindingModelLumped.md)
+    [isWindingModelLumped()](./isWindingModelLumped.md)
 
-- [`isWindingModelFull()`](./isWindingModelFull.md)
+    [isWindingModelFull()](./isWindingModelFull.md)

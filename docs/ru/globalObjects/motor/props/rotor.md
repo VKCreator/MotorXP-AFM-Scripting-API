@@ -20,4 +20,4 @@ let rotor = motor.rotor
 ```
 !!! info "См. также"
 
-    []()
+	[Rotor](../../../types/Rotor/index.md)

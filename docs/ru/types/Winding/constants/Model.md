@@ -8,8 +8,8 @@
 
 ## Пример
 ```javascript linenums="1"
-console.info(Winding.Lumped);
-console.info(Winding.Model);
+console.info(Winding.Lumped)
+console.info(Winding.Model)
 ```
 
 !!! info "См. также"

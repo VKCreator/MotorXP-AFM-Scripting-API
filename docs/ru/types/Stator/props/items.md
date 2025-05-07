@@ -9,12 +9,6 @@
 ## Доступ
 `Только Чтение`
 
-## Синтаксис
-```javascript
-stator.items
-motor.stator.items
-```
-
 ## Пример
 ```javascript linenums="1"
 let result = motor.stator.items

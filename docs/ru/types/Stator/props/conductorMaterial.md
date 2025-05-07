@@ -9,11 +9,6 @@
 ## Доступ
 `Чтение\Запись`
 
-## Синтаксис
-```javascript
-conductorMaterial = value
-```
-
 ## Пример
 ```javascript linenums="1"
 let result = motor.stator.conductorMaterial

@@ -5,7 +5,7 @@
 
 ## Синтаксис
 ```javascript
-RotorConnectionComboBox(argument: type) -> returnType
+RotorConnectionComboBox(argument: type) -> void
 ```
 
 ## Аргументы
@@ -16,7 +16,7 @@ RotorConnectionComboBox(argument: type) -> returnType
 ## Возвращаемое значение
 | Тип     | Описание                                                                 |
 |---------|--------------------------------------------------------------------------|
-| `#!javascript returnType`  | Описание возвращаемого значения. |
+| `#!javascript void`  | Описание возвращаемого значения. |
 
 ## Пример
 ```javascript linenums="1"

@@ -9,10 +9,16 @@ Geom.unify(shp: Shape) -> Shape
 ```
 
 ## Аргументы
-- `shp` (Shape, обязательно): Тело для операции упрощения.
+
+| Аргумент | Тип                  | Значение по умолчанию | Обязательный        | Описание                      |
+|----------|-----------------------|----------------------|---------------------|-------------------------------|
+| `shp`    | `#!javascript Shape`  | —                    | :white_check_mark: Да | Тело для операции упрощения   |
 
 ## Возвращаемое значение
-`Shape`: объект типа `Shape`, результат операции упрощения.
+
+| Тип                  | Описание                                      |
+|----------------------|-----------------------------------------------|
+| `#!javascript Shape` | Объект типа `Shape`, результат упрощения      |
 
 ## Пример
 ```javascript linenums="1"
@@ -23,11 +29,11 @@ console.info(s) // output:
 
 !!! info "См. также"
 
-    [Geom.unite](./unite.md)
+    [Geom.unite()](./unite.md)
 
-    [Geom.intersect](./intersect.md)
+    [Geom.intersect()](./intersect.md)
 
-    [Geom.diff](./diff.md)
+    [Geom.diff()](./diff.md)
 
-    [Geom.difference](./difference.md)
+    [Geom.difference()](./difference.md)
 

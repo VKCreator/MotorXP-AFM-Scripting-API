@@ -5,7 +5,7 @@
 
 ## Синтаксис
 ```javascript
-QDoubleSpinBox(argument: type) -> returnType
+QDoubleSpinBox(argument: type) -> void
 ```
 
 ## Аргументы
@@ -16,7 +16,7 @@ QDoubleSpinBox(argument: type) -> returnType
 ## Возвращаемое значение
 | Тип     | Описание                                                                 |
 |---------|--------------------------------------------------------------------------|
-| `#!javascript returnType`  | Описание возвращаемого значения. |
+| `#!javascript void`  | Описание возвращаемого значения. |
 
 ## Пример
 ```javascript linenums="1"

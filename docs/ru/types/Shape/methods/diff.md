@@ -5,7 +5,7 @@
 
 ## Синтаксис
 ```javascript
-diff(argument: type) -> returnType
+diff(argument: type) -> void
 ```
 
 ## Аргументы
@@ -14,7 +14,9 @@ diff(argument: type) -> returnType
 | `argument`        | `any`   | —                      | :white_check_mark: Да         | Описание.    |
 
 ## Возвращаемое значение
-`returnType`: описание возвращаемого значения.
+| Тип     | Описание                                                                 |
+|---------|--------------------------------------------------------------------------|
+| `#!javascript void`  | Описание возвращаемого значения. |
 
 ## Пример
 ```javascript linenums="1"

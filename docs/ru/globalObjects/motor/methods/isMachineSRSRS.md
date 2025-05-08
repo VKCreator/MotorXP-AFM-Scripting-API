@@ -1,4 +1,4 @@
-# isMachineSRSRS()
+# motor.isMachineSRSRS()
 
 ## Описание
 Истина, если тип машины `SRSRS`.
@@ -9,7 +9,9 @@ motor.isMachineSRSRS() -> Boolean
 ```
 
 ## Возвращаемое значение
-`#!javascript Boolean`: Истина, если тип машины `SRSRS`.
+| Тип     | Описание                                                                 |
+|---------|--------------------------------------------------------------------------|
+| `#!javascript Boolean`  | Истина, если тип машины `SRSRS`. |
 
 ## Пример
 ```javascript linenums="1"

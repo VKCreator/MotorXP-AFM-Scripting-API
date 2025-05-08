@@ -5,7 +5,7 @@
 
 ## Синтаксис
 ```javascript
-ExclamationIcon(argument: type) -> returnType
+ExclamationIcon(argument: type) -> void
 ```
 
 ## Аргументы
@@ -16,7 +16,7 @@ ExclamationIcon(argument: type) -> returnType
 ## Возвращаемое значение
 | Тип     | Описание                                                                 |
 |---------|--------------------------------------------------------------------------|
-| `#!javascript returnType`  | Описание возвращаемого значения. |
+| `#!javascript void`  | Описание возвращаемого значения. |
 
 ## Пример
 ```javascript linenums="1"

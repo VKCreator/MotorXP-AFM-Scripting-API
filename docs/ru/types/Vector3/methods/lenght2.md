@@ -5,7 +5,7 @@
 
 ## Синтаксис
 ```javascript
-lenght2(argument: type) -> returnType
+lenght2(argument: type) -> void
 ```
 
 ## Аргументы
@@ -16,7 +16,7 @@ lenght2(argument: type) -> returnType
 ## Возвращаемое значение
 | Тип     | Описание                                                                 |
 |---------|--------------------------------------------------------------------------|
-| `#!javascript returnType`  | Описание возвращаемого значения. |
+| `#!javascript void`  | Описание возвращаемого значения. |
 
 ## Пример
 ```javascript linenums="1"

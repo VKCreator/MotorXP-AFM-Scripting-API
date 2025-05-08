@@ -35,7 +35,7 @@ console.info(result)
 
 ## Синтаксис
 ```javascript
-angularDisplacement(argument: type) -> returnType
+angularDisplacement(argument: type) -> void
 ```
 
 ## Аргументы
@@ -46,7 +46,7 @@ angularDisplacement(argument: type) -> returnType
 ## Возвращаемое значение
 | Тип     | Описание                                                                 |
 |---------|--------------------------------------------------------------------------|
-| `#!javascript returnType`  | Описание возвращаемого значения. |
+| `#!javascript void`  | Описание возвращаемого значения. |
 
 ## Пример
 ```javascript linenums="1"

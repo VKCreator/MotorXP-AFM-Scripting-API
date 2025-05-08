@@ -6,7 +6,7 @@
 ## Синтаксис
 ```javascript
 Geom.intersect(a: Shape, b: Shape,) -> Shape
-Geom.intersect(shapes: array of Shape) -> Shape
+Geom.intersect(shapes: Array) -> Shape
 ```
 
 ## Аргументы
@@ -15,7 +15,7 @@ Geom.intersect(shapes: array of Shape) -> Shape
 |-----------|---------------|--------------|---------------------------|
 | `a`       | Shape         | :white_check_mark: Да          | Тело 1.                   |
 | `b`       | Shape         | :white_check_mark: Да          | Тело 2.                   |
-| `shapes`  | Array of Shape| :white_check_mark: Да          | Массив тел для пересечения. |
+| `shapes`  | Array| :white_check_mark: Да          | Массив тел для пересечения. |
 
 ## Возвращаемое значение
 

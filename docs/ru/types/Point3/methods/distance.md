@@ -5,7 +5,7 @@
 
 ## Синтаксис
 ```javascript
-distance(argument: type) -> returnType
+distance(argument: type) -> void
 ```
 
 ## Аргументы
@@ -18,7 +18,7 @@ distance(argument: type) -> returnType
 
 | Тип   | Описание                          |
 |-------|-----------------------------------|
-| `returnType` | Описание возвращаемого значения.          |
+| `void` | Описание возвращаемого значения.          |
 
 ## Пример
 ```javascript linenums="1"

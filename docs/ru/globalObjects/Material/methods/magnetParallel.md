@@ -5,7 +5,7 @@
 
 ## Синтаксис
 ```javascript
-Material.magnetParallel(angle: Number = 0, segmentRadiuses: Array[Number] = [], savePoleBorder: Boolean = true) -> MagnetParallelMaterial
+Material.magnetParallel(angle: Number = 0, segmentRadiuses: Array<Number> = [], savePoleBorder: Boolean = true) -> MagnetParallelMaterial
 ``` 
 
 ## Аргументы
@@ -13,7 +13,7 @@ Material.magnetParallel(angle: Number = 0, segmentRadiuses: Array[Number] = [], 
 | Аргумент             | Тип                 | Значение по умолчанию | Обязательный | Описание                                                                 |
 |----------------------|----------------------|------------------------|--------------|--------------------------------------------------------------------------|
 | `angle`              | `#!javascript Number`               | `0`                      | ❌ Нет          | Угол параллельного намагничивания.                                       |
-| `segmentRadiuses`    | `Array[Number]`     | `[]`                      | ❌ Нет        | Массив радиусов сегментов магнита.                                       |
+| `segmentRadiuses`    | `Array<Number>`     | `[]`                      | ❌ Нет        | Массив радиусов сегментов магнита.                                       |
 | `savePoleBorder`     | `#!javascript Boolean`              | `true`                | ❌ Нет        | Если `true` — сохраняется граница между магнитами соседних полюсов.      |
 
 ## Возвращаемое значение

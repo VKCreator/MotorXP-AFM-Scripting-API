@@ -5,7 +5,7 @@
 
 ## Синтаксис
 ```javascript
-Material.magnetRadial(direction: Number = Magnetization.From, center: Point = Qt.point(0, 0), segmentRadiuses: Array[Number] = []) -> MagnetRadialMaterial
+Material.magnetRadial(direction: Number = Magnetization.From, center: Point = Qt.point(0, 0), segmentRadiuses: Array<Number> = []) -> MagnetRadialMaterial
 ``` 
 
 ## Аргументы
@@ -14,7 +14,7 @@ Material.magnetRadial(direction: Number = Magnetization.From, center: Point = Qt
 |-------------------|--------------------|------------------------|--------------|-------------------------------------------|
 | `direction`       | `#!javascript Number`             | `Magnetization.From`                      | ❌ Нет         | Направление магнетизации.                 |
 | `center`          | `QPointF`            | `Qt.point(0, 0)`                      | ❌ Нет        | Центр магнетизации.                       |
-| `segmentRadiuses` | `Array[Number]`   | `[]`                      | ❌ Нет        | Массив радиусов сегментов магнита.        |
+| `segmentRadiuses` | `Array<Number>`   | `[]`                      | ❌ Нет        | Массив радиусов сегментов магнита.        |
 
 ## Возвращаемое значение
 

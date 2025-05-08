@@ -5,7 +5,7 @@
 
 ## Синтаксис
 ``` javascript
-console.info(message1: any, message2: any, ..., messageN: any) -> undefined
+console.info(message1: any, message2: any, ..., messageN: any) -> void
 ```
 
 ## Аргументы
@@ -17,7 +17,9 @@ console.info(message1: any, message2: any, ..., messageN: any) -> undefined
 | **`messageN`**   | `any` | :white_check_mark: Да         | Текст сообщения. |
 
 ## Возвращаемое значение
-**`undefined`**
+| Тип      | Описание                                                                 |
+|----------|--------------------------------------------------------------------------|
+| **`#!javascript void`**   | Пустое значение. |
 
 ## Пример
 ``` javascript linenums="1"

@@ -5,7 +5,7 @@
 
 ## Синтаксис
 ```javascript
-include(path: String) -> undefined
+include(path: String) -> void
 ``` 
 
 ## Аргументы
@@ -20,7 +20,9 @@ include(path: String) -> undefined
 
 
 ## Возвращаемое значение
-**`undefined`**
+| Тип      | Описание                                                                 |
+|----------|--------------------------------------------------------------------------|
+| **`#!javascript void`**   | Пустое значение. |
 
 ## Пример
 ``` javascript linenums="1"

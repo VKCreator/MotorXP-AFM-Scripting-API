@@ -5,14 +5,14 @@
 
 ## Синтаксис
 ```javascript
-Geom.bspline(points: Array[Point3], closed: Boolean = false) -> Shape
+Geom.bspline(points: Array<Point3>, closed: Boolean = false) -> Shape
 ```
 
 ## Аргументы
 
 | Аргумент  | Тип              | Обязательный | Описание                                      |
 |-----------|------------------|--------------|-----------------------------------------------|
-| `points`  | `Array[Point3]`  | :white_check_mark: Да          | Массив точек для построения плавной кривой.   |
+| `points`  | `#!javascript Array<Point3>`  | :white_check_mark: Да          | Массив точек для построения плавной кривой.   |
 | `closed`  | `#!javascript Boolean`          | ❌ Нет         | Флаг, определяющий замкнутость прямой. |
 
 ## Возвращаемое значение

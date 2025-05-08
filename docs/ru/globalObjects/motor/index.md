@@ -13,3 +13,7 @@
     heading-offset=1
 %}
 
+{%
+    include-markdown "./methods/index.md"
+    heading-offset=1
+%}

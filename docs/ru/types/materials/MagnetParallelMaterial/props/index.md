@@ -1,2 +1,2 @@
 # Свойства `MagnetParallelMaterial`
-Ниже приведен список доступных свойств, предоставляемых типом `MagnetParallelMaterial`. Щелкните имя метода, чтобы увидеть его подробное описание и примеры.
+{{ desc_type_prop("MagnetParallelMaterial") }}

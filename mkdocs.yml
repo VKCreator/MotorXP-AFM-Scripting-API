@@ -42,6 +42,7 @@ theme:
 
 plugins:
   - search
+  - macros
   - offline
  #  :
      # enabled: !ENV [OFFLINE, false]
@@ -88,8 +89,8 @@ plugins:
 
       #regex:
       #  - '.*\.(tmp|bin|tar)$'
-  - with-pdf:
-        enabled_if_env: ENABLE_PDF_EXPORT
+  #- with-pdf:
+  #     enabled_if_env: ENABLE_PDF_EXPORT
     #   cover_title: MotorXP-AFM Scripting API manual
      #  cover_subtitle: subtitle
   - print-site:
@@ -322,6 +323,13 @@ nav:
               - globalObjects/motor/props/winding.md
               - globalObjects/motor/props/mesh.md
               #- analysis: globalObjects/motor/props/analysis.md
+          - methods:
+              - globalObjects/motor/methods/isMachineSR.md
+              - globalObjects/motor/methods/isMachineSRS.md
+              - globalObjects/motor/methods/isMachineSRSRS.md
+              - globalObjects/motor/methods/isMachineRSR.md
+              - globalObjects/motor/methods/isMachineRSRSR.md
+              - globalObjects/motor/methods/changeProperty.md
 
   - Object Types:
       - types/index.md
@@ -340,6 +348,7 @@ nav:
            - types/Airgap/props/posMiddle.md
         - methods:
            - types/Airgap/methods/index.md
+           - types/Airgap/methods/changeProperty.md
 
       - BoundingBox:
         - types/BoundingBox/index.md
@@ -359,6 +368,8 @@ nav:
            - types/BoundingBox/props/zCenter.md
         - methods:
            - types/BoundingBox/methods/index.md
+           - types/Airgap/methods/shape.md
+
       - Stator:
          - types/Stator/index.md
          - constants: 
@@ -391,6 +402,7 @@ nav:
            - types/Stator/methods/item.md
            - types/Stator/methods/itemAngularDisplacement.md
            - types/Stator/methods/setItemAngularDisplacement.md
+           - types/Stator/methods/changeProperty.md
 
       - StatorItem:
          - types/StatorItem/index.md
@@ -408,6 +420,7 @@ nav:
            - types/StatorItem/methods/isUpper.md
            - types/StatorItem/methods/isMiddle.md
            - types/StatorItem/methods/isLower.md
+           - types/StatorItem/methods/changeProperty.md
 
       - Rotor:
          - types/Rotor/index.md
@@ -442,6 +455,7 @@ nav:
            - types/Rotor/methods/isUpper.md
            - types/Rotor/methods/itemAngularDisplacement.md
            - types/Rotor/methods/setItemAngularDisplacement.md
+           - types/Rotor/methods/changeProperty.md
 
       - RotorItem:
           - types/RotorItem/index.md
@@ -459,6 +473,7 @@ nav:
             - types/RotorItem/methods/isUpper.md
             - types/RotorItem/methods/isMiddle.md
             - types/RotorItem/methods/isLower.md
+            - types/RotorItem/methods/changeProperty.md
 
       - Winding:
           - types/Winding/index.md
@@ -498,6 +513,7 @@ nav:
             - types/Winding/methods/isOrientationLeftRight.md
             - types/Winding/methods/isWindingModelFull.md
             - types/Winding/methods/isWindingModelLumped.md
+            - types/Winding/methods/changeProperty.md
 
       - Mesh:
           - types/Mesh/index.md
@@ -510,6 +526,7 @@ nav:
             - types/Mesh/props/horizontalSymmetry.md
           - methods:
             - types/Mesh/methods/index.md
+            - types/Mesh/methods/changeProperty.md
 
       - EmptyMaterial:
          - types/materials/EmptyMaterial/index.md
@@ -631,7 +648,6 @@ nav:
             - extrudeZ: types/Shape/methods/extrudeZ.md
             - unify: types/Shape/methods/unify.md
             - center: types/Shape/methods/center.md
-            - boundBox: types/Shape/methods/boundBox.md
             #Translate
             - translate: types/Shape/methods/translate.md
             - translateX: types/Shape/methods/translateX.md

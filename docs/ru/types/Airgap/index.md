@@ -11,6 +11,11 @@
     heading-offset=1
 %}
 
+{%
+    include-markdown "./methods/index.md"
+    heading-offset=1
+%}
+
 !!! info "См. также"
 
     [motor.airgap](./../../globalObjects/motor/props/airgap.md)

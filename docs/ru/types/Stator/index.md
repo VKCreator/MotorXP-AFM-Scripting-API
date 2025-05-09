@@ -1,9 +1,11 @@
 # Описание `Stator`
 Встроенный тип `Stator` является составной частью мотора и описывает свойства статора мотора.
 
+## Константы `Stator`
 {%
-    include-markdown "./constants/index.md"
-    heading-offset=1
+    include-markdown "../../constants/Stator.md"
+    start="<!--startMiddleType-->"
+    end="<!--endMiddleType-->"
 %}
 
 {%

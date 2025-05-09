@@ -35,4 +35,4 @@ console.info(b2) // output: true
 
     [Math.isGreatEqual()](isGreatEqual.md)
 
-    [Math.EPSILON](../constants/Epsilon.md)
+    <!-- [Math.EPSILON](../constants/Epsilon.md) -->

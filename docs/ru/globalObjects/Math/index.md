@@ -10,11 +10,12 @@
 
     Используйте функции cравнения чисел с плавающей запятой вместо прямого сравнения `==`, чтобы избежать проблем с точностью.
 
+## Константы `Math`
 {%
-    include-markdown "./constants/index.md"
-    heading-offset=1
+    include-markdown "../../constants/Math.md"
+    start="<!--start-->"
+    end="<!--end-->"
 %}
-
 
 {%
     include-markdown "./methods/index.md"

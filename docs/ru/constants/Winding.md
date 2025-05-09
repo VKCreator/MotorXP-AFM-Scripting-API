@@ -98,9 +98,6 @@ let value = Winding.AWG;
 console.info(value);
 ```
 
-
-
-
 !!! info "См. также"
 
     [Colors](Colors.md)	

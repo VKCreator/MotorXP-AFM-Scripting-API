@@ -73,7 +73,7 @@ plugins:
             constants: Константы
             methods: Методы
             properties: Свойства
-            <b>Mind map</b>: <b>Интеллект-карта</b>
+            <b>Mind map</b>: <b>Ментальная карта</b>
   - include-markdown
   - git-revision-date-localized:
         type: custom
@@ -166,10 +166,18 @@ nav:
 
   - Constants:
       - constants/index.md
+      - Airgap : constants/Airgap.md
       - Direction : constants/Direction.md
       - Coil : constants/Coil.md
       - Magnetization : constants/Magnetization.md
       - PoleArrangement : constants/PoleArrangement.md
+      - Math : constants/Math.md
+      - Motor : constants/Motor.md
+      - Stator : constants/Stator.md
+      - StatorItem : constants/StatorItem.md
+      - Rotor : constants/Rotor.md
+      - RotorItem : constants/RotorItem.md
+      - Winding : constants/Winding.md
       - Colors : constants/Colors.md
 
   - Built-in objects:

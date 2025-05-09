@@ -2,8 +2,9 @@
 Встроенный тип `Airgap` является составной частью мотора и описывает свойства воздушного зазора мотора.
 
 {%
-    include-markdown "./constants/index.md"
-    heading-offset=1
+    include-markdown "../../constants/Airgap.md"
+    start="<!--start-->"
+    end="<!--end-->"
 %}
 
 {%

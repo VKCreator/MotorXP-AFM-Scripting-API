@@ -19,4 +19,4 @@ console.info(t)
 
 !!! info "Связанные свойства"
 
-    [motor.machineType](../props/machineType.md)
+    [motor.machineType](../globalObjects/motor/props/machineType.md)

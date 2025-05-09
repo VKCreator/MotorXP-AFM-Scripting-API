@@ -1,9 +1,11 @@
 # Описание `Rotor`
 Встроенный тип `Rotor` является составной частью мотора и описывает свойства ротора мотора.
 
+## Константы `Rotor`
 {%
-    include-markdown "./constants/index.md"
-    heading-offset=1
+    include-markdown "../../constants/Rotor.md"
+    start="<!--startMiddleType-->"
+    end="<!--endMiddleType-->"
 %}
 
 {%

@@ -32,7 +32,6 @@ console.info(m) // output: Magnet, Radial From center (0, 0), 1 segment(s)
 
     [Magnetization](./../../../constants/Magnetization.md)
 
-
     [^^Material.empty()^^](empty.md)
 
     [^^Material.general()^^](general.md)

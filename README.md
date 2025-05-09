@@ -26,6 +26,7 @@ pip install mkdocs-section-index
 pip install mkdocs-exclude
 pip install mkdocs-include-markdown-plugin
 pip install mkdocs-git-revision-date-localized-plugin
+pip install mkdocs-macros-plugin
 ```
 
 ## Структура папок для многоязычной документации 

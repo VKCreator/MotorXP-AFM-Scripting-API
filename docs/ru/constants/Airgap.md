@@ -19,4 +19,10 @@ console.info(id) // OUTPUT: 1
 
 !!! info "См. также"
 
-    [id](./../props/id.md)
+    [id](../types/Airgap/props/id.md)
+
+    [Direction](Direction.md)
+
+    [Magnetization](Magnetization.md)
+
+    [PoleArrangement](PoleArrangement.md)

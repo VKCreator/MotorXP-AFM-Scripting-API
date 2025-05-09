@@ -11,13 +11,17 @@
 
 <!--endID-->
 
+!!! warning "Внимание"
+
+    Значения констант увеличиваются **от нижней части ротора к верхней**, а не наоборот.
+
 ### Пример
 ```javascript linenums="1"
 let value = RotorItem.ID1;
 console.info(value);
 ```
 
-## RotorItem layer
+## RotorItem Layer
 <!--startLayer-->
 
 | Константа            | Описание           | Значение |

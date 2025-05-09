@@ -25,5 +25,5 @@ console.info(result)
 
 !!! info "См. также"
 
-    [Winding.WireSizeMethod](./../constants/LayerOrientation.md)
+    <!-- [Winding.WireSizeMethod](./../constants/LayerOrientation.md) -->
 

@@ -70,7 +70,7 @@ console.info(value);
 | Константа            | Описание                | Значение |
 |----------------------|-------------------------|---------:|
 | `Winding.UpperLower` | Ориентация Верх/Низ     | `1`      |
-| `Winding.LeftRight`  | Ориентация Слева/Справа | `2`      |
+| `Winding.LeftRight`  | Ориентация Лево/Право | `2`      |
 
 <!--endLayerOrientation-->
 
@@ -79,16 +79,15 @@ console.info(value);
 let value = Winding.UpperLower;
 console.info(value);
 ```
-
-## Winding WireSizeMethod
 <!--startWireSizeMethod-->
+## Winding WireSizeMethod
 
-| Константа              | Описание                 | Значение |
-|------------------------|--------------------------|---------:|
-| `Winding.AWG`          |                          | `1`      |
-| `Winding.SWG`          |                          | `2`      |
-| `Winding.FillFactor`   |                          | `3`      |
-| `Winding.WireDiameter` |                          | `4`      |
+| Константа              | Описание                                 | Значение |
+|------------------------|------------------------------------------|---------:|
+| `Winding.AWG`          | Номер американского калибра провода       | `1`      |
+| `Winding.SWG`          | Номер британского калибра провода         | `2`      |
+| `Winding.FillFactor`   | Коэффициент заполнения обмотки            | `3`      |
+| `Winding.WireDiameter` | Диаметр провода обмотки                   | `4`      |
 
 <!--endWireSizeMethod-->
 

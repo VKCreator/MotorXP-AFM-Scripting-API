@@ -185,9 +185,6 @@ nav:
 
       - Math:
           - globalObjects/Math/index.md
-          - constants:
-            - globalObjects/Math/constants/index.md
-            - globalObjects/Math/constants/Epsilon.md
           - methods:
             - globalObjects/Math/methods/index.md
             - globalObjects/Math/methods/isEpsilon.md
@@ -308,13 +305,6 @@ nav:
 
       - motor:
           - globalObjects/motor/index.md
-          - constants: 
-            - globalObjects/motor/constants/index.md
-            - globalObjects/motor/constants/SR.md
-            - globalObjects/motor/constants/SRS.md
-            - globalObjects/motor/constants/SRSRS.md
-            - globalObjects/motor/constants/RSR.md
-            - globalObjects/motor/constants/RSRSR.md
           - properties:
               - globalObjects/motor/props/index.md
               - globalObjects/motor/props/machineType.md
@@ -343,9 +333,6 @@ nav:
       - types/index.md
       - Airgap:
         - types/Airgap/index.md
-        - constants: 
-           - types/Airgap/constants/index.md
-           - types/Airgap/constants/ID.md
         - properties: 
            - types/Airgap/props/index.md
            - types/Airgap/props/id.md
@@ -380,9 +367,6 @@ nav:
 
       - Stator:
          - types/Stator/index.md
-         - constants: 
-           - types/Stator/constants/index.md
-           - types/Stator/constants/MiddleType.md
          - properties:
            - types/Stator/props/index.md
            - types/Stator/props/outerDiameter.md
@@ -414,10 +398,6 @@ nav:
 
       - StatorItem:
          - types/StatorItem/index.md
-         - constants: 
-           - types/StatorItem/constants/index.md
-           - types/StatorItem/constants/ID.md
-           - types/StatorItem/constants/Layer.md
          - properties:
            - types/StatorItem/props/index.md
            - types/StatorItem/props/id.md
@@ -432,9 +412,6 @@ nav:
 
       - Rotor:
          - types/Rotor/index.md
-         - constants: 
-           - types/Rotor/constants/index.md
-           - types/Rotor/constants/MiddleType.md
          - properties:
            - types/Rotor/props/index.md
            - types/Rotor/props/outerDiameter.md
@@ -467,10 +444,6 @@ nav:
 
       - RotorItem:
           - types/RotorItem/index.md
-          - constants: 
-              - types/RotorItem/constants/index.md
-              - types/RotorItem/constants/ID.md
-              - types/RotorItem/constants/Layer.md
           - properties: 
               - types/RotorItem/props/index.md
               - types/RotorItem/props/id.md
@@ -485,13 +458,6 @@ nav:
 
       - Winding:
           - types/Winding/index.md
-          - constants:
-            - types/Winding/constants/index.md
-            - types/Winding/constants/Type.md
-            - types/Winding/constants/Circuit.md
-            - types/Winding/constants/Layer.md
-            - types/Winding/constants/LayerOrientation.md
-            - types/Winding/constants/Model.md
           - properties: 
             - types/Winding/props/index.md
             - types/Winding/props/type.md

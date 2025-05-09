@@ -22,5 +22,6 @@ console.info(result)
 
 !!! info "См. также"
 
-    <!-- [MotorSR](./../constants/SR.md) -->
+    [Motor](../../../constants/Motor.md)
+
 

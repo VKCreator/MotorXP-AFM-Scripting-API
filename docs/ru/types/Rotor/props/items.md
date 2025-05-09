@@ -4,15 +4,10 @@
 Массив элементов ротора, количество элементов зависит от motor.machineType.
 
 ## Тип значения свойства
-`Array of StatorItem`
+`Array<StatorItem>`
 
 ## Доступ
 `Только Чтение`
-
-## Синтаксис
-```javascript
-items
-```
 
 ## Пример
 ```javascript linenums="1"

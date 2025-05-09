@@ -1,5 +1,6 @@
 # PoleArrangement
 <!--start-->
+
 | Константа                | Описание       | Значение |
 |-------------------------|----------------|----------:|
 | `PoleArrangement.NN`    | NN             | `0`      |
@@ -8,6 +9,7 @@
 | `PoleArrangement.NSSN`  | NSSN           | `3`      |
 | `PoleArrangement.NNSS`  | NNSS           | `4`      |
 | `PoleArrangement.NNNN`  | NNNN           | `5`      |
+
 <!--end-->
 
 !!! info "См. также"

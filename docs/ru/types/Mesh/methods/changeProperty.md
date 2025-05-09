@@ -5,15 +5,19 @@
 
 ## Синтаксис
 ```javascript
-changeProperty(propName: String, value: AnyType) -> Boolean
+changeProperty(propName: String, value: any) -> Boolean
 ```
 
 ## Аргументы
-- `propName` (String, обязательно): Имя свойства.
-- `value` (AnyType, обязательно): Значение свойства.
+| Аргумент  | Тип                  | Обязательный | Описание                         |
+|----------|----------------------|--------------|----------------------------------|
+| `propName`  | `String` | :white_check_mark: Да           | Имя свойства. |
+| `value`  | `any` | :white_check_mark: Да           | Значение свойства. |
 
 ## Возвращаемое значение
-`Boolean`: True, если успешно.
+| Тип      | Описание                                                                 |
+|----------|--------------------------------------------------------------------------|
+| **`#!javascript Boolean`**  | `true`, если успешно. |
 
 ## Пример
 ```javascript linenums="1"

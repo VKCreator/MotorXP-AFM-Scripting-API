@@ -14,6 +14,8 @@
 - [^^`numberTurns`^^](./numberTurns.md): Количество витков.
 - [^^`numberStrands`^^](./numberStrands.md): Количество проводов в витке.
 
+- [^^`wireSizeMethod`^^](./wireSizeMethod.md):
+
 - [^^`autoCalcCoilSpan`^^](./autoCalcCoilSpan.md): 
 
 - [^^`autoCalcOverhangEndturns`^^](./autoCalcOverhandEndturns.md): 

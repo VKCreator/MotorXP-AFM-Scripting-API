@@ -1,7 +1,7 @@
 # Winding
 
-## Winding Type
 <!--startType-->
+## Winding Type
 
 | Константа          | Описание                 | Значение |
 |--------------------|--------------------------|---------:|
@@ -16,8 +16,8 @@ let value = Winding.Planar;
 console.info(value);
 ```
 
-## Winding Model
 <!--startModel-->
+## Winding Model
 
 | Константа        | Описание | Значение |
 |------------------|----------|---------:|
@@ -32,8 +32,8 @@ let value = Winding.Full;
 console.info(value);
 ```
 
-## Winding Circuit
 <!--startCircuit-->
+## Winding Circuit
 
 | Константа       | Описание                       | Значение |
 |-----------------|--------------------------------|---------:|
@@ -48,8 +48,8 @@ let value = Winding.Star;
 console.info(value);
 ```
 
-## Winding Layer
 <!--startLayer-->
+## Winding Layer
 
 | Константа             | Описание       | Значение |
 |-----------------------|----------------|---------:|
@@ -64,8 +64,8 @@ let value = Winding.SingleLayer;
 console.info(value);
 ```
 
-## Winding LayerOrientation
 <!--startLayerOrientation-->
+## Winding LayerOrientation
 
 | Константа            | Описание                | Значение |
 |----------------------|-------------------------|---------:|

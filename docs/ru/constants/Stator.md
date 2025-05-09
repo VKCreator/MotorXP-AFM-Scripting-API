@@ -1,7 +1,7 @@
 # Stator
 
-## Stator MiddleType
 <!--startMiddleType-->
+## Stator MiddleType
 
 | Константа          | Описание                   | Значение |
 |-------------------|----------------------------|----------:|

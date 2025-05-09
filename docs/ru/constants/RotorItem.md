@@ -1,7 +1,7 @@
 # RotorItem
 
-## RotorItem ID
 <!--startID-->
+## RotorItem ID
 
 | Константа          | Описание                   | Значение |
 |-------------------|----------------------------|----------:|
@@ -21,8 +21,8 @@ let value = RotorItem.ID1;
 console.info(value);
 ```
 
-## RotorItem Layer
 <!--startLayer-->
+## RotorItem Layer
 
 | Константа            | Описание           | Значение |
 |---------------------|--------------------|----------:|

@@ -6,6 +6,7 @@
     include-markdown "../../constants/Stator.md"
     start="<!--startMiddleType-->"
     end="<!--endMiddleType-->"
+    heading-offset=1
 %}
 
 {%

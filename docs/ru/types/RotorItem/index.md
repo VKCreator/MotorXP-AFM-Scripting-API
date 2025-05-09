@@ -6,12 +6,14 @@
     include-markdown "../../constants/RotorItem.md"
     start="<!--startID-->"
     end="<!--endID-->"
+    heading-offset=1
 %}
 
 {%
     include-markdown "../../constants/RotorItem.md"
     start="<!--startLayer-->"
     end="<!--endLayer-->"
+    heading-offset=1
 %}
 
 {%

@@ -1,7 +1,7 @@
 # StatorItem
 
-## StatorItem ID
 <!--startID-->
+## StatorItem ID
 
 | Константа          | Описание                   | Значение |
 |-------------------|----------------------------|----------:|
@@ -23,8 +23,8 @@ let BtmStatorHeight = stator.item(StatorItem.ID1).height;
 console.info(BtmStatorHeight) // output: for example, 50
 ```
 
-## StatorItem Layer
 <!--startLayer-->
+## StatorItem Layer
 
 | Константа            | Описание           | Значение |
 |---------------------|--------------------|----------:|

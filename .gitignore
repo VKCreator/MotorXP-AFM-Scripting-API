@@ -3,3 +3,5 @@
 site/
 ScriptingAPIManual/
 ScriptingAPI_Manual/
+
+**/node_modules/

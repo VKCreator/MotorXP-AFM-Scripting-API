@@ -9,11 +9,6 @@
 ## Доступ
 `Чтение\Запись`
 
-## Синтаксис
-```javascript
-numberLayers
-```
-
 ## Пример
 ```javascript linenums="1"
 let airgap = motor.airgap

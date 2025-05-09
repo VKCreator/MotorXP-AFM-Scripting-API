@@ -5,6 +5,8 @@
 
 ## Синтаксис
 ```javascript
+function arc(radius: number, angle1: number, angle2: number): Shape;
+
 Geom.arc(radius: Number, angle: Number) -> Shape
 Geom.arc(radius: Number, angle1: Number, angle2: Number) -> Shape
 Geom.arc(p1: Point3, p2: Point3, p3: Point3) -> Shape

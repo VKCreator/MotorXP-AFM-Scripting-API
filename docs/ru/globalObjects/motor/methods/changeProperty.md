@@ -1,19 +1,24 @@
-# changeProperty()
+# motor.changeProperty()
 
 ## Описание
 Изменить значение свойства. Это изменение можно будет отменить командой `Undo` в меню в графическом интерфейсе.
 
 ## Синтаксис
 ```javascript
-changeProperty(propName: String, value: AnyType) -> Boolean
+motor.changeProperty(propName: String, value: AnyType) -> Boolean
 ```
 
 ## Аргументы
-- `propName` (String, обязательно): Имя свойства.
-- `value` (AnyType, обязательно): Значение свойства.
+| Аргумент      | Тип             | Значение по умолчанию | Обязательный | Описание              |
+|---------------|------------------|------------------------|--------------|------------------------|
+| `propName`       | `#!javascript String`    | - | :white_check_mark: Да        | Имя свойства.        |        |
+| `value`       | `#!javascript any`    | - | :white_check_mark: Да        | Значение свойства.        |        |
 
 ## Возвращаемое значение
-`Boolean`: True, если успешно.
+| Тип     | Описание                                                                 |
+|---------|--------------------------------------------------------------------------|
+| `#!javascript Boolean`  | `true`, если успешно. |
+
 
 ## Пример
 ```javascript linenums="1"

@@ -5,7 +5,7 @@
 
 ## Синтаксис
 ```javascript
-Material.empty(): EmptyMaterial
+Material.empty() -> EmptyMaterial
 ``` 
 
 ## Аргументы

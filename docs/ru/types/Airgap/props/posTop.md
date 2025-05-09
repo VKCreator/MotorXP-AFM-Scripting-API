@@ -9,11 +9,6 @@
 ## Доступ
 `Только Чтение`
 
-## Синтаксис
-```javascript
-posTop
-```
-
 ## Пример
 ```javascript linenums="1"
 let airgap = motor.airgap

@@ -227,11 +227,15 @@ def create_files(file_paths):
                 file.write("## Описание\n")
                 file.write("Описание метода.\n\n")
                 file.write("## Синтаксис\n")
-                file.write(f"```javascript\n{file_name}(argument: type) -> returnType\n```\n\n")
+                file.write(f"```javascript\n{file_name}(argument: type) -> void\n```\n\n")
                 file.write("## Аргументы\n")
-                file.write("- `argument` (type, обязательно): описание аргумента.\n\n")
+                file.write("| Аргумент        | Тип            | Значение по умолчанию | Обязательный | Описание                          |
+|-----------------|------------------|------------------------|--------------|-----------------------------------|
+| `argument`        | `any`   | —                      | :white_check_mark: Да         | Описание.    |\n\n")
                 file.write("## Возвращаемое значение\n")
-                file.write("`returnType`: описание возвращаемого значения.\n\n")
+                file.write("| Тип     | Описание                                                                 |
+|---------|--------------------------------------------------------------------------|
+| `#!javascript void`  | Описание возвращаемого значения. |\n\n")
                 file.write("## Пример\n")
                 file.write("```javascript linenums=\"1\"\n")
                 file.write(f"let result = {file_name}(value)\n")

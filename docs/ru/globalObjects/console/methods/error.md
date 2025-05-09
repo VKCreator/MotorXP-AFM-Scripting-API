@@ -5,7 +5,7 @@
 
 ## Синтаксис
 ```javascript
-console.error(message1: any, message2: any, ..., messageN: any) -> void
+console.error(message1: any, message2: any, messageN: any) -> void
 ``` 
 
 ## Аргументы
@@ -13,7 +13,6 @@ console.error(message1: any, message2: any, ..., messageN: any) -> void
 |----------|----------|--------------|--------------------------------------------------------------------------|
 | **`message1`**   | `any` | :white_check_mark: Да         | Текст сообщения. |
 | **`message2`**   | `any` | :white_check_mark: Да         | Текст сообщения. |
-| ...  | `any` | :white_check_mark: Да         | Текст сообщения. |
 | **`messageN`**   | `any` | :white_check_mark: Да         | Текст сообщения. |
 
 ## Возвращаемое значение

@@ -1,11 +1,11 @@
-# QPushButton()
+# boundBox()
 
 ## Описание
 Описание метода.
 
 ## Синтаксис
 ```javascript
-QPushButton(argument: type) -> void
+boundBox(argument: type) -> void
 ```
 
 ## Аргументы
@@ -20,7 +20,7 @@ QPushButton(argument: type) -> void
 
 ## Пример
 ```javascript linenums="1"
-let result = QPushButton(value)
+let result = boundBox(value)
 console.info(result)
 ```
 

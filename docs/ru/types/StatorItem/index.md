@@ -1,7 +1,7 @@
 # Описание типа `StatorItem`
 Встроенный тип `StatorItem` является составной частью статора и описывает Свойства типа элемента статора мотора.
 
-## Константы `StatorItem`
+## Константы типа `StatorItem`
 {%
     include-markdown "../../constants/StatorItem.md"
     start="<!--startID-->"

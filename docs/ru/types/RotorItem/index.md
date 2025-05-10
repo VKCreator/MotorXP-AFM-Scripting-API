@@ -1,7 +1,7 @@
 # Описание типа `RotorItem`
 Встроенный тип `RotorItem` является составной частью ротора и описывает Свойства типа элемента ротора мотора.
 
-## Константы `RotorItem`
+## Константы типа `RotorItem`
 {%
     include-markdown "../../constants/RotorItem.md"
     start="<!--startID-->"

@@ -1,2 +1,2 @@
-# Методы типа объекта `Piece`
+# Свойства типа `Piece`
 {{ desc_type_prop("Piece") }}

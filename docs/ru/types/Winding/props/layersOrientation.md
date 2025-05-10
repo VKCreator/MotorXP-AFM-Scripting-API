@@ -1,6 +1,6 @@
 # layersOrientation
 
-## Описание типа
+## Описание
 The `layersOrientation` property...
 
 ## Принимаемые значения:

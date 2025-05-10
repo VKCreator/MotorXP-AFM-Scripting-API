@@ -1,6 +1,6 @@
 # autoCalcEndInductance
 
-## Описание типа
+## Описание
 The `autoCalcEndInductance` property...
 
 ## Принимаемые значения:

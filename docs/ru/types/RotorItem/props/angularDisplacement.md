@@ -1,6 +1,6 @@
 # angularDisplacement
 
-## Описание типа
+## Описание
 The `angularDisplacement` property...
 
 ## Принимаемые значения:

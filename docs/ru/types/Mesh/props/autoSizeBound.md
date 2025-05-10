@@ -1,6 +1,6 @@
 # autoSizeBound
 
-## Описание типа
+## Описание
 The `autoSizeBound` property...
 
 ## Принимаемые значения:

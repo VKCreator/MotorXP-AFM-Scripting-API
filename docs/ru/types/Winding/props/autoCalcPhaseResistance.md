@@ -1,6 +1,6 @@
 # autoCalcPhaseResistance
 
-## Описание типа
+## Описание
 The `autoCalcPhaseResistance` property...
 
 ## Принимаемые значения:

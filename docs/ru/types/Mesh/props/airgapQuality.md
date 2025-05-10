@@ -1,6 +1,6 @@
 # airgapQuality
 
-## Описание типа
+## Описание
 The `airgapQuality` property...
 
 ## Принимаемые значения:

@@ -1,6 +1,6 @@
 # radialOverhandOuterEndturn
 
-## Описание типа
+## Описание
 The `radialOverhandOuterEndturn` property...
 
 ## Принимаемые значения:

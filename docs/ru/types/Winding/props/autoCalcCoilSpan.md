@@ -1,6 +1,6 @@
 # autoCalcCoilSpan
 
-## Описание типа
+## Описание
 The `autoCalcCoilSpan` property...
 
 ## Принимаемые значения:

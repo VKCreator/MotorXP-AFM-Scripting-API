@@ -1,4 +1,4 @@
-# Методы `Rotor`
+# Методы типа `Rotor`
 {{ desc_type_method("Rotor") }}
 
 | Метод                                 | Описание                                                |

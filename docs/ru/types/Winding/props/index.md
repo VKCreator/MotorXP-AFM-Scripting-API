@@ -1,5 +1,5 @@
 # Свойства `Winding`
-Ниже приведен список доступных свойств, предоставляемых типом `Winding`. Щелкните имя свойства, чтобы увидеть её подробное описание и примеры.
+{{ desc_type_prop("Winding") }}
 
 - [^^`type`^^](./type.md): Тип обмотки. 
 - [^^`numberLayers`^^](./numberLayers.md): Количество слоев.
@@ -13,6 +13,8 @@
 - [^^`windingModel`^^](./windingModel.md): Модель обмотки.
 - [^^`numberTurns`^^](./numberTurns.md): Количество витков.
 - [^^`numberStrands`^^](./numberStrands.md): Количество проводов в витке.
+
+- [^^`wireSizeMethod`^^](./wireSizeMethod.md):
 
 - [^^`autoCalcCoilSpan`^^](./autoCalcCoilSpan.md): 
 

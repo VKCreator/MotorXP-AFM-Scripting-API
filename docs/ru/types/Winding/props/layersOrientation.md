@@ -25,5 +25,5 @@ console.info(result)
 
 !!! info "См. также"
 
-    [Winding.LayerOrientation](./../constants/LayerOrientation.md)
+    <!-- [Winding.LayerOrientation](./../constants/LayerOrientation.md) -->
 

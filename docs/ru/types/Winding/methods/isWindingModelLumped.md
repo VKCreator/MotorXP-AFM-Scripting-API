@@ -9,7 +9,9 @@ isWindingModelLumped() -> Boolean
 ```
 
 ## Возвращаемое значение
-`#!javascript Boolean`: Истина, если задана модель `Lumped`.
+| Тип             | Описание                                      |
+|------------------|-----------------------------------------------|
+| `#!javascript Boolean`        | Истина, если задана модель `Lumped`.           |
 
 ## Пример
 ```javascript linenums="1"

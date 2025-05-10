@@ -25,5 +25,5 @@ console.info(result)
 
 !!! info "См. также"
 
-    [Winding.Model](./../constants/Model.md)
+    <!-- [Winding.Model](./../constants/Model.md) -->
 

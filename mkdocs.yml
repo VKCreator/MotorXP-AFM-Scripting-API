@@ -42,6 +42,7 @@ theme:
 
 plugins:
   - search
+  - macros
   - offline
  #  :
      # enabled: !ENV [OFFLINE, false]
@@ -72,7 +73,7 @@ plugins:
             constants: Константы
             methods: Методы
             properties: Свойства
-            <b>Mind map</b>: <b>Интеллект-карта</b>
+            <b>Mind map</b>: <b>Ментальная карта</b>
   - include-markdown
   - git-revision-date-localized:
         type: custom
@@ -88,8 +89,8 @@ plugins:
 
       #regex:
       #  - '.*\.(tmp|bin|tar)$'
-  # - with-pdf:
-        # enabled_if_env: ENABLE_PDF_EXPORT
+  #- with-pdf:
+  #     enabled_if_env: ENABLE_PDF_EXPORT
     #   cover_title: MotorXP-AFM Scripting API manual
      #  cover_subtitle: subtitle
   - print-site:
@@ -165,10 +166,18 @@ nav:
 
   - Constants:
       - constants/index.md
+      - Airgap : constants/Airgap.md
       - Direction : constants/Direction.md
       - Coil : constants/Coil.md
       - Magnetization : constants/Magnetization.md
       - PoleArrangement : constants/PoleArrangement.md
+      - Math : constants/Math.md
+      - Motor : constants/Motor.md
+      - Stator : constants/Stator.md
+      - StatorItem : constants/StatorItem.md
+      - Rotor : constants/Rotor.md
+      - RotorItem : constants/RotorItem.md
+      - Winding : constants/Winding.md
       - Colors : constants/Colors.md
 
   - Built-in objects:
@@ -176,9 +185,6 @@ nav:
 
       - Math:
           - globalObjects/Math/index.md
-          - constants:
-            - globalObjects/Math/constants/index.md
-            - globalObjects/Math/constants/Epsilon.md
           - methods:
             - globalObjects/Math/methods/index.md
             - globalObjects/Math/methods/isEpsilon.md
@@ -299,13 +305,6 @@ nav:
 
       - motor:
           - globalObjects/motor/index.md
-          - constants: 
-            - globalObjects/motor/constants/index.md
-            - globalObjects/motor/constants/SR.md
-            - globalObjects/motor/constants/SRS.md
-            - globalObjects/motor/constants/SRSRS.md
-            - globalObjects/motor/constants/RSR.md
-            - globalObjects/motor/constants/RSRSR.md
           - properties:
               - globalObjects/motor/props/index.md
               - globalObjects/motor/props/machineType.md
@@ -322,14 +321,18 @@ nav:
               - globalObjects/motor/props/winding.md
               - globalObjects/motor/props/mesh.md
               #- analysis: globalObjects/motor/props/analysis.md
+          - methods:
+              - globalObjects/motor/methods/isMachineSR.md
+              - globalObjects/motor/methods/isMachineSRS.md
+              - globalObjects/motor/methods/isMachineSRSRS.md
+              - globalObjects/motor/methods/isMachineRSR.md
+              - globalObjects/motor/methods/isMachineRSRSR.md
+              - globalObjects/motor/methods/changeProperty.md
 
   - Object Types:
       - types/index.md
       - Airgap:
         - types/Airgap/index.md
-        - constants: 
-           - types/Airgap/constants/index.md
-           - types/Airgap/constants/ID.md
         - properties: 
            - types/Airgap/props/index.md
            - types/Airgap/props/id.md
@@ -340,6 +343,7 @@ nav:
            - types/Airgap/props/posMiddle.md
         - methods:
            - types/Airgap/methods/index.md
+           - types/Airgap/methods/changeProperty.md
 
       - BoundingBox:
         - types/BoundingBox/index.md
@@ -359,11 +363,10 @@ nav:
            - types/BoundingBox/props/zCenter.md
         - methods:
            - types/BoundingBox/methods/index.md
+           - types/Airgap/methods/shape.md
+
       - Stator:
          - types/Stator/index.md
-         - constants: 
-           - types/Stator/constants/index.md
-           - types/Stator/constants/MiddleType.md
          - properties:
            - types/Stator/props/index.md
            - types/Stator/props/outerDiameter.md
@@ -391,13 +394,10 @@ nav:
            - types/Stator/methods/item.md
            - types/Stator/methods/itemAngularDisplacement.md
            - types/Stator/methods/setItemAngularDisplacement.md
+           - types/Stator/methods/changeProperty.md
 
       - StatorItem:
          - types/StatorItem/index.md
-         - constants: 
-           - types/StatorItem/constants/index.md
-           - types/StatorItem/constants/ID.md
-           - types/StatorItem/constants/Layer.md
          - properties:
            - types/StatorItem/props/index.md
            - types/StatorItem/props/id.md
@@ -408,12 +408,10 @@ nav:
            - types/StatorItem/methods/isUpper.md
            - types/StatorItem/methods/isMiddle.md
            - types/StatorItem/methods/isLower.md
+           - types/StatorItem/methods/changeProperty.md
 
       - Rotor:
          - types/Rotor/index.md
-         - constants: 
-           - types/Rotor/constants/index.md
-           - types/Rotor/constants/MiddleType.md
          - properties:
            - types/Rotor/props/index.md
            - types/Rotor/props/outerDiameter.md
@@ -442,13 +440,10 @@ nav:
            - types/Rotor/methods/isUpper.md
            - types/Rotor/methods/itemAngularDisplacement.md
            - types/Rotor/methods/setItemAngularDisplacement.md
+           - types/Rotor/methods/changeProperty.md
 
       - RotorItem:
           - types/RotorItem/index.md
-          - constants: 
-              - types/RotorItem/constants/index.md
-              - types/RotorItem/constants/ID.md
-              - types/RotorItem/constants/Layer.md
           - properties: 
               - types/RotorItem/props/index.md
               - types/RotorItem/props/id.md
@@ -459,16 +454,10 @@ nav:
             - types/RotorItem/methods/isUpper.md
             - types/RotorItem/methods/isMiddle.md
             - types/RotorItem/methods/isLower.md
+            - types/RotorItem/methods/changeProperty.md
 
       - Winding:
           - types/Winding/index.md
-          - constants:
-            - types/Winding/constants/index.md
-            - types/Winding/constants/Type.md
-            - types/Winding/constants/Circuit.md
-            - types/Winding/constants/Layer.md
-            - types/Winding/constants/LayerOrientation.md
-            - types/Winding/constants/Model.md
           - properties: 
             - types/Winding/props/index.md
             - types/Winding/props/type.md
@@ -498,6 +487,7 @@ nav:
             - types/Winding/methods/isOrientationLeftRight.md
             - types/Winding/methods/isWindingModelFull.md
             - types/Winding/methods/isWindingModelLumped.md
+            - types/Winding/methods/changeProperty.md
 
       - Mesh:
           - types/Mesh/index.md
@@ -510,6 +500,7 @@ nav:
             - types/Mesh/props/horizontalSymmetry.md
           - methods:
             - types/Mesh/methods/index.md
+            - types/Mesh/methods/changeProperty.md
 
       - EmptyMaterial:
          - types/materials/EmptyMaterial/index.md
@@ -631,7 +622,6 @@ nav:
             - extrudeZ: types/Shape/methods/extrudeZ.md
             - unify: types/Shape/methods/unify.md
             - center: types/Shape/methods/center.md
-            - boundBox: types/Shape/methods/boundBox.md
             #Translate
             - translate: types/Shape/methods/translate.md
             - translateX: types/Shape/methods/translateX.md

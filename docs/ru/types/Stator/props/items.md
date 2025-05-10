@@ -4,7 +4,7 @@
 Массив элементов статора, количество элементов статора зависит от значения свойства `motor.machineType`.
 
 ## Тип значения свойства
-`#!javascript Array[StatorItem]`
+`#!javascript Array<StatorItem>`
 
 ## Доступ
 `Только Чтение`

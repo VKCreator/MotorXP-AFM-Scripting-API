@@ -25,5 +25,5 @@ console.info(result)
 
 !!! info "См. также"
 
-    [Winding.Circuit](./../constants/Circuit.md)
+    <!-- [Winding.Circuit](./../constants/Circuit.md) -->
 

@@ -7,7 +7,7 @@
 ## Синтаксис
 ```javascript
 Geom.chamfer(shp: Shape, r: Number) -> Shape
-Geom.chamfer(shp: Shape, r: Number, refs: Array[Point3]) -> Shape
+Geom.chamfer(shp: Shape, r: Number, refs: Array<Point3>) -> Shape
 ```
 ## Аргументы
 
@@ -15,7 +15,7 @@ Geom.chamfer(shp: Shape, r: Number, refs: Array[Point3]) -> Shape
 |---------|------------------|--------------|---------------------------------------------------------|
 | `shp`   | `Shape`            | :white_check_mark: Да          | Тело для снятия фаски.                                  |
 | `r`     | `#!javascript Number`           | :white_check_mark: Да          | Расстояние, взятое от ребра до линии фаски.             |
-| `refs`  | `Array[Point3]`  | :white_check_mark: Да          | Массив ближайших точек `refs` к ребрам, подлежащим фаске. |
+| `refs`  | `Array<Point3>`  | :white_check_mark: Да          | Массив ближайших точек `refs` к ребрам, подлежащим фаске. |
 
 ## Возвращаемое значение
 

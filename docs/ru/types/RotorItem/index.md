@@ -1,8 +1,18 @@
 # Описание `RotorItem`
 Встроенный тип `RotorItem` является составной частью ротора и описывает свойства элемента ротора мотора.
 
+## Константы `RotorItem`
 {%
-    include-markdown "./constants/index.md"
+    include-markdown "../../constants/RotorItem.md"
+    start="<!--startID-->"
+    end="<!--endID-->"
+    heading-offset=1
+%}
+
+{%
+    include-markdown "../../constants/RotorItem.md"
+    start="<!--startLayer-->"
+    end="<!--endLayer-->"
     heading-offset=1
 %}
 

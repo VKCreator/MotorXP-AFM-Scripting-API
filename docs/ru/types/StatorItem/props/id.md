@@ -31,5 +31,5 @@ console.info(result)
 
 !!! info "См. также"
 
-    [StatorItem.ID](./../constants/ID.md)
+    <!-- [StatorItem.ID](./../constants/ID.md) -->
 

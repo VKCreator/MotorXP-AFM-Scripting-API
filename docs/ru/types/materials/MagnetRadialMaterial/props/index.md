@@ -1,2 +1,2 @@
 # Свойства `MagnetRadialMaterial`
-Ниже приведен список доступных свойств, предоставляемых типом `MagnetRadialMaterial`. Щелкните имя метода, чтобы увидеть его подробное описание и примеры.
+{{ desc_type_prop("MagnetRadialMaterial") }}

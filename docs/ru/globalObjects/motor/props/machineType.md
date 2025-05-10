@@ -5,7 +5,7 @@ The `machineType` property defines the configuration type of the motor.
 
 ## Принимаемые значения
 {%
-    include-markdown "../constants/index.md"
+    include-markdown "../../../constants/Motor.md"
     start="<!--start-->"
     end="<!--end-->"
 %}

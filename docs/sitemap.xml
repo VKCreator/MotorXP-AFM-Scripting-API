@@ -8,6 +8,13 @@
         <xhtml:link rel="alternate" hreflang="en" href="https://motorxp.com/en/index.html"/>
     </url>
     <url>
+        <loc>https://motorxp.com/intellisense.html</loc>
+        <lastmod>2025-05-10</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://motorxp.com/intellisense.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://motorxp.com/en/intellisense.html"/>
+    </url>
+    <url>
         <loc>https://motorxp.com/mindmap.html</loc>
         <lastmod>2025-05-10</lastmod>
         <changefreq>daily</changefreq>
@@ -3443,6 +3450,13 @@
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="en" href="https://motorxp.com/en/index.html"/>
         <xhtml:link rel="alternate" hreflang="ru" href="https://motorxp.com/index.html"/>
+    </url>
+    <url>
+        <loc>https://motorxp.com/en/intellisense.html</loc>
+        <lastmod>2025-05-10</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://motorxp.com/en/intellisense.html"/>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://motorxp.com/intellisense.html"/>
     </url>
     <url>
         <loc>https://motorxp.com/en/mindmap.html</loc>

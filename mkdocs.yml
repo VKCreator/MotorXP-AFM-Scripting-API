@@ -75,6 +75,7 @@ plugins:
             properties: Свойства
             signals: Сигналы
             <b>Mind map</b>: <b>Ментальная карта</b>
+            <b>Code Hints</b>: <b>Автодополнение кода</b>
   - include-markdown
   - git-revision-date-localized:
         type: custom
@@ -875,4 +876,6 @@ nav:
           - signals:
             - types/widgets/RotorConnectionComboBox/signals/index.md
 
+  - <b>Code Hints</b>: ./intellisense.md
   - <b>Mind map</b>: ./mindmap.md
+

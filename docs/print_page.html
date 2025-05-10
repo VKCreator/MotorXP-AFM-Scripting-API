@@ -18450,6 +18450,28 @@
   
   
     <li class="md-nav__item">
+      <a href="intellisense.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    <b>Автодополнение кода</b>
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
       <a href="mindmap.html" class="md-nav__link">
         
   
@@ -25255,9 +25277,18 @@
 </li>
       
         <li class="md-nav__item">
+  <a href="#intellisense" class="md-nav__link">
+    <span class="md-ellipsis">
+      6 <b>Автодополнение кода</b>
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#mindmap" class="md-nav__link">
     <span class="md-ellipsis">
-      6 <b>Ментальная карта</b>
+      7 <b>Ментальная карта</b>
     </span>
   </a>
   
@@ -25295,6 +25326,10 @@ https://github.com/mkdocs/mkdocs/blob/master/mkdocs/themes/mkdocs/content.html -
 <p class="admonition-title">Информация</p>
 <p>Скриптовая машина приложения <code>MotorXP-AFM</code> реализована на базе скриптовой машины фреймворка <code>Qt</code> — <code>QJSEngine</code>.
 Для написания скриптов используется язык программирования JavaScript со спецификацией <b>ECMAScript 6 (ES2015)</b>.</p>
+</div>
+<div class="admonition tip">
+<p class="admonition-title">Совет</p>
+<p>Для быстрого написания скриптов геометрии рекомендуется настроить <a href="#intellisense">автодополнение кода</a>.</p>
 </div>
 <h2 id="index-_3">Официальный сайт<a class="headerlink" href="#index-_3" title="Permanent link">&para;</a></h2>
 <p>Посетите наш веб-сайт: <a href="https://motorxp.com" target="_blank">motorxp.com</a></p>
@@ -28863,23 +28898,17 @@ https://github.com/mkdocs/mkdocs/blob/master/mkdocs/themes/mkdocs/content.html -
 <td>Number</td>
 <td>Расстояние между двумя точками.</td>
 </tr>
-<tr>
-<td>## Пример</td>
-<td></td>
-</tr>
-<tr>
-<td><div class="language-javascript highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal"><a href="#globalobjects-geom-methods-distance-__codelineno-1-1">1</a></span>
+</tbody>
+</table>
+<h2 id="globalobjects-geom-methods-distance-_5">Пример<a class="headerlink" href="#globalobjects-geom-methods-distance-_5" title="Permanent link">&para;</a></h2>
+<div class="language-javascript highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal"><a href="#globalobjects-geom-methods-distance-__codelineno-1-1">1</a></span>
 <span class="normal"><a href="#globalobjects-geom-methods-distance-__codelineno-1-2">2</a></span>
 <span class="normal"><a href="#globalobjects-geom-methods-distance-__codelineno-1-3">3</a></span>
 <span class="normal"><a href="#globalobjects-geom-methods-distance-__codelineno-1-4">4</a></span></pre></div></td><td class="code"><div><pre><span></span><code><span id="__span-1-1"><a id="__codelineno-1-1" name="__codelineno-1-1"></a><span class="kd">let</span><span class="w"> </span><span class="nx">p1</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nx">Geom</span><span class="p">.</span><span class="nx">point3</span><span class="p">(</span><span class="mf">0</span><span class="p">,</span><span class="w"> </span><span class="mf">0</span><span class="p">,</span><span class="w"> </span><span class="mf">0</span><span class="p">)</span>
 </span><span id="__span-1-2"><a id="__codelineno-1-2" name="__codelineno-1-2"></a><span class="kd">let</span><span class="w"> </span><span class="nx">p2</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nx">Geom</span><span class="p">.</span><span class="nx">point3</span><span class="p">(</span><span class="mf">100</span><span class="p">,</span><span class="w"> </span><span class="mf">100</span><span class="p">,</span><span class="w"> </span><span class="mf">100</span><span class="p">)</span>
 </span><span id="__span-1-3"><a id="__codelineno-1-3" name="__codelineno-1-3"></a><span class="kd">let</span><span class="w"> </span><span class="nx">dist</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nx">Geom</span><span class="p">.</span><span class="nx">distance</span><span class="p">(</span><span class="nx">p1</span><span class="p">,</span><span class="w"> </span><span class="nx">p2</span><span class="p">)</span>
 </span><span id="__span-1-4"><a id="__codelineno-1-4" name="__codelineno-1-4"></a><span class="nx">console</span><span class="p">.</span><span class="nx">info</span><span class="p">(</span><span class="nx">dist</span><span class="p">)</span><span class="w"> </span><span class="c1">// output:</span>
-</span></code></pre></div></td></tr></table></div></td>
-<td></td>
-</tr>
-</tbody>
-</table>
+</span></code></pre></div></td></tr></table></div>
 <div class="admonition info">
 <p class="admonition-title">См. также</p>
 <p><a href="#globalobjects-geom-methods"></a></p>
@@ -33761,7 +33790,7 @@ console.info(radius2) // output:</p>
                         <h1>Airgap<a class='headerlink' href='#section-5-2' title='Permanent link'></a>
                         </h1>
                     <section class="print-page" id="types-airgap-index" heading-number="5.2.1"><h1 id="types-airgap-index-airgap">Описание типа <code>Airgap</code><a class="headerlink" href="#types-airgap-index-airgap" title="Permanent link">&para;</a></h1>
-<p>Встроенный тип <code>Airgap</code> является составной частью мотора и описывает Свойства типа воздушного зазора мотора.</p>
+<p>Встроенный тип <code>Airgap</code> является составной частью мотора и описывает свойства воздушного зазора мотора.</p>
 <h2 id="types-airgap-index-airgap_1">Константы типа <code>Airgap</code><a class="headerlink" href="#types-airgap-index-airgap_1" title="Permanent link">&para;</a></h2>
 <table>
 <thead>
@@ -34967,7 +34996,7 @@ console.info(radius2) // output:</p>
                         <h1>Stator<a class='headerlink' href='#section-5-4' title='Permanent link'></a>
                         </h1>
                     <section class="print-page" id="types-stator-index" heading-number="5.4.1"><h1 id="types-stator-index-stator">Описание типа <code>Stator</code><a class="headerlink" href="#types-stator-index-stator" title="Permanent link">&para;</a></h1>
-<p>Встроенный тип <code>Stator</code> является составной частью мотора и описывает Свойства типа статора мотора.</p>
+<p>Встроенный тип <code>Stator</code> является составной частью мотора и описывает свойства статора мотора.</p>
 <h2 id="types-stator-index-stator_1">Константы типа <code>Stator</code><a class="headerlink" href="#types-stator-index-stator_1" title="Permanent link">&para;</a></h2>
 <h3 id="types-stator-index-stator-middletype">Stator MiddleType<a class="headerlink" href="#types-stator-index-stator-middletype" title="Permanent link">&para;</a></h3>
 <table>
@@ -35409,7 +35438,7 @@ console.info(radius2) // output:</p>
 <p><a href="#types-stator-props"></a></p>
 </div></section><section class="print-page" id="types-stator-props-items" heading-number="5.4.2.12"><h1 id="types-stator-props-items-items">items<a class="headerlink" href="#types-stator-props-items-items" title="Permanent link">&para;</a></h1>
 <h2 id="types-stator-props-items-_1">Описание<a class="headerlink" href="#types-stator-props-items-_1" title="Permanent link">&para;</a></h2>
-<p>Массив элементов статора, количество элементов статора зависит от значения Свойства типа <code>motor.machineType</code>.</p>
+<p>Массив элементов статора, количество элементов статора зависит от значения свойства <code>motor.machineType</code>.</p>
 <h2 id="types-stator-props-items-_2">Тип значения свойства<a class="headerlink" href="#types-stator-props-items-_2" title="Permanent link">&para;</a></h2>
 <p><code class="language-javascript highlight"><span class="nb">Array</span><span class="o">&lt;</span><span class="nx">StatorItem</span><span class="o">&gt;</span></code></p>
 <h2 id="types-stator-props-items-_3">Доступ<a class="headerlink" href="#types-stator-props-items-_3" title="Permanent link">&para;</a></h2>
@@ -36204,7 +36233,7 @@ console.info(radius2) // output:</p>
                         <h1>Rotor<a class='headerlink' href='#section-5-6' title='Permanent link'></a>
                         </h1>
                     <section class="print-page" id="types-rotor-index" heading-number="5.6.1"><h1 id="types-rotor-index-rotor">Описание типа <code>Rotor</code><a class="headerlink" href="#types-rotor-index-rotor" title="Permanent link">&para;</a></h1>
-<p>Встроенный тип <code>Rotor</code> является составной частью мотора и описывает Свойства типа ротора мотора.</p>
+<p>Встроенный тип <code>Rotor</code> является составной частью мотора и описывает свойства ротора мотора.</p>
 <h2 id="types-rotor-index-rotor_1">Константы типа <code>Rotor</code><a class="headerlink" href="#types-rotor-index-rotor_1" title="Permanent link">&para;</a></h2>
 <h3 id="types-rotor-index-rotor-middletype">Rotor MiddleType<a class="headerlink" href="#types-rotor-index-rotor-middletype" title="Permanent link">&para;</a></h3>
 <table>
@@ -37099,7 +37128,7 @@ console.info(radius2) // output:</p>
                         <h1>RotorItem<a class='headerlink' href='#section-5-7' title='Permanent link'></a>
                         </h1>
                     <section class="print-page" id="types-rotoritem-index" heading-number="5.7.1"><h1 id="types-rotoritem-index-rotoritem">Описание типа <code>RotorItem</code><a class="headerlink" href="#types-rotoritem-index-rotoritem" title="Permanent link">&para;</a></h1>
-<p>Встроенный тип <code>RotorItem</code> является составной частью ротора и описывает Свойства типа элемента ротора мотора.</p>
+<p>Встроенный тип <code>RotorItem</code> является составной частью ротора и описывает свойства элемента ротора мотора.</p>
 <h2 id="types-rotoritem-index-rotoritem_1">Константы типа <code>RotorItem</code><a class="headerlink" href="#types-rotoritem-index-rotoritem_1" title="Permanent link">&para;</a></h2>
 <h3 id="types-rotoritem-index-rotoritem-id">RotorItem ID<a class="headerlink" href="#types-rotoritem-index-rotoritem-id" title="Permanent link">&para;</a></h3>
 <table>
@@ -44728,7 +44757,62 @@ console.info(radius2) // output:</p>
                     <section class='print-page md-section' id='section-5-23-23-4' heading-number='5.23.23.4'>
                         <h1>Сигналы<a class='headerlink' href='#section-5-23-23-4' title='Permanent link'></a>
                         </h1>
-                    </section></section></section></section><section class="print-page" id="mindmap" heading-number="6"><h1 id="mindmap-motorxp-afm-scripting-api">Ментальная карта MotorXP-AFM Scripting API<a class="headerlink" href="#mindmap-motorxp-afm-scripting-api" title="Permanent link">&para;</a></h1>
+                    </section></section></section></section><section class="print-page" id="intellisense" heading-number="6"><h1 id="intellisense-_1">Автодополнение кода<a class="headerlink" href="#intellisense-_1" title="Permanent link">&para;</a></h1>
+<p>Автодополнение кода помогает разработчикам быстрее и удобнее работать с кодом, предлагая возможные варианты кода, имена переменных, функций и другие подсказки. </p>
+<p>Ниже описаны шаги настройки автодополнения для <code>MotorXP-AFM Scripting API</code>.</p>
+<h2 id="intellisense-_2">Настройка<a class="headerlink" href="#intellisense-_2" title="Permanent link">&para;</a></h2>
+<ol>
+<li>
+<p>Получить файл <a href="types_MotorXP-AFM.d.ts" target="_blank"><code>types_MotorXP-AFM.d.ts</code></a> и сохранить в папке со скриптами. Расширение <code>.d.ts</code> – это <code>TypeScript Declaration File</code>, который содержит только определения типов и интерфейсов. Он не компилируется в <code>JS</code>, но помогает <code>IDE</code> понимать структуру <code>API</code>.</p>
+</li>
+<li>
+<p>В начале ваших скриптов добавьте специальную комментарную директиву: <code>/// &lt;reference path="./pathToFile/types_MotorXP-AFM.d.ts" /&gt;</code>.</p>
+</li>
+<li>
+<p>Воспользоваться IDE и редактором, который поддерживает автодополнение (<code>IntelliSense</code> через <code>d.ts</code>).</p>
+</li>
+</ol>
+<h2 id="intellisense-ide">Поддерживаемые IDE<a class="headerlink" href="#intellisense-ide" title="Permanent link">&para;</a></h2>
+<table>
+<thead>
+<tr>
+<th>IDE / Редактор</th>
+<th>Поддержка <code>.d.ts</code></th>
+<th>Комментарий</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="https://code.visualstudio.com">Visual Studio Code</a></td>
+<td>✅ <strong>Полная</strong></td>
+<td>Лучшая поддержка IntelliSense, автодополнение, JSDoc и навигация</td>
+</tr>
+<tr>
+<td><a href="https://www.jetbrains.com/webstorm/">WebStorm / IntelliJ IDEA</a></td>
+<td>✅ Полная</td>
+<td>Поддержка через TypeScript Server</td>
+</tr>
+<tr>
+<td><a href="https://github.com/microsoft/TypeScript/wiki/Standalone-Server-%28tsserver%29">Vim + TSServer</a></td>
+<td>⚠️ Ограниченная</td>
+<td>Нужны плагины: <code>vim-js-ts</code>, <code>coc.nvim</code> и др.</td>
+</tr>
+<tr>
+<td><a href="https://atom.io/packages/ide-typescript">Atom + ide-typescript</a></td>
+<td>⚠️ Ограниченная</td>
+<td>Требует установки пакетов</td>
+</tr>
+<tr>
+<td><a href="https://packagecontrol.io/packages/TypeScript">Sublime Text + TypeScript Plugin</a></td>
+<td>⚠️ Ограниченная</td>
+<td>Доступно через сторонние плагины</td>
+</tr>
+</tbody>
+</table>
+<div class="admonition tip">
+<p class="admonition-title">Совет</p>
+<p>При написании скриптов геометрии рекомендуем использовать текстовый редактор <code>Visual Studio Code</code>.</p>
+</div></section><section class="print-page" id="mindmap" heading-number="7"><h1 id="mindmap-motorxp-afm-scripting-api">Ментальная карта MotorXP-AFM Scripting API<a class="headerlink" href="#mindmap-motorxp-afm-scripting-api" title="Permanent link">&para;</a></h1>
 <pre class="mermaid"><code>%%{
   init: {
     'theme': 'base'
@@ -45918,12 +46002,20 @@ mindmap
 .print-site-enumerate-headings #types-widgets-rotorconnectioncombobox-methods-index > h1:before { content: '5.23.23.3.1 ' }
 .print-site-enumerate-headings #section-5-23-23-4 > h1:before { content: '5.23.23.4 ' }
 .print-site-enumerate-headings #types-widgets-rotorconnectioncombobox-signals-index > h1:before { content: '5.23.23.4.1 ' }
-.print-site-enumerate-headings #mindmap > h1:before { content: '6 ' }
+.print-site-enumerate-headings #intellisense > h1:before { content: '6 ' }
 
-                .print-site-enumerate-headings #mindmap h2:before { content: '6.' counter(counter-mindmap-2) ' ' }
+                .print-site-enumerate-headings #intellisense h2:before { content: '6.' counter(counter-intellisense-2) ' ' }
+                .print-site-enumerate-headings #intellisense h2 {  counter-reset: counter-intellisense-3 ;  counter-increment: counter-intellisense-2 }
+            
+                .print-site-enumerate-headings #intellisense h3:before { content: '6.' counter(counter-intellisense-2) '.' counter(counter-intellisense-3) ' ' }
+                .print-site-enumerate-headings #intellisense h3 {  counter-increment: counter-intellisense-3 }
+            
+.print-site-enumerate-headings #mindmap > h1:before { content: '7 ' }
+
+                .print-site-enumerate-headings #mindmap h2:before { content: '7.' counter(counter-mindmap-2) ' ' }
                 .print-site-enumerate-headings #mindmap h2 {  counter-reset: counter-mindmap-3 ;  counter-increment: counter-mindmap-2 }
             
-                .print-site-enumerate-headings #mindmap h3:before { content: '6.' counter(counter-mindmap-2) '.' counter(counter-mindmap-3) ' ' }
+                .print-site-enumerate-headings #mindmap h3:before { content: '7.' counter(counter-mindmap-2) '.' counter(counter-mindmap-3) ' ' }
                 .print-site-enumerate-headings #mindmap h3 {  counter-increment: counter-mindmap-3 }
             </style>
 

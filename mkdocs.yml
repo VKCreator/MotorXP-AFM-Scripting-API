@@ -73,6 +73,7 @@ plugins:
             constants: Константы
             methods: Методы
             properties: Свойства
+            signals: Сигналы
             <b>Mind map</b>: <b>Ментальная карта</b>
   - include-markdown
   - git-revision-date-localized:
@@ -322,6 +323,7 @@ nav:
               - globalObjects/motor/props/mesh.md
               #- analysis: globalObjects/motor/props/analysis.md
           - methods:
+              - globalObjects/motor/methods/index.md
               - globalObjects/motor/methods/isMachineSR.md
               - globalObjects/motor/methods/isMachineSRS.md
               - globalObjects/motor/methods/isMachineSRSRS.md
@@ -363,7 +365,7 @@ nav:
            - types/BoundingBox/props/zCenter.md
         - methods:
            - types/BoundingBox/methods/index.md
-           - types/Airgap/methods/shape.md
+           - types/BoundingBox/methods/shape.md
 
       - Stator:
          - types/Stator/index.md
@@ -391,6 +393,8 @@ nav:
            - types/Stator/methods/isLower.md
            - types/Stator/methods/isMiddle.md
            - types/Stator/methods/isUpper.md
+           - types/Stator/methods/isTypeMiddleYoke.md
+           - types/Stator/methods/isTypeMiddleYokeless.md
            - types/Stator/methods/item.md
            - types/Stator/methods/itemAngularDisplacement.md
            - types/Stator/methods/setItemAngularDisplacement.md
@@ -438,6 +442,8 @@ nav:
            - types/Rotor/methods/isLower.md
            - types/Rotor/methods/isMiddle.md
            - types/Rotor/methods/isUpper.md
+           - types/Rotor/methods/isTypeMiddleYoke.md
+           - types/Rotor/methods/isTypeMiddleYokeless.md
            - types/Rotor/methods/itemAngularDisplacement.md
            - types/Rotor/methods/setItemAngularDisplacement.md
            - types/Rotor/methods/changeProperty.md
@@ -477,6 +483,7 @@ nav:
             - types/Winding/props/heightInnerEndturn.md
             - types/Winding/props/radialOverhandOuterEndturn.md
             - types/Winding/props/radialOverhangInnerEndturn.md
+            - types/Winding/props/wireSizeMethod.md
           - methods:
             - types/Winding/methods/index.md
             - types/Winding/methods/isPlanar.md
@@ -498,6 +505,8 @@ nav:
             - types/Mesh/props/numberSlices.md
             - types/Mesh/props/airgapQuality.md
             - types/Mesh/props/horizontalSymmetry.md
+            - types/Mesh/props/boundCylinderAxialExtension.md
+            - types/Mesh/props/boundCylinderRadius.md
           - methods:
             - types/Mesh/methods/index.md
             - types/Mesh/methods/changeProperty.md
@@ -612,6 +621,7 @@ nav:
             - types/Shape/methods/index.md
             - isEmpty: types/Shape/methods/isEmpty.md
             - types/Shape/methods/toFileSTEP.md
+            - types/Shape/methods/boundBox.md
             - unite: types/Shape/methods/unite.md
             - intersect: types/Shape/methods/intersect.md
             - difference: types/Shape/methods/difference.md
@@ -665,30 +675,204 @@ nav:
 # GUI Widgets
       - UI Widgets:
         - types/widgets/index.md
-        #Qt Widgets
-        - QWidget: types/widgets/QWidget.md
-        - QLabel: types/widgets/QLabel.md
-        - QLineEdit: types/widgets/QLineEdit.md
-        - QPushButton: types/widgets/QPushButton.md
-        - QSpinBox: types/widgets/QSpinBox.md
-        - QDoubleSpinBox: types/widgets/QDoubleSpinBox.md
-        - QComboBox: types/widgets/QComboBox.md
-        - QGroupBox: types/widgets/QGroupBox.md
-        - QCheckBox: types/widgets/QCheckBox.md
-        - QGridLayout: types/widgets/QGridLayout.md
-        - QFormLayout: types/widgets/QFormLayout.md
+        # Qt Widgets
+        - QWidget:
+          - types/widgets/QWidget/index.md
+          - properties:
+            - types/widgets/QWidget/props/index.md
+          - methods:
+            - types/widgets/QWidget/methods/index.md
+          - signals:
+            - types/widgets/QWidget/signals/index.md
 
-        #Custon Widgets
-        - WarningIcon: types/widgets/WarningIcon.md
-        - ExclamationIcon: types/widgets/ExclamationIcon.md
-        - NumberEdit: types/widgets/NumberEdit.md
-        - NumberSlotSpinBox: types/widgets/NumberSlotSpinBox.md
-        - StatorTypeComboBox: types/widgets/StatorTypeComboBox.md
-        - WindingLayersComboBox: types/widgets/WindingLayersComboBox.md
-        - WindingLayersOrientationComboBox: types/widgets/WindingLayersOrientationComboBox.md
-        - WindingTypeComboBox: types/widgets/WindingTypeComboBox.md
-        - PoleArrangementComboBox: types/widgets/PoleArrangementComboBox.md
-        - StatorConnectionComboBox: types/widgets/StatorConnectionComboBox.md
-        - RotorConnectionComboBox: types/widgets/RotorConnectionComboBox.md
+        - QLabel:
+          - types/widgets/QLabel/index.md
+          - properties:
+            - types/widgets/QLabel/props/index.md
+          - methods:
+            - types/widgets/QLabel/methods/index.md
+          - signals:
+            - types/widgets/QLabel/signals/index.md
+
+        - QLineEdit:
+          - types/widgets/QLineEdit/index.md
+          - properties:
+            - types/widgets/QLineEdit/props/index.md
+          - methods:
+            - types/widgets/QLineEdit/methods/index.md
+          - signals:
+            - types/widgets/QLineEdit/signals/index.md
+
+        - QPushButton:
+          - types/widgets/QPushButton/index.md
+          - properties:
+            - types/widgets/QPushButton/props/index.md
+          - methods:
+            - types/widgets/QPushButton/methods/index.md
+          - signals:
+            - types/widgets/QPushButton/signals/index.md
+
+        - QSpinBox:
+          - types/widgets/QSpinBox/index.md
+          - properties:
+            - types/widgets/QSpinBox/props/index.md
+          - methods:
+            - types/widgets/QSpinBox/methods/index.md
+          - signals:
+            - types/widgets/QSpinBox/signals/index.md
+
+        - QDoubleSpinBox:
+          - types/widgets/QDoubleSpinBox/index.md
+          - properties:
+            - types/widgets/QDoubleSpinBox/props/index.md
+          - methods:
+            - types/widgets/QDoubleSpinBox/methods/index.md
+          - signals:
+            - types/widgets/QDoubleSpinBox/signals/index.md
+
+        - QComboBox:
+          - types/widgets/QComboBox/index.md
+          - properties:
+            - types/widgets/QComboBox/props/index.md
+          - methods:
+            - types/widgets/QComboBox/methods/index.md
+          - signals:
+            - types/widgets/QComboBox/signals/index.md
+
+        - QGroupBox:
+          - types/widgets/QGroupBox/index.md
+          - properties:
+            - types/widgets/QGroupBox/props/index.md
+          - methods:
+            - types/widgets/QGroupBox/methods/index.md
+          - signals:
+            - types/widgets/QGroupBox/signals/index.md
+
+        - QCheckBox:
+          - types/widgets/QCheckBox/index.md
+          - properties:
+            - types/widgets/QCheckBox/props/index.md
+          - methods:
+            - types/widgets/QCheckBox/methods/index.md
+          - signals:
+            - types/widgets/QCheckBox/signals/index.md
+
+        - QGridLayout:
+          - types/widgets/QGridLayout/index.md
+          - properties:
+            - types/widgets/QGridLayout/props/index.md
+          - methods:
+            - types/widgets/QGridLayout/methods/index.md
+          - signals:
+            - types/widgets/QGridLayout/signals/index.md
+
+        - QFormLayout:
+          - types/widgets/QFormLayout/index.md
+          - properties:
+            - types/widgets/QFormLayout/props/index.md
+          - methods:
+            - types/widgets/QFormLayout/methods/index.md
+          - signals:
+            - types/widgets/QFormLayout/signals/index.md
+
+        # Custom Widgets
+        - WarningIcon:
+          - types/widgets/WarningIcon/index.md
+          - properties:
+            - types/widgets/WarningIcon/props/index.md
+          - methods:
+            - types/widgets/WarningIcon/methods/index.md
+          - signals:
+            - types/widgets/WarningIcon/signals/index.md
+
+        - ExclamationIcon:
+          - types/widgets/ExclamationIcon/index.md
+          - properties:
+            - types/widgets/ExclamationIcon/props/index.md
+          - methods:
+            - types/widgets/ExclamationIcon/methods/index.md
+          - signals:
+            - types/widgets/ExclamationIcon/signals/index.md
+
+        - NumberEdit:
+          - types/widgets/NumberEdit/index.md
+          - properties:
+            - types/widgets/NumberEdit/props/index.md
+          - methods:
+            - types/widgets/NumberEdit/methods/index.md
+          - signals:
+            - types/widgets/NumberEdit/signals/index.md
+
+        - NumberSlotSpinBox:
+          - types/widgets/NumberSlotSpinBox/index.md
+          - properties:
+            - types/widgets/NumberSlotSpinBox/props/index.md
+          - methods:
+            - types/widgets/NumberSlotSpinBox/methods/index.md
+          - signals:
+            - types/widgets/NumberSlotSpinBox/signals/index.md
+
+        - StatorTypeComboBox:
+          - types/widgets/StatorTypeComboBox/index.md
+          - properties:
+            - types/widgets/StatorTypeComboBox/props/index.md
+          - methods:
+            - types/widgets/StatorTypeComboBox/methods/index.md
+          - signals:
+            - types/widgets/StatorTypeComboBox/signals/index.md
+
+        - WindingLayersComboBox:
+          - types/widgets/WindingLayersComboBox/index.md
+          - properties:
+            - types/widgets/WindingLayersComboBox/props/index.md
+          - methods:
+            - types/widgets/WindingLayersComboBox/methods/index.md
+          - signals:
+            - types/widgets/WindingLayersComboBox/signals/index.md
+
+        - WindingLayersOrientationComboBox:
+          - types/widgets/WindingLayersOrientationComboBox/index.md
+          - properties:
+            - types/widgets/WindingLayersOrientationComboBox/props/index.md
+          - methods:
+            - types/widgets/WindingLayersOrientationComboBox/methods/index.md
+          - signals:
+            - types/widgets/WindingLayersOrientationComboBox/signals/index.md
+
+        - WindingTypeComboBox:
+          - types/widgets/WindingTypeComboBox/index.md
+          - properties:
+            - types/widgets/WindingTypeComboBox/props/index.md
+          - methods:
+            - types/widgets/WindingTypeComboBox/methods/index.md
+          - signals:
+            - types/widgets/WindingTypeComboBox/signals/index.md
+
+        - PoleArrangementComboBox:
+          - types/widgets/PoleArrangementComboBox/index.md
+          - properties:
+            - types/widgets/PoleArrangementComboBox/props/index.md
+          - methods:
+            - types/widgets/PoleArrangementComboBox/methods/index.md
+          - signals:
+            - types/widgets/PoleArrangementComboBox/signals/index.md
+
+        - StatorConnectionComboBox:
+          - types/widgets/StatorConnectionComboBox/index.md
+          - properties:
+            - types/widgets/StatorConnectionComboBox/props/index.md
+          - methods:
+            - types/widgets/StatorConnectionComboBox/methods/index.md
+          - signals:
+            - types/widgets/StatorConnectionComboBox/signals/index.md
+
+        - RotorConnectionComboBox:
+          - types/widgets/RotorConnectionComboBox/index.md
+          - properties:
+            - types/widgets/RotorConnectionComboBox/props/index.md
+          - methods:
+            - types/widgets/RotorConnectionComboBox/methods/index.md
+          - signals:
+            - types/widgets/RotorConnectionComboBox/signals/index.md
 
   - <b>Mind map</b>: ./mindmap.md

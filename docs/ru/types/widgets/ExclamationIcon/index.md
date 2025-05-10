@@ -1,0 +1,1 @@
+# Описание типа `ExclamationIcon`

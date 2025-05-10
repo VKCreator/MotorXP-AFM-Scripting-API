@@ -1,0 +1,25 @@
+# motor.isMachineRSR()
+
+## Описание
+Истина, если тип машины `RSR`.
+
+## Синтаксис
+```javascript
+motor.isMachineRSR() -> Boolean
+```
+
+## Возвращаемое значение
+| Тип     | Описание                                                                 |
+|---------|--------------------------------------------------------------------------|
+| `#!javascript Boolean`  | Истина, если тип машины `RSR`. |
+
+## Пример
+```javascript linenums="1"
+let result = motor.isMachineRSR()
+console.info(result)
+```
+
+!!! info "См. также"
+
+    [Motor](../../../constants/Motor.md)
+

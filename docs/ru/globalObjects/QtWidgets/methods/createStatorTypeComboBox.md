@@ -1,0 +1,30 @@
+# QtWidgets.createStatorTypeComboBox()
+
+## Описание
+Описание метода.
+
+## Синтаксис
+```javascript
+QtWidgets.createStatorTypeComboBox(argument: type) -> void
+```
+
+## Аргументы
+| Аргумент        | Тип            | Значение по умолчанию | Обязательный | Описание                          |
+|-----------------|------------------|------------------------|--------------|-----------------------------------|
+| `argument`        | `any`   | —                      | :white_check_mark: Да         | Описание.    |
+
+## Возвращаемое значение
+| Тип     | Описание                                                                 |
+|---------|--------------------------------------------------------------------------|
+| `#!javascript void`  | Описание возвращаемого значения. |
+
+## Пример
+```javascript linenums="1"
+let result = QtWidgets.createStatorTypeComboBox(value)
+console.info(result)
+```
+
+!!! info "См. также"
+
+    []()
+

@@ -1,0 +1,38 @@
+# Geom.box()
+
+## Описание
+3D примитив (объемный): параллелипипед, задаётся с указанием трёх размеров `x`, `y`, `z` и строится относительно точки `[0,0,0]`.
+
+## Синтаксис
+```javascript
+Geom.box(x: Number, y: Number, z: Number) -> Shape
+Geom.box(a: Number) -> Shape
+```
+
+## Аргументы
+
+| Аргумент | Тип    | Обязательный | Описание                              |
+|---------|--------|--------------|---------------------------------------|
+| `x`     | `#!javascript Number` | :white_check_mark: Да          | Размер параллелепипеда по оси X.       |
+| `y`     | `#!javascript Number` | :white_check_mark: Да          | Размер параллелепипеда по оси Y.       |``
+| `z`     | `#!javascript Number` | :white_check_mark: Да          | Размер параллелепипеда по оси Z.       |``
+| `a`     | `#!javascript Number` | :white_check_mark: Да          | Размер куба.                           |
+
+## Возвращаемое значение
+
+| Тип   | Описание                          |
+|-------|-----------------------------------|
+| `Shape` | Параллелепипед. |
+
+## Пример
+```javascript linenums="1"
+let s1 = Geom.box(10, 20, 30)
+console.info(s1) // output:
+let s2 = Geom.box(10)
+console.info(s2) // output:
+```
+
+!!! info "См. также"
+
+    []()
+

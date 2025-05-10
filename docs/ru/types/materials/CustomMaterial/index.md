@@ -1,4 +1,4 @@
-# Описание `CustomMaterial`
+# Описание типа `CustomMaterial`
 Материал, задаваемый пользователем. Предназначен для задания материала деталям `Piece` мотора.
 
 ## Синтаксис
@@ -12,7 +12,7 @@ let m2 = new CustomMaterial(Qt.red) // Способ 2
     heading-offset=1
 %}
 
-## Методы `CustomMaterial`
+## Методы типа `CustomMaterial`
 Нет
 
 !!! info "См. также"

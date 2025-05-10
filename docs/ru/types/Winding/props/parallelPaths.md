@@ -1,6 +1,6 @@
 # parallelPaths
 
-## Описание
+## Описание типа
 The `parallelPaths` property...
 
 ## Принимаемые значения:

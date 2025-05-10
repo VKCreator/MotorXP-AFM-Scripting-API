@@ -1,6 +1,6 @@
 # numberStrands
 
-## Описание
+## Описание типа
 The `numberStrands` property...
 
 ## Принимаемые значения:

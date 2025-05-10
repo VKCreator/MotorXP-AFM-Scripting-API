@@ -1,4 +1,4 @@
-# Описание `ConductorMaterial`
+# Описание типа `ConductorMaterial`
 Материал-проводник. Предназначен для задания материала деталям `Piece` мотора.
 
 ## Синтаксис
@@ -7,11 +7,11 @@ let m1 = Material.conductor() // Способ 1
 let m2 = new ConductorMaterial() // Способ 2
 ```
 
-## Свойства `ConductorMaterial`
+## Свойства типа `ConductorMaterial`
 
 Нет
 
-## Методы `ConductorMaterial`
+## Методы типа `ConductorMaterial`
 
 Нет
 

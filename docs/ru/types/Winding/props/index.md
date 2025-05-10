@@ -1,4 +1,4 @@
-# Свойства `Winding`
+# Свойства типа `Winding`
 {{ desc_type_prop("Winding") }}
 
 - [^^`type`^^](./type.md): Тип обмотки. 

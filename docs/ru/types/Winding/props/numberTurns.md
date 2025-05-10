@@ -1,6 +1,6 @@
 # numberTurns
 
-## Описание
+## Описание типа
 The `numberTurns` property...
 
 ## Принимаемые значения:

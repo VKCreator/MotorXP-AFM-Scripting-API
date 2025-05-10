@@ -1,6 +1,6 @@
 # segmentRadiuses
 
-## Описание
+## Описание типа
 The `segmentRadiuses` property...
 
 ## Принимаемые значения:

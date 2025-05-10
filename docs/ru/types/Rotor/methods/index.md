@@ -11,4 +11,4 @@
 | [`item()`](./item.md) | Элемент ротора. |
 | [`itemAngularDisplacement()`](./itemAngularDisplacement.md) | Угловое смещение элемента ротора. |
 | [`setItemAngularDisplacement()`](./setItemAngularDisplacement.md) | Задать угловое смещение элемента ротора. |
-| [`changeProperty()`](./changeProperty.md) | Изменяет значение свойства. |
+| [`changeProperty()`](./changeProperty.md) | Изменяет Значение свойства. |

@@ -1,4 +1,4 @@
-# Методы `RotorItem`
+# Методы типа `RotorItem`
 {{ desc_type_method("RotorItem") }}
 
 | Метод                                | Описание                           |
@@ -6,4 +6,4 @@
 | [^^isLower()^^](./isLower.md)| Истина, если в моторе элемент ротора нижний. |
 | [^^isMiddle()^^](./isMiddle.md)|  Истина, если в моторе элемент ротора средний. |
 | [^^isUpper()^^](./isUpper.md)|  Истина, если в моторе элемент ротора верхний. |
-| [^^changeProperty()^^](./changeProperty.md) | Изменяет значение свойства. |
+| [^^changeProperty()^^](./changeProperty.md) | Изменяет Значение свойства. |

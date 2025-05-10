@@ -1,6 +1,6 @@
 # heightInnerEndturn
 
-## Описание
+## Описание типа
 The `heightInnerEndturn` property...
 
 ## Принимаемые значения:

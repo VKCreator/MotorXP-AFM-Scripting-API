@@ -1,4 +1,4 @@
-# Свойства `BoundingBox`
+# Свойства типа `BoundingBox`
 {{ desc_type_prop("BoundingBox") }}
 
 | Свойство           | Описание                                      |

@@ -1,4 +1,4 @@
-# Методы `Winding`
+# Методы типа `Winding`
 {{ desc_type_method("Winding") }}
 
 | Метод                                | Описание                                                                 |
@@ -11,4 +11,4 @@
 | [`isOrientationLeftRight()`](./isOrientationLeftRight.md) | Возвращает `true`, если для двойного слоя задана ориентация Слева/Справа. |
 | [`isWindingModelLumped()`](./isWindingModelLumped.md) | Возвращает `true`, если модель обмотки — `Lumped`. |
 | [`isWindingModelFull()`](./isWindingModelFull.md) | Возвращает `true`, если модель обмотки — `Full`. |
-| [`changeProperty()`](./changeProperty.md) | Изменяет значение свойства. |
+| [`changeProperty()`](./changeProperty.md) | Изменяет Значение свойства. |

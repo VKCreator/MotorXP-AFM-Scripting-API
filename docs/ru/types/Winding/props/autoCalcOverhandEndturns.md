@@ -1,6 +1,6 @@
 # autoCalcOverhandEndturns
 
-## Описание
+## Описание типа
 The `autoCalcOverhandEndturns` property...
 
 ## Принимаемые значения:

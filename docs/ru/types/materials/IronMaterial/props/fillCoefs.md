@@ -1,6 +1,6 @@
 # fillCoefs
 
-## Описание
+## Описание типа
 The `fillCoefs` property...
 
 ## Принимаемые значения:

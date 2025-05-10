@@ -1,4 +1,4 @@
-# Описание `MagnetParallelMaterial`
+# Описание типа `MagnetParallelMaterial`
 Материал для магнитов с параллельным намагничиванием. Предназначен для задания материала деталям `Piece` мотора.
 
 ## Синтаксис
@@ -12,7 +12,7 @@ let m2 = new MagnetParallelMaterial() // Способ 2
     heading-offset=1
 %}
 
-## Методы `MagnetParallelMaterial`
+## Методы типа `MagnetParallelMaterial`
 Нет
 
 

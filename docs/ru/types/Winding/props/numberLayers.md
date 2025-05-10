@@ -1,6 +1,6 @@
 # numberLayers
 
-## Описание
+## Описание типа
 The `numberLayers` property...
 
 ## Принимаемые значения:

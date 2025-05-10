@@ -1,6 +1,6 @@
 # poleArrangement
 
-## Описание
+## Описание типа
 Расположение полюсов
 
 ## Принимаемые значения:
@@ -13,7 +13,7 @@
     - `PoleArrangement.NNNN`
 
 ## Тип значения свойства
-`PoleArrangement`
+`#!javascript Number`
 
 ## Доступ
 `Чтение\Запись`

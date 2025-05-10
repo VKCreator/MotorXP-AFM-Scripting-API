@@ -1,3 +1,3 @@
-# Методы `BoundingBox`
+# Методы типа `BoundingBox`
 
 Нет методов.

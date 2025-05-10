@@ -1,16 +1,17 @@
 # id
 
-## Описание
-Идентификатор воздушного зазора (Airgap.ID).
+## Описание типа
+Идентификатор воздушного зазора (`Airgap.ID`).
 
 ## Тип значения свойства
 `#!javascript Number`
 
 ## Возможные значения
-- Airgap.ID1
-- Airgap.ID2
-- Airgap.ID3
-- Airgap.ID4
+{%
+    include-markdown "../../../constants/Airgap.md"
+    start="<!--start-->"
+    end="<!--end-->"
+%}
 
 ## Доступ
 `Только Чтение`

@@ -1,4 +1,4 @@
-# Методы объекта StatorItem
+# Методы типа объекта StatorItem
 {{ desc_object_method("StatorItem") }}
 
 | Метод                                | Описание                           |
@@ -6,4 +6,4 @@
 | [`isLower`](./isLower.md) | Истина, если в моторе элемент статора нижний. |
 | [`isMiddle`](./isMiddle.md) |  Истина, если в моторе элемент статора средний. |
 | [`isUpper`](./isUpper.md) |  Истина, если в моторе элемент статора верхний. |
-| [`changeProperty()`](./changeProperty.md) | Изменяет значение свойства. |
+| [`changeProperty()`](./changeProperty.md) | Изменяет Значение свойства. |

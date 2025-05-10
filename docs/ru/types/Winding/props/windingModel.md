@@ -1,6 +1,6 @@
 # windingModel
 
-## Описание
+## Описание типа
 The `windingModel` property...
 
 ## Принимаемые значения:

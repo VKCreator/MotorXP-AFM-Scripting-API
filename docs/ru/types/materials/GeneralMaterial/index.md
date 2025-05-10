@@ -1,4 +1,4 @@
-# Описание `GeneralMaterial`
+# Описание типа `GeneralMaterial`
 Материал для воздуха. Предназначен для задания материала деталям `Piece` мотора.
 
 ## Синтаксис
@@ -7,10 +7,10 @@ let m1 = Material.general() // Способ 1
 let m2 = new GeneralMaterial() // Способ 2
 ```
 
-## Свойства `GeneralMaterial`
+## Свойства типа `GeneralMaterial`
 Нет
 
-## Методы `GeneralMaterial`
+## Методы типа `GeneralMaterial`
 Нет
 
 !!! info "См. также"

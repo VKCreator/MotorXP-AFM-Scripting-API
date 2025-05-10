@@ -1,4 +1,4 @@
-# Описание `EmptyMaterial`
+# Описание типа `EmptyMaterial`
 Пустой материал. Предназначен для задания материала деталям `Piece` мотора.
 
 ## Синтаксис
@@ -7,10 +7,10 @@ let m1 = Material.empty() // Способ 1
 let m2 = new EmptyMaterial() // Способ 2
 ```
 
-## Свойства `EmptyMaterial`
+## Свойства типа `EmptyMaterial`
 Нет
 
-## Методы `EmptyMaterial`
+## Методы типа `EmptyMaterial`
 Нет
 
 !!! info "См. также"

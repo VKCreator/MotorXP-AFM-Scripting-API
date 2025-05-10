@@ -1,6 +1,6 @@
 # wireSizeMethod
 
-## Описание
+## Описание типа
 The `wireSizeMethod` property...
 
 ## Принимаемые значения:

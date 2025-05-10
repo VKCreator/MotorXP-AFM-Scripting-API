@@ -1,4 +1,4 @@
-# Свойства `CustomMaterial`
+# Свойства типа `CustomMaterial`
 {{ desc_type_prop("CustomMaterial") }}
 
 | Свойство                          | Описание              |

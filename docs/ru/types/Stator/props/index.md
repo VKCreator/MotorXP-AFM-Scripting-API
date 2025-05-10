@@ -1,4 +1,4 @@
-# Свойства `Stator`
+# Свойства типа `Stator`
 {{ desc_type_prop("Stator") }}
 
 - [^^`outerDiameter`^^](./outerDiameter.md): Внешний диаметр.

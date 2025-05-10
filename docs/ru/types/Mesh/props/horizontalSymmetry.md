@@ -1,6 +1,6 @@
 # horizontalSymmetry
 
-## Описание
+## Описание типа
 The `horizontalSymmetry` property...
 
 ## Принимаемые значения:

@@ -1,2 +1,2 @@
-# Методы `Vector3`
+# Методы типа `Vector3`
 {{ desc_type_method("Vector3") }}

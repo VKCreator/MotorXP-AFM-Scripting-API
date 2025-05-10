@@ -1,4 +1,4 @@
-# Методы `Stator`
+# Методы типа `Stator`
 {{ desc_type_method("Stator") }}
 
 | Метод                                 | Описание                                                |
@@ -11,4 +11,4 @@
 | [`item()`](./item.md) | Элемент статора. |
 | [`itemAngularDisplacement()`](./itemAngularDisplacement.md) | Угловое смещение элемента статора. |
 | [`setItemAngularDisplacement()`](./setItemAngularDisplacement.md) | Задать угловое смещение элемента статора. |
-| [`changeProperty()`](./changeProperty.md) | Изменяет значение свойства. |
+| [`changeProperty()`](./changeProperty.md) | Изменяет Значение свойства. |

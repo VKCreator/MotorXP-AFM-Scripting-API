@@ -1,6 +1,6 @@
 # boundCylinderAxialExtension
 
-## Описание
+## Описание типа
 The `boundCylinderAxialExtension` property...
 
 ## Принимаемые значения:

@@ -1,4 +1,4 @@
-# Описание `MagnetRadialMaterial`
+# Описание типа `MagnetRadialMaterial`
 Материал для магнитов с радиальным намагничиванием. Предназначен для задания материала деталям `Piece` мотора.
 
 ## Синтаксис
@@ -12,7 +12,7 @@ let m2 = new MagnetRadialMaterial() // Способ 2
     heading-offset=1
 %}
 
-## Методы `MagnetRadialMaterial`
+## Методы типа `MagnetRadialMaterial`
 Нет
 
 !!! info "См. также"

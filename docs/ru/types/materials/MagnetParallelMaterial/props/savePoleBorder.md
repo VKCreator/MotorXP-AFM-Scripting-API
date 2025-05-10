@@ -1,6 +1,6 @@
 # savePoleBorder
 
-## Описание
+## Описание типа
 The `savePoleBorder` property...
 
 ## Принимаемые значения:

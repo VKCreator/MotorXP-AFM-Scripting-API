@@ -1,6 +1,6 @@
 # sizeBound
 
-## Описание
+## Описание типа
 The `sizeBound` property...
 
 ## Принимаемые значения:

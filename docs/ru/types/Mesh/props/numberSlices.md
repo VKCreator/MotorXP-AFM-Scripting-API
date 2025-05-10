@@ -1,6 +1,6 @@
 # numberSlices
 
-## Описание
+## Описание типа
 The `numberSlices` property...
 
 ## Принимаемые значения:

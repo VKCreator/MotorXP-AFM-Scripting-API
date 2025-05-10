@@ -1,6 +1,6 @@
 # direction
 
-## Описание
+## Описание типа
 The `direction` property...
 
 ## Принимаемые значения:

@@ -1,4 +1,4 @@
-# Описание `EndturnMaterial`
+# Описание типа `EndturnMaterial`
 Материал лобовых частей обмоток. Предназначен для задания материала деталям `Piece` мотора.
 
 ## Синтаксис
@@ -7,10 +7,10 @@ let m1 = Material.endturn() // Способ 1
 let m2 = new EndturnMaterial() // Способ 2
 ```
 
-## Свойства `EndturnMaterial`
+## Свойства типа `EndturnMaterial`
 Нет
 
-## Методы `EndturnMaterial`
+## Методы типа `EndturnMaterial`
 Нет
 
 !!! info "См. также"

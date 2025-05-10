@@ -1,6 +1,6 @@
 # boundCylinderRadius
 
-## Описание
+## Описание типа
 The `boundCylinderRadius` property...
 
 ## Принимаемые значения:

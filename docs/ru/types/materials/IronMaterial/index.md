@@ -1,4 +1,4 @@
-# Описание `IronMaterial`
+# Описание типа `IronMaterial`
 Материал для сердечника. Предназначен для задания материала деталям `Piece` мотора.
 
 
@@ -13,7 +13,7 @@ let m2 = new IronMaterial() // Способ 2
     heading-offset=1
 %}
 
-## Методы `IronMaterial`
+## Методы типа `IronMaterial`
 Нет
 
 !!! info "См. также"

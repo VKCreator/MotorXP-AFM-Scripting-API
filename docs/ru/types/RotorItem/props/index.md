@@ -1,4 +1,4 @@
-# Свойства `RotorItem`
+# Свойства типа `RotorItem`
 {{ desc_type_prop("RotorItem") }}
 
 | Свойство              | Описание                                  |

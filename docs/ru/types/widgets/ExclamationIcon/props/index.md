@@ -1,1 +1,0 @@
-# Свойства типа `ExclamationIcon`

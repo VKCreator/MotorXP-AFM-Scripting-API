@@ -1,1 +1,0 @@
-# Сигналы типа `ExclamationIcon`

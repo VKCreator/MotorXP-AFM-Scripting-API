@@ -1,35 +1,58 @@
 # Методы типа `Point3`
 {{ desc_type_method("Point3") }}
 
-- [^^`distance`^^](./distance.md): 
-- [^^`mirrorO`^^](./mirrorO.md): 
-- [^^`mirrorX`^^](./mirrorX.md): 
-- [^^`mirrorXY`^^](./mirrorXY.md): 
-- [^^`mirrorXZ`^^](./mirrorXZ.md): 
-- [^^`mirrorY`^^](./mirrorY.md): 
-- [^^`mirrorYZ`^^](./mirrorYZ.md): 
-- [^^`mirrorZ`^^](./mirrorZ.md): 
+## Геометрические преобразования точки
 
-- [^^`move`^^](./move.md): 
-- [^^`moveX`^^](./moveX.md): 
-- [^^`moveY`^^](./moveY.md): 
-- [^^`moveZ`^^](./moveZ.md): 
+### Отражение
+| Метод                  | Описание |
+|------------------------|----------|
+| [^^mirrorO^^](./mirrorO.md)     | Отражение относительно начала координат. |
+| [^^mirrorX^^](./mirrorX.md)     | Отражение относительно оси X. |
+| [^^mirrorY^^](./mirrorY.md)     | Отражение относительно оси Y. |
+| [^^mirrorZ^^](./mirrorZ.md)     | Отражение относительно оси Z. |
+| [^^mirrorXY^^](./mirrorXY.md)   | Отражение относительно плоскости XY. |
+| [^^mirrorXZ^^](./mirrorXZ.md)   | Отражение относительно плоскости XZ. |
+| [^^mirrorYZ^^](./mirrorYZ.md)   | Отражение относительно плоскости YZ. |
 
-- [^^`rotate`^^](./rotate.md): 
-- [^^`rotateX`^^](./rotateX.md): 
-- [^^`rotateY`^^](./rotateY.md): 
-- [^^`rotateZ`^^](./rotateZ.md): 
+### Перемещение
+| Метод                  | Описание |
+|------------------------|----------|
+| [^^move^^](./move.md)           | Перемещает точку на заданный вектор. |
+| [^^moveX^^](./moveX.md)         | Перемещает точку вдоль оси X. |
+| [^^moveY^^](./moveY.md)         | Перемещает точку вдоль оси Y. |
+| [^^moveZ^^](./moveZ.md)         | Перемещает точку вдоль оси Z. |
 
-- [^^`scale`^^](./scale.md): 
-- [^^`scaleX`^^](./scaleX.md): 
-- [^^`scaleXY`^^](./scaleXY.md): 
-- [^^`scaleXYZ`^^](./scaleXYZ.md): 
-- [^^`scaleXZ`^^](./scaleXZ.md): 
-- [^^`scaleY`^^](./scaleY.md): 
-- [^^`scaleYZ`^^](./scaleYZ.md): 
-- [^^`scaleZ`^^](./scaleZ.md): 
+### Поворот
+| Метод                  | Описание |
+|------------------------|----------|
+| [^^rotate^^](./rotate.md)       | Поворачивает точку вокруг произвольной оси. |
+| [^^rotateX^^](./rotateX.md)     | Поворачивает точку вокруг оси X. |
+| [^^rotateY^^](./rotateY.md)     | Поворачивает точку вокруг оси Y. |
+| [^^rotateZ^^](./rotateZ.md)     | Поворачивает точку вокруг оси Z. |
 
-- [^^`transcale`^^](./translate.md): 
-- [^^`transcaleX`^^](./translateX.md): 
-- [^^`transcaleY`^^](./translateY.md): 
-- [^^`transcaleZ`^^](./translateZ.md): 
+### Масштабирование
+| Метод                  | Описание |
+|------------------------|----------|
+| [^^scale^^](./scale.md)       | Масштабирует точку по всем осям. |
+| [^^scaleX^^](./scaleX.md)     | Масштабирует точку по оси X. |
+| [^^scaleY^^](./scaleY.md)     | Масштабирует точку по оси Y. |
+| [^^scaleZ^^](./scaleZ.md)     | Масштабирует точку по оси Z. |
+| [^^scaleXY^^](./scaleXY.md)   | Масштабирует точку в плоскости XY. |
+| [^^scaleYZ^^](./scaleYZ.md)   | Масштабирует точку в плоскости YZ. |
+| [^^scaleXZ^^](./scaleXZ.md)   | Масштабирует точку в плоскости XZ. |
+| [^^scaleXYZ^^](./scaleXYZ.md) | Масштабирует точку равномерно по всем осям. |
+
+
+### Трансляция
+| Метод                  | Описание |
+|------------------------|----------|
+| [^^translate^^](./translate.md) | Транслирует точку на заданный вектор. |
+| [^^translateX^^](./translateX.md) | Транслирует точку вдоль оси X. |
+| [^^translateY^^](./translateY.md) | Транслирует точку вдоль оси Y. |
+| [^^translateZ^^](./translateZ.md) | Транслирует точку вдоль оси Z. |
+
+### Дополнительные методы
+
+| Метод                  | Описание |
+|------------------------|----------|
+| [^^distance^^](./distance.md)          | Расстояние между двумя точками. |

@@ -185,188 +185,190 @@
 
 ## UI Widgets
 
+<!--startWidgets-->
 ### Qt Widgets
 <div class="grid cards" markdown>
 
--   [**QWidget**](widgets/QWidget.md)
+-   [**QWidget**](widgets/QWidget/index.md)
 
     ---
 
     Базовый виджет Qt.
 
-    [:octicons-arrow-right-24: Подробнее](widgets/QWidget.md)
+    [:octicons-arrow-right-24: Подробнее](widgets/QWidget/index.md)
 
--   [**QLabel**](widgets/QLabel.md)
+-   [**QLabel**](widgets/QLabel/index.md)
 
     ---
 
     Виджет для отображения текста/картинки.
 
-    [:octicons-arrow-right-24: Подробнее](widgets/QLabel.md)
+    [:octicons-arrow-right-24: Подробнее](widgets/QLabel/index.md)
 
--   [**QLineEdit**](widgets/QLineEdit.md)
+-   [**QLineEdit**](widgets/QLineEdit/index.md)
 
     ---
 
     Поле ввода текста.
 
-    [:octicons-arrow-right-24: Подробнее](widgets/QLineEdit.md)
+    [:octicons-arrow-right-24: Подробнее](widgets/QLineEdit/index.md)
 
--   [**QPushButton**](widgets/QPushButton.md)
+-   [**QPushButton**](widgets/QPushButton/index.md)
 
     ---
 
     Кнопка.
 
-    [:octicons-arrow-right-24: Подробнее](widgets/QPushButton.md)
+    [:octicons-arrow-right-24: Подробнее](widgets/QPushButton/index.md)
 
--   [**QSpinBox**](widgets/QSpinBox.md)
+-   [**QSpinBox**](widgets/QSpinBox/index.md)
 
     ---
 
     Поле ввода целочисленных значений.
 
-    [:octicons-arrow-right-24: Подробнее](widgets/QSpinBox.md)
+    [:octicons-arrow-right-24: Подробнее](widgets/QSpinBox/index.md)
 
--   [**QDoubleSpinBox**](widgets/QDoubleSpinBox.md)
+-   [**QDoubleSpinBox**](widgets/QDoubleSpinBox/index.md)
 
     ---
 
     Поле ввода чисел с плавающей точкой.
 
-    [:octicons-arrow-right-24: Подробнее](widgets/QDoubleSpinBox.md)
+    [:octicons-arrow-right-24: Подробнее](widgets/QDoubleSpinBox/index.md)
 
--   [**QComboBox**](widgets/QComboBox.md)
+-   [**QComboBox**](widgets/QComboBox/index.md)
 
     ---
 
     Выпадающий список.
 
-    [:octicons-arrow-right-24: Подробнее](widgets/QComboBox.md)
+    [:octicons-arrow-right-24: Подробнее](widgets/QComboBox/index.md)
 
--   [**QGroupBox**](widgets/QGroupBox.md)
+-   [**QGroupBox**](widgets/QGroupBox/index.md)
 
     ---
 
     Группировка элементов интерфейса.
 
-    [:octicons-arrow-right-24: Подробнее](widgets/QGroupBox.md)
+    [:octicons-arrow-right-24: Подробнее](widgets/QGroupBox/index.md)
 
--   [**QCheckBox**](widgets/QCheckBox.md)
+-   [**QCheckBox**](widgets/QCheckBox/index.md)
 
     ---
 
     Флажок (checkbox).
 
-    [:octicons-arrow-right-24: Подробнее](widgets/QCheckBox.md)
+    [:octicons-arrow-right-24: Подробнее](widgets/QCheckBox/index.md)
 
--   [**QGridLayout**](widgets/QGridLayout.md)
+-   [**QGridLayout**](widgets/QGridLayout/index.md)
 
     ---
 
     Расположение виджетов по сетке.
 
-    [:octicons-arrow-right-24: Подробнее](widgets/QGridLayout.md)
+    [:octicons-arrow-right-24: Подробнее](widgets/QGridLayout/index.md)
 
--   [**QFormLayout**](widgets/QFormLayout.md)
+-   [**QFormLayout**](widgets/QFormLayout/index.md)
 
     ---
 
     Расположение виджетов в виде формы (label + field).
 
-    [:octicons-arrow-right-24: Подробнее](widgets/QFormLayout.md)
+    [:octicons-arrow-right-24: Подробнее](widgets/QFormLayout/index.md)
 
 </div>
 
 ### Custom Widgets
 <div class="grid cards" markdown>
 
--   [**WarningIcon**](widgets/WarningIcon.md)
+-   [**WarningIcon**](widgets/WarningIcon/index.md)
 
     ---
 
     Иконка предупреждения.
 
-    [:octicons-arrow-right-24: Подробнее](widgets/WarningIcon.md)
+    [:octicons-arrow-right-24: Подробнее](widgets/WarningIcon/index.md)
 
--   [**ExclamationIcon**](widgets/ExclamationIcon.md)
+-   [**ExclamationIcon**](widgets/ExclamationIcon/index.md)
 
     ---
 
     Иконка восклицания.
 
-    [:octicons-arrow-right-24: Подробнее](widgets/ExclamationIcon.md)
+    [:octicons-arrow-right-24: Подробнее](widgets/ExclamationIcon/index.md)
 
--   [**NumberEdit**](widgets/NumberEdit.md)
+-   [**NumberEdit**](widgets/NumberEdit/index.md)
 
     ---
 
     Виджет ввода числа с проверкой формата.
 
-    [:octicons-arrow-right-24: Подробнее](widgets/NumberEdit.md)
+    [:octicons-arrow-right-24: Подробнее](widgets/NumberEdit/index.md)
 
--   [**NumberSlotSpinBox**](widgets/NumberSlotSpinBox.md)
+-   [**NumberSlotSpinBox**](widgets/NumberSlotSpinBox/index.md)
 
     ---
 
     Спинбокс с поддержкой слотовых числовых значений.
 
-    [:octicons-arrow-right-24: Подробнее](widgets/NumberSlotSpinBox.md)
+    [:octicons-arrow-right-24: Подробнее](widgets/NumberSlotSpinBox/index.md)
 
--   [**StatorTypeComboBox**](widgets/StatorTypeComboBox.md)
+-   [**StatorTypeComboBox**](widgets/StatorTypeComboBox/index.md)
 
     ---
 
     Выбор типа статора.
 
-    [:octicons-arrow-right-24: Подробнее](widgets/StatorTypeComboBox.md)
+    [:octicons-arrow-right-24: Подробнее](widgets/StatorTypeComboBox/index.md)
 
--   [**WindingLayersComboBox**](widgets/WindingLayersComboBox.md)
+-   [**WindingLayersComboBox**](widgets/WindingLayersComboBox/index.md)
 
     ---
 
     Выбор количества слоев обмотки.
 
-    [:octicons-arrow-right-24: Подробнее](widgets/WindingLayersComboBox.md)
+    [:octicons-arrow-right-24: Подробнее](widgets/WindingLayersComboBox/index.md)
 
--   [**WindingLayersOrientationComboBox**](widgets/WindingLayersOrientationComboBox.md)
+-   [**WindingLayersOrientationComboBox**](widgets/WindingLayersOrientationComboBox/index.md)
 
     ---
 
     Ориентация слоёв обмотки.
 
-    [:octicons-arrow-right-24: Подробнее](widgets/WindingLayersOrientationComboBox.md)
+    [:octicons-arrow-right-24: Подробнее](widgets/WindingLayersOrientationComboBox/index.md)
 
--   [**WindingTypeComboBox**](widgets/WindingTypeComboBox.md)
+-   [**WindingTypeComboBox**](widgets/WindingTypeComboBox/index.md)
 
     ---
 
     Выбор типа обмотки.
 
-    [:octicons-arrow-right-24: Подробнее](widgets/WindingTypeComboBox.md)
+    [:octicons-arrow-right-24: Подробнее](widgets/WindingTypeComboBox/index.md)
 
--   [**PoleArrangementComboBox**](widgets/PoleArrangementComboBox.md)
+-   [**PoleArrangementComboBox**](widgets/PoleArrangementComboBox/index.md)
 
     ---
 
     Расположение полюсов.
 
-    [:octicons-arrow-right-24: Подробнее](widgets/PoleArrangementComboBox.md)
+    [:octicons-arrow-right-24: Подробнее](widgets/PoleArrangementComboBox/index.md)
 
--   [**StatorConnectionComboBox**](widgets/StatorConnectionComboBox.md)
+-   [**StatorConnectionComboBox**](widgets/StatorConnectionComboBox/index.md)
 
     ---
 
     Схема соединения статора.
 
-    [:octicons-arrow-right-24: Подробнее](widgets/StatorConnectionComboBox.md)
+    [:octicons-arrow-right-24: Подробнее](widgets/StatorConnectionComboBox/index.md)
 
--   [**RotorConnectionComboBox**](widgets/RotorConnectionComboBox.md)
+-   [**RotorConnectionComboBox**](widgets/RotorConnectionComboBox/index.md)
 
     ---
 
     Схема соединения ротора.
 
-    [:octicons-arrow-right-24: Подробнее](widgets/RotorConnectionComboBox.md)
+    [:octicons-arrow-right-24: Подробнее](widgets/RotorConnectionComboBox/index.md)
 
 </div>
+<!--endWidgets-->

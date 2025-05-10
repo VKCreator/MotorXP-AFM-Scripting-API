@@ -7,7 +7,7 @@
 `Stator.Yoke` | `Stator.Yokeless`
 
 ## Тип значения свойства
-`Number`
+`#!javascript Number`
 
 ## Доступ
 `Чтение\Запись`

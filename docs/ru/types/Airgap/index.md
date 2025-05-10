@@ -6,6 +6,7 @@
     include-markdown "../../constants/Airgap.md"
     start="<!--start-->"
     end="<!--end-->"
+    heading-offset=1
 %}
 
 {%

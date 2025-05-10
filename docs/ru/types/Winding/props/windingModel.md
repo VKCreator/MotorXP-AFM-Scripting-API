@@ -7,7 +7,7 @@ The `windingModel` property...
 ...
 
 ## Тип значения свойства
-`Winding.Model`
+`Number`
 
 ## Доступ
 `Чтение\Запись`

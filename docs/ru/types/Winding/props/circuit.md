@@ -7,7 +7,7 @@ The `circuit` property...
 ...
 
 ## Тип значения свойства
-`Winding.Circuit`
+`#!javascript Number`
 
 ## Доступ
 `Чтение\Запись`

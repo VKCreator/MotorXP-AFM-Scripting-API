@@ -23,7 +23,7 @@ Geom.cone(r1: Number, r2: Number, h: Number, angle: Number) -> Shape
 
 | Тип   | Описание                          |
 |-------|-----------------------------------|
-| Shape | Объект типа `Shape`, конус.       |
+| `Shape` | Объект типа `Shape`, конус.       |
 
 ## Пример
 ```javascript linenums="1"

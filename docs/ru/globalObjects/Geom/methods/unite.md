@@ -6,7 +6,7 @@
 ## Синтаксис
 ```javascript
 Geom.unite(a: Shape, b: Shape,) -> Shape
-Geom.unite(shapes: Array) -> Shape
+Geom.unite(shapes: Array<Point3>) -> Shape
 ```
 
 ## Аргументы
@@ -15,7 +15,7 @@ Geom.unite(shapes: Array) -> Shape
 |----------|-----------------------|----------------------|---------------------|-----------------------------------|
 | `a`      | `#!javascript Shape`  | —                    | :white_check_mark: Да | Первое тело для объединения       |
 | `b`      | `#!javascript Shape`  | —                    | :white_check_mark: Да | Второе тело для объединения       |
-| `shapes` | `Array`      | —                    | :white_check_mark: Да | Массив тел для объединения       |
+| `shapes` | `Array<Point3>`      | —                    | :white_check_mark: Да | Массив тел для объединения       |
 
 ## Возвращаемое значение
 

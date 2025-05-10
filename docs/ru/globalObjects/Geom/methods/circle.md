@@ -23,7 +23,7 @@ Geom.circle(radius: Number, angle1: Number, angle2: Number) -> Shape
 
 | Тип   | Описание                              |
 |-------|---------------------------------------|
-| Shape | Объект типа `Shape`, круг или сектор круга. |
+| `Shape` | Объект типа `Shape`, круг или сектор круга. |
 
 ## Пример
 ```javascript linenums="1"

@@ -22,7 +22,7 @@ Geom.cylinder(r: Number, h: Number, angle: Number) -> Shape
 
 | Тип   | Описание                          |
 |-------|-----------------------------------|
-| Shape | Объект типа `Shape`, цилиндр.     |
+| `Shape` | Объект типа `Shape`, цилиндр.     |
 
 ## Пример
 ```javascript linenums="1"

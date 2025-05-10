@@ -7,7 +7,7 @@ The `layersOrientation` property...
 ...
 
 ## Тип значения свойства
-`Winding.LayerOrientation`
+`Number`
 
 ## Доступ
 `Чтение\Запись`

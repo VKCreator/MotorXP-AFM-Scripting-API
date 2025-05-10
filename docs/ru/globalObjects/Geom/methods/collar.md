@@ -22,7 +22,7 @@ Geom.collar(r1: Number, r2: Number, h: Number, angle: Number) -> Shape
 
 | Тип   | Описание                          |
 |-------|-----------------------------------|
-| Shape | Объект типа `Shape`, втулка.      |
+| `Shape` | Объект типа `Shape`, втулка.      |
 
 ## Пример
 ```javascript linenums="1"

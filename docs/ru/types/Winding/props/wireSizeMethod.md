@@ -7,7 +7,7 @@ The `wireSizeMethod` property...
 ...
 
 ## Тип значения свойства
-`Winding.wireSizeMethod`
+`Number`
 
 ## Доступ
 `Чтение\Запись`

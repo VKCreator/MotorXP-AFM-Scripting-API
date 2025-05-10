@@ -1,7 +1,7 @@
-# autoCalcCoilSpan
+# autoCalcPhaseResistance
 
 ## Описание типа
-The `autoCalcCoilSpan` property...
+The `autoCalcPhaseResistance` property...
 
 ## Принимаемые значения:
 ...
@@ -14,12 +14,12 @@ The `autoCalcCoilSpan` property...
 
 ## Синтаксис
 ```javascript
-autoCalcCoilSpan = value
+autoCalcPhaseResistance = value
 ```
 
 ## Пример
 ```javascript linenums="1"
-let result = motor.autoCalcCoilSpan
+let result = motor.autoCalcPhaseResistance
 console.info(result)
 ```
 

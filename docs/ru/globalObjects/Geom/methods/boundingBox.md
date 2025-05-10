@@ -12,7 +12,7 @@ Geom.boundingBox(shp: Shape) -> BoundingBox
 
 | Аргумент | Тип   | Обязательный | Описание           |
 |---------|-------|--------------|--------------------|
-| `shp`   | Shape | :white_check_mark: Да | Тело. |
+| `shp`   | `Shape` | :white_check_mark: Да | Тело. |
 
 ## Возвращаемое значение
 

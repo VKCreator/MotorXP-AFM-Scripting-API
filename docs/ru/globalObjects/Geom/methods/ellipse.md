@@ -22,7 +22,7 @@ Geom.ellipse(radius1: Number, radius2: Number, angle1: Number, angle2: Number) -
 
 | Тип   | Описание                              |
 |-------|---------------------------------------|
-| Shape | Объект типа `Shape`, эллипс или сектор эллипса. |
+| `Shape` | Объект типа `Shape`, эллипс или сектор эллипса. |
 
 ## Пример
 ```javascript linenums="1"

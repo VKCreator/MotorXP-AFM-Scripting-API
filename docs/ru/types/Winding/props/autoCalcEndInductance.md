@@ -1,7 +1,7 @@
-# autoCalcCoilSpan
+# autoCalcEndInductance
 
 ## Описание типа
-The `autoCalcCoilSpan` property...
+The `autoCalcEndInductance` property...
 
 ## Принимаемые значения:
 ...
@@ -14,12 +14,12 @@ The `autoCalcCoilSpan` property...
 
 ## Синтаксис
 ```javascript
-autoCalcCoilSpan = value
+autoCalcEndInductance = value
 ```
 
 ## Пример
 ```javascript linenums="1"
-let result = motor.autoCalcCoilSpan
+let result = motor.autoCalcEndInductance
 console.info(result)
 ```
 

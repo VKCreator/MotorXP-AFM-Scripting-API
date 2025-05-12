@@ -91,8 +91,8 @@ plugins:
 
       #regex:
       #  - '.*\.(tmp|bin|tar)$'
-  #- with-pdf:
-  #     enabled_if_env: ENABLE_PDF_EXPORT
+  # - with-pdf:
+       #enabled_if_env: ENABLE_PDF_EXPORT
     #   cover_title: MotorXP-AFM Scripting API manual
      #  cover_subtitle: subtitle
   - print-site:
@@ -104,6 +104,22 @@ extra_css:
   - css/custom.css
 
 extra:
+  analytics:
+    provider: google
+    property: G-ME7447NEXD
+    feedback:
+      title: Was this page helpful?
+      ratings:
+        - icon: material/emoticon-happy-outline
+          name: This page was helpful
+          data: 1
+          note: >-
+            Thanks for your feedback!
+        - icon: material/emoticon-sad-outline
+          name: This page could be improved
+          data: 0
+          note: >- 
+            Thanks for your feedback!
   version:
     provider: mike
   generator: true
@@ -248,6 +264,15 @@ nav:
             - globalObjects/Geom/methods/unify.md
             - globalObjects/Geom/methods/unite.md
             - globalObjects/Geom/methods/vector3.md
+            - globalObjects/Geom/methods/isEpsilon.md
+            - globalObjects/Geom/methods/isEqual.md
+            - globalObjects/Geom/methods/isLessEqual.md
+            - globalObjects/Geom/methods/isGreatEqual.md
+            - globalObjects/Geom/methods/rad.md
+            - globalObjects/Geom/methods/deg.md
+            - globalObjects/Geom/methods/fromPolar.md
+            - globalObjects/Geom/methods/normAngle.md
+            - globalObjects/Geom/methods/middleAngle.md
 
       - Material:
           - globalObjects/Material/index.md
@@ -620,50 +645,50 @@ nav:
             - types/Shape/props/index.md
           - methods:
             - types/Shape/methods/index.md
-            - isEmpty: types/Shape/methods/isEmpty.md
+            - isEmpty(): types/Shape/methods/isEmpty.md
             - types/Shape/methods/toFileSTEP.md
             - types/Shape/methods/boundBox.md
-            - unite: types/Shape/methods/unite.md
-            - intersect: types/Shape/methods/intersect.md
-            - difference: types/Shape/methods/difference.md
-            - diff: types/Shape/methods/diff.md
-            - extrude: types/Shape/methods/extrude.md
-            - extrudeX: types/Shape/methods/extrudeX.md
-            - extrudeY: types/Shape/methods/extrudeY.md
-            - extrudeZ: types/Shape/methods/extrudeZ.md
-            - unify: types/Shape/methods/unify.md
-            - center: types/Shape/methods/center.md
+            - unite(): types/Shape/methods/unite.md
+            - intersect(): types/Shape/methods/intersect.md
+            - difference(): types/Shape/methods/difference.md
+            - diff(): types/Shape/methods/diff.md
+            - extrude(): types/Shape/methods/extrude.md
+            - extrudeX(): types/Shape/methods/extrudeX.md
+            - extrudeY(): types/Shape/methods/extrudeY.md
+            - extrudeZ(): types/Shape/methods/extrudeZ.md
+            - unify(): types/Shape/methods/unify.md
+            - center(): types/Shape/methods/center.md
             #Translate
-            - translate: types/Shape/methods/translate.md
-            - translateX: types/Shape/methods/translateX.md
-            - translateY: types/Shape/methods/translateY.md
-            - translateZ: types/Shape/methods/translateZ.md
-            - move: types/Shape/methods/move.md
-            - moveX: types/Shape/methods/moveX.md
-            - moveY: types/Shape/methods/moveY.md
-            - moveZ: types/Shape/methods/moveZ.md
+            - translate(): types/Shape/methods/translate.md
+            - translateX(): types/Shape/methods/translateX.md
+            - translateY(): types/Shape/methods/translateY.md
+            - translateZ(): types/Shape/methods/translateZ.md
+            - move(): types/Shape/methods/move.md
+            - moveX(): types/Shape/methods/moveX.md
+            - moveY(): types/Shape/methods/moveY.md
+            - moveZ(): types/Shape/methods/moveZ.md
             #Rotation
-            - rotate: types/Shape/methods/rotate.md
-            - rotateX: types/Shape/methods/rotateX.md
-            - rotateY: types/Shape/methods/rotateY.md
-            - rotateZ: types/Shape/methods/rotateZ.md
+            - rotate(): types/Shape/methods/rotate.md
+            - rotateX(): types/Shape/methods/rotateX.md
+            - rotateY(): types/Shape/methods/rotateY.md
+            - rotateZ(): types/Shape/methods/rotateZ.md
             #Mirror
-            - mirrorO: types/Shape/methods/mirrorO.md
-            - mirrorX: types/Shape/methods/mirrorX.md
-            - mirrorY: types/Shape/methods/mirrorY.md
-            - mirrorZ: types/Shape/methods/mirrorZ.md
-            - mirrorXY: types/Shape/methods/mirrorXY.md
-            - mirrorYZ: types/Shape/methods/mirrorYZ.md
-            - mirrorXZ: types/Shape/methods/mirrorXZ.md
+            - mirrorO(): types/Shape/methods/mirrorO.md
+            - mirrorX(): types/Shape/methods/mirrorX.md
+            - mirrorY(): types/Shape/methods/mirrorY.md
+            - mirrorZ(): types/Shape/methods/mirrorZ.md
+            - mirrorXY(): types/Shape/methods/mirrorXY.md
+            - mirrorYZ(): types/Shape/methods/mirrorYZ.md
+            - mirrorXZ(): types/Shape/methods/mirrorXZ.md
             #Scale:
-            - scale: types/Shape/methods/scale.md
-            - scaleX: types/Shape/methods/scaleX.md
-            - scaleY: types/Shape/methods/scaleY.md
-            - scaleZ: types/Shape/methods/scaleZ.md
-            - scaleXY: types/Shape/methods/scaleXY.md
-            - scaleYZ: types/Shape/methods/scaleYZ.md
-            - scaleXZ: types/Shape/methods/scaleXZ.md
-            - scaleXYZ: types/Shape/methods/scaleXYZ.md
+            - scale(): types/Shape/methods/scale.md
+            - scaleX(): types/Shape/methods/scaleX.md
+            - scaleY(): types/Shape/methods/scaleY.md
+            - scaleZ(): types/Shape/methods/scaleZ.md
+            - scaleXY(): types/Shape/methods/scaleXY.md
+            - scaleYZ(): types/Shape/methods/scaleYZ.md
+            - scaleXZ(): types/Shape/methods/scaleXZ.md
+            - scaleXYZ(): types/Shape/methods/scaleXYZ.md
 
       - Piece:
           - types/Piece/index.md

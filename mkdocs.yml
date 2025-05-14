@@ -74,6 +74,7 @@ plugins:
             methods: Методы
             properties: Свойства
             signals: Сигналы
+            constructor: Конструктор
             <b>Mind map</b>: <b>Ментальная карта</b>
             <b>Code Hints</b>: <b>Автодополнение кода</b>
   - include-markdown
@@ -537,50 +538,60 @@ nav:
             - types/Mesh/methods/index.md
             - types/Mesh/methods/changeProperty.md
 
-      - EmptyMaterial:
-         - types/materials/EmptyMaterial/index.md
-      - GeneralMaterial:
-          - types/materials/GeneralMaterial/index.md
-      - IronMaterial:
-          - types/materials/IronMaterial/index.md
-          - properties: 
-            - types/materials/IronMaterial/props/index.md
-            - types/materials/IronMaterial/props/fillCoefs.md
-            - types/materials/IronMaterial/props/dsomaloy.md
-      - ConductorMaterial:
-          - types/materials/ConductorMaterial/index.md
-      - WindingMaterial:
-          - types/materials/WindingMaterial/index.md
-          - properties: 
-            - types/materials/WindingMaterial/props/index.md
-            - types/materials/WindingMaterial/props/layer.md
-            - types/materials/WindingMaterial/props/turn.md
-            - types/materials/WindingMaterial/props/strand.md
-            - types/materials/WindingMaterial/props/windingModel.md
-          - methods:
-            - types/materials/WindingMaterial/methods/index.md
-            - types/materials/WindingMaterial/methods/isWindingModelLumped.md
-            - types/materials/WindingMaterial/methods/isWindingModelFull.md
-      - EndturnMaterial:
-          - types/materials/EndturnMaterial/index.md
-      - MagnetRadialMaterial:
-          - types/materials/MagnetRadialMaterial/index.md
-          - properties: 
-            - types/materials/MagnetRadialMaterial/props/index.md
-            - types/materials/MagnetRadialMaterial/props/direction.md
-            - types/materials/MagnetRadialMaterial/props/center.md
-      - MagnetParallelMaterial:
-          - types/materials/MagnetParallelMaterial/index.md
-          - properties: 
-            - types/materials/MagnetParallelMaterial/props/index.md
-            - types/materials/MagnetParallelMaterial/props/angle.md
-            - types/materials/MagnetParallelMaterial/props/segmentRadiuses.md
-            - types/materials/MagnetParallelMaterial/props/savePoleBorder.md
-      - CustomMaterial:
-          - types/materials/CustomMaterial/index.md
-          - properties: 
-            - types/materials/CustomMaterial/props/index.md
-            - types/materials/CustomMaterial/props/color.md
+      - Materials:
+          - EmptyMaterial:
+            - types/materials/EmptyMaterial/index.md
+            - constructor: types/materials/EmptyMaterial/constructor.md
+          - GeneralMaterial:
+              - types/materials/GeneralMaterial/index.md
+              - constructor: types/materials/GeneralMaterial/constructor.md
+          - IronMaterial:
+              - types/materials/IronMaterial/index.md
+              - constructor: types/materials/IronMaterial/constructor.md
+              - properties: 
+                - types/materials/IronMaterial/props/index.md
+                - types/materials/IronMaterial/props/fillCoefs.md
+                - types/materials/IronMaterial/props/dsomaloy.md
+          - ConductorMaterial:
+              - constructor: types/materials/ConductorMaterial/constructor.md
+              - types/materials/ConductorMaterial/index.md
+          - WindingMaterial:
+              - constructor: types/materials/WindingMaterial/constructor.md
+              - types/materials/WindingMaterial/index.md
+              - properties: 
+                - types/materials/WindingMaterial/props/index.md
+                - types/materials/WindingMaterial/props/layer.md
+                - types/materials/WindingMaterial/props/turn.md
+                - types/materials/WindingMaterial/props/strand.md
+                - types/materials/WindingMaterial/props/windingModel.md
+              - methods:
+                - types/materials/WindingMaterial/methods/index.md
+                - types/materials/WindingMaterial/methods/isWindingModelLumped.md
+                - types/materials/WindingMaterial/methods/isWindingModelFull.md
+          - EndturnMaterial:
+              - constructor: types/materials/EndturnMaterial/constructor.md
+              - types/materials/EndturnMaterial/index.md
+          - MagnetRadialMaterial:
+              - constructor: types/materials/MagnetRadialMaterial/constructor.md
+              - types/materials/MagnetRadialMaterial/index.md
+              - properties: 
+                - types/materials/MagnetRadialMaterial/props/index.md
+                - types/materials/MagnetRadialMaterial/props/direction.md
+                - types/materials/MagnetRadialMaterial/props/center.md
+          - MagnetParallelMaterial:
+              - constructor: types/materials/MagnetParallelMaterial/constructor.md
+              - types/materials/MagnetParallelMaterial/index.md
+              - properties: 
+                - types/materials/MagnetParallelMaterial/props/index.md
+                - types/materials/MagnetParallelMaterial/props/angle.md
+                - types/materials/MagnetParallelMaterial/props/segmentRadiuses.md
+                - types/materials/MagnetParallelMaterial/props/savePoleBorder.md
+          - CustomMaterial:
+              - constructor: types/materials/CustomMaterial/constructor.md
+              - types/materials/CustomMaterial/index.md
+              - properties: 
+                - types/materials/CustomMaterial/props/index.md
+                - types/materials/CustomMaterial/props/color.md
 
 # Geometry types:
       - Point3:

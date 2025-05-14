@@ -171,25 +171,25 @@ interface Math {
  */
 declare const Motor: {
     /**
-     * Тип мотора: Статор-Ротор (0)
+     * Тип мотора: Статор-Ротор (1)
      */
-    SR: 0;
+    SR: 1;
     /**
-     * Тип мотора: Статор-Ротор-Статор (1)
+     * Тип мотора: Статор-Ротор-Статор (2)
      */
-    SRS: 1;
+    SRS: 2;
     /**
-     * Тип мотора: Статор-Ротор-Статор-Ротор-Статор (2)
+     * Тип мотора: Статор-Ротор-Статор-Ротор-Статор (3)
      */
-    SRSRS: 2;
+    SRSRS: 3;
     /**
-     * Тип мотора: Ротор-Статор-Ротор (3)
+     * Тип мотора: Ротор-Статор-Ротор (4)
      */
-    RSR: 3;
+    RSR: 4;
     /**
-     * Тип мотора: Ротор-Статор-Ротор-Статор-Ротор (4)
+     * Тип мотора: Ротор-Статор-Ротор-Статор-Ротор (5)
      */
-    RSRSR: 4;
+    RSRSR: 5;
 };
 
 /**
@@ -1376,165 +1376,170 @@ declare const motor: {
  */
 declare const QtWidgets: {
     /**
-     * Описание метода.
-     * @param {any} argument - Описание.
-     * @returns {void} Описание возвращаемого значения.
+     * Создаёт иконку восклицательного знака.
+     * @param {widget} [parent=null] - parent [default=null] - Родительский виджет, которому принадлежит создаваемый ExclamationIcon. Если не указан, то виджет создаётся без родителя.
+     * @returns {ExclamationIcon} Новый объект ExclamationIcon.
      */
-    createExclamationIcon(argument: any): void;
+    createExclamationIcon(parent?: widget): ExclamationIcon;
 
     /**
-     * Описание метода.
-     * @param {any} argument - Описание.
-     * @returns {void} Описание возвращаемого значения.
+     * Создаёт пользовательский элемент ввода числа (улучшенная версия QDoubleSpinBox с подсветкой и расширенной точностью отображаемых значений).
+     * @param {widget} [parent=null] - parent [default=null] - Родительский виджет, которому принадлежит создаваемый NumberEdit. Если не указан, то виджет создаётся без родителя.
+     * @returns {NumberEdit} Новый объект NumberEdit.
      */
-    createNumberEdit(argument: any): void;
+    createNumberEdit(parent?: widget): NumberEdit;
 
     /**
-     * Описание метода.
-     * @param {any} argument - Описание.
-     * @returns {void} Описание возвращаемого значения.
+     * Спинбокс для количества полюсов.
+     * @param {widget} [parent=null] - parent [default=null] - Родительский виджет, которому принадлежит создаваемый NumberPoleSpinBox. Если не указан, то виджет создаётся без родителя.
+     * @returns {NumberPoleSpinBox} Новый объект NumberPoleSpinBox.
      */
-    createNumberPoleSpinBox(argument: any): void;
+    createNumberPoleSpinBox(parent?: widget): NumberPoleSpinBox;
 
     /**
-     * Описание метода.
-     * @param {any} argument - Описание.
-     * @returns {void} Описание возвращаемого значения.
+     * Спинбокс для количества пазов.
+     * @param {widget} [parent=null] - parent [default=null] - Родительский виджет, которому принадлежит создаваемый NumberSlotSpinBox. Если не указан, то виджет создаётся без родителя.
+     * @returns {NumberSlotSpinBox} Новый объект NumberSlotSpinBox.
      */
-    createNumberSlotSpinBox(argument: any): void;
+    createNumberSlotSpinBox(parent?: widget): NumberSlotSpinBox;
 
     /**
-     * Описание метода.
-     * @param {any} argument - Описание.
-     * @returns {void} Описание возвращаемого значения.
+     * Выбор расположения полюсов.
+     * @param {widget} [parent=null] - parent [default=null] - Родительский виджет, которому принадлежит создаваемый QComboBox. Если не указан, то виджет создаётся без родителя.
+     * @returns {PoleArrangementComboBox} Новый объект PoleArrangementComboBox.
      */
-    createPoleArrangementComboBox(argument: any): void;
+    createPoleArrangementComboBox(parent?: widget): PoleArrangementComboBox;
 
     /**
-     * Описание метода.
-     * @param {any} argument - Описание.
-     * @returns {void} Описание возвращаемого значения.
+     * Создаёт флажок (чекбокс) с текстом.
+     * @param {string} text - Текст рядом с флажком.
+     * @param {widget} [parent=null] - parent [default=null] - Родительский виджет, которому принадлежит создаваемый QCheckBox. Если не указан, то виджет создаётся без родителя.
+     * @returns {QCheckBox} Новый объект QCheckBox.
      */
-    createQCheckBox(argument: any): void;
+    createQCheckBox(text: string, parent?: widget): QCheckBox;
 
     /**
-     * Описание метода.
-     * @param {any} argument - Описание.
-     * @returns {void} Описание возвращаемого значения.
+     * Создаёт выпадающий список.
+     * @param {widget} [parent=null] - parent [default=null] - Родительский виджет, которому принадлежит создаваемый QComboBox. Если не указан, то виджет создаётся без родителя.
+     * @returns {QComboBox} Новый объект QComboBox.
      */
-    createQComboBox(argument: any): void;
+    createQComboBox(parent?: widget): QComboBox;
 
     /**
-     * Описание метода.
-     * @param {any} argument - Описание.
-     * @returns {void} Описание возвращаемого значения.
+     * Создаёт спинбокс для дробных чисел.
+     * @param {widget} [parent=null] - parent [default=null] - Родительский виджет, которому принадлежит создаваемый QDoubleSpinBox. Если не указан, то виджет создаётся без родителя.
+     * @returns {QDoubleSpinBox} Новый объект QDoubleSpinBox.
      */
-    createQDoubleSpinBox(argument: any): void;
+    createQDoubleSpinBox(parent?: widget): QDoubleSpinBox;
 
     /**
-     * Описание метода.
-     * @param {any} argument - Описание.
-     * @returns {void} Описание возвращаемого значения.
+     * Контейнерный макет, предназначенный для удобного расположения полей формы, таких как метки (labels) и поля ввода (input fields), в виде двух колонок: слева — описание поля, справа — элемент управления.
+     * @param {widget} [parent=null] - parent [default=null] - Родительский виджет, которому принадлежит создаваемый QFormLayout. Если не указан, то макет создаётся без родителя.
+     * @returns {QFormLayout} Новый объект QFormLayout, который можно использовать для организации формы в интерфейсе приложения.
      */
-    createQFormLayout(argument: any): void;
+    createQFormLayout(parent?: widget): QFormLayout;
 
     /**
-     * Описание метода.
-     * @param {any} argument - Описание.
-     * @returns {void} Описание возвращаемого значения.
+     * Создаёт сеточный макет.
+     * @param {widget} [parent=null] - parent [default=null] - Родительский виджет, которому принадлежит создаваемый QGridLayout. Если не указан, то макет создаётся без родителя.
+     * @returns {QGridLayout} Новый объект QGridLayout, который можно использовать для организации формы в интерфейсе приложения.
      */
-    createQGridLayout(argument: any): void;
+    createQGridLayout(parent?: widget): QGridLayout;
 
     /**
-     * Описание метода.
-     * @param {any} argument - Описание.
-     * @returns {void} Описание возвращаемого значения.
+     * Создаёт группу с заголовком и внутренними элементами.
+     * @param {string} text - Заголовок.
+     * @param {widget} [parent=null] - parent [default=null] - Родительский виджет, которому принадлежит создаваемый QGroupBox. Если не указан, то виджет создаётся без родителя.
+     * @returns {QGroupBox} Новый объект QGroupBox.
      */
-    createQGroupBox(argument: any): void;
+    createQGroupBox(text: string, parent?: widget): QGroupBox;
 
     /**
-     * Описание метода.
-     * @param {any} argument - Описание.
-     * @returns {void} Описание возвращаемого значения.
+     * Создаёт метку с текстом.
+     * @param {string} text - Отображаемый текст.
+     * @param {widget} [parent=null] - parent [default=null] - Родительский виджет, которому принадлежит создаваемый QLabel. Если не указан, то виджет создаётся без родителя.
+     * @returns {QLabel} Новый объект QLabel.
      */
-    createQLabel(argument: any): void;
+    createQLabel(text: string, parent?: widget): QLabel;
 
     /**
-     * Описание метода.
-     * @param {any} argument - Описание.
-     * @returns {void} Описание возвращаемого значения.
+     * Создаёт однострочное поле ввода текста.
+     * @param {string} text - Начальное значение.
+     * @param {widget} [parent=null] - parent [default=null] - Родительский виджет, которому принадлежит создаваемый QLineEdit. Если не указан, то виджет создаётся без родителя.
+     * @returns {QLineEdit} Новый объект QLineEdit.
      */
-    createQLineEdit(argument: any): void;
+    createQLineEdit(text: string, parent?: widget): QLineEdit;
 
     /**
-     * Описание метода.
-     * @param {any} argument - Описание.
-     * @returns {void} Описание возвращаемого значения.
+     * Создаёт кнопку с текстом.
+     * @param {string} text - Текст на кнопке.
+     * @param {widget} [parent=null] - parent [default=null] - Родительский виджет, которому принадлежит создаваемый QPushButton. Если не указан, то виджет создаётся без родителя.
+     * @returns {QPushButton} Новый объект QPushButton.
      */
-    createQPushButton(argument: any): void;
+    createQPushButton(text: string, parent?: widget): QPushButton;
 
     /**
-     * Описание метода.
-     * @param {any} argument - Описание.
-     * @returns {void} Описание возвращаемого значения.
+     * Создаёт спинбокс для целых чисел.
+     * @param {widget} [parent=null] - parent [default=null] - Родительский виджет, которому принадлежит создаваемый QSpinBox. Если не указан, то виджет создаётся без родителя.
+     * @returns {QSpinBox} Новый объект QSpinBox.
      */
-    createQSpinBox(argument: any): void;
+    createQSpinBox(parent?: widget): QSpinBox;
 
     /**
-     * Описание метода.
-     * @param {any} argument - Описание.
-     * @returns {void} Описание возвращаемого значения.
+     * Базовый виджет — контейнер для других виджетов.
+     * @param {widget} [parent=null] - parent [default=null] - Родительский виджет, которому принадлежит создаваемый QWidget. Если не указан, то виджет создаётся без родителя.
+     * @returns {QWidget} Новый объект QWidget.
      */
-    createQWidget(argument: any): void;
+    createQWidget(parent?: widget): QWidget;
 
     /**
-     * Описание метода.
-     * @param {any} argument - Описание.
-     * @returns {void} Описание возвращаемого значения.
+     * Выбор типа ротора.
+     * @param {widget} [parent=null] - parent [default=null] - Родительский виджет, которому принадлежит создаваемый RotorTypeComboBox. Если не указан, то виджет создаётся без родителя.
+     * @returns {RotorTypeComboBox} Новый объект RotorTypeComboBox.
      */
-    createRotorTypeComboBox(argument: any): void;
+    createRotorTypeComboBox(parent?: widget): RotorTypeComboBox;
 
     /**
-     * Описание метода.
-     * @param {any} argument - Описание.
-     * @returns {void} Описание возвращаемого значения.
+     * Выбор типа статора.
+     * @param {widget} [parent=null] - parent [default=null] - Родительский виджет, которому принадлежит создаваемый StatorTypeComboBox. Если не указан, то виджет создаётся без родителя.
+     * @returns {StatorTypeComboBox} Новый объект StatorTypeComboBox.
      */
-    createStatorTypeComboBox(argument: any): void;
+    createStatorTypeComboBox(parent?: widget): StatorTypeComboBox;
 
     /**
-     * Описание метода.
-     * @param {any} argument - Описание.
-     * @returns {void} Описание возвращаемого значения.
+     * Создаёт иконку предупреждения.
+     * @param {widget} [parent=null] - parent [default=null] - Родительский виджет, которому принадлежит создаваемый WarningIcon. Если не указан, то виджет создаётся без родителя.
+     * @returns {WarningIcon} Новый объект WarningIcon.
      */
-    createWarningIcon(argument: any): void;
+    createWarningIcon(parent?: widget): WarningIcon;
 
     /**
-     * Описание метода.
-     * @param {any} argument - Описание.
-     * @returns {void} Описание возвращаемого значения.
+     * Выбор способа соединения обмоток.
+     * @param {widget} [parent=null] - parent [default=null] - Родительский виджет, которому принадлежит создаваемый WindingConnectionComboBox. Если не указан, то виджет создаётся без родителя.
+     * @returns {WindingConnectionComboBox} Новый объект WindingConnectionComboBox.
      */
-    createWindingConnectionComboBox(argument: any): void;
+    createWindingConnectionComboBox(parent?: widget): WindingConnectionComboBox;
 
     /**
-     * Описание метода.
-     * @param {any} argument - Описание.
-     * @returns {void} Описание возвращаемого значения.
+     * Выпадающий список для выбора количества слоёв обмотки.
+     * @param {widget} [parent=null] - parent [default=null] - Родительский виджет, которому принадлежит создаваемый WindingLayersComboBox. Если не указан, то виджет создаётся без родителя.
+     * @returns {WindingLayersComboBox} Новый объект WindingLayersComboBox.
      */
-    createWindingLayersComboBox(argument: any): void;
+    createWindingLayersComboBox(parent?: widget): WindingLayersComboBox;
 
     /**
-     * Описание метода.
-     * @param {any} argument - Описание.
-     * @returns {void} Описание возвращаемого значения.
+     * Выбор ориентации слоёв обмотки.
+     * @param {widget} [parent=null] - parent [default=null] - Родительский виджет, которому принадлежит создаваемый WindingLayersOrientationComboBox. Если не указан, то виджет создаётся без родителя.
+     * @returns {WindingLayersOrientationComboBox} Новый объект WindingLayersOrientationComboBox.
      */
-    createWindingLayersOrientationComboBox(argument: any): void;
+    createWindingLayersOrientationComboBox(parent?: widget): WindingLayersOrientationComboBox;
 
     /**
-     * Описание метода.
-     * @param {any} argument - Описание.
-     * @returns {void} Описание возвращаемого значения.
+     * Выбор типа обмотки.
+     * @param {widget} [parent=null] - parent [default=null] - Родительский виджет, которому принадлежит создаваемый WindingTypeComboBox. Если не указан, то виджет создаётся без родителя.
+     * @returns {WindingTypeComboBox} Новый объект WindingTypeComboBox.
      */
-    createWindingTypeComboBox(argument: any): void;
+    createWindingTypeComboBox(parent?: widget): WindingTypeComboBox;
 
 };
 
@@ -3463,3 +3468,5 @@ interface color {
      */
     valid: boolean;
 }
+
+interface widget {}
